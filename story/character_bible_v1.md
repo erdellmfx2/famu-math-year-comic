@@ -128,3 +128,51 @@ First-year Actuarial Science major at FAMU. Disciplined, strategic, and quietly 
 
 ### Nia (short card)
 First-year Mathematical Sciences major at FAMU. Curious, articulate, and community-minded. She turns difficult math into shared understanding while learning to balance excellence with rest.
+
+---
+
+## Professor Characters (Supporting Cast)
+
+### Professor 1: Dr. Camille Brooks
+- **Course:** MAC 2311 — Calculus I
+- **Teaching style:** High-energy, structured, and example-driven
+- **Class vibe:** Fast pace, frequent check-ins, no-stigma questions
+- **Role in story:** First-semester reality check; helps students transition from high school habits to college rigor
+- **Signature line:** “Show me your thinking, not just your answer.”
+
+### Professor 2: Dr. Victor Delgado
+- **Course:** MAC 2312 — Calculus II
+- **Teaching style:** Precise, methodical, proof-aware
+- **Class vibe:** Technique-heavy (integration, sequences, series), strong exam prep culture
+- **Role in story:** Pushes Malik to slow down and justify each step; teaches disciplined problem setup
+- **Signature line:** “A clean setup is half the solution.”
+
+### Professor 3: Dr. Renee Okafor
+- **Course:** MAC 2313 — Calculus III
+- **Teaching style:** Conceptual and visual (3D geometry, vector fields, applications)
+- **Class vibe:** Whiteboard-heavy, collaborative, deep conceptual discussions
+- **Role in story:** Helps Nia connect intuition to formal mathematics; expands both students’ view of what math can model
+- **Signature line:** “If you can picture it, you can reason about it.”
+
+### Professor 4: Dr. Isaac Bennett
+- **Course:** STA 2023 — Introductory Statistics (supporting actuarial path)
+- **Teaching style:** Applied, data-first, decision-focused
+- **Class vibe:** Real datasets, practical interpretation, communication of uncertainty
+- **Role in story:** Key mentor for Malik’s actuarial identity and internship preparation
+- **Signature line:** “Numbers are evidence, not decoration.”
+
+### Professor 5: Dr. Alana Price
+- **Course:** MAP 2302 — Differential Equations (bridge to second-year rigor)
+- **Teaching style:** Calm, rigorous, systems-thinking approach
+- **Class vibe:** Modeling physical and social systems with clear assumptions
+- **Role in story:** Late-year motivator; plants the seed for research, modeling, and long-term grad-school/career pathways
+- **Signature line:** “State assumptions first, then solve.”
+
+---
+
+## Faculty Interaction Map (for episode writing)
+- **Malik + Dr. Bennett:** career strategy, actuarial pathway, internship talk
+- **Malik + Dr. Delgado:** technique, precision, exam discipline
+- **Nia + Dr. Okafor:** conceptual growth, confidence in advanced ideas
+- **Nia + Dr. Brooks:** classroom leadership and communication habits
+- **Both + Dr. Price:** future-facing motivation and long-view planning
