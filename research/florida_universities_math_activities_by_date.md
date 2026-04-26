@@ -1,0 +1,62 @@
+# Florida Universities Math Activities — Organized by Date
+
+This file organizes dated activity references found in the source research and sorts them chronologically.
+
+Total dated entries: **18**
+
+## 2012-09-01 (September 2012)
+- **University of North Florida** — [UNF: Clubs and Organizations](https://www.unf.edu/ccec/students/clubs-and-organizations.html)
+  - UNF COPRI has been the proud student chapter at the University of North Florida since September 2012. COPRI stands for Coasts, Oceans, Ports, and Rivers Institute. UNF is currently working in unison with ASCE/COPRI to advance the engineering profession along the coasts through a collective effort that is mutually beneficial to both organizations. Past, present, and future activities include club meetings, seminars, w
+## 2019-05-30 (May 30, 2019)
+- **Florida International University** — [Math & Science Tutoring
+    
+    
+      | FIU Calendar](https://calendar.fiu.edu/event/math_science_tutoring)
+  - Florida International University Homepage  # Events Calendar  # Math & Science Tutoring  Thursday, May 30, 2019 2:30pm to 6:00pm EDT  Image of Math & Science Tutoring  About this Event  3000 NE 151st ST, Academic Center One, Miami, Florida 33181  Students can stop by the UBMS office on Tuesdays, Thursdays, and Fridays from 2:30PM to 6PM for math and science tutoring in the following subjects: Geometry, Algebra I & II
+## 2020-03-01 (Spring 2020)
+- **Florida State University** — [Home | Association for Women in Mathematics -- FSU Student Chapter](https://awmfsu.wixsite.com/awmfsu)
+  - Zoom    Details  Ice Cream Social    Sat, Oct 17    Zoom    Details  AWM Mentor Mixer    Sat, Sep 12    Zoom    Details  Welcome to AWM FSU    Wed, Sep 09    Zoom    Details  # Spring 2020 Events   PI-Day Fundraiser!    Wed, Mar 25    Online Event    Details  Study Excursion - The Sweet Shop    Thu, Mar 19    701 W Jefferson St    Details  FSU Math Fun Day    Sat, Feb 01    James Jay Love Building    Details  # Fall
+## 2022-03-01 (spring 2022)
+- **University of West Florida** — [Math Association | University of West Florida](https://uwf.edu/hmcse/departments/mathematics-and-statistics/student-resources/math-association/)
+  - Article II: The purpose of this organization shall be to enhance students' interest in mathematics, to provide a social environment for mathematics students, and to identify possible career opportunities for mathematics students.  Article III: The Membership in this organization shall be open to any member of the University of West Florida community, without regard to race, religion, or national origin of any individ
+## 2022-11-04 (November 4, 2022)
+- **University of Central Florida** — [Seminars – Pegasus Math Club](https://sciences.ucf.edu/math/ucfmathclub/category/category-seminars/)
+  - Algebra Seminar: Wednesday 10:30 -11:30 am (currently private, will update when public) Discrete Seminar: Wednesday  12:30 -1:30 Numerical Seminar: Wednesday  2:00 -3:00   above are the current times for the math department seminars (these are run independently of CMS but may be of interest to many of you).  Continue reading  ## PROBABILITY SEMINAR  Speaker: Dr. Jason Swanson (University of Central Florida) When: Fri
+## 2023-02-21 (February 21, 2023)
+- **Florida Polytechnic University** — [Florida Poly students shine at international math competition - Florida Polytechnic University](https://floridapoly.edu/news/florida-poly-students-shine-at-international-math-competition/)
+  - and Insurance Specialist (CRIS) designations. Her distinct background in mathematics and engineering, combined with extensive higher education leadership, brings an analytical and strategic approach enhancing the institution’s resilience. [...] “Our students did phenomenally,” Alnaser said. “The coaches were very hands off as soon as the competition started, and the students were very independent. They managed to han
+## 2023-09-01 (Fall 2023)
+- **New College of Florida** — [New College of Florida - Wikipedia](https://en.wikipedia.org/wiki/New_College_of_Florida)
+  - ## Student life  [edit]  Undergraduate demographics as of Fall 2023( Race and ethnicity | Total |  --- | | White | 57% |  | | Hispanic | 23% |  | | Black | 6% |  | | Two or more races | 5% |  | | Asian | 4% |  | | International student | 4% |  | | Unknown | 1% |  | | Economic diversity | | Low-income( | 30% |  | | Affluent( | 70% |  |  ### New College Student Alliance  [edit]  The New College Student Alliance (NCSA)
+## 2023-09-13 (September 13, 2023)
+- **Florida Polytechnic University** — [Math Tutoring  - Activities and Events - Terra Environmental Research Institute](https://www.terrawolves.com/apps/events2/event.jsp?eREC_ID=4068199&d=2023-09-13&id=3)
+  - TERRA Environmental Research Institute MDCPS Logo translate search TERRA Environmental Research Institute Twitter TERRA Environmental Research Institute Instagram TERRA TV Youtube Channel MDCPS Logo TERRA Environmental Research Institute counter  Event  # Math Tutoring  When: Wed, September 13, 2023 , 2:30pm - 3:30pm  Location: Media Center (Library)  Back to Events List  Calendar View  # Math Tutoring  Terra Environ
+## 2025-09-01 (Fall 2025)
+- **University of Florida** — [Home - Graduate Mathematics Association](https://gma.math.ufl.edu/)
+  - University of Florida Homepage  College of Liberal Arts and Sciences  # Graduate Mathematics Association  logo    The Graduate Mathematics Association is an organization of graduate students in the Department of Mathematics at the University of Florida promoting a sense of community among the graduate students in the Department as well as overseeing and organizing various activities.These activities include the gradu
+- **University of South Florida** — [Peer Math Coaching](https://www.usf.edu/undergrad/academic-success-center/tutoring/math-coaching.aspx)
+  - Skip to Main Content  University of South Florida - 70 Est. 1956  ## Academic Success Center  Undergraduate Studies  # Tutoring Hub  Skip Over Breadcrumbs and Secondary Navigation  ## Peer Math Coaching  Peer Math Coaching (PMC) helps students build stronger math skills and learn how to approach math with confidence. Experienced tutors provide support not just in solving problems, but also in learning how to study ef
+## 2026-02-07 (February 7, 2026)
+- **Florida Gulf Coast University** — [ASPiRE](https://www.fgcu.edu/cas/departments/math/aspire/)
+  - Advancing Student Participation in Research Experiences (ASPiRE) is an annual conference held at Florida Gulf Coast University each February to educate students about what it means to do “mathematics research" and inform them of research opportunities.  2026 ASPiRE FLYER  | Photo Albums | Facebook | Google Photos |  ## Photo Albums  Facebook Google Photos aspire2025  ASPiRE  2025 Conference Group Photo  padhu pic  pa
+## 2026-03-01 (Spring 2026)
+- **Florida Atlantic University** — [FAU Math Club : Florida Atlantic University - Charles E. Schmidt College of Science](http://www.math.fau.edu/math-club/mathclub-members.php)
+  - |  |  |  --- | | The Math Club | math-club-2025 |  #   # The Math Club  math-club-2025  The Math Club is an organization that strives to bring together math enthusiasts at Florida Atlantic University, for the purpose of improving academic ability, spreading awareness of mathematics’ importance, and sharing a passion for the field. The club is open to all majors and all math backgrounds. Activities at the club will in
+- **Florida Gulf Coast University** — [Tutoring](https://www.fgcu.edu/academics/caa/tutoring)
+  - Discover state-of-the-art residence halls, dining, student organizations, health services, recreation, and more. Grow through service-learning programs and leadership opportunities.  FGCU is actively engaged with Southwest Florida through cultural activities, educational programs and exciting athletics. We’re also home to WGCU Public Media.  Access resources to enhance your FGCU experience. Stay informed about campus
+- **Florida International University** — [Math & Stats Help | FIU College of Arts, Sciences & Education](https://case.fiu.edu/mathstat/resources/math-help/)
+  - Florida International University Homepage  Menu  ##### Search this website  ##### Quick Links  ##### Resources  # Math & Stats Help  Resources available at the department, college and university levels to help you succeed in mathematics courses.  ## By Subject  ## Free Statistics Tutoring  Spring 2026  ## STA 2023 Business Statistics STA 3033 Statistics for Engineering & CS STA 2122 Statistics for Behavioral and Soci
+- **Florida International University** — [Mathematics and Statistics Seminars and Colloquia | FIU College of Arts, Sciences & Education](https://case.fiu.edu/mathstat/news-events/seminars/)
+  - ## Contact Us  Department of Mathematics and Statistics    11200 SW 8th Street, DM 430   Miami, FL 33199    Hours: 8:30 AM to 5:00 PM, Monday - Friday   Main Tel: 305-348-3769   Math Tel:  305-348-2743   Stats Tel:  305-348-2745   Fax: 305-348-6158  Quick Links  Directory     Degrees & Programs     Resources      Internships & Jobs     Scholarships & Fellowships  Undergraduate Advising  Call-Center 305-348-2978    ca
+- **University of Florida** — [Weekly Math Circle - Math Circle - University of Florida](https://circle.math.ufl.edu/)
+  - University of Florida Homepage  College of Liberal Arts and Sciences  # Math Circle  ## Weekly Math Circle  The University of Florida Math Circle is a free program supported by the UF Department of Mathematics for the community.  We offers fun math activities for kids.  The faculty and student-run group meets weekly and focuses on the enjoyment and exploration of mathematical ideas.  We meet most Saturday mornings du
+## 2026-03-31 (March 31, 2026)
+- **University of North Florida** — [SMART Center Math Tutoring - LibCal - UNF Library](https://unf.libcal.com/event/16018736)
+  - Date: :   Tuesday, March 31, 2026  Show more dates      Wednesday, April 1, 2026        Thursday, April 2, 2026        Sunday, April 5, 2026        Monday, April 6, 2026        Tuesday, April 7, 2026        Wednesday, April 8, 2026        Thursday, April 9, 2026        Sunday, April 12, 2026        Monday, April 13, 2026        Tuesday, April 14, 2026        Wednesday, April 15, 2026        Thursday, April 16, 2026
+## 2026-05-05 (May 5, 2026)
+- **Florida Atlantic University** — [Welcome to the Math Learning Center! | Florida Atlantic University](https://www.fau.edu/mlc/)
+  - | Math Learning Center, GS211  Hours of Operation (In-Person ONLY) | SAM Lab (MAC1105 Tutoring), GS207  Hours of Operation (In-Person ONLY) |  --- | | Monday: 10:00 AM -5:00 PM | Monday: 9:00 AM - 6:00 PM | | Tuesday: 10:00 AM - 5:00 PM | Tuesday: 9:00 AM - 6:00 PM | | Wednesday: 10:00 AM -5:00 PM | Wednesday: 9:00 AM - 6:00 PM | | Thursday: 10:00 AM -5:00 PM | Thursday: 9:00 AM - 6:00 PM | | Friday: 10:00 AM - 4:00
+
+## Notes
+- Entries without clear month/season+year markers were excluded from this dated view.
+- Source data: `research/florida_public_universities_math_activities_tavily.json`
