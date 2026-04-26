@@ -7,6 +7,12 @@ Built from gathered project resources:
 - FAMU image/location reference collection
 - Florida university math activity research (for comparative realism in math-student life)
 
+## Project Visual Style Lock
+- **Official art style:** Modern Animated Comic (clean semi-cartoon)
+- **Audience:** youth/young adults (social-first)
+- **Core look:** expressive faces, bold clean outlines, soft shading, vibrant but balanced HBCU-inspired green/orange/gold palette
+- **Character consistency rule:** all future profile art and episode panels should follow this style unless explicitly changed
+
 ---
 
 ## Character 1: Malik Baptiste
