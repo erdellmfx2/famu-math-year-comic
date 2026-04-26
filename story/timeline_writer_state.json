@@ -1,0 +1,12 @@
+{
+  "next_week_index": 1,
+  "total_weeks": 54,
+  "completed": [
+    {
+      "week_index": 0,
+      "start": "2025-08-01",
+      "end": "2025-08-07",
+      "file": "story/timeline-weeks/week_001_2025-08-01_to_2025-08-07.md"
+    }
+  ]
+}
