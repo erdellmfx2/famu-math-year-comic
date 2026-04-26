@@ -1,0 +1,26 @@
+[
+  {
+    "course": "2312",
+    "title": "MAC 2312 005",
+    "sub_title": "CALCULUS II",
+    "term": "FALL 2025",
+    "section": "005",
+    "subject": "MAC",
+    "syllabus_id": "qnb0lkxcr",
+    "source_api_doc_html": "https://famu.simplesyllabus.com/api2/doc-html/qnb0lkxcr",
+    "source_public_doc": "https://famu.simplesyllabus.com/en-US/doc/qnb0lkxcr",
+    "saved_file": "research/course-syllabi/calculus-2/FAMU_MAC_2312_FALL_2025_section_005_syllabus.html"
+  },
+  {
+    "course": "2313",
+    "title": "MAC 2313 002",
+    "sub_title": "CALCULUS III",
+    "term": "FALL 2025",
+    "section": "002",
+    "subject": "MAC",
+    "syllabus_id": "1rs6gt20v",
+    "source_api_doc_html": "https://famu.simplesyllabus.com/api2/doc-html/1rs6gt20v",
+    "source_public_doc": "https://famu.simplesyllabus.com/en-US/doc/1rs6gt20v",
+    "saved_file": "research/course-syllabi/calculus-3/FAMU_MAC_2313_FALL_2025_section_002_syllabus.html"
+  }
+]
