@@ -1,0 +1,449 @@
+College of Science & Technology
+Mathematics
+CALCULUS II
+MAC
+2312
+002
+FALL 2025
+Credit Hours: 4
+Instructor Information
+Name:
+Kbenesh Blayneh
+Email:
+kbenesh.blayneh@famu.edu
+Course Modality
+In Person/Traditional
+Course Description
+CALCULUS II (4) PREREQUISITES: MAC 2311. CALCULUS II EXTENDS THE FOUNDATIONAL CONCEPTS OF CALCULUS TO MORE ADVANCED TOPICS, EMPHASIZING THEIR APPLICATION TO A RANGE OF SCIENTIFIC, ENGINEERING, AND MATHEMATICAL PROBLEMS. THIS COURSE EXPLORES TECHNIQUES OF INTEGRATION, INCLUDING ADVANCED METHODS SUCH AS INTEGRATION BY PARTS, PARTIAL FRACTIONS, AND TRIGONOMETRIC SUBSTITUTION. STUDENTS WILL ALSO STUDY SEQUENCES AND SERIES, INCLUDING CONVERGENCE TESTS AND POWER SERIES. THE COURSE EMPHASIZES PROBLEM-SOLVING AND ANALYTICAL SKILLS THROUGH PRACTICAL APPLICATIONS AND THEORETICAL UNDERSTANDING, PREPARING STUDENTS FOR MORE COMPLEX STUDIES IN CALCULUS AND RELATED FIELDS.
+Prerequisites and Corequisites
+Course Prerequisites:
+MAC 2312  Requisite Group
+Textbooks and Instructional Materials
+Title:
+Calculus Early Transcendental
+Authors:
+Larson
+Publisher:
+Cengage
+Edition:
+7th
+Title:
+Assignments are at  www.webassign.net in Cengage
+Course Goals/Course Objectives
+Evaluate integrals of functions and apply to solve real life problems, Evaluate limits of sequences, Check Convergence of Series and apply to save real life problems, Identify conic sections, use polar coordinates to describe regions and evaluate area.
+Student Learning Outcomes
+Master Advanced Integration Techniques: Students will be proficient in applying advanced integration techniques, such as integration by parts, partial fractions, and trigonometric substitution, to evaluate complex integrals and solve real-world problems.
+Analyze Sequences and Series: Students will be able to analyze and determine the convergence or divergence of sequences and series, including power series, and apply these concepts to approximate functions and solve problems involving infinite sums.
+Apply Calculus to Multivariable Functions: Students will develop skills in applying calculus concepts to multivariable functions, including the use of integration in higher dimensions and the application of series expansions to approximate functions and solve problems.
+Course Outline/Topics Covered
+Integration
+Applications of integration to area, volume arc length and surface area,
+Sequence and Series,
+Conic Sections,
+Polar Coordinates.
+Grading Scale
+Grade
+Percentage
+A
+90% - 100%
+B
+80% - 89%
+C
+70% - 79%
+D
+60% - 69%
+F
+50% and Below
+Grading Scale
+Course Grading Distribution Scale
+Assessment
+Percentage
+Tests (4)
+40%
+Homework
+10%
+Quizzes
+20%
+Class Activity
+15%
+Final
+15%
+Grade Distribution
+Course Assessment/Evaluation Methods (Examinations, Quizzes, Case Studies, Papers, Etc.)
+Tests
+Homework,
+Quizzes,
+Class Activity and Project,
+Final.
+Canvas List of Assignments and Grades
+Due Date
+Assignment Name
+Assignment Type
+Points
+CQ_Oct 2
+Assignment
+5
+CQSe8/10
+Assignment
+10
+CW_Oct 22
+Assignment
+10
+Cw_Sep24
+Assignment
+10
+Grade to iRattler
+Assignment
+0
+Makeup Test: Score
+Assignment
+100
+Mid-Term Grade
+Assignment
+0
+Score: on Final Exam
+Assignment
+100
+Test 1 Score
+Assignment
+100
+Test 2 Score
+Assignment
+100
+Test 3 Score
+Assignment
+100
+Test 4 Score
+Assignment
+100
+University Attendance Policy
+Quiz
+1
+8/25/25
+Calculus I Assessment
+Quiz
+11
+8/28/25
+CW_August 28
+Assignment
+10
+9/3/25
+MAC2312 H(7.1) Area
+Assignment
+4
+9/3/25
+MAC2312 H(7.2) Volume_Disk Method
+Assignment
+8
+9/3/25
+CW_Sep 3
+Assignment
+10
+9/5/25
+MAC2312 H(7.3) Volume Shells Method
+Assignment
+13
+9/6/25
+MAC2312 H(7.4) Arc Length
+Assignment
+4
+10/8/25
+MAC 2312_HW (8.6) Numerical Integration
+Assignment
+11
+12/5/25
+MAC 2312 HW(7.5) Work
+Assignment
+3
+12/5/25
+MAC2312 HW (9.3) Integral Test
+Assignment
+10
+12/5/25
+MAC2312 HW (9.4) Comparison Test
+Assignment
+14
+12/5/25
+MAC2312 HW (9.5) Alternative Series
+Assignment
+10
+12/5/25
+MAC2312 HW(10.1) Conic and Calculus
+Assignment
+14
+12/5/25
+MAC2312 HW(7.4) Surface Area
+Assignment
+15
+12/5/25
+MAC2312 HW(9.6) Ratio and Root Tests
+Assignment
+11
+12/5/25
+MAC2312 HW(9.7) Taylor Series
+Assignment
+11
+12/5/25
+MAC2312 HW(9.9) Representation by power series
+Assignment
+8
+12/5/25
+MAC2312 Quiz (9.3-9.6)
+Assignment
+22
+12/5/25
+MAC2312_HW (8.1) Basic Integration
+Assignment
+10
+12/5/25
+MAC2312_HW(9.10) Taylor and Maclaurin Series
+Assignment
+5
+12/8/25
+MAC 2312 HW (8.3) Trig Integrals
+Assignment
+6
+12/8/25
+MAC2312 H(8.4)Trig-Sub(Secant)
+Assignment
+3
+12/8/25
+MAC2312 H(8.4)Trig-Sub(sine )
+Assignment
+4
+12/8/25
+MAC2312 H(8.4)Trig-Sub(Tangent)
+Assignment
+16
+12/8/25
+MAC2312 HW (8.5) Partial Fraction Decomposition
+Assignment
+4
+12/8/25
+MAC2312 HW (9.1) Sequence
+Assignment
+13
+12/8/25
+MAC2312 HW (9.2) Series Convergence
+Assignment
+12
+12/8/25
+MAC2312 HW(9.8) Power Series
+Assignment
+6
+12/8/25
+MAC2312 PRACTICE for TEST 1
+Assignment
+30
+12/8/25
+MAc2312 Quiz (9.1&.9.2)
+Assignment
+14
+12/8/25
+MAC2312 Quiz(7.1&7.2)
+Assignment
+10
+12/8/25
+MAC2312_HW (8.8) Improper Integral
+Assignment
+19
+12/8/25
+MAC2312_Quiz (8.3)
+Assignment
+7
+12/8/25
+MAC2312_Quiz (8.4)
+Assignment
+4
+12/9/25
+MAC2312 PARTIAL PRACTICE for Test 2
+Assignment
+23
+12/9/25
+MAC2312_HW(8.2)Integration by parts
+Assignment
+7
+12/9/25
+MAC2312_Quiz (8.1-8.2)
+Assignment
+7
+12/9/25
+MAC2312_Quiz(7.4) Arc Length and Surface area
+Assignment
+8
+12/10/25
+MAC2312 HW(10.3) Parametric Eq. and Calculus
+Assignment
+14
+12/10/25
+MAC2312 HW(10.4) Polar Coordinates and Graphs
+Assignment
+10
+12/10/25
+MAC2312 HW(10.5) Area and Arc-Length-Polar
+Assignment
+9
+12/10/25
+MAC2312_HW(10.2) Plane curves and Parametric Eq
+Assignment
+7
+12/10/25
+MAC2312_Quiz (10.4 - 10.5)
+Assignment
+10
+University Grading Policies and Procedures
+The University supports its grading system which is based upon the integrity of a grade earned in a course. The FAMU full BOT 4.101 grading policy and withdrawal can be
+viewed here
+. (
+http://catalog.famu.edu/content.php?catoid=8&navoid=571#grading-policy
+)
+The University grievance policy is outlined in
+regulation 4.100
+. (
+https://www.famu.edu/about-famu/leadership/division-of-legal-affairs/office-of-the-general-counsel/university_regulations/pdf/Regulation 4.100 Academic Grievances.pdf
+)
+Class Attendance
+Students are expected to make the most of the educational opportunities available by regularly attending classes and laboratory periods. The university reserves the right to address individual cases of non-attendance. A student will be permitted one unexcused absence per credit hour of the course he or she is attending. A student exceeding the number of unexcused absences may be assigned the grade of “F.” Class attendance regulations apply to all students. Students are responsible for all assignments, quizzes, and examinations at the time they are due and may not use their absence from class as a plea for extensions of time to complete assignments or for permission to take make-up examinations or quizzes. Absence from class for cause: (a) participation in recognized university activities, (b) personal illness, or (c) an emergency beyond the student control must be properly documented.
+Academic units may also have attendance policies specific to their majors. Please refer to your college/school specific attendance policy for your respective major.
+Tips for Success
+Calculus I requires a strong background of Algebra. Please review the required Algebra concepts for each topic we cover,
+Make sure to go over the material that is covered in class on the same day, rather than putting it away. Additionally, solve WebAssign problems from the same section.
+Take time to revisit sections already covered, and connect them to what is next.
+Give class attendance a top priority, be attentive, do not distract yourselves with cell phone.
+Academic Learning Compact
+Academic Learning Compacts include statements of the core student learning outcomes in the areas of content/ discipline knowledge and skills, communication skills, and critical thinking skills that program graduates will have adequately demonstrated prior to being awarded the baccalaureate degree. ALCs answer three basic questions:
+What will students learn by the end of their academic programs?
+Have they learned what they have been taught by their professors?
+How do we measure these quantities?
+Academic Learning Compacts for FAMU’s undergraduate programs can be found at
+https://www.famu.edu/administration/strategic-planning-analysis-and-institutional-effectiveness/university-assessment/academic-learning/current-alcs.php
+.
+College/School Policies and Standards
+Refer to the College of Science and Technology, Department of Mathematics Policies and Standard.
+Course and Student Expectations
+Students are expected to score a total of 70% to pass this course.
+Class Recordings
+A student may record a class lecture for three specified purposes as outlined in
+House Bill 233/section 1004.097
+(
+http://www.leg.state.fl.us/STATUTES/index.cfm?App_mode=Display_Statute&URL=1000-1099/1004/Sections/1004.097.html
+),
+Florida Statutes:
+For the student’s own personal educational use;
+In connection with a complaint to the University where the recording is made; or
+As evidence in, or in preparation for, a criminal or civil proceeding.
+Students may audio or video record a class lecture for a class in which the student is enrolled. A class lecture is defined as an [educational presentation delivered by faculty or guest lecturer] OR [faculty-delivered educational presentation], as part of a Florida A&M University course, intended to inform or teach enrolled students about a particular subject. A class lecture does not include lab sessions, student presentations, clinical presentations such as patient history, academic exercises involving student participation, assessments (quizzes, tests, exams), field trips, private conversations between students in the class or between a student and the faculty or lecturer during a class session.
+Students may record at any time during a class lecture, so long as the recording is made for one of the above listed specific purposes.
+A recording of a class lecture may not be published without the [written] consent of the lecturer. Publish means share, transmit, circulate, distribute, or provide access to a recording, regardless of format or medium, to another person (or persons), including but not limited to another student within the same class section. Additionally, a recording, or transcript of the recording, is considered to be published if it is posted on or uploaded to, in whole of part, any media platform, including but not limited to social media, magazine, newspaper or leaflet.
+Students may record a class lecture under the specified purposes listed above without informing the lecturer or receiving consent from the lecturer.
+Academic and Student Support Services (Help Outside of Class)
+Academic Advising -
+https://www.famu.edu/students/student-resources/academic-support/academic-advising/index.php
+Continuing Education -
+https://www.famu.edu/academics/continuing-education-and-professional-development/index.php
+Counseling and Psychological Services -
+https://www.famu.edu/students/student-resources/health-and-wellbeing/counseling-services/individual-counseling.php
+Course Catalog -
+http://catalog.famu.edu/
+Course Syllabi Listing -
+https://syllabi.famu.edu/
+Excess Credit Hours -
+https://www.famu.edu/academics/registrars-office/registration/excess-credit-hours.php
+Financial Aid -
+https://www.famu.edu/students/office-of-financial-aid/
+Graduate Programs -
+https://graduateschool.famu.edu/about-graduate-academics.php
+Graduate Studies -
+https://graduateschool.famu.edu/index.php
+Honors Program -
+https://www.famu.edu/academics/undergraduate-academics/honors-program/index.php
+Libraries -
+https://library.famu.edu/
+List of Majors -
+https://www.famu.edu/academics/undergraduate-academics/index.php
+Registrar's Office -
+https://www.famu.edu/academics/registrars-office/index.php
+Registration Requirements & Procedures -
+https://www.famu.edu/academics/registrars-office/registration/registration-requirements-and-procedures.php
+Schedule of Classes -
+https://irattlercs-ext.famu.edu/psp/famremote/EMPLOYEE/SA/c/FAM_REMOTE_SELECTS.CLASS_SEARCH.GBL?tab=FAM_REMOTE
+Student Affairs -
+https://www.famu.edu/administration/division-of-student-affairs/index.php
+Study Abroad -
+http://www.famu.edu/students/international-education-and-development/index.php
+Technical Support (ITS) -
+https://www.famu.edu/administration/campus-services/information-technology-services/
+Transfer Students -
+https://www.famu.edu/academics/transfer-student-services/index.php
+Undergraduate Programs -
+https://www.famu.edu/academics/undergraduate-academics/
+Undergraduate Student Success Center -
+https://www.famu.edu/academics/undergraduate-academics/undergraduate-student-success-center/index.php
+Writing Across the Curriculum -
+https://www.famu.edu/administration/sacs/quality-enhancement-plan/wac-resources.php
+Writing Resource Center -
+https://www.famu.edu/students/student-resources/writing-resource-center/index.php
+For additional resources view the
+FAMU Student Life Page
+. (
+https://www.famu.edu/students/index.php
+)
+University Mission, Vision, and Values
+Mission
+Florida Agricultural and Mechanical University (FAMU) is an 1890 land grant, doctoral/research institution devoted to student success at the undergraduate, graduate, doctoral and professional levels. FAMU enhances the lives of its constituents and empowers communities through innovative teaching, research, scholarship, partnerships, and public service. The University continues its rich legacy and historic mission of educating African Americans and embraces all dimensions of diversity.
+Vision
+Florida Agricultural and Mechanical University (FAMU) will be recognized as a leading national public university that is internationally renowned for its competitive graduates, transformative research, and innovation.
+Values
+Florida Agricultural and Mechanical University is committed to the values of accountability, inclusion, innovation, and integrity. The University also values and endorses the Board of Governors' Statement of Free Expression and expects open-minded and tolerant civil discourse to take place throughout the campus community. These values represent the tenets that guide our actions, enable us to sustain our historical mission, and realize our strategic plan.
+Academic Honor Policy Statement
+Florida A&M University is committed to academic honesty and its core values, which include scholarship, excellence, accountability, integrity, fairness, respect, and ethics. These core values are integrated into this academic honesty policy. The academic honesty policy shall be adhered to by all Florida A&M University students and applies to all academic work, both inside and outside of class. Being unaware of the Academic Honesty Policy is not a defense for violations of academic honesty. Additional detail on FAMU Academic Dishonesty Violations are provided in
+University Regulation 2.012 (8)(a)
+. If you have any questions, please see your Academic Advisor. (
+https://www.famu.edu/administration/division-of-student-affairs/office-of-student-conduct-and-conflict-resolution/documents/Regulation 2.012_Student Code of Conduct 12082021.pdf
+)
+Additionally, the Student Code of Conduct sets forth the rules, regulations, and expected behavior of students enrolled. Violations of any rules, regulations or behavioral expectations may result in a charge of violating the Student Code of Conduct. It is the student’s responsibility to read the Student Code in addition to the
+Academic Honor Policy
+. Conduct and comply with these expectations. (
+https://www.famu.edu/about-famu/leadership/board-of-trustees/pdf-policies/Academic%20Honesty%20Policy%207.27.17.pdf
+)
+Anti-Hazing
+Florida Agricultural and Mechanical University (“University”) strictly prohibits any student(s), group(s) of students, or student organization(s) affiliated with the University from engaging in any form(s) of hazing activities. Moreover, the University has zero tolerance for violation of any provisions of the
+Anti-hazing Regulation 2.028
+. (
+https://www.famu.edu/students/student-resources/hazing-prevention/pdf/2_028 AntiHazing Approved 071513.pdf
+) “Zero tolerance” means that given the factual circumstances of the alleged violation, the charged student may be removed from University Housing and receive a penalty up to suspension or expulsion from the University. Educate yourself about hazing and take the pledge to be an advocate for anti-hazing on campus. If you see something, SAY something! To report an emergency or a dangerous situation that is underway, CALL 911 for immediate police response.
+FAMU Department of Campus Safety & Security
+2400 Wahnish Way POM Bldg. A, Suite 128
+Tallahassee, Florida 32307
+P: (850) 599-3256
+F: (850) 561-2615
+E:
+fampol@famu.edu
+(
+mailto:fampol@famu.edu
+)
+Accommodations for Students with Disabilities
+The Center for Disability Access & Resources (CeDAR) has an online platform called AIM, allowing students with disabilities to register for services, request accommodations, schedule tests, and receive correspondence electronically. All requests must be made in the AIM portal. Students can access the AIM portal via their iRattler dashboard tiles. New students interested in receiving services will need to complete an application and upload a copy of documentation from a qualified professional through the AIM portal. Questions can be answered by contacting
+cedar@famu.edu
+(
+mailto:cedar@famu.edu
+) or calling 850-599-3180. You can also visit us at the CASS building, Suite 102, 1735 Wahnish Way, Tallahassee, FL 32307.
+Online/Distance Education Statement
+The mission of FAMU Online is to increase access to high-quality collegiate courses by utilizing educational technologies and emerging content delivery methods that allow for the development of professional proficiencies, personal growth, and the fostering of interpersonal effectiveness. Florida A&M University (FAMU) offers several Online courses and programs, both on the undergraduate and graduate degree levels. FAMU’s online students are governed by the same policies and procedures that are in place to protect the privacy of all students. The University’s written policies and procedures that apply are: Family Educational Rights and Privacy Act (FERPA), Access to Student Records, Information Security Policy, and University Code of Conduct. Most of our classes use a Learning Management System (LMS) to provide ready access to course materials, and other student-centric resources. Students are encouraged to check CANVAS frequently for class updates and announcements. Canvas easily connects instructors with students, and is used to monitor grades, assignments, and share course documents.
+Policy Statement on Non-Discrimination
+It is the policy of Florida Agricultural and Mechanical University to assure that each member of the University community be permitted to work or attend classes in an environment free from any form of discrimination including race, religion, color, age, disability, sex, marital status, national origin, veteran status and sexual harassment as prohibited by state and federal statutes. This shall include applicants for admission to the University and employment.
+Important University Dates
+Official FAMU Academic Calendars
+Mental Health
+Being successful in this course is dependent on many factors, including your personal well-being. As a student you may experience a range of stressors that can cause barriers to learning and impact your overall health. This may include anxiety, high levels of stress, depression, trauma, grief, and strained relationships, to name a few. You are a priority and there are a numerous people at FAMU waiting to assist you in your academic journey, including myself. Please reach out to me if you are experiencing any type of difficulty that may impact your success in this course. In addition, the Office of Counseling Services (OCS) offers FREE, confidential, in-person and virtual counseling for enrolled students. They also partner with BetterMynd, an online 24/7 therapy platform. This is also FREE to enrolled students. To learn more about on Counseling Services or BetterMynd,
+visit the OCS website
+or call (850) 599-3145. If you are experiencing a crisis and need to speak with a licensed mental health professional after hours, during holiday breaks, or even at 3 in the morning, you can call OCS’ crisis line at (844) 287-6963.
+"FAMU Alert" Emergency Notification System
+Students, please scan the QR code to download the Everbridge app, sign up, and learn more about FAMU’s Emergency Notification System "FAMU ALERT” or visit
+https://www.famu.edu/alerts
+. If you have any questions, please email
+famualert@famu.edu
+.
+https://member.everbridge.net/1864226259861522/ov
+Disclaimer
+This syllabus is intended to provide student guidance on the type of content and activities that will be covered in this course throughout the semester. It will be followed to the greatest extent possible. However, modifications may be made to supplement and/or enhance student learning.
