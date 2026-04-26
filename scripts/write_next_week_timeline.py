@@ -96,7 +96,8 @@ def main() -> int:
     week = weeks[next_idx]
     start = week.rows[0]["date"]
     end = week.rows[-1]["date"]
-    out_name = f"week_{week.index + 1:03d}_{start}_to_{end}.md"
+    week_number = week.index + 1
+    out_name = f"{week_number}.md"
     out_path = OUT_DIR / out_name
 
     out_path.write_text(build_week_markdown(week), encoding="utf-8")
@@ -105,6 +106,7 @@ def main() -> int:
     completed.append(
         {
             "week_index": week.index,
+            "week_number": week_number,
             "start": start,
             "end": end,
             "file": str(out_path.relative_to(ROOT)),

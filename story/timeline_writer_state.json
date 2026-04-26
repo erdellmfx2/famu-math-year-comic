@@ -4,9 +4,10 @@
   "completed": [
     {
       "week_index": 0,
+      "week_number": 1,
       "start": "2025-08-01",
       "end": "2025-08-07",
-      "file": "story/timeline-weeks/week_001_2025-08-01_to_2025-08-07.md"
+      "file": "story/timeline-weeks/1.md"
     }
   ]
 }
