@@ -1,5 +1,5 @@
 {
-  "next_week_index": 4,
+  "next_week_index": 5,
   "total_weeks": 54,
   "completed": [
     {
@@ -29,6 +29,13 @@
       "start": "2025-08-22",
       "end": "2025-08-28",
       "file": "story/timeline-weeks/4.md"
+    },
+    {
+      "week_index": 4,
+      "week_number": 5,
+      "start": "2025-08-29",
+      "end": "2025-09-04",
+      "file": "story/timeline-weeks/5.md"
     }
   ]
 }
