@@ -117,7 +117,22 @@ def main() -> int:
     state["total_weeks"] = len(weeks)
     STATE_PATH.write_text(json.dumps(state, indent=2), encoding="utf-8")
 
+    prev_week_number = week_number - 1 if week_number > 1 else None
+    prev_timeline = f"story/timeline-weeks/{prev_week_number}.md" if prev_week_number else ""
+    prev_prose = f"story/timeline-weeks-prose/prose_{prev_week_number}.md" if prev_week_number else ""
+    curr_prose = f"story/timeline-weeks-prose/prose_{week_number}.md"
+    next_week_number = week_number + 1 if week.index + 1 < len(weeks) else None
+    next_timeline = f"story/timeline-weeks/{next_week_number}.md" if next_week_number else ""
+
     print(f"WROTE: {out_path.relative_to(ROOT)}")
+    print(f"WEEK_NUMBER: {week_number}")
+    print(f"START: {start}")
+    print(f"END: {end}")
+    print(f"TIMELINE_FILE: {out_path.relative_to(ROOT)}")
+    print(f"PREV_TIMELINE_FILE: {prev_timeline}")
+    print(f"PREV_PROSE_FILE: {prev_prose}")
+    print(f"TARGET_PROSE_FILE: {curr_prose}")
+    print(f"NEXT_TIMELINE_FILE: {next_timeline}")
     print(f"PROGRESS: {state['next_week_index']}/{state['total_weeks']} weeks")
     return 0
 
