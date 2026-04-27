@@ -1,263 +1,310 @@
-# Week Two Prose — August 8–14, 2025
+# Week Two: The Shape of What’s Coming
 
-The challenge the first week had promised did not arrive all at once.
+The first bell still had not rung, but by the second week of August, Malik Baptiste and Nia Reynolds could both feel its approach.
 
-It came the way real transitions often do—through repetition, through return, through the strange emotional pressure of realizing that preparation was no longer abstract. The second week of August unfolded under the same Florida heat and the same bright FAMU skies, but it no longer felt like a soft prelude. The campus had thickened with motion. More suitcases rolled across walkways. More families lingered for one last meal or one last set of photos. More students carried folders, schedules, bottled water, and private expectations they were trying not to wear too openly on their faces.
+It was there in the way campus no longer felt merely picturesque. It had started to feel directional.
 
-By Friday morning, Malik Baptiste was already back at work.
+During the first week, everything had seemed touched by possibility alone. The red-brick buildings had glowed in the sun like promises. The walkways had carried easy conversations, introductions, and the low-pressure energy of students preparing for a year that had not yet tested them. Malik had built spreadsheets, folders, and future plans. Nia had built color systems, learning goals, and a widening map of community. They had both met FAMU in that early, generous stage where a campus could seem to say, *You are welcome here. Come see what you can become.*
 
-If anyone had expected him to spend the calm before classes relaxing, they did not know him well. He sat at a table near the residence hall lobby with his laptop open, his planner beside it, and his class folder system spread across the screen in nested, orderly rows. He had already created folders once the week before. Now he was improving them. Renaming them. Reordering them. Making them more exact.
+Now, in week two, the message had deepened.
 
-Calculus. Seminar. Intro major materials. Financial notes. Advising. Department announcements.
+The campus still welcomed them. But it was also beginning to ask them questions.
 
-He paused over a blank folder and typed: *Questions to Ask Early*.
+## Friday: A Week That Looked Quiet and Wasn’t
 
-Then he sat back and looked at it for a second.
+On Friday morning, the heat arrived early.
 
-That folder had not existed in his first version.
+Malik sat at a table near a window inside a student common area, laptop open, charger coiled neatly beside him, one hand resting near a paper planner he had already annotated with reminders. Outside, students crossed the walkway in ones and twos. Some looked relaxed; others wore the focused expression of people trying to stay ahead of a semester before it could gain speed.
 
-The change was small, but it mattered. Last week, he had been preparing to stay in control. This week, almost without admitting it to himself, he was preparing to be a student in a fuller sense—someone who might not know everything immediately, someone who might need to ask before confusion hardened into silence.
+On his screen were digital class folders, each labeled with a precision that bordered on ritual. He had already created subfolders for syllabi, notes, assignments, exam review, and what he called “corrections and patterns,” a place he intended to use later for mistakes, revisions, and lessons he did not want to repeat.
 
-He could still hear Dr. Okafor’s line from an earlier department moment: “Visualize the concept first.” Malik had been thinking about it in a way that would have amused the professor. He was not visualizing derivatives yet. He was visualizing the shape of a good semester. What would it look like if he did not wait until pressure forced him to adapt? What would it look like if structure made room for learning rather than only control?
+He paused over the folder names and adjusted one of them, not because it was wrong, but because it could be clearer.
 
-Across campus, Nia Reynolds sat near a window with a notebook open to a fresh page titled in careful script: *What I Want This Year to Teach Me*.
+He heard Dr. Okafor’s guidance from an early touchpoint in his head: **Visualize the concept first.**
 
-She had drafted learning goals before, but this was different. Last week’s page had been idealistic in the best way—hopeful, broad, full of possibility. This week’s draft felt more grounded. She wrote about courage in class discussions. She wrote about protecting her energy. She wrote about not equating being talented with needing to do everything. She wrote about wanting real mentorship, real understanding, and real contribution. Not just performance.
+Malik had been thinking about that phrase more than he expected to. It sounded like calculus advice, or maybe the kind of thing a professor would say before sketching a graph across half a board. But he kept discovering that it fit ordinary decisions too. If he could picture the shape of the semester before it fully arrived, maybe he would move through it with less panic. Maybe preparation was not just about building structures. Maybe it was about building a mental image strong enough to stand inside when things got loud.
 
-Her pen slowed over the final line.
+Across campus, Nia was doing her own version of that work.
 
-*I want to belong here for the right reasons.*
+She had spread notebooks, pens, tabs, sticky notes, and index cards across her dorm desk in a layout that looked chaotic from the door and entirely intentional from the chair. Her note system from week one had grown even more detailed. She was refining headers, color rules, and page formats so that each class would have its own personality without sacrificing consistency.
 
-The sentence startled her with its weight.
+It mattered to her that the page invited thinking.
 
-She looked up through the window at students crossing the sidewalk outside. Some walked alone, some in clusters, some animated, some visibly overwhelmed. FAMU, even in a week still technically called preparation, felt rich with human stories gathering at once. That was one of the things Nia loved most already: the campus did not hide ambition, but it did not strip it of warmth either. There was pride here, visible and earned. There was movement toward excellence, but there was also music, laughter, conversation, style, and care. Seriousness did not cancel joy.
+She wrote the date at the top of a fresh section, then paused and added a side column titled: **What do I want to understand, not just memorize?**
 
-That mattered to her.
+That felt like a FAMU question.
 
-Later that day, she ran into Malik again in a campus common space where first-year students were loosely orbiting tables, vending machines, and outlet plugs as if each were an anchor point.
+Already, in fragments of conversations with students and faculty, she had sensed that the Mathematics Department valued more than speed. There was seriousness there, yes, but also care. Not the shallow kind that lowered standards. The better kind. The kind that expected students to rise because they were worth investing in.
 
-“You look like you’re editing an operating system,” she said, glancing at his laptop.
+Later that afternoon, Nia found Malik again.
 
-Malik looked up. “Just improving folder structure.”
+He looked up as she approached. “You always walk like you’re in the middle of an idea.”
 
-“Just,” she repeated, amused.
+She dropped into the chair across from him. “That’s because I usually am.”
 
-He noticed her notebook. “More goals?”
+He tilted his screen slightly. “I’m setting up folders.”
 
-“Refined goals.”
+Nia squinted at it. “Those folders are more organized than some people’s futures.”
 
-“That sounds more dangerous.”
+“Hopefully including mine,” Malik said.
 
-“It might be,” she said. “The first version was inspiring. The second version knows my habits.”
+She laughed, then pulled out her notebook. “I reworked my note system.”
 
-That made him smile.
+He glanced at the color-coded layout and nodded with genuine respect. “That actually makes sense.”
 
-Their conversations were still new enough to be cautious and easy at the same time. They did not yet belong to each other’s daily lives, but there was recognition now. A sense that each had found in the other a person who was not drifting through the moment casually.
+“Thank you for sounding surprised.”
 
-On Saturday, Malik returned to his budget spreadsheet, and Nia returned to her note system. On paper, it looked like the same tasks from the week before. In reality, both of them were engaging those tasks from a slightly different place.
+“I’m not surprised,” he said. “I’m… impressed at the level of commitment.”
 
-Malik was no longer just trying to estimate the semester. He was trying to stress-test the assumptions beneath it. Meal-plan usage, textbook decisions, possible extra expenses, how much social spontaneity might quietly cost, what sort of cushion counted as realistic rather than imaginary. He heard Dr. Bennett’s advice in his head as clearly as if the professor were seated across from him: “Interpret numbers as evidence.”
+“That’s better.”
 
-So he did.
+They spent the next half hour talking through systems that, on the surface, seemed small. Folder names. Reminder timing. How many colors were too many colors. Whether a planner should be strict or flexible. Whether preparation should feel calming or challenging.
 
-When the evidence suggested his original textbook assumptions were too optimistic, he corrected them instead of arguing with them. When a meal-plan comparison showed him that convenience had a price, he adjusted his weekly budget instead of pretending discipline alone would make the numbers kinder. It was not glamorous work, but it was the kind of invisible labor that could protect peace later.
+But beneath the practical details, something else was happening. They were starting to translate their private habits into a shared language. Malik’s discipline no longer looked to Nia like mere rigidity. Nia’s expansiveness no longer looked to Malik like scattered energy. Each was beginning to see the intelligence in the other’s method.
 
-At a nearby table, two upper-level students were talking about course loads and ways first-year students often underestimate how fast little costs accumulate.
+And that mattered. Not just for friendship. For the partnership the year was quietly building beneath them.
 
-“One emergency turns into three if you don’t leave margin,” one of them said.
+## Saturday: Numbers, Evidence, and a Wider Campus Life
 
-Malik did not interrupt, but he quietly added another line to his spreadsheet: *true contingency*.
+Saturday brought a slower pace, but not an empty one.
 
-Across campus, Nia spread out her notebooks again, but this time her color-coded system felt less like decoration and more like a language she was building. Green for definitions. Gold for examples. Black for open questions. Red for connections she wanted to revisit. She left more white space between sections than before, remembering how crowded pages could make her rush. She wanted her notes to invite thought, not just store information.
+Malik spent part of the morning refining a semester budget spreadsheet that now included textbook costs, meal-plan estimates, emergency space, and a column for what he called “decision notes.” He did not want the spreadsheet to merely contain numbers. He wanted it to contain reasoning. If he chose one option over another, he wanted future him to remember why.
 
-A student passing by glanced down and said, “That looks too organized to be real.”
+Dr. Bennett’s phrase came back to him: **Interpret numbers as evidence.**
 
-Nia laughed. “Give it three weeks and then reassess.”
+That was one of the things Malik already appreciated about the faculty voices drifting into his preparation weeks. Their advice never seemed confined to a single assignment. It traveled. It reached. It gave structure to ordinary judgment.
 
-“But seriously, how do you keep it up?”
+He stared at one section comparing meal-plan use and textbook spending, then muttered, “If I overspend early, I’ll feel it later.”
 
-“I try to make the page help me think,” she said. “If the page feels clear, the idea feels less scary.”
+“Talking to the spreadsheet again?” Nia asked, appearing beside the table with a cold drink in one hand.
 
-The student nodded slowly, as if filing that away for future use.
+Malik looked up. “It listens better than some people.”
 
-That happened a lot around FAMU, Nia was beginning to notice. People shared methods. Shared warnings. Shared shortcuts, encouragement, and hard truths. Student life was social, yes, but also instructional. Even casual conversations carried mentorship in them. You could learn in the hallway if you listened well enough.
+She sat. “That’s because the spreadsheet can’t interrupt you with exciting updates.”
 
-Sunday’s rhythm belonged to campus possibility.
+“You say that like it’s a weakness.”
 
-Nia returned to the organizations fair, this time with more restraint and more intention. The first time she had visited, the sheer number of opportunities had thrilled her. This time, she wanted to distinguish between what was exciting and what was sustainable.
+“It is when I have news.”
 
-At one table, an upper-level math student spoke about a departmental mentoring initiative and how younger students often benefited from asking early about research, internships, and academic support.
+Nia had spent her morning reorganizing her notes again, but by afternoon she had gone exploring. Campus in this quieter pre-semester stretch had become one of her favorite things. There was room to notice details. The murals. The conversations outside buildings. The flyers announcing welcome events, organization meetings, and opportunities that made student life feel textured rather than generic.
 
-“You do not have to wait until you’ve proven you deserve help,” the student said. “And you don’t have to wait until you’re struggling to connect with faculty. The math department here really wants students engaged.”
+At FAMU, that texture felt rich in a very particular way. There was pride here. Not rehearsed pride, but lived pride. Students carried the institution with a kind of seriousness that was still warm. It was in how they talked about their majors. How they pointed first-years toward resources. How they spoke about departments and faculty with a mixture of respect, familiarity, and expectation.
 
-Nia asked questions immediately. What did engagement look like? How early could undergraduates explore research? Did students really build relationships with professors that soon?
+Nia told Malik about a conversation she had overheard between upperclassmen discussing peer support and research pathways.
 
-The answers energized her.
+“Research keeps coming up,” she said. “Not in a vague, brochure way. In a real way. Like students actually get pulled into meaningful work here.”
 
-Yes, students could ask early. Yes, research culture was real. Yes, faculty mentorship mattered. Yes, students who showed initiative often found doors opening sooner than they expected.
+Malik nodded slowly. “That’s important.”
 
-That conversation did something important inside her. It turned the idea of undergraduate research from a distant, prestigious concept into something local and living. Something with hallways, names, office hours, bulletin boards, and future conversations waiting to happen.
+“It is. I think I like that the department seems to treat math as something living.”
 
-Meanwhile, Malik spent part of Sunday refining meal-plan and textbook comparisons again, but he also let himself linger in a student space where people were talking about majors, career goals, and why they had come to FAMU in the first place. He heard a senior explaining to a younger student that the best part of the mathematics department was not only that professors were rigorous, but that they expected growth and gave students reasons to believe growth was possible.
+He leaned back. “Not just classes to survive.”
 
-That line stayed with him.
+“Exactly.”
 
-He had known how to respect rigor his whole life. What he was still learning to trust was growth in public—the kind that involved questions, revisions, and visible incompleteness.
+She studied his spreadsheet. “You know what’s funny? We’re doing opposite versions of the same thing.”
 
-On Monday, Malik revisited his actuarial pathway map. The page now looked less like a dream diagram and more like a working draft of adulthood. He tightened timelines, clarified milestones, and connected long-term goals to immediate habits. If actuarial science was the destination, then what daily behaviors made the destination believable?
+He raised an eyebrow. “How?”
 
-Read ahead. Track deadlines. Ask questions quickly. Build quantitative discipline before panic. Protect sleep. Respect the calendar.
+“You’re trying to make the semester measurable. I’m trying to make it meaningful.”
 
-He stared at the last one for a moment. Protect sleep. It felt almost too ordinary to include. Yet he had already overheard enough upper-level students talking about exhaustion, poor recall, and the false heroism of late-night academic suffering to know that ordinary habits often decided extraordinary outcomes.
+Malik considered that. Then he said, “Both seem necessary.”
 
-Nearby, Nia revised her weekly balance plan again, creating a version that looked realistic rather than aspirational. Study. Rest. Clubs. Reflection. Open time. She remembered the sentence she had spoken to herself the week before: *I want to be brilliant without being buried.*
+Nia smiled. “There you go sounding wise by accident.”
 
-This week, she gave the sentence structure.
+“Was that wisdom?”
 
-When she saw Malik later that afternoon, she held up her planner. “I made a balance plan that doesn’t lie to me.”
+“Yes,” she said. “Annoyingly concise wisdom.”
 
-He nodded approvingly. “That sounds useful.”
+## Sunday: Assumptions, Ambition, and the Shape of Balance
 
-“It means I had to admit I cannot join twelve things and still sleep.”
+By Sunday, the emotional tone of the week shifted again.
 
-“You were considering twelve?”
+Malik spent part of the day comparing meal-plan spending against textbook costs one more time, trying to make peace with the reality that not every number could be perfect. Some things would have to be approximated. Some choices would have to be made under uncertainty.
 
-“I was considering a spiritually unreasonable number.”
+He disliked that.
 
-That got a full laugh out of him.
+But Dr. Price’s advice had a way of steadying him: **State assumptions before modeling.**
 
-They ended up walking together past one of the mathematics buildings, where a small departmental bulletin board displayed announcements about upcoming events, tutoring support, and academic opportunities. Neither of them had an official reason to stop, but both slowed down anyway.
+So he did exactly that. He opened a note at the top of the spreadsheet and typed out the assumptions behind his decisions—expected meal use, likely book purchases, room for variation, and which items might change once class rhythms became real.
 
-There was something quietly thrilling about seeing a future in flyer form.
+As soon as he named the assumptions, the uncertainty felt less like danger and more like part of the model.
 
-Seminars. Student support. Faculty names. Possibilities.
+That afternoon, Nia sat in a shaded outdoor spot with her planner open, revisiting the weekly balance plan she had drafted in the previous week. This time she made it more honest.
 
-Nia traced one posted research notice with her eyes. “This is the kind of thing I want to grow into.”
+She added rest blocks she knew she would otherwise try to earn instead of protect. She marked study windows that aligned with her actual concentration patterns, not the imaginary version of herself who was perfectly productive at every hour. She created a “community” block—not because she wanted to overfill her life, but because campus connection mattered to her, and she did not want to pretend it was separate from academic success.
 
-Malik looked at the board, then at her. “You say things like that out loud.”
+At FAMU, student life did not feel like a distraction from education. It felt interwoven with it. The vitality of the campus, the invitation to join, the chance to be mentored, the possibility of research, the visibility of Black excellence across academic and social spaces—all of it shaped what learning could feel like.
 
-“Shouldn’t I?”
+When Malik found her, she was staring at her planner as though it had personally challenged her integrity.
 
-He considered. “Maybe I should too.”
+“How bad is it?” he asked.
 
-That was how the week kept working on them—not dramatically, but persistently. Small conversations kept nudging private ambitions into language.
+Nia sighed. “I’m trying to design a schedule that assumes I am both ambitious and mortal.”
 
-Tuesday returned Malik to folder systems and calendar reminders while Nia refined personal goals once more. The repetition no longer felt redundant. It felt like practice. Like each pass through the same tasks was clarifying motive.
+“That sounds reasonable.”
 
-Malik reorganized his deadlines by urgency and category, then added one more recurring reminder: *Review, don’t just react.* It was a note to his future self, a quiet warning against the trap of treating school like a series of emergencies rather than a system.
+“It is,” she said, “which is why I keep resisting it.”
 
-Nia reread her goals and crossed out one line that sounded impressive but false. In its place she wrote something simpler: *Be teachable, especially when pride is tempted to pretend.*
+He sat beside her on the bench. “What part?”
 
-She knew that line would matter later.
+“The part where I admit I can’t say yes to everything. Clubs, events, every interesting conversation, every chance to help, every idea…” She looked out toward the walkway, where students moved under the long light of late afternoon. “FAMU makes you want to be part of everything.”
 
-Wednesday brought one of the warmest, most alive campus days yet. More students had arrived. More conversations spilled across walkways. The fair tables still stood in bright little rows of invitation, but now the mood around them had shifted from curiosity to commitment. People were choosing.
+Malik nodded. “That’s true.”
 
-Nia visited the organizations area one last time, and this time she did not collect everything. She selected a few spaces that genuinely fit the life she was trying to build—spaces where mathematics, leadership, and community could reinforce one another instead of competing for her attention.
+“And it’s a good thing,” she said quickly. “It really is. I love that this campus feels alive. I love that the math department seems connected to larger opportunities. I love that student life here actually feels like life. But if I don’t build boundaries early, I’ll confuse motion with progress.”
 
-An older student at one of the tables smiled when she noticed Nia taking time instead of grabbing every flyer in sight.
+Malik was quiet for a second. Then he said, “That might be the smartest thing you’ve said all week.”
 
-“You’re being strategic,” she said.
+“All week?”
 
-“I’m trying to be,” Nia replied.
+“High bar.”
 
-“That’s wisdom, not hesitation. First year teaches that fast.”
+She smiled. “Thank you, I think.”
 
-The comment landed gently but powerfully.
+He glanced at her planner. “What’s the goal?”
 
-At another part of campus, Malik revisited his budget again, then finally closed the spreadsheet and admitted to himself that no amount of refinement would remove uncertainty entirely. That recognition should have irritated him. Instead, surprisingly, it calmed him.
+Nia answered without looking down. “To be excellent in a way I can keep.”
 
-He remembered Dr. Price’s phrasing: state assumptions before modeling.
+That line stayed with both of them.
 
-Right. Assumptions first. Certainty later, if ever.
+## Monday and Tuesday: The Department Begins to Feel Personal
 
-Maybe the goal was not to eliminate every unknown before the semester started.
+On Monday, Malik returned to his actuarial pathway notes and began mapping milestone after milestone, not just as distant requirements but as a sequence of commitments. He wrote out course goals, skill areas, and habits worth practicing before anyone forced him to. He was beginning to understand that college success at FAMU, especially in a rigorous math-related path, would not be built from intensity alone. It would be built from repeatable choices.
 
-Maybe the goal was to build a system strong enough to meet the unknowns without collapsing.
+Across campus, Nia drafted personal learning goals again, this time with more clarity. She kept the earlier ideas—ask better questions, learn deeply, protect joy—but now she added another line:
 
-By Thursday, the week had gathered enough emotional weight to feel like a chapter, not just a continuation.
+**Contribute to the culture I want to learn inside.**
 
-Malik once more compared meal-plan spending and textbook costs, but this time he did it quickly. The deeper work had already happened. He knew what his assumptions were. He knew where the pressure points might be. He knew he was the kind of student who could over-identify with preparedness if he was not careful.
+She had been thinking about the department’s atmosphere. About upperclassmen who spoke encouragingly instead of competitively. About the possibility of study groups that were real communities. About the future chance to participate in undergraduate research and not merely admire it from a distance. She did not just want to benefit from that culture. She wanted to strengthen it.
 
-Nia returned to the organizations fair area and, after one last conversation about student life and academic involvement, left with fewer papers than before but more conviction.
+On Tuesday, they crossed paths outside a building after brief department-related conversations that had left both of them thoughtful.
 
-That evening they met again outside as campus lights began to flicker on and the day’s heat eased into something breathable.
+“Can I ask you something?” Nia said.
 
-“You look like you made decisions,” Malik said.
+“Sure.”
 
-“I did,” Nia said. “Not every possible decision. Just enough.”
+“Do you ever feel like the year is standing just out of sight, waiting to see what version of you shows up?”
 
-“That sounds healthy.”
+Malik considered the question seriously. “Yes.”
 
-“It feels terrifying, actually.”
+“And?”
 
-He nodded. “Then it’s probably real.”
+“And I’m trying to make sure it meets someone prepared.”
 
-They sat on a bench where they could watch students moving through the golden-blue edge of evening. The campus around them felt fuller now, less like a setting waiting to be occupied and more like a community already in motion. FAMU was no longer simply promising opportunity. It was beginning to demand response.
+Nia looked at him for a long moment, then nodded. “That’s such a Malik answer.”
 
-Nia folded and unfolded one of her chosen flyers. “Do you ever think the real tension isn’t whether we can do the work,” she asked, “but whether we can become the kind of people who handle the work well?”
+He gave the smallest smile. “Was it wrong?”
 
-Malik looked out toward the walkway for a long second before answering. “Yes,” he said. “I think that’s exactly it.”
+“No,” she said. “Just very you.”
 
-She smiled faintly. “That’s what this week felt like to me. Not dramatic. But… clarifying.”
+They walked together for a while after that, past students talking on benches, past flyers for welcome-week programming, past signs that made the campus feel increasingly inhabited by a future they were about to enter for real. Their conversation drifted toward professors.
 
-“Same.”
+Nia mentioned Dr. Brooks’s emphasis on showing reasoning clearly. Malik brought up Dr. Delgado’s idea of a clean setup before solving. Nia returned to Dr. Okafor’s visualize-the-concept-first approach. Malik cited Dr. Bennett’s numbers-as-evidence line. Together, the professor touchpoints were beginning to form a kind of intellectual environment before a single formal lecture had started.
 
-He hesitated, then added, “Last week I was trying to prepare for college like it was a system I could solve before it started.”
+What struck them both was that the Mathematics Department did not feel abstract. It felt inhabited. Human. Rigorous, yes, but also relational. The professors were already emerging not as distant authorities but as future mentors with distinct philosophies. That alone lowered no standards. If anything, it raised them. But it raised them in a way that felt hopeful.
 
-“And now?”
+## Wednesday and Thursday: Anticipation Becomes Its Own Pressure
 
-“Now I think it’s a system I have to grow inside.”
+By midweek, the campus had grown busier.
 
-Nia turned toward him fully at that.
+Nothing dramatic had happened. No exams. No syllabus-day surprises yet. No collision between confidence and actual coursework. And yet anticipation had developed weight.
 
-“That,” she said, “is a really good sentence.”
+Malik noticed it first in himself. He had all his folders ready, his budget refined, his reminders set, his pathway mapped. Still, there was a limit to what preparation could do before reality arrived. At some point, the class would begin. The problem would be placed on the page. The lecture would move at its own speed. He would have to respond in real time.
 
-He looked almost embarrassed. “Don’t make a big deal out of it.”
+Nia felt the same pressure from the opposite direction. She had gathered possibilities all around her—student groups, learning goals, balanced routines, ideas about research and mentorship, hopes for meaningful academic life. But now she was eager for something solid to happen. Something that would let all her intention land on an actual challenge.
 
-“I’m absolutely making a medium-sized deal out of it.”
+On Thursday evening, they walked across campus together while the light softened and the air finally gave back a little mercy.
 
-They laughed, and the laugh mattered. It softened the seriousness without breaking it.
+“You feel it too, right?” Nia asked.
 
-For all the planning, all the spreadsheets, all the goals, all the fair tables and hallway advice and careful systems, the deeper story of the week was simple: anticipation had matured. The year ahead was no longer just approaching. It had begun to ask something of them emotionally. It was asking them to stop performing readiness and start building resilience.
+“Feel what?” Malik said, though he already knew.
 
-That was not a small shift.
+“This weird almost-pressure. Like the semester hasn’t started, but it’s already leaning in.”
 
-And like many important shifts, it happened before any visible crisis arrived.
+He nodded. “Yeah.”
 
-As dusk settled further over campus, the mathematics department buildings stood quiet but suggestive in the distance, holding within them future classes, future corrections, future moments of confidence and confusion. Somewhere inside those rooms waited proofs, problem sets, questions asked too softly, answers earned the hard way, mentors who would redirect them, and the first unmistakable college-level tests of who they were when talent was no longer enough by itself.
+She exhaled. “I’m excited. But I think I’m also tired of preparing for the real thing without touching the real thing.”
 
-Nia felt the excitement of that almost as strongly as the anxiety.
+“That makes sense.”
 
-Malik felt the anxiety almost as strongly as the excitement.
+“I want to know what the first hard moment is going to feel like,” she admitted. “Not because I want it to be hard, exactly. Just because I want to stop guessing.”
 
-Neither feeling canceled the other.
+Malik looked ahead across the quad. Students were laughing in clusters. Someone in the distance called out a greeting. A faculty member passed by and returned a student’s wave. Campus looked beautiful in the evening—settled, vibrant, familiar in a way that still felt new.
 
-That, too, was part of growing up.
+“It’ll come soon enough,” he said.
 
-When they finally stood to head in separate directions, there was a pause—not awkward, not sentimental, just aware.
+Nia smiled faintly. “That did not comfort me.”
 
-“Next week is going to feel different,” Nia said.
+“It wasn’t meant to.”
 
-“Yes,” Malik replied.
+That made her laugh.
 
-“You ready?”
+Then, after a pause, she said, “Still… I’m glad it’s here. I’m glad it’s *this* place.”
 
-He exhaled once, honest enough now not to pretend certainty. “Ready enough to begin.”
+Malik’s answer came without hesitation. “Me too.”
 
-She grinned. “That might be the real requirement.”
+Because FAMU was not only becoming the setting of their year. It was becoming an active force inside it. The department’s seriousness, the campus energy, the culture of opportunity, the possibility of mentorship, the promise of research, the visible pathways of students who had done difficult things before them—all of it was shaping how they interpreted the future.
 
-They headed off under the campus lights, carrying planners and folders and notes and expectations that were suddenly heavier than paper. Around them, FAMU kept glowing with the particular energy that had already begun shaping them: proud, communal, rigorous, welcoming, alive.
+They did not feel alone on the threshold.
 
-The second week had not broken their confidence.
+And that changed everything.
 
-It had refined it.
+## End of Week: The Last Quiet Before the Test Begins
 
-And by the time the night closed fully over the campus, one truth had become impossible to ignore:
+By the final night of week two, Malik and Nia had both made measurable progress.
 
-The season of preparation was almost over.
+Malik had strengthened his systems: folders, reminders, budget assumptions, actuarial milestones, and the internal discipline to accept uncertainty without surrendering structure. Nia had strengthened hers too: note architecture, learning goals, balance planning, and a clearer sense of how to stay connected to campus opportunity without letting it scatter her.
 
-Very soon, all the systems they had built in calm weather would be asked to stand in motion.
+But the week’s real achievement was subtler.
 
-Very soon, the mathematics itself would step into the center of the story.
+They had moved from preparation as private ritual into preparation as shared becoming.
 
-And when it did, both Malik and Nia would discover that anticipation was easier to manage than impact—but also that they had already begun, quietly and meaningfully, to become the kind of students who might meet that impact well.
+They had begun to understand each other better.
+They had begun to understand the department more deeply.
+They had begun to understand FAMU not just as a campus they admired, but as a living community capable of forming them.
+
+And because of that, anticipation no longer felt abstract.
+
+It felt close.
+
+Late that night, Malik closed his laptop after one last review of the systems he had built. For a moment he rested both hands on the desk and let himself admit a truth he usually preferred to outwork before naming:
+
+Preparation had helped.
+But now he wanted proof.
+
+Across campus, Nia capped her pen after revising her goals one final time. Before closing the notebook, she added one sentence near the bottom of the page:
+
+**When the challenge comes, meet it as yourself—not as a performance.**
+
+She stared at the line for several seconds.
+
+Then she shut the notebook gently, as if sealing a promise.
+
+Outside, the campus had gone quieter, but not empty. A place like FAMU never really felt empty. Even in stillness, it seemed to hold motion in reserve. In the residence halls, in department offices, in planners and spreadsheets and notebooks and group chats and half-finished conversations, the year was gathering itself.
+
+Week two had not delivered the first academic shock.
+It had not yet tested their systems.
+It had not forced the friendship into pressure.
+It had not demanded office-hour courage, study-group discipline, or recovery from failure.
+
+But it had done something almost as important.
+
+It had sharpened the edge.
+
+Now both of them could feel that the gentle season of setup was ending. Soon the math would move from imagined rigor to lived rigor. Soon the department’s expectations would become concrete. Soon the habits they had been building would either hold or reveal their weak points.
+
+And somewhere inside that approaching reality was the first true question of the year:
+
+When FAMU stopped inviting them to prepare and started asking them to perform, who would they become?
+
+That question followed them into the weekend.
+
+Not like dread.
+Like electricity.
+
+Because for all the uncertainty ahead, one thing was becoming clear.
+
+They were not just waiting for the year anymore.
+
+The year was beginning to reach for them.
