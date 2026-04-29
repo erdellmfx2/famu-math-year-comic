@@ -1,5 +1,5 @@
 {
-  "next_week_index": 12,
+  "next_week_index": 13,
   "total_weeks": 54,
   "completed": [
     {
@@ -85,6 +85,13 @@
       "start": "2025-10-17",
       "end": "2025-10-23",
       "file": "story/timeline-weeks/12.md"
+    },
+    {
+      "week_index": 12,
+      "week_number": 13,
+      "start": "2025-10-24",
+      "end": "2025-10-30",
+      "file": "story/timeline-weeks/13.md"
     }
   ]
 }
