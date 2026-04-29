@@ -33,3 +33,11 @@ The repo now has a first-pass drawing layer. Next step is to either:
 - Added `week-01-episode-02` panel 3 in `art/final/panels/week-01-episode-02/`
 - Created storyboard and prompt pack for Episode 02
 - Stopped after panel 4 generation failed with provider limit/error behavior; next safest continuation is to resume with Episode 02 panel 4 before expanding Week 01 further
+
+## 2026-04-29 20:25 UTC Nightly Run Note
+- Reviewed the image budget plan, current storyboards, asset library, and generated outputs before attempting new work.
+- Confirmed the highest-value next target is `week-01-episode-02` panel 4, per the existing backlog and prompt pack.
+- Attempted a single conservative generation for Episode 02 panel 4 and stopped after strong provider warnings.
+- Google returned `RESOURCE_EXHAUSTED` because the project exceeded its monthly AI Studio spending cap.
+- OpenAI fallback aborted during the same attempt, so no new panel was saved this run.
+- Safest next continuation remains: generate `2026-04-29_week-01_episode-02_panel-04_on-brand.png` once provider capacity/billing is restored, then continue Week 01 comic production.
