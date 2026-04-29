@@ -27,3 +27,9 @@
 The repo now has a first-pass drawing layer. Next step is to either:
 1. generate character reference art, or
 2. generate/draw Episode 01 panels.
+
+## 2026-04-29 Nightly Production Note
+- Added reusable three-quarter reference portraits for Malik and Nia in `art/final/characters/`
+- Added `week-01-episode-02` panel 3 in `art/final/panels/week-01-episode-02/`
+- Created storyboard and prompt pack for Episode 02
+- Stopped after panel 4 generation failed with provider limit/error behavior; next safest continuation is to resume with Episode 02 panel 4 before expanding Week 01 further
