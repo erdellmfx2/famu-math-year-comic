@@ -48,3 +48,11 @@ The repo now has a first-pass drawing layer. Next step is to either:
 - Generated and saved `art/final/panels/week-01-episode-02/2026-04-30_week-01_episode-02_panel-04_on-brand.png` using `openai/gpt-image-2`.
 - Stopped after the single successful panel to keep the run conservative and leave Week 01 Episode 02 in a clean completed state.
 - Best next continuation: storyboard and prompt Week 01 Episode 03, then resume Week 01 comic production.
+
+## 2026-04-30 07:30 UTC Nightly Run Note
+- Reviewed the budget plan, current storyboards, asset library, and generated panel state before attempting any new image work.
+- Created `art/storyboards/week-01-episode-03.md` to keep Week 01 comic production moving forward in a clean, prompt-ready way.
+- Made one conservative `openai/gpt-image-2` attempt for Episode 03 panel 1 using existing character/panel references.
+- The provider returned `Failed to optimize image`, so no new panel file was saved.
+- Stopped immediately after the first failed attempt to avoid spammy retries, continuity drift, or abuse-like behavior.
+- Safest next continuation: retry Episode 03 panel 1 later with a simplified single-panel prompt/reference set, then continue Week 01 comic production.
