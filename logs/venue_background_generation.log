@@ -9,3 +9,5 @@
 2026-04-30T17:30:41.229257+00:00 [3/4] Completed moore_kittles_field: moore_kittles_field_wide_establishing.png ([dry-run] would generate moore_kittles_field_wide_establishing.png)
 2026-04-30T17:30:42.229810+00:00 [4/4] Completed sbi: sbi_exterior_establishing.png ([dry-run] would generate sbi_exterior_establishing.png)
 2026-04-30T17:30:42.229918+00:00 Venue asset batch finished.
+2026-04-30T18:04:16.431235+00:00 Venue asset plan refreshed. Completed: 7 | Remaining: 3
+2026-04-30T18:04:16.431323+00:00 Next missing venue asset: jschool -> jschool_exterior_establishing.png

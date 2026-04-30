@@ -3,9 +3,6 @@ from __future__ import annotations
 
 import argparse
 import json
-import subprocess
-import sys
-import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -13,8 +10,7 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 BACKGROUNDS_DIR = REPO_ROOT / "art" / "final" / "backgrounds"
 LOG_DIR = REPO_ROOT / "logs"
 LOG_PATH = LOG_DIR / "venue_background_generation.log"
-COOLDOWN_SECONDS = 180
-MAX_ATTEMPTS = 2
+PLAN_PATH = LOG_DIR / "venue_background_generation_plan.json"
 
 VENUE_SPECS = [
     {
@@ -70,10 +66,6 @@ VENUE_SPECS = [
 ]
 
 
-def run(cmd: list[str], check: bool = True) -> subprocess.CompletedProcess[str]:
-    return subprocess.run(cmd, text=True, capture_output=True, check=check)
-
-
 def now_iso() -> str:
     return datetime.now(timezone.utc).isoformat()
 
@@ -85,103 +77,57 @@ def log(message: str) -> None:
         fh.write(f"{now_iso()} {message}\n")
 
 
-def is_done(spec: dict[str, str]) -> bool:
+def asset_exists(spec: dict[str, str]) -> bool:
     return (BACKGROUNDS_DIR / spec["filename"]).exists()
 
 
-def generate(spec: dict[str, str], dry_run: bool) -> tuple[bool, str]:
-    output_path = BACKGROUNDS_DIR / spec["filename"]
-    if dry_run:
-        return True, f"[dry-run] would generate {output_path.name}"
+def build_plan() -> dict:
+    completed = []
+    remaining = []
+    for spec in VENUE_SPECS:
+        entry = {
+            "slug": spec["slug"],
+            "filename": spec["filename"],
+            "path": str(BACKGROUNDS_DIR / spec["filename"]),
+            "prompt": spec["prompt"],
+        }
+        if asset_exists(spec):
+            completed.append(entry)
+        else:
+            remaining.append(entry)
 
-    cmd = [
-        "openclaw",
-        "infer",
-        "image",
-        "generate",
-        "--model",
-        "openai/gpt-image-2",
-        "--size",
-        "1536x1024",
-        "--count",
-        "1",
-        "--prompt",
-        spec["prompt"],
-        "--output",
-        str(output_path),
-        "--json",
-    ]
-    try:
-        result = run(cmd, check=True)
-    except subprocess.CalledProcessError as exc:
-        detail = exc.stderr.strip() or exc.stdout.strip() or str(exc)
-        return False, detail
-
-    stdout = result.stdout.strip()
-    if stdout:
-        try:
-            payload = json.loads(stdout.splitlines()[-1])
-            model = payload.get("model") or "unknown-model"
-            return True, f"generated with {model}"
-        except json.JSONDecodeError:
-            pass
-    return True, "generated"
+    return {
+        "updated_at": now_iso(),
+        "completed_count": len(completed),
+        "remaining_count": len(remaining),
+        "completed": completed,
+        "remaining": remaining,
+        "next": remaining[0] if remaining else None,
+    }
 
 
-def remaining_specs() -> list[dict[str, str]]:
-    return [spec for spec in VENUE_SPECS if not is_done(spec)]
+def save_plan(plan: dict) -> None:
+    LOG_DIR.mkdir(parents=True, exist_ok=True)
+    PLAN_PATH.write_text(json.dumps(plan, indent=2) + "\n", encoding="utf-8")
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Generate remaining FAMU venue background assets with cooldowns, retries, and local logging.")
-    parser.add_argument("--cooldown", type=int, default=COOLDOWN_SECONDS, help="Seconds to wait between images and retries")
-    parser.add_argument("--dry-run", action="store_true", help="Show what would run without generating")
+    parser = argparse.ArgumentParser(description="Build a local plan/log for remaining FAMU venue backgrounds.")
+    parser.add_argument("--json", action="store_true", help="Print the plan JSON to stdout")
     args = parser.parse_args()
 
     BACKGROUNDS_DIR.mkdir(parents=True, exist_ok=True)
-    todo = remaining_specs()
-    log(f"Remaining venue images: {len(todo)}")
-    for spec in todo:
-        log(f" - {spec['slug']} -> {spec['filename']}")
+    plan = build_plan()
+    save_plan(plan)
 
-    if not todo:
-        log("Venue asset batch: nothing remaining to generate.")
-        return 0
+    log(f"Venue asset plan refreshed. Completed: {plan['completed_count']} | Remaining: {plan['remaining_count']}")
+    if plan["next"]:
+        log(f"Next missing venue asset: {plan['next']['slug']} -> {plan['next']['filename']}")
+    else:
+        log("No remaining venue assets.")
 
-    log(f"Venue asset batch starting. Remaining images: {len(todo)}.")
-
-    for index, spec in enumerate(todo, start=1):
-        slug = spec["slug"]
-        output_path = BACKGROUNDS_DIR / spec["filename"]
-
-        if output_path.exists():
-            log(f"[{index}/{len(todo)}] Skipping {slug}; already exists.")
-            if index < len(todo):
-                time.sleep(args.cooldown)
-            continue
-
-        success = False
-        last_detail = ""
-        for attempt in range(1, MAX_ATTEMPTS + 1):
-            ok, detail = generate(spec, dry_run=args.dry_run)
-            last_detail = detail
-            if ok:
-                success = True
-                log(f"[{index}/{len(todo)}] Completed {slug}: {spec['filename']} ({detail})")
-                break
-
-            log(f"[{index}/{len(todo)}] Error on {slug} attempt {attempt}/{MAX_ATTEMPTS}: {detail}")
-            if attempt < MAX_ATTEMPTS:
-                time.sleep(args.cooldown)
-
-        if not success:
-            log(f"[{index}/{len(todo)}] Failed {slug} after {MAX_ATTEMPTS} attempts. Moving on.")
-            print(f"[error] {slug}: {last_detail}", file=sys.stderr, flush=True)
-
-        if index < len(todo):
-            time.sleep(args.cooldown)
-
-    log("Venue asset batch finished.")
+    if args.json:
+        print(json.dumps(plan, indent=2))
     return 0
 
 
