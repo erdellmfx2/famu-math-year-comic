@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-30T19:36:25.046407+00:00",
-  "completed_count": 9,
-  "remaining_count": 1,
+  "updated_at": "2026-04-30T19:39:22.350049+00:00",
+  "completed_count": 10,
+  "remaining_count": 0,
   "completed": [
     {
       "slug": "al_lawson_center",
@@ -52,24 +52,18 @@
       "prompt": "Modern animated comic style background plate of Moore-Kittles Field at Florida A&M University, wide college baseball field establishing view, intimate bleachers, dugout and backstop feel, sunny Florida daylight, green field with orange and green identity touches, warm community atmosphere, clean semi-cartoon linework, readable composition, polished digital illustration, no text, no watermark."
     },
     {
+      "slug": "sbi",
+      "filename": "sbi_exterior_establishing.png",
+      "path": "/data/.openclaw/workspace/famu-math-year-comic/art/final/backgrounds/sbi_exterior_establishing.png",
+      "prompt": "Modern animated comic style background plate of the School of Business and Industry at Florida A&M University, exterior establishing shot, polished and ambitious campus architecture, professional entry walkway, warm Florida daylight, leadership and career-prep energy, clean semi-cartoon linework, readable composition, polished digital illustration, youth-friendly inspirational comic tone, no text, no watermark."
+    },
+    {
       "slug": "top_cafe",
       "filename": "famu_top_cafe_interior.png",
       "path": "/data/.openclaw/workspace/famu-math-year-comic/art/final/backgrounds/famu_top_cafe_interior.png",
       "prompt": "Modern animated comic style background plate of a Florida A&M campus cafe interior, student life warmth, dining and conversation setting, green and orange atmosphere, clean semi-cartoon linework, readable environment, polished digital illustration, no text, no watermark."
     }
   ],
-  "remaining": [
-    {
-      "slug": "sbi",
-      "filename": "sbi_exterior_establishing.png",
-      "path": "/data/.openclaw/workspace/famu-math-year-comic/art/final/backgrounds/sbi_exterior_establishing.png",
-      "prompt": "Modern animated comic style background plate of the School of Business and Industry at Florida A&M University, exterior establishing shot, polished and ambitious campus architecture, professional entry walkway, warm Florida daylight, leadership and career-prep energy, clean semi-cartoon linework, readable composition, polished digital illustration, youth-friendly inspirational comic tone, no text, no watermark."
-    }
-  ],
-  "next": {
-    "slug": "sbi",
-    "filename": "sbi_exterior_establishing.png",
-    "path": "/data/.openclaw/workspace/famu-math-year-comic/art/final/backgrounds/sbi_exterior_establishing.png",
-    "prompt": "Modern animated comic style background plate of the School of Business and Industry at Florida A&M University, exterior establishing shot, polished and ambitious campus architecture, professional entry walkway, warm Florida daylight, leadership and career-prep energy, clean semi-cartoon linework, readable composition, polished digital illustration, youth-friendly inspirational comic tone, no text, no watermark."
-  }
+  "remaining": [],
+  "next": null
 }
