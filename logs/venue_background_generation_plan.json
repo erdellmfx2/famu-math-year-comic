@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-30T18:04:16.429878+00:00",
-  "completed_count": 7,
-  "remaining_count": 3,
+  "updated_at": "2026-04-30T19:36:25.046407+00:00",
+  "completed_count": 9,
+  "remaining_count": 1,
   "completed": [
     {
       "slug": "al_lawson_center",
@@ -34,10 +34,22 @@
       "prompt": "Modern animated comic style background plate of Jackson Davis Hall at Florida A&M University, exterior campus establishing shot, warm Florida light, welcoming academic building atmosphere, green and orange identity accents, clean semi-cartoon linework, polished digital illustration, youth-friendly inspirational comic tone, no text, no watermark."
     },
     {
+      "slug": "jschool",
+      "filename": "jschool_exterior_establishing.png",
+      "path": "/data/.openclaw/workspace/famu-math-year-comic/art/final/backgrounds/jschool_exterior_establishing.png",
+      "prompt": "Modern animated comic style background plate of the School of Journalism & Graphic Communication at Florida A&M University, exterior establishing shot, modern communication-school energy, student media and creative campus atmosphere, welcoming walkway and entry composition, warm Florida daylight, clean semi-cartoon linework, polished digital illustration, readable social-media comic background, no text, no watermark."
+    },
+    {
       "slug": "learning_commons",
       "filename": "famu_learning_commons_interior.png",
       "path": "/data/.openclaw/workspace/famu-math-year-comic/art/final/backgrounds/famu_learning_commons_interior.png",
       "prompt": "Modern animated comic style background plate of a Florida A&M learning commons interior, student study atmosphere, collaborative tables, warm academic lighting, green and orange identity accents, clean semi-cartoon linework, readable environment, polished digital illustration, youth-friendly inspirational comic tone, no text, no watermark."
+    },
+    {
+      "slug": "moore_kittles_field",
+      "filename": "moore_kittles_field_wide_establishing.png",
+      "path": "/data/.openclaw/workspace/famu-math-year-comic/art/final/backgrounds/moore_kittles_field_wide_establishing.png",
+      "prompt": "Modern animated comic style background plate of Moore-Kittles Field at Florida A&M University, wide college baseball field establishing view, intimate bleachers, dugout and backstop feel, sunny Florida daylight, green field with orange and green identity touches, warm community atmosphere, clean semi-cartoon linework, readable composition, polished digital illustration, no text, no watermark."
     },
     {
       "slug": "top_cafe",
@@ -48,18 +60,6 @@
   ],
   "remaining": [
     {
-      "slug": "jschool",
-      "filename": "jschool_exterior_establishing.png",
-      "path": "/data/.openclaw/workspace/famu-math-year-comic/art/final/backgrounds/jschool_exterior_establishing.png",
-      "prompt": "Modern animated comic style background plate of the School of Journalism & Graphic Communication at Florida A&M University, exterior establishing shot, modern communication-school energy, student media and creative campus atmosphere, welcoming walkway and entry composition, warm Florida daylight, clean semi-cartoon linework, polished digital illustration, readable social-media comic background, no text, no watermark."
-    },
-    {
-      "slug": "moore_kittles_field",
-      "filename": "moore_kittles_field_wide_establishing.png",
-      "path": "/data/.openclaw/workspace/famu-math-year-comic/art/final/backgrounds/moore_kittles_field_wide_establishing.png",
-      "prompt": "Modern animated comic style background plate of Moore-Kittles Field at Florida A&M University, wide college baseball field establishing view, intimate bleachers, dugout and backstop feel, sunny Florida daylight, green field with orange and green identity touches, warm community atmosphere, clean semi-cartoon linework, readable composition, polished digital illustration, no text, no watermark."
-    },
-    {
       "slug": "sbi",
       "filename": "sbi_exterior_establishing.png",
       "path": "/data/.openclaw/workspace/famu-math-year-comic/art/final/backgrounds/sbi_exterior_establishing.png",
@@ -67,9 +67,9 @@
     }
   ],
   "next": {
-    "slug": "jschool",
-    "filename": "jschool_exterior_establishing.png",
-    "path": "/data/.openclaw/workspace/famu-math-year-comic/art/final/backgrounds/jschool_exterior_establishing.png",
-    "prompt": "Modern animated comic style background plate of the School of Journalism & Graphic Communication at Florida A&M University, exterior establishing shot, modern communication-school energy, student media and creative campus atmosphere, welcoming walkway and entry composition, warm Florida daylight, clean semi-cartoon linework, polished digital illustration, readable social-media comic background, no text, no watermark."
+    "slug": "sbi",
+    "filename": "sbi_exterior_establishing.png",
+    "path": "/data/.openclaw/workspace/famu-math-year-comic/art/final/backgrounds/sbi_exterior_establishing.png",
+    "prompt": "Modern animated comic style background plate of the School of Business and Industry at Florida A&M University, exterior establishing shot, polished and ambitious campus architecture, professional entry walkway, warm Florida daylight, leadership and career-prep energy, clean semi-cartoon linework, readable composition, polished digital illustration, youth-friendly inspirational comic tone, no text, no watermark."
   }
 }
