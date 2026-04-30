@@ -1,0 +1,11 @@
+2026-04-30T17:30:39.226322+00:00 Remaining venue images: 4
+2026-04-30T17:30:39.227097+00:00  - famu_eternal_flame -> famu_eternal_flame_establishing.png
+2026-04-30T17:30:39.227158+00:00  - jschool -> jschool_exterior_establishing.png
+2026-04-30T17:30:39.227199+00:00  - moore_kittles_field -> moore_kittles_field_wide_establishing.png
+2026-04-30T17:30:39.227231+00:00  - sbi -> sbi_exterior_establishing.png
+2026-04-30T17:30:39.227263+00:00 Venue asset batch starting. Remaining images: 4.
+2026-04-30T17:30:39.227374+00:00 [1/4] Completed famu_eternal_flame: famu_eternal_flame_establishing.png ([dry-run] would generate famu_eternal_flame_establishing.png)
+2026-04-30T17:30:40.227870+00:00 [2/4] Completed jschool: jschool_exterior_establishing.png ([dry-run] would generate jschool_exterior_establishing.png)
+2026-04-30T17:30:41.229257+00:00 [3/4] Completed moore_kittles_field: moore_kittles_field_wide_establishing.png ([dry-run] would generate moore_kittles_field_wide_establishing.png)
+2026-04-30T17:30:42.229810+00:00 [4/4] Completed sbi: sbi_exterior_establishing.png ([dry-run] would generate sbi_exterior_establishing.png)
+2026-04-30T17:30:42.229918+00:00 Venue asset batch finished.

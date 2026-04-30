@@ -6,10 +6,13 @@ import json
 import subprocess
 import sys
 import time
+from datetime import datetime, timezone
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 BACKGROUNDS_DIR = REPO_ROOT / "art" / "final" / "backgrounds"
+LOG_DIR = REPO_ROOT / "logs"
+LOG_PATH = LOG_DIR / "venue_background_generation.log"
 COOLDOWN_SECONDS = 180
 MAX_ATTEMPTS = 2
 
@@ -71,25 +74,15 @@ def run(cmd: list[str], check: bool = True) -> subprocess.CompletedProcess[str]:
     return subprocess.run(cmd, text=True, capture_output=True, check=check)
 
 
-def send_status(message: str, channel: str | None, target: str | None, dry_run: bool) -> None:
+def now_iso() -> str:
+    return datetime.now(timezone.utc).isoformat()
+
+
+def log(message: str) -> None:
     print(message, flush=True)
-    if dry_run or not channel or not target:
-        return
-    cmd = [
-        "openclaw",
-        "message",
-        "send",
-        "--channel",
-        channel,
-        "--target",
-        target,
-        "--message",
-        message,
-    ]
-    try:
-        run(cmd, check=True)
-    except subprocess.CalledProcessError as exc:
-        print(f"[warn] status message failed: {exc.stderr.strip() or exc.stdout.strip()}", file=sys.stderr, flush=True)
+    LOG_DIR.mkdir(parents=True, exist_ok=True)
+    with LOG_PATH.open("a", encoding="utf-8") as fh:
+        fh.write(f"{now_iso()} {message}\n")
 
 
 def is_done(spec: dict[str, str]) -> bool:
@@ -140,31 +133,29 @@ def remaining_specs() -> list[dict[str, str]]:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Generate remaining FAMU venue background assets with cooldowns and retries.")
-    parser.add_argument("--channel", default="telegram", help="Channel for short status messages (default: telegram)")
-    parser.add_argument("--target", default="8642570479", help="Chat target for short status messages")
+    parser = argparse.ArgumentParser(description="Generate remaining FAMU venue background assets with cooldowns, retries, and local logging.")
     parser.add_argument("--cooldown", type=int, default=COOLDOWN_SECONDS, help="Seconds to wait between images and retries")
-    parser.add_argument("--dry-run", action="store_true", help="Show what would run without generating or sending messages")
+    parser.add_argument("--dry-run", action="store_true", help="Show what would run without generating")
     args = parser.parse_args()
 
     BACKGROUNDS_DIR.mkdir(parents=True, exist_ok=True)
     todo = remaining_specs()
-    print(f"Remaining venue images: {len(todo)}", flush=True)
+    log(f"Remaining venue images: {len(todo)}")
     for spec in todo:
-        print(f" - {spec['slug']} -> {spec['filename']}", flush=True)
+        log(f" - {spec['slug']} -> {spec['filename']}")
 
     if not todo:
-        send_status("Venue asset batch: nothing remaining to generate.", args.channel, args.target, args.dry_run)
+        log("Venue asset batch: nothing remaining to generate.")
         return 0
 
-    send_status(f"Venue asset batch starting. Remaining images: {len(todo)}.", args.channel, args.target, args.dry_run)
+    log(f"Venue asset batch starting. Remaining images: {len(todo)}.")
 
     for index, spec in enumerate(todo, start=1):
         slug = spec["slug"]
         output_path = BACKGROUNDS_DIR / spec["filename"]
 
         if output_path.exists():
-            send_status(f"[{index}/{len(todo)}] Skipping {slug}; already exists.", args.channel, args.target, args.dry_run)
+            log(f"[{index}/{len(todo)}] Skipping {slug}; already exists.")
             if index < len(todo):
                 time.sleep(args.cooldown)
             continue
@@ -176,21 +167,21 @@ def main() -> int:
             last_detail = detail
             if ok:
                 success = True
-                send_status(f"[{index}/{len(todo)}] Completed {slug}: {spec['filename']}", args.channel, args.target, args.dry_run)
+                log(f"[{index}/{len(todo)}] Completed {slug}: {spec['filename']} ({detail})")
                 break
 
-            send_status(f"[{index}/{len(todo)}] Error on {slug} attempt {attempt}/{MAX_ATTEMPTS}.", args.channel, args.target, args.dry_run)
+            log(f"[{index}/{len(todo)}] Error on {slug} attempt {attempt}/{MAX_ATTEMPTS}: {detail}")
             if attempt < MAX_ATTEMPTS:
                 time.sleep(args.cooldown)
 
         if not success:
-            send_status(f"[{index}/{len(todo)}] Failed {slug} after {MAX_ATTEMPTS} attempts. Moving on.", args.channel, args.target, args.dry_run)
+            log(f"[{index}/{len(todo)}] Failed {slug} after {MAX_ATTEMPTS} attempts. Moving on.")
             print(f"[error] {slug}: {last_detail}", file=sys.stderr, flush=True)
 
         if index < len(todo):
             time.sleep(args.cooldown)
 
-    send_status("Venue asset batch finished.", args.channel, args.target, args.dry_run)
+    log("Venue asset batch finished.")
     return 0
 
 
