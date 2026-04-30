@@ -40,4 +40,11 @@ The repo now has a first-pass drawing layer. Next step is to either:
 - Attempted a single conservative generation for Episode 02 panel 4 and stopped after strong provider warnings.
 - Google returned `RESOURCE_EXHAUSTED` because the project exceeded its monthly AI Studio spending cap.
 - OpenAI fallback aborted during the same attempt, so no new panel was saved this run.
-- Safest next continuation remains: generate `2026-04-29_week-01_episode-02_panel-04_on-brand.png` once provider capacity/billing is restored, then continue Week 01 comic production.
+- Safest next continuation remained: generate the Episode 02 panel 4 file once provider capacity/billing was restored, then continue Week 01 comic production.
+
+## 2026-04-30 04:00 UTC Nightly Run Note
+- Reviewed the budget plan, storyboards, asset library, and final art before generating anything.
+- Prioritized comic completion over new asset expansion because Episode 02 only needed panel 4 to finish.
+- Generated and saved `art/final/panels/week-01-episode-02/2026-04-30_week-01_episode-02_panel-04_on-brand.png` using `openai/gpt-image-2`.
+- Stopped after the single successful panel to keep the run conservative and leave Week 01 Episode 02 in a clean completed state.
+- Best next continuation: storyboard and prompt Week 01 Episode 03, then resume Week 01 comic production.
