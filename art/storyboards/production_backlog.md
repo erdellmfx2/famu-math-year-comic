@@ -64,3 +64,12 @@ The repo now has a first-pass drawing layer. Next step is to either:
 - All three attempts returned `Failed to optimize image`, so no new panel file was saved and no further image work was attempted this run.
 - Stopped after the third attempt for that panel to avoid spammy retries, continuity drift, or abuse-like behavior.
 - Safest next continuation: retry Episode 03 panel 1 in a later run with an even simpler continuity-preserving prompt or after provider conditions improve, then resume the rest of Episode 03.
+
+## 2026-05-01 07:30 UTC Nightly Run Note
+- Re-reviewed `art/IMAGE_GENERATION_BUDGET_PLAN.md`, all Week 01 storyboards, the asset manifest, and the generated library before attempting new work.
+- Confirmed the highest-value comic target was still `week-01-episode-03` panel 1 because Episode 03 remains the active Week 01 blocker.
+- Made three calm, sequential `openai/gpt-image-2` attempts for that same panel during this run: one continuity-heavy attempt with two prior panel references, one simplified single-reference attempt, and one ultra-simple fallback attempt.
+- The first two attempts returned `Failed to optimize image`; the third attempt aborted before producing an image, so no new panel file was saved.
+- Stopped immediately after the third total attempt for this run to stay within the retry cap for that image and avoid spammy or abuse-like generation behavior.
+- Verified that previously generated but uncommitted reusable assets were present in `art/final/expressions/`, `art/final/props/`, and `art/final/wardrobe/`, leaving the repo in a cleaner continuation state for the next run.
+- Safest next continuation: either retry Episode 03 panel 1 in a future run after provider conditions improve, or pivot briefly to assembling/reusing the newly tracked expression/prop/wardrobe assets if the optimization failures persist.
