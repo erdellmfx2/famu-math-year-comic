@@ -56,3 +56,11 @@ The repo now has a first-pass drawing layer. Next step is to either:
 - The provider returned `Failed to optimize image`, so no new panel file was saved.
 - Stopped immediately after the first failed attempt to avoid spammy retries, continuity drift, or abuse-like behavior.
 - Safest next continuation: retry Episode 03 panel 1 later with a simplified single-panel prompt/reference set, then continue Week 01 comic production.
+
+## 2026-05-01 04:00 UTC Nightly Run Note
+- Reviewed `art/IMAGE_GENERATION_BUDGET_PLAN.md`, the storyboards, asset manifest, and existing final art before generating anything.
+- Confirmed the highest-value next target remained `week-01-episode-03` panel 1 so Week 01 comic production could continue from the current conversation scene.
+- Made three calm, sequential `openai/gpt-image-2` attempts for Episode 03 panel 1, simplifying the prompt/reference load between attempts.
+- All three attempts returned `Failed to optimize image`, so no new panel file was saved and no further image work was attempted this run.
+- Stopped after the third attempt for that panel to avoid spammy retries, continuity drift, or abuse-like behavior.
+- Safest next continuation: retry Episode 03 panel 1 in a later run with an even simpler continuity-preserving prompt or after provider conditions improve, then resume the rest of Episode 03.
