@@ -73,3 +73,39 @@ The repo now has a first-pass drawing layer. Next step is to either:
 - Stopped immediately after the third total attempt for this run to stay within the retry cap for that image and avoid spammy or abuse-like generation behavior.
 - Verified that previously generated but uncommitted reusable assets were present in `art/final/expressions/`, `art/final/props/`, and `art/final/wardrobe/`, leaving the repo in a cleaner continuation state for the next run.
 - Safest next continuation: either retry Episode 03 panel 1 in a future run after provider conditions improve, or pivot briefly to assembling/reusing the newly tracked expression/prop/wardrobe assets if the optimization failures persist.
+
+## 2026-05-02 04:00 UTC Nightly Run Note
+- Reviewed `art/IMAGE_GENERATION_BUDGET_PLAN.md`, the current Week 01 storyboards/prompt packs, the asset manifest, and existing final art before generating anything.
+- Kept the highest-value target on `week-01-episode-03` panel 1 because Episode 03 is still the active Week 01 blocker and already had a panel-specific prompt pack.
+- Made three calm, sequential `openai/gpt-image-2` attempts for that panel in this run: first with 2 same-scene references and the normal concise panel prompt, then with 1 reference and a shortened prompt, then with 1 reference and an ultra-simple fallback prompt.
+- All three attempts aborted before an image was produced, so no new panel file was saved in `art/final/panels/week-01-episode-03/`.
+- Stopped after the third attempt for this run to avoid wild experimentation, continuity drift, or spammy retry behavior.
+- Safest next continuation: pause further Episode 03 panel 1 generation until provider stability improves, then retry with the same minimal single-reference strategy before expanding to later panels.
+
+## 2026-05-02 07:30 UTC Nightly Run Note
+- Re-reviewed `art/IMAGE_GENERATION_BUDGET_PLAN.md`, `art/storyboards/production_backlog.md`, the Week 01 Episode 02-03 storyboard/prompt files, `art/assets/asset_manifest.md`, and the current `art/final/` outputs before generating anything.
+- Confirmed the single highest-value target was still `week-01-episode-03` panel 1 because Episode 03 remains the active Week 01 blocker for moving the current week forward.
+- Attempt 1 used 2 references (`week-01-episode-02` panels 4 and 3) with the normal concise panel prompt focused on the continuing two-shot conversation.
+- Attempt 2 simplified to 1 reference (`week-01-episode-02` panel 4) and a shorter prompt.
+- Attempt 3 kept 1 reference and used an ultra-simple fallback prompt with only the essential table conversation continuity.
+- All three `openai/gpt-image-2` attempts returned an aborted operation before any image file was produced, so no panel was saved into `art/final/panels/week-01-episode-03/`.
+- Stopped after the third attempt for this run to stay within the retry ladder and avoid continuity drift or spammy retry behavior.
+- Safest next continuation: keep Episode 03 panel 1 paused until provider stability improves, then retry from the minimal single-reference prompt strategy rather than adding more references or prompt complexity.
+
+## 2026-05-03 04:00 UTC Nightly Run Note
+- Reviewed `art/IMAGE_GENERATION_BUDGET_PLAN.md`, `art/storyboards/production_backlog.md`, all current Week 01 storyboard/prompt files, `art/assets/asset_manifest.md`, and the existing `art/final/` panel library before generating anything.
+- Kept the highest-value target on `week-01-episode-03` panel 1 because Episode 03 is still the active Week 01 blocker for moving the first week forward.
+- Attempt 1 used 2 references (`week-01-episode-02` panels 4 and 3) with the normal concise panel prompt for the seated two-shot continuation.
+- Attempt 2 simplified to 1 reference (`week-01-episode-02` panel 4) and a shorter prompt.
+- Attempt 3 kept 1 reference and used an ultra-simple fallback prompt with only the essential table conversation continuity.
+- All three `openai/gpt-image-2` attempts returned an aborted operation before any image file was produced, so no panel was saved into `art/final/panels/week-01-episode-03/`.
+- Stopped after the third attempt for this run to avoid wild experimentation, continuity drift, or rapid-fire retries.
+- Safest next continuation: leave Episode 03 panel 1 paused until provider stability improves, then retry from the minimal single-reference strategy instead of adding complexity.
+
+## 2026-05-03 07:30 UTC Nightly Run Note
+- Re-reviewed `art/IMAGE_GENERATION_BUDGET_PLAN.md`, `art/storyboards/production_backlog.md`, the active Week 01 storyboard/prompt files, `art/assets/asset_manifest.md`, and current `art/final/` outputs before generating anything.
+- Confirmed the single highest-value target remained `week-01-episode-03` panel 1 because Episode 03 is still the active blocker for moving Week 01 forward.
+- Attempt 1 used 2 references (`week-01-episode-02` panels 4 and 3) with the existing concise panel prompt focused on the seated conversation continuity.
+- The first `openai/gpt-image-2` attempt succeeded, and the image was saved as `art/final/panels/week-01-episode-03/2026-05-03_week-01_episode-03_panel-01_why-math-question.png`.
+- Stopped after the single success to keep the run conservative and protect continuity.
+- Best next continuation: move to Episode 03 panel 2 with the same minimal-reference discipline.
