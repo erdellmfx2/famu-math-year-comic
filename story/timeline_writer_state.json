@@ -1,5 +1,5 @@
 {
-  "next_week_index": 39,
+  "next_week_index": 40,
   "total_weeks": 54,
   "completed": [
     {
@@ -274,6 +274,13 @@
       "start": "2026-04-24",
       "end": "2026-04-30",
       "file": "story/timeline-weeks/39.md"
+    },
+    {
+      "week_index": 39,
+      "week_number": 40,
+      "start": "2026-05-01",
+      "end": "2026-05-07",
+      "file": "story/timeline-weeks/40.md"
     }
   ]
 }
