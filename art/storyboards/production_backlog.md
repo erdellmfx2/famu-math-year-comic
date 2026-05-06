@@ -109,3 +109,23 @@ The repo now has a first-pass drawing layer. Next step is to either:
 - The first `openai/gpt-image-2` attempt succeeded, and the image was saved as `art/final/panels/week-01-episode-03/2026-05-03_week-01_episode-03_panel-01_why-math-question.png`.
 - Stopped after the single success to keep the run conservative and protect continuity.
 - Best next continuation: move to Episode 03 panel 2 with the same minimal-reference discipline.
+
+## 2026-05-05 18:01 UTC Nightly Run Note
+- Re-reviewed `art/IMAGE_GENERATION_BUDGET_PLAN.md`, `art/storyboards/production_backlog.md`, the active Week 01 storyboard/prompt files, `art/assets/asset_manifest.md`, and current `art/final/` outputs before generating anything.
+- Confirmed the single highest-value target was `week-01-episode-03` panel 2 because Episode 03 is the next active blocker for moving Week 01 forward.
+- Attempt 1 used 2 references (`week-01-episode-03` panel 1 and `week-01-episode-02` panel 4) with the normal concise panel prompt focused on Malik's reflective answer.
+- Attempt 2 simplified to 1 reference (`week-01-episode-03` panel 1) and a shorter prompt after the first attempt aborted.
+- Attempt 3 kept 1 reference and used an ultra-simple fallback prompt with only Malik, the table, laptop continuity, and balloon space.
+- All three `openai/gpt-image-2` attempts returned an aborted operation before any image file was produced, so no panel was saved into `art/final/panels/week-01-episode-03/`.
+- Stopped after the third attempt for this run to stay within the retry cap and avoid continuity drift or wild experimentation.
+- Safest next continuation: leave Episode 03 panel 2 paused until provider stability improves, then retry from the minimal single-reference strategy rather than adding prompt or reference complexity.
+
+## 2026-05-05 18:09 UTC Nightly Run Note
+- Re-reviewed `art/IMAGE_GENERATION_BUDGET_PLAN.md`, `art/storyboards/production_backlog.md`, the active Week 01 storyboard/prompt files, `art/assets/asset_manifest.md`, and current `art/final/` outputs before generating anything.
+- Confirmed the single highest-value target remained `week-01-episode-03` panel 2 because Episode 03 is still the next blocker for moving Week 01 forward.
+- Attempt 1 used 2 references (`week-01-episode-03` panel 1 and `week-01-episode-02` panel 4) with the normal concise panel prompt for Malik's reflective answer.
+- Attempt 2 simplified to 1 reference (`week-01-episode-03` panel 1) and a shorter prompt after the first attempt aborted.
+- Attempt 3 kept 1 reference and used an ultra-simple fallback prompt with only Malik, the campus table, laptop, notebook, calculator, and balloon space.
+- All three `openai/gpt-image-2` attempts returned `This operation was aborted` before any image file was produced, so no panel was saved into `art/final/panels/week-01-episode-03/`.
+- Stopped after the third attempt for this run to stay within the retry ladder and avoid continuity drift, optimization churn, or wild experimentation.
+- Safest next continuation: keep Episode 03 panel 2 paused until provider stability improves, then retry from the minimal single-reference prompt strategy instead of adding more references or detail.
