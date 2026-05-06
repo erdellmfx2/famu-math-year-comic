@@ -129,3 +129,14 @@ The repo now has a first-pass drawing layer. Next step is to either:
 - All three `openai/gpt-image-2` attempts returned `This operation was aborted` before any image file was produced, so no panel was saved into `art/final/panels/week-01-episode-03/`.
 - Stopped after the third attempt for this run to stay within the retry ladder and avoid continuity drift, optimization churn, or wild experimentation.
 - Safest next continuation: keep Episode 03 panel 2 paused until provider stability improves, then retry from the minimal single-reference prompt strategy instead of adding more references or detail.
+
+## 2026-05-06 04:00 UTC Nightly Run Note
+- Re-reviewed `art/IMAGE_GENERATION_BUDGET_PLAN.md`, `art/storyboards/production_backlog.md`, the active Week 01 storyboard/prompt files, `art/assets/asset_manifest.md`, and current `art/final/` outputs before generating anything.
+- Confirmed the single highest-value target remained `week-01-episode-03` panel 2 because Episode 03 is still the next blocker for moving Week 01 forward.
+- Added simplified and ultra-simple fallback wording to `art/prompts/week-01-episode-03-prompts.md` so the panel could be retried cleanly without expanding the reference set.
+- Attempt 1 used 2 references (`week-01-episode-03` panel 1 and `week-01-episode-02` panel 4) with the normal concise panel prompt and returned `This operation was aborted`.
+- Attempt 2 simplified to 1 reference (`week-01-episode-03` panel 1) and the shortened prompt and also returned `This operation was aborted`.
+- Attempt 3 kept 1 reference and used the ultra-simple fallback prompt focused only on Malik, the campus table, the open laptop, warm afternoon continuity, and balloon space.
+- Attempt 3 succeeded, and the image was saved as `art/final/panels/week-01-episode-03/2026-05-06_week-01_episode-03_panel-02_malik-reflective-answer.png`.
+- Stopped after the single successful save to keep the run conservative and protect continuity.
+- Best next continuation: move to `week-01-episode-03` panel 3 with the same minimal-reference discipline.

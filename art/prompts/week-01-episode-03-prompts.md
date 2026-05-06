@@ -14,6 +14,12 @@ Warm college comic panel, seated two-shot at the same outdoor FAMU-inspired camp
 ## Panel 2 Prompt
 Warm conversational comic panel focused on Malik Baptiste at the same campus table, medium shot, calm and reflective as he explains why actuarial science matters to him, laptop with spreadsheet still visible nearby, Nia optionally soft at the edge of frame for continuity, red brick campus and greenery gently blurred in the background, modern animated comic style, clean readable composition, soft shading, consistent character design, phone-friendly framing, negative space for dialogue.
 
+### Panel 2 Simplified Prompt
+Comic panel, medium shot of Malik Baptiste seated at the same outdoor campus table, thoughtful and sincere, laptop with spreadsheet visible, warm brick-and-greenery background, modern animated comic style, clean composition, negative space for dialogue.
+
+### Panel 2 Ultra-Simple Prompt
+Comic panel of Malik at the outdoor campus table, calm reflective expression, laptop open beside him, warm afternoon campus background, simple readable framing, space for dialogue.
+
 ## Panel 3 Prompt
 Warm character-driven comic panel focused on Nia Reynolds at the same campus table, medium shot, bright and sincere as she shares why math matters to her, notebook nearby and visual energy grounded in thoughtful optimism rather than comedy, Malik optionally soft at the edge of frame for continuity, warm Florida light, red brick campus and greenery in the background, modern animated comic style, clean readable composition, soft shading, consistent character design, negative space for dialogue.
 
