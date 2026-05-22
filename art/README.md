@@ -27,7 +27,7 @@ When approval is received, update this README and remove or revise this hold lan
 - `story/timeline-weeks-prose/*.md` — full week-by-week prose source
 - `art/style_guide.md` — visual consistency rules for the comic
 - `art/assets/` — planning assets and manifest material
-- `art/storyboards/` — episode scripts and shot sheets
+- `art/storyboards/` — week-organized episode scripts and shot sheets
 - `art/prompts/` — image-generation prompt packs or drawing briefs
 - `art/final/` — reusable reference assets and approved final outputs
 
@@ -39,7 +39,7 @@ The production goal is to turn the story of two mathematics students into a comi
 
 1. Review the next source week in `story/timeline-weeks/` and `story/timeline-weeks-prose/`
 2. Break that material into episode-sized comic beats
-3. Write or revise storyboard files in `art/storyboards/`
+3. Write or revise storyboard files in `art/storyboards/week-XX/`
 
 ### Phase 2: Visual Planning
 
@@ -91,3 +91,18 @@ Until approval is granted, automation work should be limited to:
 - reporting progress
 
 It should not perform unrestricted comic completion runs.
+
+## Storyboard Organization Rule
+
+Going forward, storyboard files should be organized by week folder.
+
+Pattern:
+- `art/storyboards/week-01/`
+- `art/storyboards/week-02/`
+- `art/storyboards/week-03/`
+
+Inside each week folder, keep episode files named like:
+- `week-01-episode-01.md`
+- `week-01-episode-02.md`
+
+Do not keep new episode storyboard files loose at the top level of `art/storyboards/`.

@@ -18,7 +18,7 @@
 
 ## 2026-05-08 Nightly Run Note
 - Reviewed the budget plan, available storyboard/prompt material, asset manifest, and current final outputs before generating.
-- Recreated the missing `art/storyboards/week-01-episode-03.md`, `art/prompts/week-01-episode-03-prompts.md`, and `art/storyboards/production_backlog.md` files so the comic can continue from the expected repo locations.
+- Recreated the missing `art/storyboards/week-01/week-01-episode-03.md`, `art/prompts/week-01-episode-03-prompts.md`, and `art/storyboards/production_backlog.md` files so the comic can continue from the expected repo locations.
 - Confirmed the highest-value target was `week-01-episode-03` panel 3 because Episode 03 remained the active Week 01 blocker.
 - Attempt 1 used 2 references (`week-01-episode-03` panels 2 and 1 from `logs/`) with the normal concise panel prompt and timed out.
 - Attempt 2 simplified to 1 reference (`week-01-episode-03` panel 2 from `logs/`) and a shorter prompt.
