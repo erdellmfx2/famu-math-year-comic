@@ -1,74 +1,74 @@
 ---
 name: comic-episode-image-production
-description: Create polished 4-panel comic episode page images from FAMU Math Year Comic storyboard files in `art/storyboards/`, using the art style guide, asset references, and a two-pass image workflow of page generation followed by lettering/dialogue integration. Use when the user wants a storyboard turned into a comic page image or wants the comic-image production workflow reused consistently across episodes.
+description: Create one polished, lettered 4-panel comic page from an approved McCall-Hart University episode storyboard, using current v2 continuity assets and a two-pass art-then-lettering workflow. Use when the user asks to turn an approved storyboard into a comic page or reuse the established episode-image process. Refuse image production while the repository approval gate is closed.
 ---
 
 # Comic Episode Image Production
 
-Use this skill when converting one storyboard file into one finished comic page image.
+## Check the Gate First
 
-## Inputs to read first
+Read `story/approval_status.json` before opening a storyboard or calling an image tool.
 
-1. `art/style_guide.md`
-2. The target storyboard in `art/storyboards/`
-3. Relevant continuity assets in `art/final/` when the storyboard depends on character or location consistency
+Proceed only when both are true:
 
-## Output target
+- `script_approved` is `true`
+- `comic_production_allowed` is `true`
 
-Produce one single image that contains the full 4-panel episode page unless the user explicitly asks for separate panel files.
+If either value is false, stop image production and report that script approval is still required. Do not create a sample, storyboard, prompt pack, panel, or page as a workaround.
 
-## Default workflow
+## Read Current Sources
 
-1. Read the storyboard and identify:
-   - episode purpose
-   - emotional arc
-   - all 4 panel visuals
-   - all dialogue/captions
-2. Build a first-pass prompt for a **single 4-panel comic page**:
-   - preserve panel order
-   - keep gutters clean
-   - optimize for phone readability
-   - preserve FAMU environment, Malik/Nia continuity, and negative space for lettering
-   - do **not** render text in pass one
-3. Generate the page image.
-4. Build a second-pass edit prompt against that page:
-   - preserve the exact artwork and layout
-   - add dialogue balloons and caption boxes
-   - keep lettering crisp and readable
-   - avoid covering faces, props, or key storytelling
-5. Generate the lettered version.
+After the gate is open, read:
 
-## Prompt rules
+1. `story/setting_bible_v2.md`
+2. `story/character_bible_v2.md`
+3. `art/style_guide.md`
+4. The target storyboard under `art/storyboards/week-XX/`
+5. Current v2 continuity assets under `art/final/`
 
-- Always describe the result as a **single finished 4-panel comic page** when using the combined-page approach.
-- Keep one main emotional beat per panel.
-- Reuse the style language from `art/style_guide.md`:
-  - modern animated comic
-  - youth / young adult
-  - G-rated
-  - clean semi-cartoon linework
-  - expressive faces
-  - soft shading
-  - vibrant but balanced greens, oranges, golds, neutrals
-  - hopeful, grounded, energetic, academic, communal
-- For Malik:
-  - composed, structured, slightly reserved
-  - deep green / charcoal / white palette
-- For Nia:
-  - bright curiosity, warm confidence
-  - orange with green accents, denim or neutral base
-- Always preserve FAMU campus warmth: red brick, green lawns, student movement, HBCU community spirit.
+Never use files under any `archive/` path as visual references. They preserve obsolete continuity and institutional identity.
 
-## Lettering rules
+## Produce One Page
 
-- Add text only in the second pass unless the user explicitly asks for one-pass lettering.
-- Use:
-  - white speech balloons with clean outlines
-  - crisp black lettering
-  - polished caption boxes
-- Keep text concise and verbatim from the storyboard unless the user asks for edits.
+Default to one image containing the full four-panel episode page unless the user explicitly requests a single panel.
 
-## Deliverable notes
+1. Identify the episode purpose, emotional turn, four panel visuals, and exact text.
+2. Create a first-pass prompt for one four-panel page.
+3. Preserve panel order, clean gutters, phone readability, character continuity, and negative space.
+4. Generate art without dialogue, captions, logos, or incidental text.
+5. Inspect the page for continuity and staging.
+6. Edit the same page in a second pass to add exact dialogue and captions.
+7. Inspect lettering for spelling, balloon order, face clearance, and mobile legibility.
 
-- If the user says “create a picture for the storyboard,” default to a full episode page, not a single isolated panel.
-- If the user says “panel 1” or similar, create only that panel.
+## Continuity Rules
+
+- Setting: Fictional McCall-Hart University in Bellwether, Alabama
+- Palette: Indigo, copper, cream, cypress gray, warm limestone, and dark walnut
+- Campus: Honey brick, pale limestone, wrought iron, live oaks, magnolias, cypress trees, and copper sunset light
+- Identity: Great blue heron mark and Herons athletics only when a mark is necessary
+- Malik: Indigo, cream, charcoal, and muted copper; composed posture and dry warmth
+- Nia: Copper, cream, indigo accents, denim, and warm brown; open and expressive posture
+- Avoid: Green-and-orange legacy identity, snake mascots, real-university marks, real-university buildings, and archived visual assets
+
+## Prompt Rules
+
+- Say `one finished four-panel comic page` for combined-page output.
+- Keep one main story beat per panel.
+- Describe only characters and locations required by the storyboard.
+- Use modern animated comic, clean semi-cartoon linework, expressive faces, soft shading, and readable staging.
+- Keep the result G-rated and grounded.
+- Do not render text in pass one.
+- Do not invent dialogue, institution names, signs, or logos.
+
+Read `references/prompt-template.md` when constructing the two image prompts.
+
+## Lettering Rules
+
+- Add text only in pass two unless the user explicitly requests one-pass lettering.
+- Use white balloons, clean outlines, crisp black lettering, and restrained caption boxes.
+- Preserve storyboard wording exactly unless the user asks for a dialogue revision.
+- Keep reading order unambiguous and do not cover faces, hands, equations, or essential props.
+
+## Output Rule
+
+Save approved v2 outputs under `art/final/` using week and episode folders. Never write new output into an archive path.

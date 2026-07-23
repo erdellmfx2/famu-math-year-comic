@@ -1,108 +1,44 @@
-# Art Production README
+# Art Production
 
-This folder tracks the production workflow for turning the FAMU Math Year Comic story into comic-ready visual episodes.
+This folder will hold the v2 visual workflow for *The Formula of Becoming*, set at fictional McCall-Hart University.
 
 ## Current Status
 
-- Story source is active and usable from `story/timeline-weeks/` and `story/timeline-weeks-prose/`
-- Core art direction is defined in `art/style_guide.md`
-- Reusable visual reference assets exist in `art/final/`
-- Week 01 storyboards are now drafted in `art/storyboards/`
-- Early prompt and panel experiments exist for Week 01 Episode 03
-- Full comic production is **paused pending university approval**
+- The 54-week v2 story script is drafted and awaiting approval.
+- New storyboards, prompt packs, panels, pages, and visual assets are blocked.
+- Existing legacy storyboards and generated art are preserved under `art/archive/` and must not be reused as v2 continuity.
+- The active `art/final/` path contains no approved v2 visual assets yet.
 
 ## Approval Gate
 
-Do not treat this project as cleared for full-scale comic production yet.
+Read `story/approval_status.json` before any art task.
 
-Current rule:
-- We may prepare storyboards, prompts, workflow documents, and small review samples
-- We should **not** mass-produce the comic, automate bulk image generation, or finalize a full episode run until university approval is received
+Do not create visual production material unless both values are true:
 
-When approval is received, update this README and remove or revise this hold language before enabling batch production.
+- `script_approved`
+- `comic_production_allowed`
 
-## Folder Structure
+Changing a README or preparing a prompt is not a way around the gate. Approval must be recorded explicitly in the status file after the user approves the script.
 
-- `story/timeline-weeks/*.md` — short week-by-week story beats
-- `story/timeline-weeks-prose/*.md` — full week-by-week prose source
-- `art/style_guide.md` — visual consistency rules for the comic
-- `art/assets/` — planning assets and manifest material
-- `art/storyboards/` — week-organized episode scripts and shot sheets
-- `art/prompts/` — image-generation prompt packs or drawing briefs
-- `art/final/` — reusable reference assets and approved final outputs
+## Active Sources
 
-## Production Workflow
+- `story/setting_bible_v2.md`
+- `story/character_bible_v2.md`
+- `story/script-v2-output/the-formula-of-becoming-script-v2.md`
+- `art/style_guide.md`
+- `art/assets/asset_manifest.md`
+- `skills/comic-episode-image-production/SKILL.md`
 
-The production goal is to turn the story of two mathematics students into a comic that can appeal to younger students who may be interested in mathematics.
+## Post-Approval Workflow
 
-### Phase 1: Story Preparation
+1. Select an approved weekly script.
+2. Draft episode storyboards under `art/storyboards/week-XX/`.
+3. Review continuity, dialogue, and phone readability.
+4. Build prompt packs under `art/prompts/week-XX/`.
+5. Produce one four-panel page without text.
+6. Add lettering in a second pass.
+7. Save approved v2 output under `art/final/`.
 
-1. Review the next source week in `story/timeline-weeks/` and `story/timeline-weeks-prose/`
-2. Break that material into episode-sized comic beats
-3. Write or revise storyboard files in `art/storyboards/week-XX/`
+## Organization Rule
 
-### Phase 2: Visual Planning
-
-1. Review `art/style_guide.md`
-2. Review reusable continuity assets in `art/final/`
-3. Build episode prompt packs in `art/prompts/`
-4. Keep panel framing phone-readable and dialogue-friendly
-
-### Phase 3: Image Production
-
-1. Generate a full 4-panel episode page from the storyboard
-2. Add dialogue and captions in a second pass when needed
-3. Review continuity for characters, props, wardrobe, and setting
-4. Save approved outputs in the correct `art/final/` location
-
-### Phase 4: Batch Production
-
-This phase is intentionally blocked for now.
-
-Do not run bulk panel creation or automation until:
-- university approval is received
-- the automation instructions are defined
-- the review process for outputs is agreed on
-
-## Current Completed Work
-
-- Style guide drafted
-- Asset manifest drafted
-- Core character/background/wardrobe reference assets present
-- Week 01 storyboard batch drafted
-- Example prompt pack present for Week 01 Episode 03
-- Example comic-page generation workflow tested manually
-
-## Next Approved Work Before University Clearance
-
-- Review and refine storyboard quality
-- Review prompt quality
-- Organize continuity references
-- Prepare automation instructions without executing bulk production
-
-## Future Automation Note
-
-An automation can be added later to continue storyboard-to-panel development, but the automation should respect the approval gate above.
-
-Until approval is granted, automation work should be limited to:
-- preparing files
-- organizing workflow steps
-- drafting prompts
-- reporting progress
-
-It should not perform unrestricted comic completion runs.
-
-## Storyboard Organization Rule
-
-Going forward, storyboard files should be organized by week folder.
-
-Pattern:
-- `art/storyboards/week-01/`
-- `art/storyboards/week-02/`
-- `art/storyboards/week-03/`
-
-Inside each week folder, keep episode files named like:
-- `week-01-episode-01.md`
-- `week-01-episode-02.md`
-
-Do not keep new episode storyboard files loose at the top level of `art/storyboards/`.
+Keep storyboard, prompt, and final files grouped by week and episode. Do not place episode files loose at the root of those folders.

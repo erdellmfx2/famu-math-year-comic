@@ -1,66 +1,91 @@
-# Master Calendar 2025-2026 (Daily Story Backbone)
+# McCall-Hart Story Master Calendar v2
+
+> Script status: awaiting approval. Comic production remains paused.
 
 Date range: **2025-08-01 to 2026-08-09**
 
-Total days: **374**
+Daily episodes: **374**
 
-## Phase counts
+Weekly scripts: **54**
 
-- college_prep: 24 days
-- fall_classes: 103 days
+## Phase Counts
+
+- summer_bridge: 14 days
+- move_in: 7 days
+- fall_classes: 105 days
 - fall_finals: 7 days
-- winter_break: 23 days
-- spring_classes: 110 days
+- winter_break: 21 days
+- spring_transition: 7 days
+- spring_classes: 98 days
+- spring_break: 7 days
 - spring_finals: 7 days
-- summer_break: 18 days
-- summer_a: 40 days
-- summer_b: 40 days
-- summer_wrap: 2 days
+- spring_close: 7 days
+- summer_start: 7 days
+- summer_a: 35 days
+- summer_break: 7 days
+- summer_b: 35 days
+- summer_finals: 7 days
+- summer_epilogue: 3 days
 
-## High / Peak pressure sample days
+## Weekly Index
 
-- 2025-08-30 (high): Football: vs (neutral) Howard
-- 2025-09-06 (high): Football: at Florida Atlantic
-- 2025-09-09 (high): Midterm-style exam window
-- 2025-09-10 (high): Quiz / concept check window | Midterm-style exam window
-- 2025-09-11 (high): Midterm-style exam window
-- 2025-09-13 (high): Football: vs Albany State
-- 2025-09-27 (high): Football: vs Alabama State
-- 2025-10-07 (high): Midterm-style exam window
-- 2025-10-08 (high): Quiz / concept check window | Midterm-style exam window
-- 2025-10-09 (high): Midterm-style exam window
-- 2025-10-11 (high): Football: vs North Carolina Central
-- 2025-10-18 (high): Football: vs Alcorn State
-- 2025-10-21 (high): Mens Basketball: vs Edward Waters
-- 2025-10-25 (high): Football: at Southern
-- 2025-10-26 (high): Mens Basketball: at Florida State
-- 2025-11-01 (high): Football: vs Jackson State
-- 2025-11-03 (high): Mens Basketball: at South Florida
-- 2025-11-06 (high): Midterm-style exam window
-- 2025-11-08 (peak): Football: at Arkansas - Pine Bluff | Mens Basketball: vs Kennesaw State
-- 2025-11-11 (high): Mens Basketball: at Central Florida
-- 2025-11-12 (high): Quiz / concept check window | Midterm-style exam window
-- 2025-11-15 (high): Football: at Alabama A&M
-- 2025-11-17 (high): Mens Basketball: at Georgia
-- 2025-11-22 (high): Football: vs (neutral) Bethune-Cookman
-- 2025-11-29 (high): Football: at Mississippi Valley State
-- 2025-12-02 (high): Mens Basketball: at Jacksonville
-- 2025-12-05 (high): Mens Basketball: vs (neutral) Barber–Scotia College
-- 2025-12-06 (peak): Football: vs (neutral) Southwestern Athletic Conference Championship | Mens Basketball: vs (neutral) Florida Memorial
-- 2025-12-07 (high): Final exams period
-- 2025-12-08 (high): Final exams period
-- 2025-12-09 (high): Final exams period
-- 2025-12-10 (high): Final exams period
-- 2025-12-11 (high): Final exams period
-- 2025-12-12 (high): Final exams period
-- 2025-12-13 (high): Football: vs (neutral) Celebration Bowl
-- 2025-12-15 (high): Mens Basketball: vs Albany State
-- 2025-12-17 (high): Mens Basketball: vs Jacksonville
-- 2025-12-19 (high): Mens Basketball: at Tarleton State
-- 2025-12-21 (high): Mens Basketball: at Texas Christian
-- 2025-12-28 (high): Mens Basketball: at Georgia Tech
+| Week | Dates | Title | Academic focus | Arc turn | Event anchors |
+|---:|---|---|---|---|---|
+| 1 | 2025-08-01 to 2025-08-07 | Two Kinds of Plans | Algebra readiness, functions, data tables, and explicit assumptions | Malik and Nia meet, clash over method, and discover that their strengths fit together. | Quantitative Summer Bridge opens; First campus tour; Indigo Night welcome event |
+| 2 | 2025-08-08 to 2025-08-14 | The Shape of an Invitation | Function notation, domain, range, graph interpretation, and model limitations | Nia and Julian begin a flirtation while Malik chooses a difficult extracurricular goal of his own. | Campus radio showcase; Heron Analytics orientation; Bridge faculty lunch |
+| 3 | 2025-08-15 to 2025-08-21 | Rooms, Rules, and First Impressions | Bridge capstone modeling, unit analysis, and communicating a result to a nontechnical audience | The core supporting cast forms, and Malik learns that competence does not automatically make him a good teammate. | Residence halls open; Bridge capstone; Opening Convocation |
+| 4 | 2025-08-22 to 2025-08-28 | The First Limit | Calculus I review, functions, graphical limits, and one-sided behavior | Nia and Julian step toward a relationship; Malik is selected as an analytics alternate rather than a full member. | First class meeting; Add-drop period; Heron Analytics selections |
+| 5 | 2025-08-29 to 2025-09-04 | Kickoff | Limit laws, infinite limits, continuity, and the first homework-set deadline | Nia and Julian's first date succeeds, and Malik's useful halftime observation earns him a trial seat on the analytics team. | Heritage Kickoff Classic; Labor Day; Football analytics data review |
+| 6 | 2025-09-05 to 2025-09-11 | Continuity Under Pressure | Continuity, the Intermediate Value Theorem, and the derivative as a limit | Malik's need to impress causes his first team error, while Nia learns that a new relationship still needs boundaries. | Football road game; Analytics trial week; First exam review announced |
+| 7 | 2025-09-12 to 2025-09-18 | What the First Test Measures | Derivative rules, test one on limits and continuity, and error analysis | Malik earns a full analytics seat but receives a poor calculus grade; public progress and private shame arrive together. | Football home opener; Calculus I test one; Analytics roster decision |
+| 8 | 2025-09-19 to 2025-09-25 | No Model for the Storm | Product, quotient, and chain rules; interpreting changing rates | The storm turns Malik's academic shame into a family crisis he can no longer manage alone. | Gulf storm watch; Campus supply drive; Math colloquium on uncertainty |
+| 9 | 2025-09-26 to 2025-10-02 | What Water Takes | Implicit differentiation, related rates, and documented make-up work | Malik sees the material and financial scale of his family's loss; Nia and Julian become an official couple. | Founders' Cup football weekend; Storm cleanup; Financial-aid emergency appointment |
+| 10 | 2025-10-03 to 2025-10-09 | The Cost of Looking Fine | Linear approximation, differentials, and an applications exam | Malik's concealment costs him academically, and Nia's habit of overgiving creates friction with Julian. | North Star work-study begins; Analytics model checkpoint; First relationship conflict |
+| 11 | 2025-10-10 to 2025-10-16 | Cypress Week | Critical points, curve sketching, optimization, and interpreting derivative signs | DJ achieves a public sports breakthrough while Nia and Julian's relationship begins to crack under public obligations. | Homecoming service day; Battle of the Bands; Homecoming football game |
+| 12 | 2025-10-17 to 2025-10-23 | The Maximum Is Not the Meaning | Optimization applications, Mean Value Theorem, and test two corrections | Malik's team submits a competitive regional model; Nia and Julian repair the surface of their conflict but not its cause. | Applied mathematics colloquium; Analytics regional submission; Relationship repair attempt |
+| 13 | 2025-10-24 to 2025-10-30 | Beyond the Campus Map | Antiderivatives, initial-value problems, and accumulated change | The first national-lab visit expands both students' ambitions while widening the gap between Nia and Julian. | Delta National Laboratory day trip; Football road game; Insurance claim delay |
+| 14 | 2025-10-31 to 2025-11-06 | Riemann Sums and Missing Pieces | Riemann sums, definite integrals, and estimating totals from incomplete data | Nia's relationship tension becomes visible to friends, and Malik's analytics team advances to the semifinal. | Costume math outreach night; Football rivalry game; Basketball exhibition |
+| 15 | 2025-11-07 to 2025-11-13 | What Can Still Be Changed | Fundamental Theorem of Calculus, net change, and substitution | Malik learns that his father's recovery will take longer; Nia and Julian stop pretending one date fixed them. | Veterans Day observance; Analytics semifinal rehearsal; Withdrawal and advising week |
+| 16 | 2025-11-14 to 2025-11-20 | Two Honest Losses | Substitution, area between curves, and test three | Nia's first relationship ends, and Malik's team fails to advance despite a strong presentation. | Heron Analytics regional semifinal; Football road game; Nia and Julian's breakup |
+| 17 | 2025-11-21 to 2025-11-27 | The Catch and the Quiet After | Applications of definite integrals, cumulative review, and communicating solutions | DJ's decisive sports success lifts the campus while Nia and Malik begin processing loss instead of hiding it. | River Classic; Thanksgiving travel; Marching-band farewell performance |
+| 18 | 2025-11-28 to 2025-12-04 | The Work Before the Answer | Comprehensive Calculus I review, proof of reasoning, and final project completion | Malik accepts that the analytics loss will not be reversed; Nia learns to ask for help while grieving. | Thanksgiving return; Regular-season football finale; Basketball home opener |
+| 19 | 2025-12-05 to 2025-12-11 | Everything That Counts | Calculus I final examination and explanation-based review | The fall ends with an athletic championship and credible academic recovery, but no romantic shortcut. | Last day of classes; Conference football championship; Final examinations |
+| 20 | 2025-12-12 to 2025-12-18 | After the Grades | Fall reflection, transcript review, and identifying concrete spring prerequisites | DJ receives a scholarship increase, and Malik earns a solid recovery without the competition victory he wanted. | Commencement; Heritage Bowl; Final grades released |
+| 21 | 2025-12-19 to 2025-12-25 | Christmas Without the Old Version | Rest, family responsibility, and a light preview of integration applications | Nia grieves the relationship without returning to it, while Malik stops treating care for her as a claim on her future. | Holiday travel; Community meal; Basketball road trip |
+| 22 | 2025-12-26 to 2026-01-01 | The Year Turns Quietly | Calculus II readiness: antiderivative fluency, graph interpretation, and algebra repair | Malik chooses to stop waiting for Nia, and Nia applies for a research opportunity that will define spring. | New Year's Eve; Spring registration check; Research opportunity announcements |
+| 23 | 2026-01-02 to 2026-01-08 | The First Return | Calculus II orientation, accumulated area review, and applications of integration | Malik and Simone reconnect in person, and Nia joins Dr. Price's flood-model research group. | Residence halls reopen; First spring class meeting; Research matching session |
+| 24 | 2026-01-09 to 2026-01-15 | Volumes and Openings | Area, volume by disks and washers, and shell-method reasoning | Malik begins the spring relationship; Nia recognizes that her reaction is more than protective friendship. | Heritage Tip-Off doubleheader; Add-drop deadline; Malik and Simone's first official date |
+| 25 | 2026-01-16 to 2026-01-22 | Work Worth Doing | Arc length, surface area, and work integrals | Malik and Simone become official, and Nia commits her flood model to the regional symposium track. | Martin Luther King Jr. service day; Basketball road games; Symposium application opens |
+| 26 | 2026-01-23 to 2026-01-29 | Choosing a Method | Integration by parts and method selection | Nia's project survives its first serious audit, and Malik begins investing in a relationship rather than merely enjoying one. | Basketball home weekend; Research-team data audit; Porter Center career panel |
+| 27 | 2026-01-30 to 2026-02-05 | Identity in the Integral | Trigonometric integrals, trigonometric substitution, and algebraic identities | Nia's proposal advances to the campus round, and Keisha's independent success prevents the research team from becoming Nia's possession. | Away basketball weekend; Campus research selection; Keisha's indoor track meet |
+| 28 | 2026-02-06 to 2026-02-12 | The Room Beyond the Classroom | Partial fractions, numerical integration, and test one | Nia encounters real undergraduate research culture and decides she wants the fellowship, not merely the experience. | Southeastern Mathematics Futures Conference; Softball opening weekend; Basketball doubleheader |
+| 29 | 2026-02-13 to 2026-02-19 | Valentine's Data | Improper integrals, convergence of unbounded quantities, and test corrections | Malik and Simone deepen their relationship, while Nia's first public research pitch exposes a major weakness. | Valentine's Day; Baseball opening series; Research proposal pitch |
+| 30 | 2026-02-20 to 2026-02-26 | The First Infinite Question | Sequences, monotonicity, boundedness, and limits of sequences | The summer lab path opens, and Simone's international ambition introduces a future Malik did not include in his plans. | Delta National Laboratory virtual briefing; Packed baseball-softball weekend; Simone's internship application |
+| 31 | 2026-02-27 to 2026-03-05 | What Converges | Infinite series, geometric series, divergence, and the integral test | Nia's team reaches the regional presentation stage, and Malik realizes Simone's summer plans may not include their relationship. | Rivalry basketball finale; Research campus semifinal; Guest talk on disaster communication |
+| 32 | 2026-03-06 to 2026-03-12 | Tests of Convergence | Comparison, ratio, root, and alternating-series tests | Nia earns a symposium place while Malik and Simone begin confronting an incompatibility that affection cannot solve. | Conference basketball tournament; Symposium acceptance; Simone's London interview |
+| 33 | 2026-03-13 to 2026-03-19 | Spring Break, Old Angles | Power-series preview, approximation error, and research revision | Julian and Nia prove they can collaborate without reuniting, while Malik's jealousy reveals feelings he has not resolved. | Spring break; Postseason basketball; Project documentary work |
+| 34 | 2026-03-20 to 2026-03-26 | Radius of Influence | Power series, radius and interval of convergence, and approximation error | The lab visit validates the project direction, while Simone sees that Malik and Nia's connection is unresolved. | Delta National Laboratory research visit; Baseball-softball road series; Track outdoor opener |
+| 35 | 2026-03-27 to 2026-04-02 | Approximation Is Not Arrival | Taylor and Maclaurin series, polynomial approximation, and error bounds | Nia's polished presentation fails in rehearsal, and Simone receives the offer that makes her spring choice concrete. | Symposium rehearsal; Softball rivalry series; London internship offer |
+| 36 | 2026-04-03 to 2026-04-09 | Different Parameters | Parametric equations, velocity, acceleration, and arc length | Simone ends the relationship with agency and care; Malik refuses to move immediately toward Nia. | Course withdrawal deadline; Simone and Malik's breakup; Research final submission |
+| 37 | 2026-04-10 to 2026-04-16 | The Presentation and the No | Polar coordinates, polar area, and choosing coordinate systems for a problem | Nia gives the strongest talk she can and does not receive the national fellowship. | Southeastern Undergraduate Mathematics Symposium; Track invitational; Baseball conference series |
+| 38 | 2026-04-17 to 2026-04-23 | What Remains | Calculus II synthesis, polar review, and final-project interpretation | Nia keeps the research alive without pretending she has recovered, and both old relationships receive clear closure. | Last full class week; Softball-baseball home finales; Guest seminar on public mathematics |
+| 39 | 2026-04-24 to 2026-04-30 | No Shortcut Through Finals | Calculus II final examination: integration methods, series, parametric equations, and polar coordinates | Malik and Nia finish spring independently and both receive summer opportunities tied to the rejected project. | Final examinations; Softball rivalry weekend; Summer program decisions |
+| 40 | 2026-05-01 to 2026-05-07 | The Space Between Semesters | Final grade reflection and Calculus III readiness | Both students accept the summer program but agree to begin as separate researchers, not an assumed pair. | Last day of classes; Commencement; Softball tournament; Residence-hall move-out |
+| 41 | 2026-05-08 to 2026-05-14 | Vectors and Boundaries | Calculus III vectors, three-dimensional coordinates, magnitude, and direction | Malik and Nia reunite as project colleagues and set explicit boundaries before old ease can decide for them. | Summer Quantitative Scholars orientation; First summer class meeting; Baseball road series |
+| 42 | 2026-05-15 to 2026-05-21 | Lines That Do Not Meet | Dot products, cross products, lines, planes, and distances in space | The team discovers that Malik's risk metric and Nia's access metric optimize different outcomes. | Baseball home finale; Community advisory meeting; First project design review |
+| 43 | 2026-05-22 to 2026-05-28 | Motion in the Real World | Vector-valued functions, velocity, acceleration, curvature, and motion in space | The project shifts from abstract routes to household decisions, and Malik begins speaking openly about his family's storm loss. | Memorial Day; Bellwether neighborhood interviews; Summer research methods workshop |
+| 44 | 2026-05-29 to 2026-06-04 | The Gradient Trip | Functions of several variables, partial derivatives, gradients, and directional derivatives | The national-lab visit gives the extracurricular arc real substance and brings Malik and Nia into their first fully honest private conversation. | Three-day Delta National Laboratory visit; Supercomputing tour; Scientist progress presentation |
+| 45 | 2026-06-05 to 2026-06-11 | Tangent to Home | Tangent planes, linear approximation, multivariable chain rules, and local error | Nia enters Malik's family world during the final repair push, and local approximation becomes a practical project compromise. | Baptiste home repair weekend; Project approximation benchmark; Summer speaker series |
+| 46 | 2026-06-12 to 2026-06-18 | The Constraint Is Real | Multivariable extrema, Lagrange multipliers, and constrained optimization | Malik and Nia acknowledge mutual attraction but refuse to begin a relationship in the middle of unresolved project pressure. | Summer A examination; Research poster draft; Community validation round |
+| 47 | 2026-06-19 to 2026-06-25 | Freedom Is a Practice | Summer A synthesis and translating mathematical work for public use | Nia's failed fellowship project becomes a useful public workshop without being converted into an award. | Juneteenth; Bellwether community festival; Summer A grades |
+| 48 | 2026-06-26 to 2026-07-02 | The First Date, Again | Double integrals, iterated integration, planar regions, and polar conversion | Malik and Nia finally go on a date, but delay labels until they discuss what a relationship would require. | Summer B begins; Malik and Nia's first date; Campus emergency-tabletop exercise |
+| 49 | 2026-07-03 to 2026-07-09 | A Place at the Table | Triple integrals, cylindrical coordinates, spherical coordinates, mass, and density | Malik and Nia choose an exclusive relationship after their connection survives family, disagreement, and unglamorous work. | Independence Day; Baptiste family cookout; Project field-sensor test |
+| 50 | 2026-07-10 to 2026-07-16 | A Field With Consequences | Vector fields, conservative fields, potential functions, and line integrals | The model contributes to a real preparedness exercise, and Malik avoids turning renewed analytics interest into a promise of redemption. | Bellwether emergency drill; National-lab remote review; Preseason athletics analytics workshop |
+| 51 | 2026-07-17 to 2026-07-23 | Around the Boundary | Green's Theorem, circulation, flux, and boundary orientation | The project earns a showcase slot only after leadership is distributed visibly across the team. | Summer Scholars preliminary review; Community advisory vote; Keisha's student-developer presentation |
+| 52 | 2026-07-24 to 2026-07-30 | What Crosses the Surface | Parametric surfaces, surface integrals, Stokes' Theorem, and the Divergence Theorem | The model fails safely in public, and the students define success as transparent limits plus useful decisions. | Calculus III final project; Live model failure test; Second-year registration |
+| 53 | 2026-07-31 to 2026-08-06 | The Work Leaves Their Hands | Calculus III final examination and integrated vector-calculus interpretation | The project becomes a community-owned pilot, and both students receive next-step invitations without guaranteed success. | Final examinations; Summer Scholars Showcase; Project handoff to Bellwether partners |
+| 54 | 2026-08-07 to 2026-08-09 | The Bell Before Year Two | Reflection, handoff, and second-year intentions | Family, academic, athletic, and romantic arcs reach honest resolution without pretending the future is solved. | Summer grades released; Founders' Bell gathering; Second-year preview |
 
-## Notes
-- Daily activities are narrative-ready prompts for Malik and Nia.
-- Sports pulled from official FAMU athletics schedule pages.
-- Academic blocks use semester backbone assumptions aligned to gathered calendar artifacts.
+## Generation Rule
+
+This calendar is compiled from authored daily beats. The build script may validate and format those beats, but it must not invent replacement plot by rotating generic activity lists.

@@ -1,0 +1,375 @@
+date,academic_phase,fixed_events,syllabus_events,sports_events,character_activity_malik,character_activity_nia,professor_touchpoint,comic_scene_hint,priority_score
+2025-08-01,college_prep,,,,build budget spreadsheet for semester,organize color-coded notes system,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2025-08-02,college_prep,,,,compare meal-plan spending and textbook costs,visit campus organizations fair,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2025-08-03,college_prep,,,,map actuarial pathway milestones,create weekly balance plan (study/rest),Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2025-08-04,college_prep,,,,set up class folders and calendar reminders,draft personal learning goals,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2025-08-05,college_prep,,,,build budget spreadsheet for semester,organize color-coded notes system,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2025-08-06,college_prep,,,,compare meal-plan spending and textbook costs,visit campus organizations fair,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2025-08-07,college_prep,,,,map actuarial pathway milestones,create weekly balance plan (study/rest),Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2025-08-08,college_prep,,,,set up class folders and calendar reminders,draft personal learning goals,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2025-08-09,college_prep,,,,build budget spreadsheet for semester,organize color-coded notes system,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2025-08-10,college_prep,,,,compare meal-plan spending and textbook costs,visit campus organizations fair,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2025-08-11,college_prep,,,,map actuarial pathway milestones,create weekly balance plan (study/rest),Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2025-08-12,college_prep,,,,set up class folders and calendar reminders,draft personal learning goals,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2025-08-13,college_prep,,,,build budget spreadsheet for semester,organize color-coded notes system,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2025-08-14,college_prep,,,,compare meal-plan spending and textbook costs,visit campus organizations fair,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2025-08-15,college_prep,,,,map actuarial pathway milestones,create weekly balance plan (study/rest),Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2025-08-16,college_prep,,,,set up class folders and calendar reminders,draft personal learning goals,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2025-08-17,college_prep,,,,build budget spreadsheet for semester,organize color-coded notes system,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2025-08-18,college_prep,,,,compare meal-plan spending and textbook costs,visit campus organizations fair,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2025-08-19,college_prep,,,,map actuarial pathway milestones,create weekly balance plan (study/rest),Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2025-08-20,college_prep,,,,set up class folders and calendar reminders,draft personal learning goals,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2025-08-21,college_prep,,,,build budget spreadsheet for semester,organize color-coded notes system,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2025-08-22,college_prep,,,,compare meal-plan spending and textbook costs,visit campus organizations fair,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2025-08-23,college_prep,,,,map actuarial pathway milestones,create weekly balance plan (study/rest),Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2025-08-24,college_prep,,,,set up class folders and calendar reminders,draft personal learning goals,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2025-08-25,fall_classes,Fall semester classes begin (story backbone),Calculus problem set assigned,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2025-08-26,fall_classes,,,,practice calculus drills with timer,rewrite notes into concept map,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2025-08-27,fall_classes,,Quiz / concept check window,,attend office hours for targeted questions,help peer with difficult concept,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2025-08-28,fall_classes,,,,update internship/career checklist,join student org planning meeting,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2025-08-29,fall_classes,,Office hours + study hall emphasis,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2025-08-30,fall_classes,,,Football: vs (neutral) Howard,practice calculus drills with timer,rewrite notes into concept map,Dr. Price: state assumptions before modeling,game-day energy + academics balance,high
+2025-08-31,fall_classes,,Homework due + weekly planning reset,,attend office hours for targeted questions,help peer with difficult concept,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2025-09-01,fall_classes,Holiday: Labor Day,Calculus problem set assigned,,update internship/career checklist,join student org planning meeting,Dr. Delgado: clean setup before solving,family/community reflection moment,normal
+2025-09-02,fall_classes,,,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2025-09-03,fall_classes,,Quiz / concept check window,,practice calculus drills with timer,rewrite notes into concept map,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2025-09-04,fall_classes,,,,attend office hours for targeted questions,help peer with difficult concept,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2025-09-05,fall_classes,,Office hours + study hall emphasis,,update internship/career checklist,join student org planning meeting,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2025-09-06,fall_classes,,,Football: at Florida Atlantic,library deep-work block (2 hours),lead whiteboard study circle,Dr. Delgado: clean setup before solving,game-day energy + academics balance,high
+2025-09-07,fall_classes,,Homework due + weekly planning reset,,practice calculus drills with timer,rewrite notes into concept map,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2025-09-08,fall_classes,,Calculus problem set assigned,,attend office hours for targeted questions,help peer with difficult concept,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2025-09-09,fall_classes,,Midterm-style exam window,,update internship/career checklist,join student org planning meeting,Dr. Price: state assumptions before modeling,campus slice-of-life,high
+2025-09-10,fall_classes,,Quiz / concept check window | Midterm-style exam window,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Brooks: show your reasoning clearly,campus slice-of-life,high
+2025-09-11,fall_classes,,Midterm-style exam window,,practice calculus drills with timer,rewrite notes into concept map,Dr. Delgado: clean setup before solving,campus slice-of-life,high
+2025-09-12,fall_classes,,Office hours + study hall emphasis,,attend office hours for targeted questions,help peer with difficult concept,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2025-09-13,fall_classes,,,Football: vs Albany State,update internship/career checklist,join student org planning meeting,Dr. Bennett: interpret numbers as evidence,game-day energy + academics balance,high
+2025-09-14,fall_classes,,Homework due + weekly planning reset,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2025-09-15,fall_classes,,Calculus problem set assigned,,practice calculus drills with timer,rewrite notes into concept map,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2025-09-16,fall_classes,,,,attend office hours for targeted questions,help peer with difficult concept,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2025-09-17,fall_classes,,Quiz / concept check window,,update internship/career checklist,join student org planning meeting,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2025-09-18,fall_classes,,,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2025-09-19,fall_classes,,Office hours + study hall emphasis,,practice calculus drills with timer,rewrite notes into concept map,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2025-09-20,fall_classes,,,,attend office hours for targeted questions,help peer with difficult concept,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2025-09-21,fall_classes,,Homework due + weekly planning reset,,update internship/career checklist,join student org planning meeting,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2025-09-22,fall_classes,,Calculus problem set assigned,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2025-09-23,fall_classes,,,,practice calculus drills with timer,rewrite notes into concept map,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2025-09-24,fall_classes,,Quiz / concept check window,,attend office hours for targeted questions,help peer with difficult concept,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2025-09-25,fall_classes,,,,update internship/career checklist,join student org planning meeting,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2025-09-26,fall_classes,,Office hours + study hall emphasis,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2025-09-27,fall_classes,,,Football: vs Alabama State,practice calculus drills with timer,rewrite notes into concept map,Dr. Okafor: visualize the concept first,game-day energy + academics balance,high
+2025-09-28,fall_classes,,Homework due + weekly planning reset,,attend office hours for targeted questions,help peer with difficult concept,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2025-09-29,fall_classes,,Calculus problem set assigned,,update internship/career checklist,join student org planning meeting,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2025-09-30,fall_classes,,,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2025-10-01,fall_classes,,Quiz / concept check window,,practice calculus drills with timer,rewrite notes into concept map,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2025-10-02,fall_classes,,,,attend office hours for targeted questions,help peer with difficult concept,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2025-10-03,fall_classes,,Office hours + study hall emphasis,,update internship/career checklist,join student org planning meeting,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2025-10-04,fall_classes,,,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2025-10-05,fall_classes,,Homework due + weekly planning reset,,practice calculus drills with timer,rewrite notes into concept map,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2025-10-06,fall_classes,,Calculus problem set assigned,,attend office hours for targeted questions,help peer with difficult concept,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2025-10-07,fall_classes,,Midterm-style exam window,,update internship/career checklist,join student org planning meeting,Dr. Okafor: visualize the concept first,campus slice-of-life,high
+2025-10-08,fall_classes,,Quiz / concept check window | Midterm-style exam window,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,high
+2025-10-09,fall_classes,,Midterm-style exam window,,practice calculus drills with timer,rewrite notes into concept map,Dr. Price: state assumptions before modeling,campus slice-of-life,high
+2025-10-10,fall_classes,,Office hours + study hall emphasis,,attend office hours for targeted questions,help peer with difficult concept,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2025-10-11,fall_classes,,,Football: vs North Carolina Central,update internship/career checklist,join student org planning meeting,Dr. Delgado: clean setup before solving,game-day energy + academics balance,high
+2025-10-12,fall_classes,,Homework due + weekly planning reset,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2025-10-13,fall_classes,,Calculus problem set assigned,,practice calculus drills with timer,rewrite notes into concept map,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2025-10-14,fall_classes,,,,attend office hours for targeted questions,help peer with difficult concept,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2025-10-15,fall_classes,,Quiz / concept check window,,update internship/career checklist,join student org planning meeting,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2025-10-16,fall_classes,,,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2025-10-17,fall_classes,,Office hours + study hall emphasis,,practice calculus drills with timer,rewrite notes into concept map,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2025-10-18,fall_classes,,,Football: vs Alcorn State,attend office hours for targeted questions,help peer with difficult concept,Dr. Bennett: interpret numbers as evidence,game-day energy + academics balance,high
+2025-10-19,fall_classes,,Homework due + weekly planning reset,,update internship/career checklist,join student org planning meeting,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2025-10-20,fall_classes,,Calculus problem set assigned,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2025-10-21,fall_classes,,,Mens Basketball: vs Edward Waters,practice calculus drills with timer,rewrite notes into concept map,Dr. Delgado: clean setup before solving,campus slice-of-life,high
+2025-10-22,fall_classes,,Quiz / concept check window,,attend office hours for targeted questions,help peer with difficult concept,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2025-10-23,fall_classes,,,,update internship/career checklist,join student org planning meeting,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2025-10-24,fall_classes,,Office hours + study hall emphasis,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2025-10-25,fall_classes,,,Football: at Southern,practice calculus drills with timer,rewrite notes into concept map,Dr. Brooks: show your reasoning clearly,game-day energy + academics balance,high
+2025-10-26,fall_classes,,Homework due + weekly planning reset,Mens Basketball: at Florida State,attend office hours for targeted questions,help peer with difficult concept,Dr. Delgado: clean setup before solving,campus slice-of-life,high
+2025-10-27,fall_classes,,Calculus problem set assigned,,update internship/career checklist,join student org planning meeting,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2025-10-28,fall_classes,,,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2025-10-29,fall_classes,,Quiz / concept check window,,practice calculus drills with timer,rewrite notes into concept map,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2025-10-30,fall_classes,,,,attend office hours for targeted questions,help peer with difficult concept,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2025-10-31,fall_classes,,Office hours + study hall emphasis,,update internship/career checklist,join student org planning meeting,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2025-11-01,fall_classes,,,Football: vs Jackson State,library deep-work block (2 hours),lead whiteboard study circle,Dr. Okafor: visualize the concept first,game-day energy + academics balance,high
+2025-11-02,fall_classes,,Homework due + weekly planning reset,,practice calculus drills with timer,rewrite notes into concept map,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2025-11-03,fall_classes,,Calculus problem set assigned,Mens Basketball: at South Florida,attend office hours for targeted questions,help peer with difficult concept,Dr. Price: state assumptions before modeling,campus slice-of-life,high
+2025-11-04,fall_classes,,,,update internship/career checklist,join student org planning meeting,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2025-11-05,fall_classes,,Quiz / concept check window,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2025-11-06,fall_classes,,Midterm-style exam window,,practice calculus drills with timer,rewrite notes into concept map,Dr. Okafor: visualize the concept first,campus slice-of-life,high
+2025-11-07,fall_classes,,Office hours + study hall emphasis,,attend office hours for targeted questions,help peer with difficult concept,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2025-11-08,fall_classes,,,Football: at Arkansas - Pine Bluff | Mens Basketball: vs Kennesaw State,update internship/career checklist,join student org planning meeting,Dr. Price: state assumptions before modeling,game-day energy + academics balance,peak
+2025-11-09,fall_classes,,Homework due + weekly planning reset,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2025-11-10,fall_classes,,Calculus problem set assigned,,practice calculus drills with timer,rewrite notes into concept map,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2025-11-11,fall_classes,Holiday: Veterans Day,Midterm-style exam window,Mens Basketball: at Central Florida,attend office hours for targeted questions,help peer with difficult concept,Dr. Okafor: visualize the concept first,family/community reflection moment,high
+2025-11-12,fall_classes,,Quiz / concept check window | Midterm-style exam window,,update internship/career checklist,join student org planning meeting,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,high
+2025-11-13,fall_classes,,,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2025-11-14,fall_classes,,Office hours + study hall emphasis,,practice calculus drills with timer,rewrite notes into concept map,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2025-11-15,fall_classes,,,Football: at Alabama A&M,attend office hours for targeted questions,help peer with difficult concept,Dr. Delgado: clean setup before solving,game-day energy + academics balance,high
+2025-11-16,fall_classes,,Homework due + weekly planning reset,,update internship/career checklist,join student org planning meeting,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2025-11-17,fall_classes,,Calculus problem set assigned,Mens Basketball: at Georgia,library deep-work block (2 hours),lead whiteboard study circle,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,high
+2025-11-18,fall_classes,,,,practice calculus drills with timer,rewrite notes into concept map,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2025-11-19,fall_classes,,Quiz / concept check window,,attend office hours for targeted questions,help peer with difficult concept,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2025-11-20,fall_classes,,,,update internship/career checklist,join student org planning meeting,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2025-11-21,fall_classes,,Office hours + study hall emphasis,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2025-11-22,fall_classes,,,Football: vs (neutral) Bethune-Cookman,practice calculus drills with timer,rewrite notes into concept map,Dr. Bennett: interpret numbers as evidence,game-day energy + academics balance,high
+2025-11-23,fall_classes,,Homework due + weekly planning reset,,attend office hours for targeted questions,help peer with difficult concept,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2025-11-24,fall_classes,,Calculus problem set assigned,,update internship/career checklist,join student org planning meeting,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2025-11-25,fall_classes,,,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2025-11-26,fall_classes,,Quiz / concept check window,,practice calculus drills with timer,rewrite notes into concept map,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2025-11-27,fall_classes,Holiday: Thanksgiving Day,,,attend office hours for targeted questions,help peer with difficult concept,Dr. Bennett: interpret numbers as evidence,family/community reflection moment,normal
+2025-11-28,fall_classes,Holiday: Thanksgiving Break,Office hours + study hall emphasis,,update internship/career checklist,join student org planning meeting,Dr. Price: state assumptions before modeling,family/community reflection moment,normal
+2025-11-29,fall_classes,,,Football: at Mississippi Valley State,library deep-work block (2 hours),lead whiteboard study circle,Dr. Brooks: show your reasoning clearly,game-day energy + academics balance,high
+2025-11-30,fall_classes,,Homework due + weekly planning reset,,practice calculus drills with timer,rewrite notes into concept map,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2025-12-01,fall_classes,,Calculus problem set assigned,,attend office hours for targeted questions,help peer with difficult concept,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2025-12-02,fall_classes,,,Mens Basketball: at Jacksonville,update internship/career checklist,join student org planning meeting,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,high
+2025-12-03,fall_classes,,Quiz / concept check window,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2025-12-04,fall_classes,,,,practice calculus drills with timer,rewrite notes into concept map,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2025-12-05,fall_classes,,Office hours + study hall emphasis,Mens Basketball: vs (neutral) Barber–Scotia College,attend office hours for targeted questions,help peer with difficult concept,Dr. Delgado: clean setup before solving,campus slice-of-life,high
+2025-12-06,fall_finals,,Final exams period,Football: vs (neutral) Southwestern Athletic Conference Championship | Mens Basketball: vs (neutral) Florida Memorial,past-exam error log and corrections,formula/theorem synthesis session,Dr. Okafor: visualize the concept first,game-day energy + academics balance,peak
+2025-12-07,fall_finals,,Final exams period,,quiet focus session in library,stress-management check-in + recap,Dr. Bennett: interpret numbers as evidence,high-pressure study + emotional support,high
+2025-12-08,fall_finals,,Final exams period,,final review packet sprint,group review facilitation,Dr. Price: state assumptions before modeling,high-pressure study + emotional support,high
+2025-12-09,fall_finals,,Final exams period,,past-exam error log and corrections,formula/theorem synthesis session,Dr. Brooks: show your reasoning clearly,high-pressure study + emotional support,high
+2025-12-10,fall_finals,,Final exams period,,quiet focus session in library,stress-management check-in + recap,Dr. Delgado: clean setup before solving,high-pressure study + emotional support,high
+2025-12-11,fall_finals,,Final exams period,,final review packet sprint,group review facilitation,Dr. Okafor: visualize the concept first,high-pressure study + emotional support,high
+2025-12-12,fall_finals,,Final exams period,,past-exam error log and corrections,formula/theorem synthesis session,Dr. Bennett: interpret numbers as evidence,high-pressure study + emotional support,high
+2025-12-13,winter_break,,,Football: vs (neutral) Celebration Bowl,rest and reset routines,light preview of next topics,Dr. Price: state assumptions before modeling,game-day energy + academics balance,high
+2025-12-14,winter_break,,,,family time + light review,creative reset + reading,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2025-12-15,winter_break,,,Mens Basketball: vs Albany State,career reflection and resume polishing,journal reflections on growth,Dr. Delgado: clean setup before solving,campus slice-of-life,high
+2025-12-16,winter_break,,,,rest and reset routines,light preview of next topics,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2025-12-17,winter_break,,,Mens Basketball: vs Jacksonville,family time + light review,creative reset + reading,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,high
+2025-12-18,winter_break,,,,career reflection and resume polishing,journal reflections on growth,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2025-12-19,winter_break,,,Mens Basketball: at Tarleton State,rest and reset routines,light preview of next topics,Dr. Brooks: show your reasoning clearly,campus slice-of-life,high
+2025-12-20,winter_break,,,,family time + light review,creative reset + reading,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2025-12-21,winter_break,,,Mens Basketball: at Texas Christian,career reflection and resume polishing,journal reflections on growth,Dr. Okafor: visualize the concept first,campus slice-of-life,high
+2025-12-22,winter_break,,,,rest and reset routines,light preview of next topics,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2025-12-23,winter_break,,,,family time + light review,creative reset + reading,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2025-12-24,winter_break,,,,career reflection and resume polishing,journal reflections on growth,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2025-12-25,winter_break,Holiday: Christmas Day,,,rest and reset routines,light preview of next topics,Dr. Delgado: clean setup before solving,family/community reflection moment,normal
+2025-12-26,winter_break,,,,family time + light review,creative reset + reading,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2025-12-27,winter_break,,,,career reflection and resume polishing,journal reflections on growth,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2025-12-28,winter_break,,,Mens Basketball: at Georgia Tech,rest and reset routines,light preview of next topics,Dr. Price: state assumptions before modeling,campus slice-of-life,high
+2025-12-29,winter_break,,,,family time + light review,creative reset + reading,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2025-12-30,winter_break,,,,career reflection and resume polishing,journal reflections on growth,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2025-12-31,winter_break,,,,rest and reset routines,light preview of next topics,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2026-01-01,winter_break,Holiday: New Year's Day,,,family time + light review,creative reset + reading,Dr. Bennett: interpret numbers as evidence,family/community reflection moment,normal
+2026-01-02,winter_break,,,,career reflection and resume polishing,journal reflections on growth,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2026-01-03,winter_break,,,Mens Basketball: at Bethune-Cookman,rest and reset routines,light preview of next topics,Dr. Brooks: show your reasoning clearly,campus slice-of-life,high
+2026-01-04,winter_break,,,,family time + light review,creative reset + reading,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2026-01-05,spring_classes,Spring semester classes begin (story backbone),Calculus problem set assigned,,practice calculus drills with timer,rewrite notes into concept map,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2026-01-06,spring_classes,,Midterm-style exam window,,attend office hours for targeted questions,help peer with difficult concept,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,high
+2026-01-07,spring_classes,,Quiz / concept check window | Midterm-style exam window,,update internship/career checklist,join student org planning meeting,Dr. Price: state assumptions before modeling,campus slice-of-life,high
+2026-01-08,spring_classes,,Midterm-style exam window,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Brooks: show your reasoning clearly,campus slice-of-life,high
+2026-01-09,spring_classes,,Office hours + study hall emphasis,,practice calculus drills with timer,rewrite notes into concept map,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2026-01-10,spring_classes,,,Mens Basketball: vs Southern,attend office hours for targeted questions,help peer with difficult concept,Dr. Okafor: visualize the concept first,campus slice-of-life,high
+2026-01-11,spring_classes,,Homework due + weekly planning reset,,update internship/career checklist,join student org planning meeting,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2026-01-12,spring_classes,,Calculus problem set assigned,Mens Basketball: vs Grambling State,library deep-work block (2 hours),lead whiteboard study circle,Dr. Price: state assumptions before modeling,campus slice-of-life,high
+2026-01-13,spring_classes,,,,practice calculus drills with timer,rewrite notes into concept map,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2026-01-14,spring_classes,,Quiz / concept check window,,attend office hours for targeted questions,help peer with difficult concept,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2026-01-15,spring_classes,,,,update internship/career checklist,join student org planning meeting,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2026-01-16,spring_classes,,Office hours + study hall emphasis,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2026-01-17,spring_classes,,,Mens Basketball: at Arkansas - Pine Bluff,practice calculus drills with timer,rewrite notes into concept map,Dr. Price: state assumptions before modeling,campus slice-of-life,high
+2026-01-18,spring_classes,,Homework due + weekly planning reset,,attend office hours for targeted questions,help peer with difficult concept,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2026-01-19,spring_classes,Holiday: Martin Luther King Jr. Day,Calculus problem set assigned,Mens Basketball: at Mississippi Valley State,update internship/career checklist,join student org planning meeting,Dr. Delgado: clean setup before solving,family/community reflection moment,high
+2026-01-20,spring_classes,,,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2026-01-21,spring_classes,,Quiz / concept check window,,practice calculus drills with timer,rewrite notes into concept map,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2026-01-22,spring_classes,,,,attend office hours for targeted questions,help peer with difficult concept,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2026-01-23,spring_classes,,Office hours + study hall emphasis,,update internship/career checklist,join student org planning meeting,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2026-01-24,spring_classes,,,Mens Basketball: vs Alcorn State,library deep-work block (2 hours),lead whiteboard study circle,Dr. Delgado: clean setup before solving,campus slice-of-life,high
+2026-01-25,spring_classes,,Homework due + weekly planning reset,,practice calculus drills with timer,rewrite notes into concept map,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2026-01-26,spring_classes,,Calculus problem set assigned,Mens Basketball: vs Jackson State,attend office hours for targeted questions,help peer with difficult concept,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,high
+2026-01-27,spring_classes,,,,update internship/career checklist,join student org planning meeting,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2026-01-28,spring_classes,,Quiz / concept check window,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2026-01-29,spring_classes,,,,practice calculus drills with timer,rewrite notes into concept map,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2026-01-30,spring_classes,,Office hours + study hall emphasis,,attend office hours for targeted questions,help peer with difficult concept,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2026-01-31,spring_classes,,,Mens Basketball: at Alabama A&M,update internship/career checklist,join student org planning meeting,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,high
+2026-02-01,spring_classes,,Homework due + weekly planning reset,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2026-02-02,spring_classes,,Calculus problem set assigned,Mens Basketball: at Alabama State,practice calculus drills with timer,rewrite notes into concept map,Dr. Brooks: show your reasoning clearly,campus slice-of-life,high
+2026-02-03,spring_classes,,,,attend office hours for targeted questions,help peer with difficult concept,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2026-02-04,spring_classes,,Quiz / concept check window,,update internship/career checklist,join student org planning meeting,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2026-02-05,spring_classes,,,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2026-02-06,spring_classes,,Office hours + study hall emphasis,Softball: at Campbell | Softball: vs (neutral) Howard,practice calculus drills with timer,rewrite notes into concept map,Dr. Price: state assumptions before modeling,campus slice-of-life,peak
+2026-02-07,spring_classes,,,Mens Basketball: vs Texas Southern | Softball: at Campbell | Softball: vs (neutral) Howard,attend office hours for targeted questions,help peer with difficult concept,Dr. Brooks: show your reasoning clearly,campus slice-of-life,peak
+2026-02-08,spring_classes,,Homework due + weekly planning reset,Softball: vs (neutral) Tennessee Tech,update internship/career checklist,join student org planning meeting,Dr. Delgado: clean setup before solving,campus slice-of-life,high
+2026-02-09,spring_classes,,Calculus problem set assigned,Mens Basketball: vs Prairie View A&M,library deep-work block (2 hours),lead whiteboard study circle,Dr. Okafor: visualize the concept first,campus slice-of-life,high
+2026-02-10,spring_classes,,Midterm-style exam window,Softball: vs Marshall,practice calculus drills with timer,rewrite notes into concept map,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,high
+2026-02-11,spring_classes,,Quiz / concept check window | Midterm-style exam window,,attend office hours for targeted questions,help peer with difficult concept,Dr. Price: state assumptions before modeling,campus slice-of-life,high
+2026-02-12,spring_classes,,Midterm-style exam window,,update internship/career checklist,join student org planning meeting,Dr. Brooks: show your reasoning clearly,campus slice-of-life,high
+2026-02-13,spring_classes,,Office hours + study hall emphasis,Baseball: vs Eastern Illinois University | Softball: vs (neutral) Bowie State | Softball: vs (neutral) Coppin State,library deep-work block (2 hours),lead whiteboard study circle,Dr. Delgado: clean setup before solving,campus slice-of-life,peak
+2026-02-14,spring_classes,,,Mens Basketball: at Jackson State | Baseball: vs Eastern Illinois University | Softball: vs (neutral) Hampton | Softball: vs (neutral) North Carolina Central,practice calculus drills with timer,rewrite notes into concept map,Dr. Okafor: visualize the concept first,campus slice-of-life,peak
+2026-02-15,spring_classes,,Homework due + weekly planning reset,Softball: vs (neutral) South Carolin State,attend office hours for targeted questions,help peer with difficult concept,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,high
+2026-02-16,spring_classes,,Calculus problem set assigned,Mens Basketball: at Alcorn State,update internship/career checklist,join student org planning meeting,Dr. Price: state assumptions before modeling,campus slice-of-life,high
+2026-02-17,spring_classes,,,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2026-02-18,spring_classes,,Quiz / concept check window,Baseball: vs University of North Florida,practice calculus drills with timer,rewrite notes into concept map,Dr. Delgado: clean setup before solving,campus slice-of-life,high
+2026-02-19,spring_classes,,,Mens Basketball: vs Alabama A&M,attend office hours for targeted questions,help peer with difficult concept,Dr. Okafor: visualize the concept first,campus slice-of-life,high
+2026-02-20,spring_classes,,Office hours + study hall emphasis,Baseball: vs (neutral) Alabama State University | Softball: at Florida International | Softball: vs (neutral) Incarnate Word,update internship/career checklist,join student org planning meeting,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,peak
+2026-02-21,spring_classes,,,Mens Basketball: vs Alabama State | Baseball: at Bethune Cookman | Softball: vs (neutral) Eastern Illinois | Softball: vs (neutral) Incarnate Ward,library deep-work block (2 hours),lead whiteboard study circle,Dr. Price: state assumptions before modeling,campus slice-of-life,peak
+2026-02-22,spring_classes,,Homework due + weekly planning reset,Baseball: at Southern | Softball: vs (neutral) Eastern Illinois,practice calculus drills with timer,rewrite notes into concept map,Dr. Brooks: show your reasoning clearly,campus slice-of-life,peak
+2026-02-23,spring_classes,,Calculus problem set assigned,,attend office hours for targeted questions,help peer with difficult concept,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2026-02-24,spring_classes,,,Baseball: at Mercer University,update internship/career checklist,join student org planning meeting,Dr. Okafor: visualize the concept first,campus slice-of-life,high
+2026-02-25,spring_classes,,Quiz / concept check window,Baseball: at Mercer University | Softball: at Florida State,library deep-work block (2 hours),lead whiteboard study circle,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,peak
+2026-02-26,spring_classes,,,Mens Basketball: at Southern | Softball: vs (neutral) Wagner,practice calculus drills with timer,rewrite notes into concept map,Dr. Price: state assumptions before modeling,campus slice-of-life,peak
+2026-02-27,spring_classes,,Office hours + study hall emphasis,Baseball: vs Central Connecticut State | Softball: vs (neutral) George Washington,attend office hours for targeted questions,help peer with difficult concept,Dr. Brooks: show your reasoning clearly,campus slice-of-life,peak
+2026-02-28,spring_classes,,,Mens Basketball: at Grambling State | Baseball: vs Central Connecticut State | Softball: at Central Florida | Softball: vs (neutral) Dartmouth,update internship/career checklist,join student org planning meeting,Dr. Delgado: clean setup before solving,campus slice-of-life,peak
+2026-03-01,spring_classes,,Homework due + weekly planning reset,Baseball: vs Central Connecticut State | Softball: vs (neutral) George Washington,library deep-work block (2 hours),lead whiteboard study circle,Dr. Okafor: visualize the concept first,campus slice-of-life,peak
+2026-03-02,spring_classes,,Calculus problem set assigned,,practice calculus drills with timer,rewrite notes into concept map,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2026-03-03,spring_classes,,,,attend office hours for targeted questions,help peer with difficult concept,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2026-03-04,spring_classes,,Quiz / concept check window,Baseball: at University of Florida,update internship/career checklist,join student org planning meeting,Dr. Brooks: show your reasoning clearly,campus slice-of-life,high
+2026-03-05,spring_classes,,,Mens Basketball: vs Bethune-Cookman,library deep-work block (2 hours),lead whiteboard study circle,Dr. Delgado: clean setup before solving,campus slice-of-life,high
+2026-03-06,spring_classes,,Office hours + study hall emphasis,Baseball: vs Villanova University | Softball: at Jackson State,practice calculus drills with timer,rewrite notes into concept map,Dr. Okafor: visualize the concept first,campus slice-of-life,peak
+2026-03-07,spring_classes,,,Baseball: vs Villanova University | Softball: at Jackson State,attend office hours for targeted questions,help peer with difficult concept,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,peak
+2026-03-08,spring_classes,,Homework due + weekly planning reset,Baseball: vs Villanova University,update internship/career checklist,join student org planning meeting,Dr. Price: state assumptions before modeling,campus slice-of-life,high
+2026-03-09,spring_classes,,Calculus problem set assigned,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2026-03-10,spring_classes,,Midterm-style exam window,,practice calculus drills with timer,rewrite notes into concept map,Dr. Delgado: clean setup before solving,campus slice-of-life,high
+2026-03-11,spring_classes,,Quiz / concept check window | Midterm-style exam window,Mens Basketball: vs (neutral) Jackson State,attend office hours for targeted questions,help peer with difficult concept,Dr. Okafor: visualize the concept first,campus slice-of-life,high
+2026-03-12,spring_classes,,Midterm-style exam window,,update internship/career checklist,join student org planning meeting,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,high
+2026-03-13,spring_classes,,Office hours + study hall emphasis,Mens Basketball: vs (neutral) Southern | Baseball: vs Southern University | Softball: vs Mississippi Valley State,library deep-work block (2 hours),lead whiteboard study circle,Dr. Price: state assumptions before modeling,campus slice-of-life,peak
+2026-03-14,spring_classes,,,Baseball: vs Southern University | Softball: vs Mississippi Valley State,practice calculus drills with timer,rewrite notes into concept map,Dr. Brooks: show your reasoning clearly,campus slice-of-life,peak
+2026-03-15,spring_classes,,Homework due + weekly planning reset,Baseball: vs Southern University,attend office hours for targeted questions,help peer with difficult concept,Dr. Delgado: clean setup before solving,campus slice-of-life,high
+2026-03-16,spring_classes,,Calculus problem set assigned,,update internship/career checklist,join student org planning meeting,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2026-03-17,spring_classes,,,Baseball: vs Mercer University,library deep-work block (2 hours),lead whiteboard study circle,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,high
+2026-03-18,spring_classes,,Quiz / concept check window,,practice calculus drills with timer,rewrite notes into concept map,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2026-03-19,spring_classes,,,,attend office hours for targeted questions,help peer with difficult concept,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2026-03-20,spring_classes,,Office hours + study hall emphasis,Baseball: at Arkansas Pine Bluff | Softball: at Alabama State,update internship/career checklist,join student org planning meeting,Dr. Delgado: clean setup before solving,campus slice-of-life,peak
+2026-03-21,spring_classes,,,Baseball: at Arkansas Pine Bluff | Softball: at Alabama State (DH),library deep-work block (2 hours),lead whiteboard study circle,Dr. Okafor: visualize the concept first,campus slice-of-life,peak
+2026-03-22,spring_classes,,Homework due + weekly planning reset,Baseball: at Arkansas Pine Bluff,practice calculus drills with timer,rewrite notes into concept map,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,high
+2026-03-23,spring_classes,,Calculus problem set assigned,Softball: at Auburn,attend office hours for targeted questions,help peer with difficult concept,Dr. Price: state assumptions before modeling,campus slice-of-life,high
+2026-03-24,spring_classes,,,,update internship/career checklist,join student org planning meeting,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2026-03-25,spring_classes,,Quiz / concept check window,Baseball: vs Troy University,library deep-work block (2 hours),lead whiteboard study circle,Dr. Delgado: clean setup before solving,campus slice-of-life,high
+2026-03-26,spring_classes,,,,practice calculus drills with timer,rewrite notes into concept map,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2026-03-27,spring_classes,,Office hours + study hall emphasis,Baseball: vs Alabama State University | Softball: at Bethune-Cookman,attend office hours for targeted questions,help peer with difficult concept,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,peak
+2026-03-28,spring_classes,,,Baseball: vs Alabama State University | Softball: at Bethune-Cookman,update internship/career checklist,join student org planning meeting,Dr. Price: state assumptions before modeling,campus slice-of-life,peak
+2026-03-29,spring_classes,,Homework due + weekly planning reset,Baseball: vs Alabama State University,library deep-work block (2 hours),lead whiteboard study circle,Dr. Brooks: show your reasoning clearly,campus slice-of-life,high
+2026-03-30,spring_classes,,Calculus problem set assigned,,practice calculus drills with timer,rewrite notes into concept map,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2026-03-31,spring_classes,,,Softball: at Troy,attend office hours for targeted questions,help peer with difficult concept,Dr. Okafor: visualize the concept first,campus slice-of-life,high
+2026-04-01,spring_classes,,Quiz / concept check window,,update internship/career checklist,join student org planning meeting,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2026-04-02,spring_classes,,,Baseball: at Prairie View A&M University | Softball: vs Alabama A&M,library deep-work block (2 hours),lead whiteboard study circle,Dr. Price: state assumptions before modeling,campus slice-of-life,peak
+2026-04-03,spring_classes,,Office hours + study hall emphasis,Baseball: at Prairie View A&M University | Softball: vs Alabama A&M,practice calculus drills with timer,rewrite notes into concept map,Dr. Brooks: show your reasoning clearly,campus slice-of-life,peak
+2026-04-04,spring_classes,,,Baseball: at Prairie View A&M University,attend office hours for targeted questions,help peer with difficult concept,Dr. Delgado: clean setup before solving,campus slice-of-life,high
+2026-04-05,spring_classes,,Homework due + weekly planning reset,,update internship/career checklist,join student org planning meeting,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2026-04-06,spring_classes,,Calculus problem set assigned,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2026-04-07,spring_classes,,Midterm-style exam window,,practice calculus drills with timer,rewrite notes into concept map,Dr. Price: state assumptions before modeling,campus slice-of-life,high
+2026-04-08,spring_classes,,Quiz / concept check window | Midterm-style exam window,Baseball: at Troy University,attend office hours for targeted questions,help peer with difficult concept,Dr. Brooks: show your reasoning clearly,campus slice-of-life,high
+2026-04-09,spring_classes,,Midterm-style exam window,,update internship/career checklist,join student org planning meeting,Dr. Delgado: clean setup before solving,campus slice-of-life,high
+2026-04-10,spring_classes,,Office hours + study hall emphasis,Baseball: at Jackson State University | Softball: vs Alabama State,library deep-work block (2 hours),lead whiteboard study circle,Dr. Okafor: visualize the concept first,campus slice-of-life,peak
+2026-04-11,spring_classes,,,Baseball: at Jackson State University | Softball: vs Alabama State,practice calculus drills with timer,rewrite notes into concept map,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,peak
+2026-04-12,spring_classes,,Homework due + weekly planning reset,Baseball: at Jackson State University,attend office hours for targeted questions,help peer with difficult concept,Dr. Price: state assumptions before modeling,campus slice-of-life,high
+2026-04-13,spring_classes,,Calculus problem set assigned,,update internship/career checklist,join student org planning meeting,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2026-04-14,spring_classes,,,Baseball: at University of North Florida | Softball: at Jacksonville University,library deep-work block (2 hours),lead whiteboard study circle,Dr. Delgado: clean setup before solving,campus slice-of-life,peak
+2026-04-15,spring_classes,,Quiz / concept check window,,practice calculus drills with timer,rewrite notes into concept map,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2026-04-16,spring_classes,,,,attend office hours for targeted questions,help peer with difficult concept,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2026-04-17,spring_classes,,Office hours + study hall emphasis,Baseball: vs Mississippi Valley State University | Softball: at Mississippi Valley,update internship/career checklist,join student org planning meeting,Dr. Price: state assumptions before modeling,campus slice-of-life,peak
+2026-04-18,spring_classes,,,Baseball: vs Mississippi Valley State University | Softball: at Mississippi Valley,library deep-work block (2 hours),lead whiteboard study circle,Dr. Brooks: show your reasoning clearly,campus slice-of-life,peak
+2026-04-19,spring_classes,,Homework due + weekly planning reset,Baseball: vs Mississippi Valley State University,practice calculus drills with timer,rewrite notes into concept map,Dr. Delgado: clean setup before solving,campus slice-of-life,high
+2026-04-20,spring_classes,,Calculus problem set assigned,,attend office hours for targeted questions,help peer with difficult concept,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2026-04-21,spring_classes,,,Softball: vs Troy,update internship/career checklist,join student org planning meeting,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,high
+2026-04-22,spring_classes,,Quiz / concept check window,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2026-04-23,spring_classes,,,,practice calculus drills with timer,rewrite notes into concept map,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2026-04-24,spring_classes,,Office hours + study hall emphasis,Baseball: vs Bethune Cookman University | Softball: vs Jackson State,attend office hours for targeted questions,help peer with difficult concept,Dr. Delgado: clean setup before solving,campus slice-of-life,peak
+2026-04-25,spring_finals,,Final exams period,Baseball: vs Bethune Cookman University | Softball: vs Jackson State,final review packet sprint,group review facilitation,Dr. Okafor: visualize the concept first,high-pressure study + emotional support,peak
+2026-04-26,spring_finals,,Final exams period,Baseball: vs Bethune Cookman University,past-exam error log and corrections,formula/theorem synthesis session,Dr. Bennett: interpret numbers as evidence,high-pressure study + emotional support,peak
+2026-04-27,spring_finals,,Final exams period,,quiet focus session in library,stress-management check-in + recap,Dr. Price: state assumptions before modeling,high-pressure study + emotional support,high
+2026-04-28,spring_finals,,Final exams period,,final review packet sprint,group review facilitation,Dr. Brooks: show your reasoning clearly,high-pressure study + emotional support,high
+2026-04-29,spring_finals,,Final exams period,,past-exam error log and corrections,formula/theorem synthesis session,Dr. Delgado: clean setup before solving,high-pressure study + emotional support,high
+2026-04-30,spring_finals,,Final exams period,,quiet focus session in library,stress-management check-in + recap,Dr. Okafor: visualize the concept first,high-pressure study + emotional support,high
+2026-05-01,spring_finals,,Final exams period,Baseball: at Grambling State University,final review packet sprint,group review facilitation,Dr. Bennett: interpret numbers as evidence,high-pressure study + emotional support,peak
+2026-05-02,summer_break,,,Baseball: at Grambling State University,career reflection and resume polishing,journal reflections on growth,Dr. Price: state assumptions before modeling,campus slice-of-life,high
+2026-05-03,summer_break,,,Baseball: at Grambling State University,rest and reset routines,light preview of next topics,Dr. Brooks: show your reasoning clearly,campus slice-of-life,high
+2026-05-04,summer_break,,,,family time + light review,creative reset + reading,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2026-05-05,summer_break,,,Softball: vs (neutral) SWAC Tournament,career reflection and resume polishing,journal reflections on growth,Dr. Okafor: visualize the concept first,campus slice-of-life,high
+2026-05-06,summer_break,,,,rest and reset routines,light preview of next topics,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2026-05-07,summer_break,,,,family time + light review,creative reset + reading,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2026-05-08,summer_break,,,Baseball: at Alabama A&M University,career reflection and resume polishing,journal reflections on growth,Dr. Brooks: show your reasoning clearly,campus slice-of-life,high
+2026-05-09,summer_break,,,Baseball: at Alabama A&M University,rest and reset routines,light preview of next topics,Dr. Delgado: clean setup before solving,campus slice-of-life,high
+2026-05-10,summer_break,,,Baseball: at Alabama A&M University,family time + light review,creative reset + reading,Dr. Okafor: visualize the concept first,campus slice-of-life,high
+2026-05-11,summer_a,Summer A begins (story backbone),Calculus problem set assigned,,update internship/career checklist,join student org planning meeting,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2026-05-12,summer_a,,,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2026-05-13,summer_a,,Quiz / concept check window,,practice calculus drills with timer,rewrite notes into concept map,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2026-05-14,summer_a,,,Baseball: vs Texas Southern University,attend office hours for targeted questions,help peer with difficult concept,Dr. Delgado: clean setup before solving,campus slice-of-life,high
+2026-05-15,summer_a,,Office hours + study hall emphasis,Baseball: vs Texas Southern University,update internship/career checklist,join student org planning meeting,Dr. Okafor: visualize the concept first,campus slice-of-life,high
+2026-05-16,summer_a,,,Baseball: vs Texas Southern University,library deep-work block (2 hours),lead whiteboard study circle,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,high
+2026-05-17,summer_a,,Homework due + weekly planning reset,,practice calculus drills with timer,rewrite notes into concept map,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2026-05-18,summer_a,,Calculus problem set assigned,,attend office hours for targeted questions,help peer with difficult concept,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2026-05-19,summer_a,,,,update internship/career checklist,join student org planning meeting,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2026-05-20,summer_a,,Quiz / concept check window,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2026-05-21,summer_a,,,,practice calculus drills with timer,rewrite notes into concept map,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2026-05-22,summer_a,,Office hours + study hall emphasis,,attend office hours for targeted questions,help peer with difficult concept,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2026-05-23,summer_a,,,,update internship/career checklist,join student org planning meeting,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2026-05-24,summer_a,,Homework due + weekly planning reset,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2026-05-25,summer_a,Holiday: Memorial Day,Calculus problem set assigned,,practice calculus drills with timer,rewrite notes into concept map,Dr. Okafor: visualize the concept first,family/community reflection moment,normal
+2026-05-26,summer_a,,,,attend office hours for targeted questions,help peer with difficult concept,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2026-05-27,summer_a,,Quiz / concept check window,,update internship/career checklist,join student org planning meeting,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2026-05-28,summer_a,,,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2026-05-29,summer_a,,Office hours + study hall emphasis,,practice calculus drills with timer,rewrite notes into concept map,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2026-05-30,summer_a,,,,attend office hours for targeted questions,help peer with difficult concept,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2026-05-31,summer_a,,Homework due + weekly planning reset,,update internship/career checklist,join student org planning meeting,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2026-06-01,summer_a,,Calculus problem set assigned,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2026-06-02,summer_a,,,,practice calculus drills with timer,rewrite notes into concept map,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2026-06-03,summer_a,,Quiz / concept check window,,attend office hours for targeted questions,help peer with difficult concept,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2026-06-04,summer_a,,,,update internship/career checklist,join student org planning meeting,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2026-06-05,summer_a,,Office hours + study hall emphasis,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2026-06-06,summer_a,,,,practice calculus drills with timer,rewrite notes into concept map,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2026-06-07,summer_a,,Homework due + weekly planning reset,,attend office hours for targeted questions,help peer with difficult concept,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2026-06-08,summer_a,,Calculus problem set assigned,,update internship/career checklist,join student org planning meeting,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2026-06-09,summer_a,,,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2026-06-10,summer_a,,Quiz / concept check window,,practice calculus drills with timer,rewrite notes into concept map,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2026-06-11,summer_a,,,,attend office hours for targeted questions,help peer with difficult concept,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2026-06-12,summer_a,,Office hours + study hall emphasis,,update internship/career checklist,join student org planning meeting,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2026-06-13,summer_a,,,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2026-06-14,summer_a,,Homework due + weekly planning reset,,practice calculus drills with timer,rewrite notes into concept map,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2026-06-15,summer_a,,Calculus problem set assigned,,attend office hours for targeted questions,help peer with difficult concept,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2026-06-16,summer_a,,,,update internship/career checklist,join student org planning meeting,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2026-06-17,summer_a,,Quiz / concept check window,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2026-06-18,summer_a,,,,practice calculus drills with timer,rewrite notes into concept map,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2026-06-19,summer_a,Holiday: Juneteenth,Office hours + study hall emphasis,,attend office hours for targeted questions,help peer with difficult concept,Dr. Okafor: visualize the concept first,family/community reflection moment,normal
+2026-06-20,summer_break,,,,rest and reset routines,light preview of next topics,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2026-06-21,summer_break,,,,family time + light review,creative reset + reading,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2026-06-22,summer_break,,,,career reflection and resume polishing,journal reflections on growth,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2026-06-23,summer_break,,,,rest and reset routines,light preview of next topics,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2026-06-24,summer_break,,,,family time + light review,creative reset + reading,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2026-06-25,summer_break,,,,career reflection and resume polishing,journal reflections on growth,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2026-06-26,summer_break,,,,rest and reset routines,light preview of next topics,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2026-06-27,summer_break,,,,family time + light review,creative reset + reading,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2026-06-28,summer_break,,,,career reflection and resume polishing,journal reflections on growth,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2026-06-29,summer_b,Summer B begins (story backbone),Calculus problem set assigned,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2026-06-30,summer_b,,,,practice calculus drills with timer,rewrite notes into concept map,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2026-07-01,summer_b,,Quiz / concept check window,,attend office hours for targeted questions,help peer with difficult concept,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2026-07-02,summer_b,,,,update internship/career checklist,join student org planning meeting,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2026-07-03,summer_b,,Office hours + study hall emphasis,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2026-07-04,summer_b,Holiday: Independence Day,,,practice calculus drills with timer,rewrite notes into concept map,Dr. Okafor: visualize the concept first,family/community reflection moment,normal
+2026-07-05,summer_b,,Homework due + weekly planning reset,,attend office hours for targeted questions,help peer with difficult concept,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2026-07-06,summer_b,,Calculus problem set assigned,,update internship/career checklist,join student org planning meeting,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2026-07-07,summer_b,,,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2026-07-08,summer_b,,Quiz / concept check window,,practice calculus drills with timer,rewrite notes into concept map,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2026-07-09,summer_b,,,,attend office hours for targeted questions,help peer with difficult concept,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2026-07-10,summer_b,,Office hours + study hall emphasis,,update internship/career checklist,join student org planning meeting,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2026-07-11,summer_b,,,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2026-07-12,summer_b,,Homework due + weekly planning reset,,practice calculus drills with timer,rewrite notes into concept map,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2026-07-13,summer_b,,Calculus problem set assigned,,attend office hours for targeted questions,help peer with difficult concept,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2026-07-14,summer_b,,,,update internship/career checklist,join student org planning meeting,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2026-07-15,summer_b,,Quiz / concept check window,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2026-07-16,summer_b,,,,practice calculus drills with timer,rewrite notes into concept map,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2026-07-17,summer_b,,Office hours + study hall emphasis,,attend office hours for targeted questions,help peer with difficult concept,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2026-07-18,summer_b,,,,update internship/career checklist,join student org planning meeting,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2026-07-19,summer_b,,Homework due + weekly planning reset,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2026-07-20,summer_b,,Calculus problem set assigned,,practice calculus drills with timer,rewrite notes into concept map,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2026-07-21,summer_b,,,,attend office hours for targeted questions,help peer with difficult concept,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2026-07-22,summer_b,,Quiz / concept check window,,update internship/career checklist,join student org planning meeting,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2026-07-23,summer_b,,,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2026-07-24,summer_b,,Office hours + study hall emphasis,,practice calculus drills with timer,rewrite notes into concept map,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2026-07-25,summer_b,,,,attend office hours for targeted questions,help peer with difficult concept,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2026-07-26,summer_b,,Homework due + weekly planning reset,,update internship/career checklist,join student org planning meeting,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2026-07-27,summer_b,,Calculus problem set assigned,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2026-07-28,summer_b,,,,practice calculus drills with timer,rewrite notes into concept map,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2026-07-29,summer_b,,Quiz / concept check window,,attend office hours for targeted questions,help peer with difficult concept,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2026-07-30,summer_b,,,,update internship/career checklist,join student org planning meeting,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2026-07-31,summer_b,,Office hours + study hall emphasis,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2026-08-01,summer_b,,,,practice calculus drills with timer,rewrite notes into concept map,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2026-08-02,summer_b,,Homework due + weekly planning reset,,attend office hours for targeted questions,help peer with difficult concept,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2026-08-03,summer_b,,Calculus problem set assigned,,update internship/career checklist,join student org planning meeting,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2026-08-04,summer_b,,,,library deep-work block (2 hours),lead whiteboard study circle,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal
+2026-08-05,summer_b,,Quiz / concept check window,,practice calculus drills with timer,rewrite notes into concept map,Dr. Price: state assumptions before modeling,campus slice-of-life,normal
+2026-08-06,summer_b,,,,attend office hours for targeted questions,help peer with difficult concept,Dr. Brooks: show your reasoning clearly,campus slice-of-life,normal
+2026-08-07,summer_b,Summer term wrap week,Office hours + study hall emphasis,,update internship/career checklist,join student org planning meeting,Dr. Delgado: clean setup before solving,campus slice-of-life,normal
+2026-08-08,summer_wrap,,,,family time + light review,creative reset + reading,Dr. Okafor: visualize the concept first,campus slice-of-life,normal
+2026-08-09,summer_wrap,,,,career reflection and resume polishing,journal reflections on growth,Dr. Bennett: interpret numbers as evidence,campus slice-of-life,normal

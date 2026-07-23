@@ -1,0 +1,4 @@
+interface:
+  display_name: "Comic Week Generator"
+  short_description: "Build consistent weekly comic packages"
+  default_prompt: "Use $comic-week-generator to plan, storyboard, generate, and verify an approved comic week."

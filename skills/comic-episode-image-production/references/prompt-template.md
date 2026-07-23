@@ -1,13 +1,24 @@
-# Prompt Template
+# Two-Pass Prompt Template
 
-Use case: illustration-story  
-Asset type: single finished 4-panel comic page  
-Primary request: convert the storyboard into one phone-readable comic page  
-Scene/backdrop: FAMU campus setting from storyboard  
-Subject: Malik, Nia, and any required props or background activity  
-Style/medium: modern animated comic, clean semi-cartoon linework, soft shading  
-Composition/framing: 4-panel page, clear gutters, panel order obvious, negative space for lettering  
-Lighting/mood: warm Florida sunlight, hopeful and grounded  
-Color palette: balanced greens, oranges, golds, neutrals  
-Constraints: preserve storyboard order, character continuity, campus specificity  
-Avoid: unreadable clutter, generic campus design, text rendered in first pass
+## Pass One: Page Art
+
+- Asset: One finished four-panel comic page
+- Story source: Approved storyboard path and episode title
+- Setting: Fictional McCall-Hart location named in the storyboard
+- Subjects: Only required characters, with v2 wardrobe and appearance continuity
+- Style: Modern animated comic, clean semi-cartoon linework, expressive faces, soft shading
+- Composition: Four clearly ordered panels, clean gutters, phone-readable staging, negative space for lettering
+- Palette: Indigo, copper, cream, cypress gray, warm limestone, and dark walnut
+- Mood: Match the episode turn rather than defaulting every scene to inspirational
+- Required props: List only story-relevant objects
+- Text rule: No dialogue, captions, signs, logos, watermarks, or incidental lettering
+- Avoid: Archived references, legacy colors or mascots, real-university identity, clutter, malformed hands, and ambiguous panel order
+
+## Pass Two: Lettering Edit
+
+- Preserve the exact page art, panel order, framing, color, and character expressions.
+- Add the storyboard text verbatim in reading order.
+- Use crisp black lettering in white speech balloons and restrained caption boxes.
+- Keep balloons clear of faces, hands, equations, and important props.
+- Correct spelling and punctuation exactly.
+- Do not add new dialogue, logos, signs, or decorative text.

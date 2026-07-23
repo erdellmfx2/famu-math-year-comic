@@ -1,24 +1,28 @@
-# Master Calendar Sources & Assumptions
+# Master Calendar Sources and Fictionalization Rules
 
-## Repo Sources
-- research/academic-calendars/fall_2025.pdf
-- research/academic-calendars/spring_2026.pdf
-- research/academic-calendars/summer_2025.pdf
-- research/course-syllabi/calculus-1/FAMU_MAC2311_Calculus_I_Fall_2023_syllabus.pdf
-- research/course-syllabi/calculus-2/*
-- research/course-syllabi/calculus-3/*
+## Authoritative v2 Sources
 
-## Live Sources (Sports)
-- https://famuathletics.com/sports/football/schedule/2025
-- https://famuathletics.com/sports/mens-basketball/schedule/2025-26
-- https://famuathletics.com/sports/baseball/schedule/2026
-- https://famuathletics.com/sports/softball/schedule/2026
+- `story/setting_bible_v2.md`
+- `story/season_arc_v2.md`
+- `story/season_plan_v2.json`
+- `story/approval_status.json`
 
-## Live Source (Events)
-- https://www.famu.edu/events/index.php (reference; event detail appears JS-driven)
+## Structural Research Sources
 
-## Assumptions
-- Story year window fixed to 2025-08-01 through 2026-08-09.
-- Semester phase boundaries set to create a complete daily narrative backbone when exact per-day registrar dates are not machine-extracted from PDFs in this environment.
-- Holiday layer uses major US federal holidays and common campus break periods.
-- Syllabus layer modeled as recurring workload cadence (assignments/quizzes/midterm windows/finals periods).
+- Saved academic calendars under `research/academic-calendars/`
+- Saved Calculus I, II, and III syllabi under `research/course-syllabi/`
+- Saved athletics cadence in the v1 master calendar
+- Mathematics clubs, conferences, tutoring, and research references under `research/`
+
+## Boundary
+
+McCall-Hart University and every story event are fictional. Real source dates and schedules informed plausible rhythm only. Real institution names, opponents, faculty, venues, marks, and policies must not appear as McCall-Hart facts.
+
+## Calendar Assumptions
+
+- Story window: 2025-08-01 through 2026-08-09
+- Fall classes begin 2025-08-25
+- Spring classes begin 2026-01-07
+- Full-summer study begins 2026-05-11
+- Summer B begins 2026-06-29
+- Holiday and examination patterns are fictionalized composites

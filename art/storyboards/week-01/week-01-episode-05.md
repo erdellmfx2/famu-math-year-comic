@@ -1,37 +1,61 @@
-# Week 01 Episode 05 — Building a Path Before Walking It
+# Week 01, Episode 05: The Campus Has a Memory
 
-## Source
-- Timeline: `story/timeline-weeks/1.md`
-- Prose: `story/timeline-weeks-prose/prose_1.md`
+**Date:** Tuesday, August 5, 2025  
+**Story sources:** `story/timeline-weeks/1.md`; `story/timeline-weeks-prose-v2/prose_1.md`  
+**Purpose:** The tour turns McCall-Hart from a map into a lived place and exposes Malik and Nia's different instincts about preparation and possibility.
 
-## Episode Purpose
-Turn the story inward by showing how both characters prepare differently but seriously, and deepen their bond through honesty about pressure.
+## Continuity References
 
-## Episode Format
-- **Recommended format:** 4-panel daily comic
-- **Primary viewpoint:** shared introspection
-- **Setting:** split between Malik's planning space and Nia's shaded outdoor planning spot
-- **Emotional arc:** private planning -> balanced systems -> honest confession -> mutual understanding
+- Malik: `CHAR-MALIK:A2`, `CHAR-MALIK:C3`, `CHAR-MALIK:D1`
+- Nia: `CHAR-NIA:A2`, `CHAR-NIA:C3`, `CHAR-NIA:D1`
+- Jubilee Library exterior and reading room: `ENV-CORE:A2`, `ENV-CORE:B2`
+- North Star Learning Commons: `ENV-CORE:A3`
+- Founders' Bell and Cypress Walk: `ENV-CAMPUS:A1`
+- Malik's notebook: `PROP-ACADEMIC:B1`
+- Nia's tablet/camera-like sightseeing stance: `PROP-ACADEMIC:C2`
 
-## Panel Script
+## Panel Plan
 
-### Panel 1 — Malik maps the long road
-**Visual:** Malik at a table with notebook open to an actuarial pathway roadmap. Boxes, milestones, and course-planning logic visible.
+### Panel 1: Jubilee
 
-**Caption:** "Malik didn't just want good grades. He wanted direction."
+Wide setting introduction at Jubilee Library exterior. The student tour gathers before honey brick, modern glass, and pale limestone trim. Nia photographs the building with delighted attention; Malik photographs a physical campus map. Keep upper-left space for a caption.
 
-### Panel 2 — Nia plans for ambition and limits
-**Visual:** Nia under a shaded patch of campus lawn or walkway, planner open, drawing time blocks with colored pens.
+**Caption:** `The campus tour began at Jubilee Library, moved through the glass-walled North Star Learning Commons, and ended beneath the live oaks along Cypress Walk.`
 
-**Dialogue (Nia):** "This is a peace treaty."
+**Nia:** `You know they give us that online.`
 
-### Panel 3 — The real fear gets spoken
-**Visual:** Quiet seated two-shot outdoors. The mood softens; both look more thoughtful than playful.
+**Malik:** `Phones lose signal.`
 
-**Dialogue (Nia):** "Everybody says college is different. I know that. But knowing it and feeling it are different."
+### Panel 2: North Star
 
-### Panel 4 — FAMU feels like a place to rise
-**Visual:** Same scene, slightly wider. Students move in the background; the campus feels generous and alive.
+Clear location transition. Wide interior of North Star Learning Commons: whiteboards, tutoring tables, bright glass, and students collaborating. Nia photographs the wall of whiteboards; Malik checks his map, unbothered. Show no readable whiteboard content.
 
-**Dialogue (Malik):** "More like they expect you to rise."
+**Nia:** `Paper maps exist.`
 
+**Malik:** `Paper gets wet.`
+
+**Nia:** `Do you prepare for joy like this too?`
+
+### Panel 3: The Bell
+
+Setting transition. Reverent wide vertical view of Founders' Bell beneath its warm limestone arch along Cypress Walk, with live oak branches and indigo banners shifting in humid air. Nia looks upward; Malik looks down the path. Leave upper-right space for a caption.
+
+**Caption:** `It had once called students to assembly. Now it rang at Opening Convocation and commencement, marking the entrance and exit of a McCall-Hart education.`
+
+**Nia:** `Imagine hearing that on your last day here.`
+
+### Panel 4: Steps and Leaps
+
+Medium walking two-shot on Cypress Walk. Malik and Nia continue past the bell, the campus stretching behind them. She grins at him; he gives a dry, matter-of-fact reply. Keep the path forward visible as visual foreshadowing.
+
+**Malik:** `We have to make it to the first day first.`
+
+**Nia:** `So do leaps.`
+
+**Malik:** `Leaps are just steps with poor documentation.`
+
+## Art Rules
+
+- Produce one finished phone-readable four-panel page in left-to-right, top-to-bottom reading order.
+- Make each named location visually distinct, with the bell serving as the emotional center of the page.
+- Pass one has no lettering, readable maps, or incidental signs; add only listed lettering in pass two.

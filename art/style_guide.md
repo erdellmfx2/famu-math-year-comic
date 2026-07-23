@@ -1,46 +1,73 @@
-# FAMU Math Year Comic — Art Style Guide v1
+# The Formula of Becoming Art Style Guide v2
+
+## Gate
+
+This guide defines future direction only. Do not generate art while `story/approval_status.json` blocks comic production.
 
 ## Style Lock
-- **Style:** Modern animated comic
-- **Audience:** youth / young adult
-- **Rating:** G-rated
-- **Finish:** clean semi-cartoon linework, expressive faces, soft shading, readable compositions
-- **Palette:** vibrant but balanced greens, oranges, golds, neutrals
-- **Mood:** hopeful, grounded, energetic, academic, communal
 
-## Character Consistency
+- Style: Modern animated comic
+- Audience: Youth and young adult
+- Rating: G-rated
+- Finish: Clean semi-cartoon linework, expressive faces, soft shading, readable staging
+- Mood range: Warm, funny, tense, grieving, celebratory, intimate, and intellectually curious as the script requires
+- Default format: One phone-readable four-panel page per daily episode
+
+## McCall-Hart Identity
+
+- Institution: Fictional McCall-Hart University in Bellwether, Alabama
+- Colors: Indigo, copper, and cream
+- Neutrals: Cypress gray, warm limestone, dark walnut, and denim
+- Mascot: Great blue heron
+- Architecture: Honey brick, pale limestone, wrought iron, deep porches, and shaded arcades
+- Landscape: Live oaks, magnolias, cypress trees, red clay paths, and river humidity
+- Avoid: Legacy green-and-orange identity, snake mascots, real-university marks, and archived buildings
+
+## Character Continuity
+
 ### Malik Baptiste
-- Deep green / charcoal / white palette
-- Props: graph notebook, laptop, spreadsheet screen, financial calculator
-- Expression style: focused brow, dry half-smile, thoughtful stillness
-- Body language: composed, structured, slightly reserved
+
+- Palette: Indigo, cream, charcoal, and muted copper
+- Props: Graph notebook, laptop sleeve, calculator, risk-model pages, family repair photos
+- Expression range: Controlled focus, dry amusement, concealed fear, open grief, and relaxed affection
+- Body language: Measured and still; rigid when hiding distress
 
 ### Nia Reynolds
-- Orange with green accents, denim or neutral base
-- Props: color-coded notes, sticky tabs, tablet/notebook, tote bag with buttons
-- Expression style: bright curiosity, warm confidence, expressive joy
-- Body language: open, animated, conversational
 
-## Campus Environment
-- Florida A&M campus energy
-- Warm Florida sunlight, red brick, green lawns, student movement
-- Feels active and lived-in, not empty or generic
-- HBCU community spirit should be visible in background energy and warmth
+- Palette: Copper, cream, indigo accents, denim, and warm brown
+- Props: Bound notebook, color tabs, tablet, route maps, interview cards
+- Expression range: Bright curiosity, playful confidence, defensiveness, heartbreak, concentration, and earned joy
+- Body language: Open and animated; compressed when overcommitted
 
-## Panel Composition Rules
-- Prioritize readability on phones
-- Use 4-panel episodes by default for daily posts
-- Keep backgrounds clear enough for text overlays/captions
-- Make emotions obvious at thumbnail size
-- One main idea per panel
+### Supporting Cast
 
-## Dialogue/Caption Placement
-- Leave safe negative space in upper corners when possible
-- Avoid clutter behind faces and speech balloons
-- Favor medium shots and expressive close-ups over overly wide shots
+Julian, Simone, DJ, Keisha, and Imani require stable silhouettes, hair, wardrobe logic, and personal props before episode production begins. Do not design them as anonymous romantic rivals, confidantes, or athletes.
 
-## Continuity Checks
-- Malik and Nia should remain visually recognizable across episodes
-- Outfit changes can happen, but overall palette identity should persist
-- Academic props should match scene purpose
-- Campus details should feel like FAMU, not a generic school
+## Recurring Locations
+
+- Eliza Moss Hall: Mathematics, computing, and research
+- Jubilee Library: Quiet study, archives, and terrace conversations
+- North Star Learning Commons: Tutoring and collaborative problem solving
+- Hart Student Union and Copper Cup Cafe: Social and organization life
+- Founders' Bell and Cypress Walk: Ceremonial and reflective scenes
+- Henry Boyd Stadium: Football and marching-band culture
+- Ruth Ellis Fieldhouse: Basketball, volleyball, lectures, and career events
+- Meridian Diamond and Magnolia Field: Baseball and softball
+- Bellwether Media House: Radio, documentary, and band-adjacent scenes
+- Porter Center for Enterprise: Actuarial and career scenes
+
+## Panel Rules
+
+- Keep emotional action legible at thumbnail size.
+- Give each panel one dominant beat.
+- Vary shot scale and location according to story, not a fixed weekly rhythm.
+- Leave intentional negative space for lettering.
+- Keep equations and data displays large enough to read when they matter.
+- Do not use generic campus backgrounds when a named setting affects the scene.
+
+## Lettering Rules
+
+- Add final text in a second pass.
+- Preserve script wording unless dialogue revision is approved.
+- Use clear balloon order, crisp black type, and restrained caption boxes.
+- Never cover faces, hands, equations, or decisive props.

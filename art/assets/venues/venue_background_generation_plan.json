@@ -1,0 +1,117 @@
+{
+  "updated_at": "2026-07-22T15:06:47.318017+00:00",
+  "setting": "McCall-Hart University",
+  "script_version": "v2",
+  "script_approved": false,
+  "comic_production_allowed": false,
+  "hold_reason": "The v2 script must be reviewed and explicitly approved before new storyboards, prompts, panels, or comic pages are produced.",
+  "complete_count": 0,
+  "planned_count": 13,
+  "assets": [
+    {
+      "slug": "eliza_moss_hall",
+      "display_name": "Eliza Moss Hall",
+      "filename": "eliza_moss_hall_exterior.png",
+      "path": "art/assets/venues/eliza_moss_hall_exterior.png",
+      "status": "planned",
+      "prompt": "Historic mathematics and science building with brick arches, tall windows, copper-toned doors, and mature live oaks. Editorial coming-of-age comic background plate, grounded Southern campus architecture, indigo, copper, and cream accents, expressive ink linework, warm natural light, readable composition, no people in the foreground, no logos, no legible text, no watermark."
+    },
+    {
+      "slug": "jubilee_library",
+      "display_name": "Jubilee Library",
+      "filename": "jubilee_library_exterior.png",
+      "path": "art/assets/venues/jubilee_library_exterior.png",
+      "status": "planned",
+      "prompt": "Grand but welcoming library with cream stone, broad steps, shaded study terraces, and an indigo banner without lettering. Editorial coming-of-age comic background plate, grounded Southern campus architecture, indigo, copper, and cream accents, expressive ink linework, warm natural light, readable composition, no people in the foreground, no logos, no legible text, no watermark."
+    },
+    {
+      "slug": "north_star_learning_commons",
+      "display_name": "North Star Learning Commons",
+      "filename": "north_star_learning_commons_interior.png",
+      "path": "art/assets/venues/north_star_learning_commons_interior.png",
+      "status": "planned",
+      "prompt": "Collaborative study hall with whiteboards, long tables, tutoring alcoves, copper fixtures, and late-afternoon window light. Editorial coming-of-age comic background plate, grounded Southern campus architecture, indigo, copper, and cream accents, expressive ink linework, warm natural light, readable composition, no people in the foreground, no logos, no legible text, no watermark."
+    },
+    {
+      "slug": "hart_student_union",
+      "display_name": "Hart Student Union",
+      "filename": "hart_student_union_exterior.png",
+      "path": "art/assets/venues/hart_student_union_exterior.png",
+      "status": "planned",
+      "prompt": "Lively student-union plaza with covered walkways, a low fountain, event-board shapes without readable text, and cypress trees. Editorial coming-of-age comic background plate, grounded Southern campus architecture, indigo, copper, and cream accents, expressive ink linework, warm natural light, readable composition, no people in the foreground, no logos, no legible text, no watermark."
+    },
+    {
+      "slug": "copper_cup_cafe",
+      "display_name": "Copper Cup Cafe",
+      "filename": "copper_cup_cafe_interior.png",
+      "path": "art/assets/venues/copper_cup_cafe_interior.png",
+      "status": "planned",
+      "prompt": "Warm campus cafe with copper pendant lights, indigo tile, small tables, a service counter, and room for dialogue scenes. Editorial coming-of-age comic background plate, grounded Southern campus architecture, indigo, copper, and cream accents, expressive ink linework, warm natural light, readable composition, no people in the foreground, no logos, no legible text, no watermark."
+    },
+    {
+      "slug": "founders_bell_cypress_walk",
+      "display_name": "Founders' Bell and Cypress Walk",
+      "filename": "founders_bell_cypress_walk.png",
+      "path": "art/assets/venues/founders_bell_cypress_walk.png",
+      "status": "planned",
+      "prompt": "Ceremonial bronze bell in a brick arch at the end of a long cypress-lined pedestrian walk during golden hour. Editorial coming-of-age comic background plate, grounded Southern campus architecture, indigo, copper, and cream accents, expressive ink linework, warm natural light, readable composition, no people in the foreground, no logos, no legible text, no watermark."
+    },
+    {
+      "slug": "henry_boyd_stadium",
+      "display_name": "Henry Boyd Stadium",
+      "filename": "henry_boyd_stadium_wide.png",
+      "path": "art/assets/venues/henry_boyd_stadium_wide.png",
+      "status": "planned",
+      "prompt": "Wide college football stadium interior with a vivid field, indigo end zones without lettering, copper rail details, and game-night lights. Editorial coming-of-age comic background plate, grounded Southern campus architecture, indigo, copper, and cream accents, expressive ink linework, warm natural light, readable composition, no people in the foreground, no logos, no legible text, no watermark."
+    },
+    {
+      "slug": "ruth_ellis_fieldhouse",
+      "display_name": "Ruth Ellis Fieldhouse",
+      "filename": "ruth_ellis_fieldhouse_wide.png",
+      "path": "art/assets/venues/ruth_ellis_fieldhouse_wide.png",
+      "status": "planned",
+      "prompt": "Intimate basketball arena with polished hardwood, indigo seating, copper trim, and clear open space for crowd overlays. Editorial coming-of-age comic background plate, grounded Southern campus architecture, indigo, copper, and cream accents, expressive ink linework, warm natural light, readable composition, no people in the foreground, no logos, no legible text, no watermark."
+    },
+    {
+      "slug": "meridian_diamond",
+      "display_name": "Meridian Diamond",
+      "filename": "meridian_diamond_wide.png",
+      "path": "art/assets/venues/meridian_diamond_wide.png",
+      "status": "planned",
+      "prompt": "College baseball park with a brick backstop, shaded dugouts, compact bleachers, and bright spring sunlight. Editorial coming-of-age comic background plate, grounded Southern campus architecture, indigo, copper, and cream accents, expressive ink linework, warm natural light, readable composition, no people in the foreground, no logos, no legible text, no watermark."
+    },
+    {
+      "slug": "magnolia_field",
+      "display_name": "Magnolia Field",
+      "filename": "magnolia_field_wide.png",
+      "path": "art/assets/venues/magnolia_field_wide.png",
+      "status": "planned",
+      "prompt": "College softball field framed by magnolias, with cream dugouts, indigo fencing, and a welcoming community-game atmosphere. Editorial coming-of-age comic background plate, grounded Southern campus architecture, indigo, copper, and cream accents, expressive ink linework, warm natural light, readable composition, no people in the foreground, no logos, no legible text, no watermark."
+    },
+    {
+      "slug": "bellwether_media_house",
+      "display_name": "Bellwether Media House",
+      "filename": "bellwether_media_house_exterior.png",
+      "path": "art/assets/venues/bellwether_media_house_exterior.png",
+      "status": "planned",
+      "prompt": "Restored brick media building with glass studio additions, production cases near the entry, and a creative student-newsroom character. Editorial coming-of-age comic background plate, grounded Southern campus architecture, indigo, copper, and cream accents, expressive ink linework, warm natural light, readable composition, no people in the foreground, no logos, no legible text, no watermark."
+    },
+    {
+      "slug": "porter_center_for_enterprise",
+      "display_name": "Porter Center for Enterprise",
+      "filename": "porter_center_for_enterprise_exterior.png",
+      "path": "art/assets/venues/porter_center_for_enterprise_exterior.png",
+      "status": "planned",
+      "prompt": "Modern entrepreneurship center with copper fins, shaded presentation terraces, and a polished competition-day atmosphere. Editorial coming-of-age comic background plate, grounded Southern campus architecture, indigo, copper, and cream accents, expressive ink linework, warm natural light, readable composition, no people in the foreground, no logos, no legible text, no watermark."
+    },
+    {
+      "slug": "delta_national_laboratory",
+      "display_name": "Delta National Laboratory",
+      "filename": "delta_national_laboratory_computing_gallery.png",
+      "path": "art/assets/venues/delta_national_laboratory_computing_gallery.png",
+      "status": "planned",
+      "prompt": "Fictional national-laboratory visitor computing gallery with glass walls, blue-white equipment light, secure doors, and no government seals. Editorial coming-of-age comic background plate, grounded Southern campus architecture, indigo, copper, and cream accents, expressive ink linework, warm natural light, readable composition, no people in the foreground, no logos, no legible text, no watermark."
+    }
+  ],
+  "next_after_approval": null
+}

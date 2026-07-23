@@ -1,430 +1,384 @@
 #!/usr/bin/env python3
+"""Export the authorized v2 prose manuscript to Markdown, DOCX, and PDF.
+
+The v1 exporter pulled files from a remote repository and silently mixed local
+overrides into them. This version is intentionally local and deterministic. It
+also refuses to export prose until prose adaptation has been authorized.
+"""
+
 from __future__ import annotations
 
 import argparse
-import base64
+import html
 import json
 import re
-import subprocess
 from dataclasses import dataclass
 from pathlib import Path
 
-from docx import Document
-from docx.enum.text import WD_ALIGN_PARAGRAPH
-from docx.oxml.ns import qn
-from docx.shared import Inches, Pt, RGBColor
-from reportlab.lib.colors import HexColor
-from reportlab.lib.enums import TA_LEFT
-from reportlab.lib.pagesizes import letter
-from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
-from reportlab.lib.units import inch
-from reportlab.platypus import PageBreak, Paragraph, SimpleDocTemplate, Spacer
+
+REPO_ROOT = Path(__file__).resolve().parents[1]
+APPROVAL_PATH = REPO_ROOT / "story" / "approval_status.json"
+DEFAULT_SOURCE = REPO_ROOT / "story" / "timeline-weeks-prose-v2"
+DEFAULT_OUTPUT = REPO_ROOT / "story" / "prose-v2-output"
+EXPECTED_WEEKS = set(range(1, 55))
+TITLE = "The Formula of Becoming"
+SUBTITLE = "A Year at McCall-Hart University"
 
 
-REPO = "erdellmfx2/famu-math-year-comic"
-FOLDER = "story/timeline-weeks-prose"
-EXPECTED_WEEKS = list(range(1, 55))
-
-
-@dataclass
+@dataclass(frozen=True)
 class ProseFile:
     week: int
-    name: str
+    path: Path
     content: str
 
 
-def run_gh_api(path: str) -> object:
-    result = subprocess.run(
-        ["gh", "api", path],
-        check=True,
-        capture_output=True,
-        text=True,
-    )
-    return json.loads(result.stdout)
-
-
-def parse_week(name: str) -> int | None:
-    match = re.fullmatch(r"prose_(\d+)\.md", name)
+def parse_week(path: Path) -> int | None:
+    match = re.fullmatch(r"prose_(\d+)\.md", path.name, flags=re.IGNORECASE)
     return int(match.group(1)) if match else None
 
 
-def fetch_file_list() -> list[tuple[int, str]]:
-    payload = run_gh_api(f"repos/{REPO}/contents/{FOLDER}")
-    files: list[tuple[int, str]] = []
-    for item in payload:
-        if item.get("type") != "file":
-            continue
-        name = item["name"]
-        week = parse_week(name)
-        if week is not None:
-            files.append((week, name))
-    files.sort(key=lambda item: item[0])
-    return files
+def require_prose_authorization() -> dict:
+    approval = json.loads(APPROVAL_PATH.read_text(encoding="utf-8"))
+    if not approval.get("prose_adaptation_allowed"):
+        raise SystemExit(
+            "Prose export is on hold: authorize prose adaptation first in "
+            "story/approval_status.json."
+        )
+    return approval
 
 
-def fetch_file_content(name: str) -> str:
-    payload = run_gh_api(f"repos/{REPO}/contents/{FOLDER}/{name}")
-    encoded = payload["content"].replace("\n", "")
-    return base64.b64decode(encoded).decode("utf-8")
+def load_prose(source_dir: Path) -> list[ProseFile]:
+    if not source_dir.is_dir():
+        raise SystemExit(f"Prose source folder does not exist: {source_dir}")
 
-
-def load_local_overrides(override_dir: Path) -> dict[int, ProseFile]:
-    overrides: dict[int, ProseFile] = {}
-    if not override_dir.exists():
-        return overrides
-    for path in sorted(override_dir.glob("prose_*.md")):
-        week = parse_week(path.name)
+    by_week: dict[int, ProseFile] = {}
+    for path in sorted(source_dir.glob("*.md")):
+        week = parse_week(path)
         if week is None:
             continue
-        overrides[week] = ProseFile(
+        if week in by_week:
+            raise SystemExit(f"Duplicate prose file for week {week}: {path}")
+        by_week[week] = ProseFile(
             week=week,
-            name=path.name,
-            content=path.read_text(encoding="utf-8"),
+            path=path,
+            content=path.read_text(encoding="utf-8").strip(),
         )
-    return overrides
+
+    missing = sorted(EXPECTED_WEEKS - set(by_week))
+    extras = sorted(set(by_week) - EXPECTED_WEEKS)
+    if missing or extras:
+        details = []
+        if missing:
+            details.append("missing " + ", ".join(str(week) for week in missing))
+        if extras:
+            details.append("unexpected " + ", ".join(str(week) for week in extras))
+        raise SystemExit("Expected exactly weeks 1-54; " + "; ".join(details) + ".")
+    return [by_week[week] for week in sorted(by_week)]
 
 
-def set_run_font(run, size: float, bold: bool = False, color: RGBColor | None = None) -> None:
-    run.font.name = "Arial"
-    run._element.rPr.rFonts.set(qn("w:ascii"), "Arial")
-    run._element.rPr.rFonts.set(qn("w:hAnsi"), "Arial")
-    run.font.size = Pt(size)
-    run.bold = bold
-    if color is not None:
-        run.font.color.rgb = color
+def markdown_parts(files: list[ProseFile]) -> list[str]:
+    parts = [f"# {TITLE}", "", f"## {SUBTITLE}", ""]
+    for index, prose in enumerate(files):
+        if index:
+            parts.extend(["", "---", ""])
+        parts.append(prose.content)
+    return parts
 
 
-def configure_document(doc: Document) -> None:
-    section = doc.sections[0]
-    section.top_margin = Inches(1.0)
-    section.bottom_margin = Inches(1.0)
-    section.left_margin = Inches(1.0)
-    section.right_margin = Inches(1.0)
-    section.header_distance = Inches(0.492)
-    section.footer_distance = Inches(0.492)
+def write_markdown(files: list[ProseFile], destination: Path) -> None:
+    destination.write_text("\n".join(markdown_parts(files)).rstrip() + "\n", encoding="utf-8")
 
-    normal = doc.styles["Normal"]
-    normal.font.name = "Arial"
-    normal._element.rPr.rFonts.set(qn("w:ascii"), "Arial")
-    normal._element.rPr.rFonts.set(qn("w:hAnsi"), "Arial")
+
+def inline_markup(text: str) -> list[tuple[str, bool, bool]]:
+    """Split the small Markdown emphasis subset used by the prose files."""
+    pieces: list[tuple[str, bool, bool]] = []
+    cursor = 0
+    for match in re.finditer(r"\*\*(.+?)\*\*|\*([^*\n]+?)\*", text):
+        if match.start() > cursor:
+            pieces.append((text[cursor:match.start()], False, False))
+        if match.group(1) is not None:
+            pieces.append((match.group(1), True, False))
+        else:
+            pieces.append((match.group(2), False, True))
+        cursor = match.end()
+    if cursor < len(text):
+        pieces.append((text[cursor:], False, False))
+    return pieces
+
+
+def write_docx(files: list[ProseFile], destination: Path) -> None:
+    try:
+        from docx import Document
+        from docx.enum.text import WD_ALIGN_PARAGRAPH
+        from docx.oxml import OxmlElement
+        from docx.oxml.ns import qn
+        from docx.shared import Inches, Pt, RGBColor
+    except ImportError as exc:
+        raise SystemExit("DOCX export requires python-docx.") from exc
+
+    document = Document()
+    section = document.sections[0]
+    section.top_margin = Inches(1)
+    section.bottom_margin = Inches(1)
+    section.left_margin = Inches(1)
+    section.right_margin = Inches(1)
+    section.header_distance = Inches(0.45)
+    section.footer_distance = Inches(0.45)
+    section.different_first_page_header_footer = True
+
+    normal = document.styles["Normal"]
+    normal.font.name = "Calibri"
+    normal._element.rPr.rFonts.set(qn("w:ascii"), "Calibri")
+    normal._element.rPr.rFonts.set(qn("w:hAnsi"), "Calibri")
     normal.font.size = Pt(11)
+    normal.paragraph_format.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
     normal.paragraph_format.space_before = Pt(0)
     normal.paragraph_format.space_after = Pt(8)
-    normal.paragraph_format.line_spacing = 1.15
+    normal.paragraph_format.line_spacing = 1.333
+    normal.paragraph_format.widow_control = True
 
-    for style_name, size, color in [
-        ("Heading 1", 20, RGBColor(0, 0, 0)),
-        ("Heading 2", 16, RGBColor(0, 0, 0)),
-        ("Heading 3", 14, RGBColor(67, 67, 67)),
-    ]:
-        style = doc.styles[style_name]
-        style.font.name = "Arial"
-        style._element.rPr.rFonts.set(qn("w:ascii"), "Arial")
-        style._element.rPr.rFonts.set(qn("w:hAnsi"), "Arial")
+    heading_tokens = {
+        "Heading 1": (16, "2E74B5", 18, 10),
+        "Heading 2": (13, "985424", 12, 6),
+        "Heading 3": (12, "1F4D78", 8, 4),
+    }
+    for style_name, (size, color, before, after) in heading_tokens.items():
+        style = document.styles[style_name]
+        style.font.name = "Calibri"
+        style._element.rPr.rFonts.set(qn("w:ascii"), "Calibri")
+        style._element.rPr.rFonts.set(qn("w:hAnsi"), "Calibri")
         style.font.size = Pt(size)
-        style.font.bold = False
-        style.font.color.rgb = color
+        style.font.bold = True
+        style.font.color.rgb = RGBColor.from_string(color)
+        style.paragraph_format.space_before = Pt(before)
+        style.paragraph_format.space_after = Pt(after)
+        style.paragraph_format.keep_with_next = True
 
+    header = section.header.paragraphs[0]
+    header.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    header.paragraph_format.space_after = Pt(0)
+    header_run = header.add_run(TITLE.upper())
+    header_run.font.name = "Calibri"
+    header_run.font.size = Pt(8.5)
+    header_run.font.color.rgb = RGBColor(100, 100, 100)
 
-def add_title_page(doc: Document, missing_weeks: list[int]) -> None:
-    title = doc.add_paragraph()
-    title.alignment = WD_ALIGN_PARAGRAPH.LEFT
-    title.paragraph_format.space_before = Pt(0)
-    title.paragraph_format.space_after = Pt(3)
-    run = title.add_run("FAMU Math Year Comic Timeline Prose")
-    set_run_font(run, 26, bold=False, color=RGBColor(0, 0, 0))
+    footer = section.footer.paragraphs[0]
+    footer.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    footer.paragraph_format.space_before = Pt(0)
+    footer.paragraph_format.space_after = Pt(0)
+    page_run = footer.add_run()
+    page_run.font.name = "Calibri"
+    page_run.font.size = Pt(9)
+    page_run.font.color.rgb = RGBColor(95, 95, 95)
+    field_begin = OxmlElement("w:fldChar")
+    field_begin.set(qn("w:fldCharType"), "begin")
+    field_code = OxmlElement("w:instrText")
+    field_code.set(qn("xml:space"), "preserve")
+    field_code.text = " PAGE "
+    field_end = OxmlElement("w:fldChar")
+    field_end.set(qn("w:fldCharType"), "end")
+    page_run._r.extend([field_begin, field_code, field_end])
 
-    subtitle = doc.add_paragraph()
-    subtitle.paragraph_format.space_before = Pt(0)
-    subtitle.paragraph_format.space_after = Pt(8)
-    subtitle_run = subtitle.add_run("Combined manuscript from story/timeline-weeks-prose")
-    set_run_font(subtitle_run, 11, color=RGBColor(85, 85, 85))
+    title = document.add_paragraph()
+    title.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    title.paragraph_format.space_before = Pt(156)
+    title.paragraph_format.space_after = Pt(8)
+    title_run = title.add_run(TITLE)
+    title_run.bold = True
+    title_run.font.name = "Calibri"
+    title_run.font.size = Pt(30)
+    title_run.font.color.rgb = RGBColor(32, 55, 72)
 
-    if missing_weeks:
-        note = doc.add_paragraph()
-        note.paragraph_format.space_before = Pt(0)
-        note.paragraph_format.space_after = Pt(8)
-        note_run = note.add_run(
-            "Source note: GitHub did not currently include "
-            + ", ".join(f"prose_{week}.md" for week in missing_weeks)
-            + "."
-        )
-        set_run_font(note_run, 11, color=RGBColor(85, 85, 85))
+    subtitle = document.add_paragraph()
+    subtitle.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    subtitle.paragraph_format.space_after = Pt(22)
+    subtitle_run = subtitle.add_run(SUBTITLE)
+    subtitle_run.italic = True
+    subtitle_run.font.name = "Calibri"
+    subtitle_run.font.size = Pt(15)
+    subtitle_run.font.color.rgb = RGBColor(152, 84, 36)
 
-
-def add_markdown_paragraph(doc: Document, text: str, style: str | None = None) -> None:
-    paragraph = doc.add_paragraph(style=style)
-    paragraph.paragraph_format.line_spacing = 1.15
-    paragraph.paragraph_format.space_before = Pt(0)
-    paragraph.paragraph_format.space_after = Pt(8 if style is None else 6)
-
-    pieces = re.split(r"(\*\*.*?\*\*)", text)
-    for piece in pieces:
-        if not piece:
-            continue
-        if piece.startswith("**") and piece.endswith("**") and len(piece) >= 4:
-            run = paragraph.add_run(piece[2:-2])
-            set_run_font(run, 11 if style is None else {"Heading 1": 20, "Heading 2": 16, "Heading 3": 14}[style], bold=True)
-        else:
-            run = paragraph.add_run(piece)
-            set_run_font(run, 11 if style is None else {"Heading 1": 20, "Heading 2": 16, "Heading 3": 14}[style], bold=False)
-
-
-def render_markdown_block(doc: Document, block: str) -> None:
-    stripped = block.strip()
-    if not stripped:
-        return
-    if stripped.startswith("### "):
-        add_markdown_paragraph(doc, stripped[4:].strip(), style="Heading 3")
-    elif stripped.startswith("## "):
-        add_markdown_paragraph(doc, stripped[3:].strip(), style="Heading 2")
-    elif stripped.startswith("# "):
-        add_markdown_paragraph(doc, stripped[2:].strip(), style="Heading 1")
-    else:
-        for line in stripped.splitlines():
-            if re.match(r"^\d+\.\s+", line):
-                paragraph = doc.add_paragraph(style="Normal")
-                paragraph.style = doc.styles["Normal"]
-                paragraph.paragraph_format.left_indent = Inches(0.5)
-                paragraph.paragraph_format.first_line_indent = Inches(-0.25)
-                paragraph.paragraph_format.space_after = Pt(4)
-                run = paragraph.add_run(line)
-                set_run_font(run, 11)
-            elif line.startswith(("- ", "* ")):
-                paragraph = doc.add_paragraph(style="Normal")
-                paragraph.paragraph_format.left_indent = Inches(0.5)
-                paragraph.paragraph_format.first_line_indent = Inches(-0.25)
-                paragraph.paragraph_format.space_after = Pt(4)
-                run = paragraph.add_run("• " + line[2:].strip())
-                set_run_font(run, 11)
-            else:
-                add_markdown_paragraph(doc, line)
-
-
-def add_week_content(doc: Document, prose: ProseFile, is_first_week: bool) -> None:
-    if not is_first_week:
-        doc.add_page_break()
-    blocks = re.split(r"\n\s*\n", prose.content.strip())
-    for block in blocks:
-        render_markdown_block(doc, block)
-
-
-def write_combined_markdown(files: list[ProseFile], destination: Path, missing_weeks: list[int]) -> None:
-    parts = [
-        "# FAMU Math Year Comic Timeline Prose",
-        "",
-        "Combined from `story/timeline-weeks-prose`.",
-        "",
-    ]
-    if missing_weeks:
-        parts.extend(
-            [
-                "## Source Note",
-                "",
-                "The following expected weekly files were not present in GitHub at export time: "
-                + ", ".join(f"`prose_{week}.md`" for week in missing_weeks)
-                + ".",
-                "",
-            ]
-        )
+    edition = document.add_paragraph()
+    edition.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    edition_run = edition.add_run("Season One Prose Edition")
+    edition_run.font.name = "Calibri"
+    edition_run.font.size = Pt(10.5)
+    edition_run.font.color.rgb = RGBColor(90, 90, 90)
 
     for prose in files:
-        parts.append(prose.content.strip())
-        parts.append("")
-        parts.append("---")
-        parts.append("")
+        document.add_page_break()
+        for line in prose.content.splitlines():
+            stripped = line.strip()
+            if not stripped:
+                continue
+            if stripped.startswith("### "):
+                paragraph = document.add_heading(stripped[4:], level=3)
+            elif stripped.startswith("## "):
+                paragraph = document.add_heading(stripped[3:], level=2)
+            elif stripped.startswith("# "):
+                paragraph = document.add_heading(stripped[2:], level=1)
+            elif stripped.startswith(("- ", "* ")):
+                paragraph = document.add_paragraph(style="List Bullet")
+                stripped = stripped[2:]
+            else:
+                paragraph = document.add_paragraph()
+                paragraph.paragraph_format.widow_control = True
+            if not paragraph.text:
+                for piece, bold, italic in inline_markup(stripped):
+                    run = paragraph.add_run(piece)
+                    run.bold = bold
+                    run.italic = italic
 
-    destination.write_text("\n".join(parts).rstrip() + "\n", encoding="utf-8")
+    document.save(destination)
 
 
-def write_docx(files: list[ProseFile], destination: Path, missing_weeks: list[int]) -> None:
-    doc = Document()
-    configure_document(doc)
-    add_title_page(doc, missing_weeks)
+def reportlab_markup(text: str) -> str:
+    marked_up = []
+    for piece, bold, italic in inline_markup(text):
+        escaped = html.escape(piece)
+        if bold:
+            escaped = f"<b>{escaped}</b>"
+        elif italic:
+            escaped = f"<i>{escaped}</i>"
+        marked_up.append(escaped)
+    return "".join(marked_up)
 
-    for index, prose in enumerate(files):
-        add_week_content(doc, prose, is_first_week=index == 0)
 
-    doc.save(destination)
+def write_pdf(files: list[ProseFile], destination: Path) -> None:
+    try:
+        from reportlab.lib.colors import HexColor
+        from reportlab.lib.enums import TA_JUSTIFY
+        from reportlab.lib.pagesizes import letter
+        from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
+        from reportlab.lib.units import inch
+        from reportlab.platypus import PageBreak, Paragraph, SimpleDocTemplate, Spacer
+    except ImportError as exc:
+        raise SystemExit("PDF export requires reportlab.") from exc
 
-
-def build_pdf_styles():
-    styles = getSampleStyleSheet()
-    return {
+    base = getSampleStyleSheet()
+    styles = {
         "title": ParagraphStyle(
-            "TimelineTitle",
-            parent=styles["Normal"],
-            fontName="Helvetica",
-            fontSize=26,
-            leading=30,
-            spaceAfter=6,
-            textColor=HexColor("#000000"),
-            alignment=TA_LEFT,
+            "TitleV2", parent=base["Title"], fontName="Helvetica-Bold",
+            fontSize=28, leading=33, textColor=HexColor("#282D5A"), spaceAfter=12,
         ),
-        "meta": ParagraphStyle(
-            "TimelineMeta",
-            parent=styles["Normal"],
-            fontName="Helvetica",
-            fontSize=11,
-            leading=14,
-            spaceAfter=8,
-            textColor=HexColor("#555555"),
-        ),
-        "body": ParagraphStyle(
-            "TimelineBody",
-            parent=styles["BodyText"],
-            fontName="Helvetica",
-            fontSize=11,
-            leading=15,
-            spaceAfter=8,
+        "subtitle": ParagraphStyle(
+            "SubtitleV2", parent=base["Normal"], fontName="Helvetica-Oblique",
+            fontSize=14, leading=18, alignment=1, textColor=HexColor("#985424"),
         ),
         "h1": ParagraphStyle(
-            "TimelineH1",
-            parent=styles["Heading1"],
-            fontName="Helvetica",
-            fontSize=20,
-            leading=24,
-            spaceBefore=20,
-            spaceAfter=6,
-            textColor=HexColor("#000000"),
+            "H1V2", parent=base["Heading1"], fontName="Helvetica-Bold",
+            fontSize=16, leading=20, textColor=HexColor("#2E74B5"),
+            spaceBefore=18, spaceAfter=10, keepWithNext=True,
         ),
         "h2": ParagraphStyle(
-            "TimelineH2",
-            parent=styles["Heading2"],
-            fontName="Helvetica",
-            fontSize=16,
-            leading=20,
-            spaceBefore=18,
-            spaceAfter=6,
-            textColor=HexColor("#000000"),
+            "H2V2", parent=base["Heading2"], fontName="Helvetica-Bold",
+            fontSize=13, leading=17, textColor=HexColor("#985424"),
+            spaceBefore=12, spaceAfter=6, keepWithNext=True,
         ),
         "h3": ParagraphStyle(
-            "TimelineH3",
-            parent=styles["Heading3"],
-            fontName="Helvetica",
-            fontSize=14,
-            leading=18,
-            spaceBefore=16,
-            spaceAfter=4,
-            textColor=HexColor("#434343"),
+            "H3V2", parent=base["Heading3"], fontName="Helvetica-Bold",
+            fontSize=12, leading=16, textColor=HexColor("#1F4D78"),
+            spaceBefore=8, spaceAfter=4, keepWithNext=True,
+        ),
+        "body": ParagraphStyle(
+            "BodyV2", parent=base["BodyText"], fontName="Helvetica",
+            fontSize=11, leading=14.66, alignment=TA_JUSTIFY, spaceAfter=8,
+            allowWidows=False, allowOrphans=False,
         ),
         "bullet": ParagraphStyle(
-            "TimelineBullet",
-            parent=styles["BodyText"],
-            fontName="Helvetica",
-            fontSize=11,
-            leading=15,
-            leftIndent=0.5 * inch,
-            firstLineIndent=-0.2 * inch,
-            spaceAfter=4,
+            "BulletV2", parent=base["BodyText"], fontName="Helvetica",
+            fontSize=10.5, leading=15, leftIndent=18, firstLineIndent=-10, spaceAfter=5,
         ),
     }
 
-
-def markup_to_reportlab(text: str) -> str:
-    escaped = (
-        text.replace("&", "&amp;")
-        .replace("<", "&lt;")
-        .replace(">", "&gt;")
-    )
-    return re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", escaped)
-
-
-def pdf_block_to_flowables(block: str, styles: dict[str, ParagraphStyle]):
-    stripped = block.strip()
-    if not stripped:
-        return []
-    if stripped.startswith("### "):
-        return [Paragraph(markup_to_reportlab(stripped[4:].strip()), styles["h3"])]
-    if stripped.startswith("## "):
-        return [Paragraph(markup_to_reportlab(stripped[3:].strip()), styles["h2"])]
-    if stripped.startswith("# "):
-        return [Paragraph(markup_to_reportlab(stripped[2:].strip()), styles["h1"])]
-
-    flowables = []
-    for line in stripped.splitlines():
-        if re.match(r"^\d+\.\s+", line):
-            flowables.append(Paragraph(markup_to_reportlab(line), styles["bullet"]))
-        elif line.startswith(("- ", "* ")):
-            flowables.append(Paragraph(markup_to_reportlab("• " + line[2:].strip()), styles["bullet"]))
-        else:
-            flowables.append(Paragraph(markup_to_reportlab(line), styles["body"]))
-    return flowables
-
-
-def write_pdf(files: list[ProseFile], destination: Path, missing_weeks: list[int]) -> None:
-    styles = build_pdf_styles()
-    doc = SimpleDocTemplate(
-        str(destination),
-        pagesize=letter,
-        topMargin=1.0 * inch,
-        bottomMargin=1.0 * inch,
-        leftMargin=1.0 * inch,
-        rightMargin=1.0 * inch,
-    )
     flowables = [
-        Paragraph("FAMU Math Year Comic Timeline Prose", styles["title"]),
-        Paragraph("Combined manuscript from story/timeline-weeks-prose", styles["meta"]),
+        Spacer(1, 2.15 * inch),
+        Paragraph(TITLE, styles["title"]),
+        Paragraph(SUBTITLE, styles["subtitle"]),
+        Spacer(1, 0.22 * inch),
+        Paragraph("Season One Prose Edition", ParagraphStyle(
+            "EditionV2", parent=base["Normal"], fontName="Helvetica",
+            fontSize=10.5, leading=13, alignment=1, textColor=HexColor("#5A5A5A"),
+        )),
     ]
-    if missing_weeks:
-        flowables.append(
-            Paragraph(
-                "Source note: GitHub did not currently include "
-                + ", ".join(f"prose_{week}.md" for week in missing_weeks)
-                + ".",
-                styles["meta"],
-            )
-        )
-    flowables.append(Spacer(1, 0.15 * inch))
-
-    for index, prose in enumerate(files):
-        if index > 0:
-            flowables.append(PageBreak())
-        blocks = re.split(r"\n\s*\n", prose.content.strip())
-        for block in blocks:
-            flowables.extend(pdf_block_to_flowables(block, styles))
-
-    doc.build(flowables)
-
-
-def save_source_files(files: list[ProseFile], destination_dir: Path) -> None:
-    destination_dir.mkdir(parents=True, exist_ok=True)
     for prose in files:
-        (destination_dir / prose.name).write_text(prose.content, encoding="utf-8")
+        flowables.append(PageBreak())
+        for line in prose.content.splitlines():
+            stripped = line.strip()
+            if not stripped:
+                continue
+            if stripped.startswith("### "):
+                flowables.append(Paragraph(reportlab_markup(stripped[4:]), styles["h3"]))
+            elif stripped.startswith("## "):
+                flowables.append(Paragraph(reportlab_markup(stripped[3:]), styles["h2"]))
+            elif stripped.startswith("# "):
+                flowables.append(Paragraph(reportlab_markup(stripped[2:]), styles["h1"]))
+            elif stripped.startswith(("- ", "* ")):
+                flowables.append(Paragraph("&bull; " + reportlab_markup(stripped[2:]), styles["bullet"]))
+            else:
+                flowables.append(Paragraph(reportlab_markup(stripped), styles["body"]))
+
+    document = SimpleDocTemplate(
+        str(destination), pagesize=letter, topMargin=0.85 * inch,
+        bottomMargin=0.85 * inch, leftMargin=0.9 * inch, rightMargin=0.9 * inch,
+        title=TITLE, author="McCall-Hart University Comic Project",
+    )
+
+    def first_page(canvas, doc):
+        canvas.saveState()
+        canvas.setTitle(TITLE)
+        canvas.restoreState()
+
+    def later_pages(canvas, doc):
+        canvas.saveState()
+        width, _ = letter
+        canvas.setFillColor(HexColor("#646464"))
+        canvas.setFont("Helvetica", 8.5)
+        canvas.drawCentredString(width / 2, 10.35 * inch, TITLE.upper())
+        canvas.setFont("Helvetica", 9)
+        canvas.drawCentredString(width / 2, 0.42 * inch, str(doc.page))
+        canvas.restoreState()
+
+    document.build(flowables, onFirstPage=first_page, onLaterPages=later_pages)
 
 
-def main() -> None:
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--output-dir", default="timeline-weeks-prose-output")
-    parser.add_argument("--override-dir", default="famu-math-year-comic/story/timeline-weeks-prose")
+def word_count(files: list[ProseFile]) -> int:
+    return sum(len(re.findall(r"\b[\w'-]+\b", prose.content)) for prose in files)
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--source-dir", type=Path, default=DEFAULT_SOURCE)
+    parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT)
     args = parser.parse_args()
 
-    output_dir = Path(args.output_dir).resolve()
+    approval = require_prose_authorization()
+    files = load_prose(args.source_dir.resolve())
+    output_dir = args.output_dir.resolve()
     output_dir.mkdir(parents=True, exist_ok=True)
-    source_dir = output_dir / "source-files"
-    override_dir = Path(args.override_dir).resolve()
 
-    file_entries = fetch_file_list()
-    files_by_week = {
-        week: ProseFile(week=week, name=name, content=fetch_file_content(name))
-        for week, name in file_entries
-    }
-    files_by_week.update(load_local_overrides(override_dir))
-    files = [files_by_week[week] for week in sorted(files_by_week)]
-    missing_weeks = [week for week in EXPECTED_WEEKS if week not in {item.week for item in files}]
-
-    save_source_files(files, source_dir)
-    write_combined_markdown(files, output_dir / "timeline-weeks-prose-complete.md", missing_weeks)
-    write_docx(files, output_dir / "timeline-weeks-prose-complete.docx", missing_weeks)
-    write_pdf(files, output_dir / "timeline-weeks-prose-complete.pdf", missing_weeks)
+    basename = "the-formula-of-becoming-prose-v2"
+    write_markdown(files, output_dir / f"{basename}.md")
+    write_docx(files, output_dir / f"{basename}.docx")
+    write_pdf(files, output_dir / f"{basename}.pdf")
 
     summary = {
-        "file_count": len(files),
-        "missing_weeks": missing_weeks,
-        "output_dir": str(output_dir),
+        "setting": approval.get("setting"),
+        "script_version": approval.get("script_version"),
+        "week_count": len(files),
+        "word_count": word_count(files),
+        "source_dir": str(args.source_dir.resolve().relative_to(REPO_ROOT)),
+        "output_dir": str(output_dir.relative_to(REPO_ROOT)),
     }
-    (output_dir / "export-summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
+    (output_dir / "export-summary.json").write_text(
+        json.dumps(summary, indent=2) + "\n", encoding="utf-8"
+    )
+    print(
+        f"Exported {summary['week_count']} prose files ({summary['word_count']:,} words) "
+        f"to {summary['output_dir']}."
+    )
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

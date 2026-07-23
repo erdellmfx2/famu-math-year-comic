@@ -1,38 +1,50 @@
-# Week 01 Episode 04 — Opportunity Everywhere
+# Week 01, Episode 04: Why Math Matters
 
-## Source
-- Timeline: `story/timeline-weeks/1.md`
-- Prose: `story/timeline-weeks-prose/prose_1.md`
+**Date:** Monday, August 4, 2025  
+**Story sources:** `story/timeline-weeks/1.md`; `story/timeline-weeks-prose-v2/prose_1.md`  
+**Purpose:** Malik and Nia name the personal purpose behind their technical ambitions and recognize each other more clearly.
 
-## Episode Purpose
-Show Nia's curiosity at the organizations fair and introduce the idea that FAMU math opens doors beyond just surviving classes.
+## Continuity References
 
-## Episode Format
-- **Recommended format:** 4-panel daily comic
-- **Primary viewpoint:** Nia-led discovery
-- **Setting:** campus organizations fair
-- **Emotional arc:** overload -> excitement -> research possibility -> shared reflection
+- Malik: `CHAR-MALIK:A2`, `CHAR-MALIK:B3`, `CHAR-MALIK:D2`
+- Nia: `CHAR-NIA:A2`, `CHAR-NIA:B1`, `CHAR-NIA:C4`, `CHAR-NIA:D2`
+- Dr. Brooks: use the established faculty design in the active source materials; silver-framed glasses and calm presence
+- Seminar room: `ENV-CORE:C1`
+- Eliza Moss exterior/staircase: `ENV-CORE:A1`
+- Malik's graph notebook and Nia's tabbed notebook: `PROP-ACADEMIC:B1`, `PROP-ACADEMIC:B2`
 
-## Panel Script
+## Panel Plan
 
-### Panel 1 — Too many good things
-**Visual:** Wide shot of the organizations fair with rows of tables, posters, signup sheets, candy bowls, and students everywhere. Nia stands in the middle taking it all in.
+### Panel 1: The Question Nobody Computes
 
-**Dialogue (Nia):** "There are too many clubs."
+Wide setting introduction. Eliza Moss seminar room: Dr. Brooks closes the classroom door while every calculator rests face down. Malik and Nia sit among the Bridge cohort, the room suddenly attentive. Leave the chalkboard clean for a large opening balloon.
 
-### Panel 2 — Math tables make her slow down
-**Visual:** Medium shot of Nia at a mathematics-related table, listening closely to an upperclassman. Flyers and department energy visible.
+**Dr. Brooks:** `Today, I want the answer nobody can compute for you. Why does mathematics matter?`
 
-**Dialogue (Upperclassman):** "The math department will challenge you, but people here want to see you win."
+### Panel 2: Malik's Answer
 
-### Panel 3 — A new possibility enters the story
-**Visual:** Close shot of Nia, eyes brightening as she hears about research. Background can hint at flyers or faculty/student opportunity language.
+Close medium shot of Malik at his desk, hands folded, composed but vulnerable. Behind him, keep the classroom softly out of focus. Do not show family flashbacks; the comic should stay with his choice to say it aloud.
 
-**Caption:** "One phrase stayed with her: undergraduate research."
+**Malik:** `I want to understand risk well enough to help families and businesses prepare without pretending every loss can be prevented.`
 
-### Panel 4 — She brings the energy back to Malik
-**Visual:** Evening two-shot near the student center. Nia arrives animated; Malik is seated with laptop still open.
+### Panel 3: Nia's Answer
 
-**Dialogue (Nia):** "There are too many clubs."
-**Dialogue (Malik):** "That sounds like the kind of problem you enjoy."
+Close medium shot of Nia, her notebook in front of her, speaking with clear conviction. Malik is partially visible in the foreground, listening without a joke. Leave the lower panel field open for a long balloon.
 
+**Nia:** `I want to use math to make important things harder to ignore.`
+
+### Panel 4: Broad Stairs
+
+Setting transition. Wide exterior of Eliza Moss's pale limestone staircase beneath warm afternoon light. Malik and Nia descend together, relaxed but still newly aware of each other. Include honey brick, wrought iron, and a glimpse of live oak canopy. Keep sky/upper negative space for balloons.
+
+**Nia:** `You want to make risk visible.`
+
+**Malik:** `You want to make people visible.`
+
+**Nia:** `That sounded like the end of a movie trailer.`
+
+## Art Rules
+
+- Produce one finished phone-readable four-panel page in left-to-right, top-to-bottom reading order.
+- Treat the exterior staircase as a clear location transition; use active v2 McCall-Hart architecture only.
+- Pass one has no lettering or readable classroom text; add only listed lettering in pass two.

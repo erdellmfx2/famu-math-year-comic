@@ -1,29 +1,49 @@
-# FAMU Math Year Comic
+# The Formula of Becoming
 
-A story development project for a daily social-media comic centered on a Florida A&M University Mathematics student.
+A story-development repository for a daily social comic about two first-year mathematics students at McCall-Hart University, a wholly fictional Deep South HBCU.
 
-## Project Purpose
-- Promote the FAMU Mathematics Department
-- Give prospective students an authentic, engaging look at college life
-- Build a full academic-year narrative that can be adapted into daily comic posts
+The GitHub repository slug is a legacy project name. The active story is not set at Florida A&M University and must not use FAMU identity, venues, marks, colors, opponents, or institutional claims.
 
-## Core Concept
-We will follow one fictional FAMU Mathematics student across an entire academic year (Fall, Spring, and summer transition), highlighting:
-- Academics and study habits
-- Faculty mentorship
-- Student organizations and campus life
-- Challenges, growth, and wins
-- Career exploration and future goals
+## Current Status
 
-## Initial Roadmap
-1. Character design and voice
-2. Academic-year arc (month-by-month)
-3. Episode map (daily comic-ready beats)
-4. Script templates (caption/dialogue/storyboard prompts)
-5. Social posting workflow
+- The v1 FAMU-based manuscript and visual experiments are preserved under `archive/famu-v1/`, `story/archive/famu-v1/`, `art/archive/famu-v1/`, and `assets/archive/famu-v1/`.
+- The v2 fictional setting and season arc are active.
+- All 54 weekly approval scripts and 374 daily episode beats have been drafted.
+- Comic art production is paused pending explicit approval of the v2 script.
 
-## Audience
-- Prospective FAMU students
-- Current students
-- Families and community supporters
-- Math department stakeholders
+## Review First
+
+The primary review document is:
+
+- `story/script-v2-output/the-formula-of-becoming-script-v2.md`
+
+Supporting authorities:
+
+- `story/setting_bible_v2.md`
+- `story/character_bible_v2.md`
+- `story/season_arc_v2.md`
+- `story/season_plan_v2.json`
+- `story/master_calendar_2025_2026.md`
+- `story/approval_status.json`
+
+## Story Commitments
+
+- Fall: Nia dates Julian while Malik hopes for Nia; Malik's analytics challenge ends in failure.
+- Spring: Malik dates Simone while Nia hopes for Malik; Nia's fellowship challenge ends in failure.
+- Summer: The students turn rejected research into useful community work, resolve family and emotional arcs, and choose each other.
+- Across the year: Calculus I, II, and III topics; football, basketball, softball, baseball, track, and band culture; a family storm crisis; conferences, talks, outreach, presentations, and Delta National Laboratory.
+
+## Build Workflow
+
+1. Edit the authored plan in `story/season_plan_v2.json`.
+2. Run `python3 scripts/build_master_calendar.py`.
+3. Run `python3 scripts/write_next_week_timeline.py --all`.
+4. Run `python3 scripts/combine_timeline_scripts.py`.
+5. Run `python3 scripts/validate_story_v2.py`.
+6. Review and explicitly approve the script before creating new storyboards or images.
+
+The scripts validate and format authored plot. They do not generate story by rotating generic activity lists.
+
+## Research Boundary
+
+Files under `research/` retain their real source names for provenance. They are structural references only and are not claims about the fictional university.

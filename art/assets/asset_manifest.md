@@ -1,58 +1,64 @@
-# Compute-Saving Asset Manifest v1
+# McCall-Hart Reusable Asset Manifest v2
 
-## Purpose
-This manifest defines the minimum reusable image assets needed before high-volume comic production.
+## Gate
 
-## Core Character Assets
-### Malik Baptiste
-- 1 front reference
-- 1 three-quarter reference
-- 1 side reference
-- 4 expression variants (focused, amused, worried, relaxed)
-- 4 reusable poses (sitting at table, walking, studying, talking)
+This is a planning manifest. Generate nothing until the script and comic-production flags in `story/approval_status.json` are true.
 
-### Nia Reynolds
-- 1 front reference
-- 1 three-quarter reference
-- 1 side reference
-- 4 expression variants (curious, playful, focused, reflective)
-- 4 reusable poses (sitting, walking, explaining, holding notebook)
+## Character Foundation
 
-## Duo Composition Assets
-- seated table conversation
-- side-by-side campus walk
-- study session at table
-- standing conversation near building
+For Malik, Nia, Julian, Simone, DJ, Keisha, and Imani:
 
-## Background Assets
-### High priority
-- outdoor campus table area
-- red-brick campus walkway
-- classroom interior
-- library/study room
+- Front, three-quarter, side, and rear turnarounds
+- Six story-relevant expressions
+- Four recurring poses tied to actual scenes
+- One everyday, one academic, one event, and one weather-layer wardrobe
 
-### Venue priority
-- Bragg Memorial Stadium football environment
-- Al Lawson Center basketball environment
-- Moore–Kittles Field baseball environment
+## Duo and Group Compositions
 
-## Prop Assets
-- Malik laptop with spreadsheet
-- calculator
-- graph notebook
-- Nia color-coded notes
-- tote bag with buttons
-- tablet/notebook stack
+- Malik and Nia studying with visible disagreement
+- Malik and Nia walking Cypress Walk
+- Nia and Julian at the radio booth
+- Malik and Simone at an analytics table
+- Research team around a route-map display
+- Friends in stadium and fieldhouse seating
+- Baptiste family repair weekend group
 
-## Estimated First Useful Batch
-If generated as reusable base assets:
-- Characters: 16 assets
-- Duo compositions: 4 assets
-- Core backgrounds: 4 assets
-- Venue backgrounds: 3 assets
-- Props: 6 assets
+## Core Backgrounds
 
-**Estimated total first-pass asset count:** 33
+- Eliza Moss Hall exterior and visualization lab
+- Jubilee Library exterior, reading room, and rear terrace
+- North Star Learning Commons wide room and tutoring table
+- Hart Student Union terrace and Copper Cup Cafe
+- Founders' Bell and Cypress Walk at day and dusk
+- First-year residence room shared by Malik and DJ
+- First-year residence room shared by Nia and Keisha
 
-## Cost Control Note
-This is much cheaper than generating every panel of every page from scratch. Once these are locked, many panels can be assembled or lightly varied from existing assets.
+## Athletics and Culture Backgrounds
+
+- Henry Boyd Stadium field, stands, and concourse
+- Ruth Ellis Fieldhouse court and event configuration
+- Meridian Diamond
+- Magnolia Field
+- Marching Herons rehearsal field
+- Bellwether Media House radio booth
+
+## Academic and Career Backgrounds
+
+- Porter Center for Enterprise
+- Delta National Laboratory visitor lobby, presentation room, and computing floor
+- Regional symposium hall and presentation room
+- Bellwether community advisory room
+
+## Props
+
+- Malik's calculator, graph notebook, laptop sleeve, and family repair photos
+- Nia's bound notebook, color tabs, tablet, route overlays, and interview cards
+- Julian's saxophone case, headphones, recorder, and camera
+- Simone's analytics dashboard and presentation clicker
+- Keisha's laptop, relay baton, and code-review cards
+- DJ's playbook and film-study tablet
+- Imani's glove, lineup card, and public-health notes
+
+## Exclusion Rule
+
+Do not use any archived image, logo, venue, palette, mascot, or wardrobe as a visual reference for v2.

@@ -1,139 +1,179 @@
 #!/usr/bin/env python3
-"""Write one 7-day timeline slice from master_calendar_2025_2026.csv per run.
-
-Outputs markdown files under story/timeline-weeks/ and advances state in
-story/timeline_writer_state.json.
-"""
+"""Write approval-ready weekly scripts from the authored v2 season plan."""
 
 from __future__ import annotations
 
-import csv
+import argparse
 import json
-from dataclasses import dataclass
+from collections import defaultdict
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-MASTER = ROOT / "story" / "master_calendar_2025_2026.csv"
-OUT_DIR = ROOT / "story" / "timeline-weeks"
-STATE_PATH = ROOT / "story" / "timeline_writer_state.json"
+STORY_DIR = ROOT / "story"
+PLAN_PATH = STORY_DIR / "season_plan_v2.json"
+MASTER_PATH = STORY_DIR / "master_calendar_2025_2026.json"
+APPROVAL_PATH = STORY_DIR / "approval_status.json"
+OUT_DIR = STORY_DIR / "timeline-weeks"
+STATE_PATH = STORY_DIR / "timeline_writer_state.json"
 
 
-@dataclass
-class WeekSlice:
-    index: int
-    rows: list[dict]
+def load_json(path: Path):
+    if not path.exists():
+        raise FileNotFoundError(f"Missing required file: {path}")
+    return json.loads(path.read_text(encoding="utf-8"))
 
 
-def load_rows() -> list[dict]:
-    if not MASTER.exists():
-        raise FileNotFoundError(f"Missing master calendar: {MASTER}")
-    with MASTER.open(newline="", encoding="utf-8") as f:
-        return list(csv.DictReader(f))
+def rows_by_week(rows: list[dict]) -> dict[int, list[dict]]:
+    grouped: dict[int, list[dict]] = defaultdict(list)
+    for row in rows:
+        grouped[int(row["week"])].append(row)
+    return dict(grouped)
 
 
-def load_state(total_weeks: int) -> dict:
-    if STATE_PATH.exists():
-        return json.loads(STATE_PATH.read_text(encoding="utf-8"))
+def validate(plan: dict, rows: list[dict]) -> None:
+    if len(plan.get("weeks", [])) != 54:
+        raise ValueError("The v2 season plan must contain 54 weeks")
+    if len(rows) != 374:
+        raise ValueError("The v2 master calendar must contain 374 daily episodes")
+    planned_beats = [beat for week in plan["weeks"] for beat in week["daily_beats"]]
+    row_beats = [row["narrative_beat"] for row in rows]
+    if planned_beats != row_beats:
+        raise ValueError(
+            "The master calendar is stale. Run scripts/build_master_calendar.py first."
+        )
+
+
+def build_week_markdown(
+    week: dict,
+    rows: list[dict],
+    approval: dict,
+) -> str:
+    start = rows[0]["date"]
+    end = rows[-1]["date"]
+    approval_text = "approved" if approval.get("script_approved") else "awaiting approval"
+    lines = [
+        f"# Week {week['week']:02d}: {week['title']}",
+        "",
+        f"Dates: **{start} to {end}**",
+        "",
+        f"Script status: **{approval_text}**",
+        "",
+        "## Weekly Story Turn",
+        "",
+        week["arc_turn"],
+        "",
+        "## Academic Spine",
+        "",
+        week["academic_focus"],
+        "",
+        "## Event Anchors",
+        "",
+    ]
+    lines.extend(f"- {event}" for event in week["event_anchors"])
+    lines.extend(["", "## Daily Episode Plan", ""])
+
+    for row in rows:
+        lines.extend(
+            [
+                f"### Episode {int(row['episode_number']):03d}: {row['day_of_week']}, {row['date']}",
+                "",
+            ]
+        )
+        if row.get("fixed_events"):
+            lines.extend([f"Calendar: {row['fixed_events']}", ""])
+        lines.extend([row["narrative_beat"], ""])
+
+    lines.extend(
+        [
+            "## Continuity Handoff",
+            "",
+            week["handoff"],
+            "",
+            "## Production Gate",
+            "",
+            "This is a story-approval script. Do not create new storyboards, prompts, panels, or comic pages from it until `story/approval_status.json` records explicit script approval.",
+        ]
+    )
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def write_week(week: dict, rows: list[dict], approval: dict) -> Path:
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    destination = OUT_DIR / f"{week['week']}.md"
+    destination.write_text(
+        build_week_markdown(week, rows, approval),
+        encoding="utf-8",
+    )
+    return destination
+
+
+def completed_entry(week: dict, rows: list[dict], destination: Path) -> dict:
     return {
-        "next_week_index": 0,
-        "total_weeks": total_weeks,
-        "completed": [],
+        "week_index": week["week"] - 1,
+        "week_number": week["week"],
+        "start": rows[0]["date"],
+        "end": rows[-1]["date"],
+        "file": str(destination.relative_to(ROOT)),
+        "script_version": "v2",
     }
 
 
-def chunk_weeks(rows: list[dict]) -> list[WeekSlice]:
-    weeks = []
-    for i in range(0, len(rows), 7):
-        idx = i // 7
-        weeks.append(WeekSlice(index=idx, rows=rows[i : i + 7]))
-    return weeks
-
-
-def build_week_markdown(week: WeekSlice) -> str:
-    start = week.rows[0]["date"]
-    end = week.rows[-1]["date"]
-    title = f"# Timeline Week {week.index + 1:03d} ({start} to {end})"
-
-    lines = [title, "", "## Weekly Highlights", ""]
-    high = [r for r in week.rows if r.get("priority_score") in ("high", "peak")]
-    if high:
-        for r in high:
-            trigger = r.get("sports_events") or r.get("syllabus_events") or r.get("fixed_events") or "High-pressure day"
-            lines.append(f"- **{r['date']}** ({r['priority_score']}): {trigger}")
-    else:
-        lines.append("- Steady week with no major peak-pressure overlaps.")
-
-    lines += ["", "## Daily Beat Plan", ""]
-    for r in week.rows:
-        lines += [
-            f"### {r['date']} ({r.get('academic_phase', 'n/a')})",
-            f"- Fixed events: {r.get('fixed_events') or '—'}",
-            f"- Syllabus events: {r.get('syllabus_events') or '—'}",
-            f"- Sports/events: {r.get('sports_events') or '—'}",
-            f"- Malik activity: {r.get('character_activity_malik') or '—'}",
-            f"- Nia activity: {r.get('character_activity_nia') or '—'}",
-            f"- Professor touchpoint: {r.get('professor_touchpoint') or '—'}",
-            f"- Comic scene hint: {r.get('comic_scene_hint') or '—'}",
-            "",
-        ]
-
-    return "\n".join(lines).strip() + "\n"
+def save_state(completed: list[dict], next_week_index: int) -> None:
+    state = {
+        "script_version": "v2",
+        "next_week_index": next_week_index,
+        "total_weeks": 54,
+        "completed": completed,
+    }
+    STATE_PATH.write_text(json.dumps(state, indent=2) + "\n", encoding="utf-8")
 
 
 def main() -> int:
-    rows = load_rows()
-    weeks = chunk_weeks(rows)
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    parser = argparse.ArgumentParser()
+    group = parser.add_mutually_exclusive_group()
+    group.add_argument("--all", action="store_true", help="Rewrite all 54 weekly scripts")
+    group.add_argument("--week", type=int, help="Rewrite one numbered week")
+    args = parser.parse_args()
 
-    state = load_state(total_weeks=len(weeks))
-    next_idx = int(state.get("next_week_index", 0))
+    plan = load_json(PLAN_PATH)
+    master_rows = load_json(MASTER_PATH)
+    approval = load_json(APPROVAL_PATH)
+    validate(plan, master_rows)
+    grouped = rows_by_week(master_rows)
 
-    if next_idx >= len(weeks):
-        print("NOOP: timeline complete")
+    if args.all:
+        completed = []
+        for week in plan["weeks"]:
+            destination = write_week(week, grouped[week["week"]], approval)
+            completed.append(completed_entry(week, grouped[week["week"]], destination))
+        save_state(completed, 54)
+        print("WROTE: all 54 v2 weekly scripts")
         return 0
 
-    week = weeks[next_idx]
-    start = week.rows[0]["date"]
-    end = week.rows[-1]["date"]
-    week_number = week.index + 1
-    out_name = f"{week_number}.md"
-    out_path = OUT_DIR / out_name
+    if args.week is not None:
+        if not 1 <= args.week <= 54:
+            raise ValueError("--week must be between 1 and 54")
+        week = plan["weeks"][args.week - 1]
+        destination = write_week(week, grouped[args.week], approval)
+        print(f"WROTE: {destination.relative_to(ROOT)}")
+        return 0
 
-    out_path.write_text(build_week_markdown(week), encoding="utf-8")
+    existing_state = load_json(STATE_PATH) if STATE_PATH.exists() else {}
+    next_index = int(existing_state.get("next_week_index", 0))
+    if existing_state.get("script_version") != "v2":
+        next_index = 0
+    if next_index >= 54:
+        print("NOOP: all v2 weekly scripts are complete")
+        return 0
 
-    completed = state.get("completed", [])
-    completed.append(
-        {
-            "week_index": week.index,
-            "week_number": week_number,
-            "start": start,
-            "end": end,
-            "file": str(out_path.relative_to(ROOT)),
-        }
-    )
-    state["completed"] = completed
-    state["next_week_index"] = week.index + 1
-    state["total_weeks"] = len(weeks)
-    STATE_PATH.write_text(json.dumps(state, indent=2), encoding="utf-8")
-
-    prev_week_number = week_number - 1 if week_number > 1 else None
-    prev_timeline = f"story/timeline-weeks/{prev_week_number}.md" if prev_week_number else ""
-    prev_prose = f"story/timeline-weeks-prose/prose_{prev_week_number}.md" if prev_week_number else ""
-    curr_prose = f"story/timeline-weeks-prose/prose_{week_number}.md"
-    next_week_number = week_number + 1 if week.index + 1 < len(weeks) else None
-    next_timeline = f"story/timeline-weeks/{next_week_number}.md" if next_week_number else ""
-
-    print(f"WROTE: {out_path.relative_to(ROOT)}")
-    print(f"WEEK_NUMBER: {week_number}")
-    print(f"START: {start}")
-    print(f"END: {end}")
-    print(f"TIMELINE_FILE: {out_path.relative_to(ROOT)}")
-    print(f"PREV_TIMELINE_FILE: {prev_timeline}")
-    print(f"PREV_PROSE_FILE: {prev_prose}")
-    print(f"TARGET_PROSE_FILE: {curr_prose}")
-    print(f"NEXT_TIMELINE_FILE: {next_timeline}")
-    print(f"PROGRESS: {state['next_week_index']}/{state['total_weeks']} weeks")
+    week = plan["weeks"][next_index]
+    destination = write_week(week, grouped[week["week"]], approval)
+    completed = existing_state.get("completed", []) if next_index else []
+    completed.append(completed_entry(week, grouped[week["week"]], destination))
+    save_state(completed, next_index + 1)
+    print(f"WROTE: {destination.relative_to(ROOT)}")
+    print(f"PROGRESS: {next_index + 1}/54 weeks")
     return 0
 
 

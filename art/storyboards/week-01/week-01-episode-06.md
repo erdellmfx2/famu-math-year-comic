@@ -1,37 +1,61 @@
-# Week 01 Episode 06 — Structure Meets Meaning
+# Week 01, Episode 06: Indigo Night
 
-## Source
-- Timeline: `story/timeline-weeks/1.md`
-- Prose: `story/timeline-weeks-prose/prose_1.md`
+**Date:** Wednesday, August 6, 2025  
+**Story sources:** `story/timeline-weeks/1.md`; `story/timeline-weeks-prose-v2/prose_1.md`  
+**Purpose:** Nia meets Julian through campus music while Malik chooses Heron Analytics, ending on the first private hint of his disappointment.
 
-## Episode Purpose
-Show that both students are moving from generic preparation into intentional academic identity, with professor wisdom already shaping how they think.
+## Continuity References
 
-## Episode Format
-- **Recommended format:** 4-panel daily comic
-- **Primary viewpoint:** parallel character study
-- **Setting:** Malik's organized workspace and Nia's notes/planner setup
-- **Emotional arc:** systems -> goals -> professor wisdom -> new assumptions
+- Malik: `CHAR-MALIK:A2`, `CHAR-MALIK:B2`, `CHAR-MALIK:C2`, `CHAR-MALIK:D3`
+- Nia: `CHAR-NIA:A2`, `CHAR-NIA:B1`, `CHAR-NIA:C3`, `CHAR-NIA:D1`
+- Julian: `CHAR-JULIAN:A2`, `CHAR-JULIAN:B1`, `CHAR-JULIAN:C1`, `CHAR-JULIAN:D3`
+- Union terrace/Copper Cup threshold: `ENV-CORE:C3`
+- Marching Herons rehearsal visual language: `ENV-CAMPUS:C2`
+- Malik's laptop sleeve: `PROP-ACADEMIC:C1`
+- Julian's saxophone case and headphones/recorder: `PROP-ACADEMIC:B3`, `PROP-ACADEMIC:C3`
 
-## Panel Script
+## Panel Plan
 
-### Panel 1 — Malik organizes for evidence, not aesthetics
-**Visual:** Malik setting up class folders and calendar reminders on laptop and notebook. The vibe is clean, structured, practical.
+### Panel 1: Festival of Possibilities
 
-**Caption:** "Malik treated schedules like evidence of what he was really prioritizing."
+Wide setting introduction. Indigo Night fills Hart Student Union terrace and Copper Cup threshold with warm evening lights, music, food tables, and fictional indigo-and-copper heron decorations. Nia moves through the crowd with interest cards and flyers while Malik gently takes a pen from her hand. Reserve an upper caption field.
 
-### Panel 2 — Nia writes fuller goals
-**Visual:** Close shot of Nia's page listing goals like ask better questions, learn deeply, build community, protect joy.
+**Caption:** `Indigo Night transformed Hart Student Union into a festival of music, food, club tables, and first-year students trying out possible versions of themselves.`
 
-**Caption:** "Nia wasn't only setting GPA goals. She was setting values."
+**Malik:** `You cannot join the whole university tonight.`
 
-### Panel 3 — Good math advice becomes life advice
-**Visual:** Two-shot reunion on campus, conversational and thoughtful. Leave room for one balloon and one caption.
+**Nia:** `Watch me.`
 
-**Dialogue (Nia):** "State assumptions before modeling. That's not just math advice."
+### Panel 2: Saxophone Across the Terrace
 
-### Panel 4 — They choose a better assumption
-**Visual:** Warm medium two-shot. Both are a little more settled with each other now.
+Medium dramatic setting beat. A small Marching Herons group performs beside the radio booth; Julian plays alto saxophone, eyes half closed. Nia steps closer through the crowd, her attention caught. Use visual rhythm lines, but no literal music notes with text. Leave a small narrative caption area.
 
-**Dialogue (Malik):** "I think we need to build something, not perform something."
+**Caption:** `Across the terrace, an alto saxophone climbed above the crowd.`
 
+### Panel 3: Julian's Invitation
+
+Clear location micro-transition near the media table. Julian, relaxed and bright, speaks to Nia after the set while his saxophone case rests nearby. Nia responds with open curiosity; keep interaction respectful and casual.
+
+**Nia:** `This event was not boring.`
+
+**Julian:** `Then I can take the night off.`
+
+**Caption:** `Julian told her about a radio showcase on Friday and invited her to stop by. Nia said yes.`
+
+### Panel 4: Two Kinds of News
+
+Wide two-shot at the Copper Cup threshold. Malik holds a Heron Analytics sign-up card; Nia holds a radio showcase flyer. Julian is distant in the background and gives Nia a casual two-finger salute; Malik sees it. Reserve lower-right space for a quiet caption.
+
+**Nia:** `I got invited to the radio showcase.`
+
+**Malik:** `I signed up for an analytics information session.`
+
+**Nia:** `Look at us choosing things.`
+
+**Caption:** `Malik did not yet have a name for the small drop inside his chest. He treated it like a number too minor to enter.`
+
+## Art Rules
+
+- Produce one finished phone-readable four-panel page in left-to-right, top-to-bottom reading order.
+- Use fictional McCall-Hart and Herons identity only; never use a real university, legacy colors, or readable invented signage.
+- Pass one has no lettering; add only listed lettering in pass two.
