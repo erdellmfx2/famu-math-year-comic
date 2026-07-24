@@ -1,0 +1,48 @@
+{
+  "model": "whisper-1",
+  "words": 286,
+  "scenes": [
+    {
+      "scene": "01-arrival",
+      "expected_words": 73,
+      "transcribed_words": 74,
+      "similarity": 0.973,
+      "repaired_word_spans": 5,
+      "needs_review": false
+    },
+    {
+      "scene": "02-hidden-sheet",
+      "expected_words": 33,
+      "transcribed_words": 33,
+      "similarity": 1,
+      "repaired_word_spans": 10,
+      "needs_review": false
+    },
+    {
+      "scene": "03-earned-access",
+      "expected_words": 47,
+      "transcribed_words": 45,
+      "similarity": 0.9574,
+      "repaired_word_spans": 3,
+      "needs_review": false
+    },
+    {
+      "scene": "04-new-information",
+      "expected_words": 49,
+      "transcribed_words": 49,
+      "similarity": 1,
+      "repaired_word_spans": 0,
+      "needs_review": false
+    },
+    {
+      "scene": "05-two-boxes",
+      "expected_words": 85,
+      "transcribed_words": 85,
+      "similarity": 1,
+      "repaired_word_spans": 6,
+      "needs_review": false
+    }
+  ],
+  "minimum_similarity": 0.9574,
+  "review_required": false
+}

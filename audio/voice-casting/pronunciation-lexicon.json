@@ -1,0 +1,152 @@
+{
+  "version": 1,
+  "characters": [
+    {
+      "id": "malik-baptiste",
+      "name": "Malik Baptiste",
+      "match": ["Malik Baptiste", "Malik"],
+      "pronunciation": "muh-LEEK bap-TEEST",
+      "instruction": "Pronounce Malik exactly muh-LEEK: 'muh' like 'uh' with an m, followed by 'leek' like the vegetable. Stress LEEK. Never pronounce it MAL-ik or MAY-lik. Pronounce Baptiste bap-TEEST."
+    },
+    {
+      "id": "nia-reynolds",
+      "name": "Nia Reynolds",
+      "match": ["Nia Reynolds", "Nia"],
+      "pronunciation": "NEE-uh REN-uldz",
+      "instruction": "Pronounce Nia NEE-uh, with two syllables. Pronounce Reynolds REN-uldz."
+    },
+    {
+      "id": "julian-cross",
+      "name": "Julian Cross",
+      "match": ["Julian Cross", "Julian"],
+      "pronunciation": "JOO-lee-un KROSS",
+      "instruction": "Pronounce Julian JOO-lee-un. Pronounce Cross like the English word cross."
+    },
+    {
+      "id": "simone-hart",
+      "name": "Simone Hart",
+      "match": ["Simone Hart", "Simone"],
+      "pronunciation": "suh-MOHN HART",
+      "instruction": "Pronounce Simone suh-MOHN, stressing MOHN. Pronounce Hart like the English word heart."
+    },
+    {
+      "id": "dj-cole",
+      "name": "Darius \"DJ\" Cole",
+      "match": ["Darius", "DJ Cole", "DJ"],
+      "pronunciation": "DAIR-ee-us; DEE-JAY; KOHL",
+      "instruction": "Pronounce Darius DAIR-ee-us, DJ as the letters DEE-JAY, and Cole like coal."
+    },
+    {
+      "id": "keisha-morgan",
+      "name": "Keisha Morgan",
+      "match": ["Keisha Morgan", "Keisha"],
+      "pronunciation": "KEE-shuh MOR-gun",
+      "instruction": "Pronounce Keisha KEE-shuh. Pronounce Morgan MOR-gun."
+    },
+    {
+      "id": "imani-cole",
+      "name": "Imani Cole",
+      "match": ["Imani Cole", "Imani"],
+      "pronunciation": "ee-MAH-nee KOHL",
+      "instruction": "Pronounce Imani ee-MAH-nee, stressing MAH. Pronounce Cole like coal."
+    },
+    {
+      "id": "dr-camille-brooks",
+      "name": "Dr. Camille Brooks",
+      "match": ["Camille Brooks", "Dr. Brooks", "Camille"],
+      "pronunciation": "kuh-MEEL BRUKS",
+      "instruction": "Pronounce Camille kuh-MEEL, stressing MEEL. Pronounce Brooks like the English plural word brooks."
+    },
+    {
+      "id": "dr-victor-delgado",
+      "name": "Dr. Victor Delgado",
+      "match": ["Victor Delgado", "Dr. Delgado", "Delgado"],
+      "pronunciation": "VIK-ter del-GAH-doh",
+      "instruction": "Pronounce Victor VIK-ter and Delgado del-GAH-doh, stressing GAH."
+    },
+    {
+      "id": "dr-renee-okafor",
+      "name": "Dr. Renee Okafor",
+      "match": ["Renee Okafor", "Dr. Okafor", "Okafor"],
+      "pronunciation": "ruh-NAY oh-KAH-for",
+      "instruction": "Pronounce Renee ruh-NAY and Okafor oh-KAH-for, stressing KAH."
+    },
+    {
+      "id": "dr-isaac-bennett",
+      "name": "Dr. Isaac Bennett",
+      "match": ["Isaac Bennett", "Dr. Bennett", "Isaac"],
+      "pronunciation": "EYE-zik BEN-it",
+      "instruction": "Pronounce Isaac EYE-zik and Bennett BEN-it."
+    },
+    {
+      "id": "dr-alana-price",
+      "name": "Dr. Alana Price",
+      "match": ["Alana Price", "Dr. Price", "Alana"],
+      "pronunciation": "uh-LAH-nuh PRYSS",
+      "instruction": "Pronounce Alana uh-LAH-nuh, stressing LAH. Pronounce Price like the English word price."
+    },
+    {
+      "id": "celeste-baptiste",
+      "name": "Celeste Baptiste",
+      "match": ["Celeste Baptiste", "Celeste"],
+      "pronunciation": "suh-LEST bap-TEEST",
+      "instruction": "Pronounce Celeste suh-LEST and Baptiste bap-TEEST."
+    },
+    {
+      "id": "marcel-baptiste",
+      "name": "Marcel Baptiste",
+      "match": ["Marcel Baptiste", "Marcel"],
+      "pronunciation": "mar-SELL bap-TEEST",
+      "instruction": "Pronounce Marcel mar-SELL and Baptiste bap-TEEST."
+    },
+    {
+      "id": "micah",
+      "name": "Micah",
+      "match": ["Micah"],
+      "pronunciation": "MY-kuh",
+      "instruction": "Pronounce Micah MY-kuh."
+    },
+    {
+      "id": "denise-reynolds",
+      "name": "Denise Reynolds",
+      "match": ["Denise Reynolds", "Denise"],
+      "pronunciation": "duh-NEES REN-uldz",
+      "instruction": "Pronounce Denise duh-NEES and Reynolds REN-uldz."
+    },
+    {
+      "id": "alexis-grant",
+      "name": "Alexis Grant",
+      "match": ["Alexis Grant", "Alexis"],
+      "pronunciation": "uh-LEK-sis GRANT",
+      "instruction": "Pronounce Alexis uh-LEK-sis and Grant like the English word grant."
+    },
+    {
+      "id": "elaine-carter",
+      "name": "Elaine Carter",
+      "match": ["Elaine Carter", "Elaine"],
+      "pronunciation": "ih-LAYN KAR-ter",
+      "instruction": "Pronounce Elaine ih-LAYN and Carter KAR-ter."
+    },
+    {
+      "id": "ms-alvarez",
+      "name": "Ms. Alvarez",
+      "match": ["Ms. Alvarez", "Alvarez"],
+      "pronunciation": "miz al-VAH-rez",
+      "instruction": "Pronounce Ms. as miz and Alvarez al-VAH-rez, stressing VAH."
+    },
+    {
+      "id": "zoe",
+      "name": "Zoe",
+      "match": ["Zoe"],
+      "pronunciation": "ZOH-ee",
+      "instruction": "Pronounce Zoe ZOH-ee, with two syllables."
+    },
+    {
+      "id": "dj-auntie",
+      "name": "DJ's auntie",
+      "match": ["DJ's auntie"],
+      "pronunciation": "DEE-JAYZ AN-tee",
+      "instruction": "Pronounce DJ's as DEE-JAYZ and auntie AN-tee."
+    }
+  ]
+}

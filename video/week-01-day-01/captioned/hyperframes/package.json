@@ -1,0 +1,10 @@
+{
+  "name": "week-01-day-01-captioned",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx --yes hyperframes@0.7.69 preview",
+    "check": "npx --yes hyperframes@0.7.69 check",
+    "render": "npx --yes hyperframes@0.7.69 render"
+  }
+}

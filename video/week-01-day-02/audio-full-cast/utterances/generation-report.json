@@ -1,0 +1,311 @@
+{
+  "project": "The Formula of Becoming - Week 1 Day 2 - Full Cast",
+  "model": "gpt-4o-mini-tts",
+  "pronunciation_lexicon": "audio/voice-casting/pronunciation-lexicon.json",
+  "match_text": null,
+  "items": [
+    {
+      "scene": "01-arrival",
+      "order": 1,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Saturday's Bridge session was optional, which meant Nia arrived ten minutes late carrying iced coffee and insisting that optional mornings should begin at noon.",
+      "file": "01-arrival-001-narrator.mp3",
+      "pronunciations": [
+        "nia-reynolds"
+      ]
+    },
+    {
+      "scene": "01-arrival",
+      "order": 2,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Malik had already claimed the same table.",
+      "file": "01-arrival-002-narrator.mp3",
+      "pronunciations": [
+        "malik-baptiste"
+      ]
+    },
+    {
+      "scene": "01-arrival",
+      "order": 3,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "Look at us,",
+      "file": "01-arrival-003-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "01-arrival",
+      "order": 4,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "she said, sitting across from him.",
+      "file": "01-arrival-004-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "01-arrival",
+      "order": 5,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "A tradition.",
+      "file": "01-arrival-005-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "01-arrival",
+      "order": 6,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "It has happened twice.",
+      "file": "01-arrival-006-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "01-arrival",
+      "order": 7,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "Every tradition starts before somebody puts it on a T-shirt.",
+      "file": "01-arrival-007-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "01-arrival",
+      "order": 8,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "They worked through readiness problems until Nia noticed Malik checking the budget between questions. He minimized it.",
+      "file": "01-arrival-008-narrator.mp3",
+      "pronunciations": [
+        "malik-baptiste",
+        "nia-reynolds"
+      ]
+    },
+    {
+      "scene": "02-hidden-sheet",
+      "order": 1,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "You do that every time somebody walks by,",
+      "file": "02-hidden-sheet-001-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "02-hidden-sheet",
+      "order": 2,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "she said.",
+      "file": "02-hidden-sheet-002-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "02-hidden-sheet",
+      "order": 3,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "Do what?",
+      "file": "02-hidden-sheet-003-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "02-hidden-sheet",
+      "order": 4,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "Hide the sheet.",
+      "file": "02-hidden-sheet-004-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "02-hidden-sheet",
+      "order": 5,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "It is private.",
+      "file": "02-hidden-sheet-005-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "02-hidden-sheet",
+      "order": 6,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "Private is fine. Panicked is different.",
+      "file": "02-hidden-sheet-006-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "02-hidden-sheet",
+      "order": 7,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Malik's shoulders tightened. Nia saw it and leaned back.",
+      "file": "02-hidden-sheet-007-narrator.mp3",
+      "pronunciations": [
+        "malik-baptiste",
+        "nia-reynolds"
+      ]
+    },
+    {
+      "scene": "03-earned-access",
+      "order": 1,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "Sorry,",
+      "file": "03-earned-access-001-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "03-earned-access",
+      "order": 2,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "she said.",
+      "file": "03-earned-access-002-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "03-earned-access",
+      "order": 3,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "That came out like I had earned access. I haven't.",
+      "file": "03-earned-access-003-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "03-earned-access",
+      "order": 4,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "The quick apology surprised him more than the question.",
+      "file": "03-earned-access-004-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "03-earned-access",
+      "order": 5,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "He reopened the file.",
+      "file": "03-earned-access-005-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "03-earned-access",
+      "order": 6,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "My family budget was balanced when I left. Now it isn't. I told them it was.",
+      "file": "03-earned-access-006-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "03-earned-access",
+      "order": 7,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "Was that a lie?",
+      "file": "03-earned-access-007-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "03-earned-access",
+      "order": 8,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "No.",
+      "file": "03-earned-access-008-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-new-information",
+      "order": 1,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "Then it was a model with new information.",
+      "file": "04-new-information-001-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-new-information",
+      "order": 2,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "That sounds like something people say to feel better about being wrong.",
+      "file": "04-new-information-002-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-new-information",
+      "order": 3,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "Sometimes. It can also be true.",
+      "file": "04-new-information-003-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-new-information",
+      "order": 4,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "She took out her notebook and drew two boxes. In the first, she wrote what changed. In the second, what can change next.",
+      "file": "04-new-information-004-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "05-two-boxes",
+      "order": 1,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Malik looked at the page.",
+      "file": "05-two-boxes-001-narrator.mp3",
+      "pronunciations": [
+        "malik-baptiste"
+      ]
+    },
+    {
+      "scene": "05-two-boxes",
+      "order": 2,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "That is not a budget.",
+      "file": "05-two-boxes-002-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "05-two-boxes",
+      "order": 3,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "Correct. It is me stopping you from staring at one red number like it has been elected president of your life.",
+      "file": "05-two-boxes-003-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "05-two-boxes",
+      "order": 4,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "He laughed loudly enough that two students turned around.",
+      "file": "05-two-boxes-004-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "05-two-boxes",
+      "order": 5,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Together they found a duplicate textbook estimate and a subscription Malik could pause. The balance returned to black, but that was not the part he remembered. He remembered that Nia had known when to ask, when to back up, and when to make him laugh.",
+      "file": "05-two-boxes-005-narrator.mp3",
+      "pronunciations": [
+        "malik-baptiste",
+        "nia-reynolds"
+      ]
+    }
+  ]
+}

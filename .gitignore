@@ -1,0 +1,16 @@
+.env
+.env.local
+.env.*
+!.env.example
+
+# Local macOS and Python build artifacts.
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Rendered videos are retained locally; publish their source packages instead.
+video/**/*.mp4
+
+# Renderer dependencies and transient render workspaces are reproducible.
+**/node_modules/
+video/**/work-*/

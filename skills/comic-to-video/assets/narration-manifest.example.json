@@ -1,0 +1,18 @@
+{
+  "model": "gpt-4o-mini-tts",
+  "voice": "cedar",
+  "response_format": "mp3",
+  "instructions": "Read with warm, grounded storybook energy. Preserve every written word and punctuation. Distinguish dialogue through subtle rhythm and attitude without caricature or imitation.",
+  "clips": [
+    {
+      "id": "01-opening-scene",
+      "text": "Replace this text with the exact opening prose."
+    },
+    {
+      "id": "02-conversation",
+      "voice": "cedar",
+      "instructions": "Continue in the established style, keeping the exchange conversational and emotionally specific.",
+      "text": "Replace this text with the exact next prose passage."
+    }
+  ]
+}

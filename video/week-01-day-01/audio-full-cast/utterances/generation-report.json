@@ -1,0 +1,610 @@
+{
+  "project": "The Formula of Becoming - Week 1 Day 1 - Full Cast",
+  "model": "gpt-4o-mini-tts",
+  "pronunciation_lexicon": "audio/voice-casting/pronunciation-lexicon.json",
+  "match_text": "Malik",
+  "items": [
+    {
+      "scene": "01-arrival",
+      "order": 1,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "The first thing Malik Baptiste discovered about Bellwether, Alabama, was that the heat did not simply sit on you. It negotiated.",
+      "file": "01-arrival-001-narrator.mp3",
+      "pronunciations": [
+        "malik-baptiste"
+      ]
+    },
+    {
+      "scene": "01-arrival",
+      "order": 2,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "It followed him from the rideshare drop-off to the limestone steps of Eliza Moss Hall, offering sweat in exchange for every box he carried. It fogged the edge of his glasses while he tried to balance a laptop bag, a duffel, and the promise he had made before leaving Gulfport:",
+      "file": "01-arrival-002-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "01-arrival",
+      "order": 3,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "I have the money part handled.",
+      "file": "01-arrival-003-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "01-arrival",
+      "order": 4,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Inside, the Quantitative Summer Bridge welcome room was cool enough to make him forgive the entire city.",
+      "file": "01-arrival-004-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "02-red-number",
+      "order": 1,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Malik chose a table near an outlet, opened his laptop, and pulled up the family budget he had finished three nights ago. He only meant to check one thing. Then he found the mistake.",
+      "file": "02-red-number-001-narrator.mp3",
+      "pronunciations": [
+        "malik-baptiste"
+      ]
+    },
+    {
+      "scene": "02-red-number",
+      "order": 2,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "The repair estimate for his mother's car had been entered in the monthly column instead of the emergency-expense column. Correcting it pushed the August balance below zero.",
+      "file": "02-red-number-002-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "02-red-number",
+      "order": 3,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Not far below zero. But zero did not care how close you came.",
+      "file": "02-red-number-003-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "02-red-number",
+      "order": 4,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "He stared at the red number as students entered around him in bright shirts, fresh sneakers, and the nervous confidence of people pretending not to look for somewhere safe to sit.",
+      "file": "02-red-number-004-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "02-red-number",
+      "order": 5,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "That spreadsheet looks like it just told you a family secret.",
+      "file": "02-red-number-005-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "03-first-joke",
+      "order": 1,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Malik looked up.",
+      "file": "03-first-joke-001-narrator.mp3",
+      "pronunciations": [
+        "malik-baptiste"
+      ]
+    },
+    {
+      "scene": "03-first-joke",
+      "order": 2,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "The girl beside the chair across from him wore copper-colored headphones around her neck and carried a notebook thick with tabs. Her smile was curious, not cruel.",
+      "file": "03-first-joke-002-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "03-first-joke",
+      "order": 3,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "It made an accusation,",
+      "file": "03-first-joke-003-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "03-first-joke",
+      "order": 4,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Malik said.",
+      "file": "03-first-joke-004-narrator.mp3",
+      "pronunciations": [
+        "malik-baptiste"
+      ]
+    },
+    {
+      "scene": "03-first-joke",
+      "order": 5,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "Serious one?",
+      "file": "03-first-joke-005-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "03-first-joke",
+      "order": 6,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "Misplaced expense.",
+      "file": "03-first-joke-006-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "03-first-joke",
+      "order": 7,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "She pressed a hand to her chest.",
+      "file": "03-first-joke-007-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "03-first-joke",
+      "order": 8,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "In broad daylight?",
+      "file": "03-first-joke-008-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "03-first-joke",
+      "order": 9,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "He almost smiled. Almost.",
+      "file": "03-first-joke-009-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "03-first-joke",
+      "order": 10,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "She pointed at the chair.",
+      "file": "03-first-joke-010-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "03-first-joke",
+      "order": 11,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "Can I sit here, or is it reserved for the audit committee?",
+      "file": "03-first-joke-011-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "03-first-joke",
+      "order": 12,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "Go ahead.",
+      "file": "03-first-joke-012-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "03-first-joke",
+      "order": 13,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "She slid into the seat.",
+      "file": "03-first-joke-013-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "03-first-joke",
+      "order": 14,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "Nia Reynolds. Mathematical sciences. Huntsville. I like graphs when they tell the truth and people when they try to.",
+      "file": "03-first-joke-014-nia.mp3",
+      "pronunciations": [
+        "nia-reynolds"
+      ]
+    },
+    {
+      "scene": "03-first-joke",
+      "order": 15,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "Malik Baptiste. Actuarial science. Gulfport. I like complete introductions.",
+      "file": "03-first-joke-015-malik.mp3",
+      "pronunciations": [
+        "malik-baptiste"
+      ]
+    },
+    {
+      "scene": "03-first-joke",
+      "order": 16,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "That was complete. You know my major, my hometown, and my entire moral philosophy.",
+      "file": "03-first-joke-016-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "03-first-joke",
+      "order": 17,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "This time, he did smile.",
+      "file": "03-first-joke-017-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-two-kinds-of-plans",
+      "order": 1,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Around them, the room filled with the sound of new beginnings: chairs scraping, families calling with last instructions, staff passing out indigo folders stamped with a copper heron. Through the tall windows, McCall-Hart University glowed honey-gold in the morning light. Malik had studied the campus map for two weeks, but a map had not prepared him for how old and alive the place felt.",
+      "file": "04-two-kinds-of-plans-001-narrator.mp3",
+      "pronunciations": [
+        "malik-baptiste"
+      ]
+    },
+    {
+      "scene": "04-two-kinds-of-plans",
+      "order": 2,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Nia tilted her head toward his screen.",
+      "file": "04-two-kinds-of-plans-002-narrator.mp3",
+      "pronunciations": [
+        "nia-reynolds"
+      ]
+    },
+    {
+      "scene": "04-two-kinds-of-plans",
+      "order": 3,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "Do you need help?",
+      "file": "04-two-kinds-of-plans-003-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-two-kinds-of-plans",
+      "order": 4,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "His first instinct was no. His second was also no, but with better manners.",
+      "file": "04-two-kinds-of-plans-004-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-two-kinds-of-plans",
+      "order": 5,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "I can fix it,",
+      "file": "04-two-kinds-of-plans-005-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-two-kinds-of-plans",
+      "order": 6,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "he said.",
+      "file": "04-two-kinds-of-plans-006-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-two-kinds-of-plans",
+      "order": 7,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "I didn't ask if you could.",
+      "file": "04-two-kinds-of-plans-007-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-two-kinds-of-plans",
+      "order": 8,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "That answer stayed with him longer than it should have.",
+      "file": "04-two-kinds-of-plans-008-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "05-dr-brooks",
+      "order": 1,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "The Bridge program opened with introductions, placement details, and a challenge from Dr. Camille Brooks, a calculus professor with silver-framed glasses and the calm voice of someone who could hear weak reasoning from across a building.",
+      "file": "05-dr-brooks-001-narrator.mp3",
+      "pronunciations": [
+        "dr-camille-brooks"
+      ]
+    },
+    {
+      "scene": "05-dr-brooks",
+      "order": 2,
+      "speaker": "dr-brooks",
+      "voice": "marin",
+      "text": "This program is not here to prove whether you belong,",
+      "file": "05-dr-brooks-002-dr-brooks.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "05-dr-brooks",
+      "order": 3,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "she told the room.",
+      "file": "05-dr-brooks-003-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "05-dr-brooks",
+      "order": 4,
+      "speaker": "dr-brooks",
+      "voice": "marin",
+      "text": "Admission settled that question. We are here to learn how you think, where your preparation is strong, and where we need to build.",
+      "file": "05-dr-brooks-004-dr-brooks.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "05-dr-brooks",
+      "order": 5,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Malik wrote the sentence down exactly.",
+      "file": "05-dr-brooks-005-narrator.mp3",
+      "pronunciations": [
+        "malik-baptiste"
+      ]
+    },
+    {
+      "scene": "05-dr-brooks",
+      "order": 6,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Nia drew a box around where we need to build and added a tiny crane beside it.",
+      "file": "05-dr-brooks-006-narrator.mp3",
+      "pronunciations": [
+        "nia-reynolds"
+      ]
+    },
+    {
+      "scene": "06-the-situation",
+      "order": 1,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Their first activity was simple: examine a table showing hours worked, transportation costs, and weekly take-home pay. Identify the variables. Describe a possible relationship. State what the table did not reveal.",
+      "file": "06-the-situation-001-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "06-the-situation",
+      "order": 2,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Malik listed the inputs, output, units, and likely errors before Nia had finished drawing arrows.",
+      "file": "06-the-situation-002-narrator.mp3",
+      "pronunciations": [
+        "malik-baptiste",
+        "nia-reynolds"
+      ]
+    },
+    {
+      "scene": "06-the-situation",
+      "order": 3,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "Why are you decorating the data?",
+      "file": "06-the-situation-003-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "06-the-situation",
+      "order": 4,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "he asked.",
+      "file": "06-the-situation-004-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "06-the-situation",
+      "order": 5,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "I'm showing the situation.",
+      "file": "06-the-situation-005-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "06-the-situation",
+      "order": 6,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "The situation is in the columns.",
+      "file": "06-the-situation-006-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "06-the-situation",
+      "order": 7,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "No, the numbers are in the columns. The situation is a person trying to get to work.",
+      "file": "06-the-situation-007-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "06-the-situation",
+      "order": 8,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Malik glanced at the prompt.",
+      "file": "06-the-situation-008-narrator.mp3",
+      "pronunciations": [
+        "malik-baptiste"
+      ]
+    },
+    {
+      "scene": "06-the-situation",
+      "order": 9,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "It doesn't say that.",
+      "file": "06-the-situation-009-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "06-the-situation",
+      "order": 10,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "Exactly. We don't know whether the transportation cost is gas, a bus pass, rideshare money, or paying somebody's cousin. That changes what choices are possible.",
+      "file": "06-the-situation-010-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "06-the-situation",
+      "order": 11,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "He disliked how quickly her answer improved his.",
+      "file": "06-the-situation-011-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "07-visible-assumptions",
+      "order": 1,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "When Dr. Brooks asked for observations, Malik explained the numeric pattern. Nia followed by naming the missing context. Dr. Brooks nodded at both of them.",
+      "file": "07-visible-assumptions-001-narrator.mp3",
+      "pronunciations": [
+        "malik-baptiste",
+        "nia-reynolds",
+        "dr-camille-brooks"
+      ]
+    },
+    {
+      "scene": "07-visible-assumptions",
+      "order": 2,
+      "speaker": "dr-brooks",
+      "voice": "marin",
+      "text": "A clean calculation built on an invisible assumption is still an unstable model,",
+      "file": "07-visible-assumptions-002-dr-brooks.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "07-visible-assumptions",
+      "order": 3,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "she said.",
+      "file": "07-visible-assumptions-003-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "07-visible-assumptions",
+      "order": 4,
+      "speaker": "dr-brooks",
+      "voice": "marin",
+      "text": "Make your assumptions visible.",
+      "file": "07-visible-assumptions-004-dr-brooks.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "07-visible-assumptions",
+      "order": 5,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Malik underlined that sentence too.",
+      "file": "07-visible-assumptions-005-narrator.mp3",
+      "pronunciations": [
+        "malik-baptiste"
+      ]
+    },
+    {
+      "scene": "08-corporate-yelling",
+      "order": 1,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "At lunch, Nia found him correcting the family budget.",
+      "file": "08-corporate-yelling-001-narrator.mp3",
+      "pronunciations": [
+        "nia-reynolds"
+      ]
+    },
+    {
+      "scene": "08-corporate-yelling",
+      "order": 2,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "You fixed the accusation?",
+      "file": "08-corporate-yelling-002-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "08-corporate-yelling",
+      "order": 3,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "I moved the expense, reduced two categories, and added a warning rule.",
+      "file": "08-corporate-yelling-003-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "08-corporate-yelling",
+      "order": 4,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "So your spreadsheet can yell before the problem gets bad.",
+      "file": "08-corporate-yelling-004-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "08-corporate-yelling",
+      "order": 5,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "It does not yell. It changes color.",
+      "file": "08-corporate-yelling-005-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "08-corporate-yelling",
+      "order": 6,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "Corporate yelling.",
+      "file": "08-corporate-yelling-006-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "08-corporate-yelling",
+      "order": 7,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "He showed her the repaired balance. He did not show her the text from his mother asking whether everything still worked. Some truths felt easier in formulas than in conversation.",
+      "file": "08-corporate-yelling-007-narrator.mp3",
+      "pronunciations": []
+    }
+  ]
+}

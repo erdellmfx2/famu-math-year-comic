@@ -1,0 +1,48 @@
+{
+  "project": "The Formula of Becoming - Week 1 Day 1",
+  "model": "gpt-4o-mini-tts",
+  "voice": "cedar",
+  "instructions": "Read as a warm, grounded audiobook narrator with clear diction, natural pauses, restrained emotion, and quiet humor. Subtly distinguish quoted dialogue without caricature: Malik is precise, measured, and dry; Nia is lively, curious, and playful; Dr. Brooks is calm, warm, and intellectually demanding. Preserve every written word. Do not add an introduction, commentary, music, or sound effects.",
+  "clips": [
+    {
+      "id": "01-arrival",
+      "panel": "page-01-panel-01",
+      "text": "The first thing Malik Baptiste discovered about Bellwether, Alabama, was that the heat did not simply sit on you. It negotiated.\n\nIt followed him from the rideshare drop-off to the limestone steps of Eliza Moss Hall, offering sweat in exchange for every box he carried. It fogged the edge of his glasses while he tried to balance a laptop bag, a duffel, and the promise he had made before leaving Gulfport: I have the money part handled.\n\nInside, the Quantitative Summer Bridge welcome room was cool enough to make him forgive the entire city."
+    },
+    {
+      "id": "02-red-number",
+      "panel": "page-01-panel-02",
+      "text": "Malik chose a table near an outlet, opened his laptop, and pulled up the family budget he had finished three nights ago. He only meant to check one thing. Then he found the mistake.\n\nThe repair estimate for his mother's car had been entered in the monthly column instead of the emergency-expense column. Correcting it pushed the August balance below zero.\n\nNot far below zero. But zero did not care how close you came.\n\nHe stared at the red number as students entered around him in bright shirts, fresh sneakers, and the nervous confidence of people pretending not to look for somewhere safe to sit.\n\nThat spreadsheet looks like it just told you a family secret."
+    },
+    {
+      "id": "03-first-joke",
+      "panel": "page-01-panel-03",
+      "text": "Malik looked up.\n\nThe girl beside the chair across from him wore copper-colored headphones around her neck and carried a notebook thick with tabs. Her smile was curious, not cruel.\n\nIt made an accusation, Malik said.\n\nSerious one?\n\nMisplaced expense.\n\nShe pressed a hand to her chest. In broad daylight?\n\nHe almost smiled. Almost.\n\nShe pointed at the chair. Can I sit here, or is it reserved for the audit committee?\n\nGo ahead.\n\nShe slid into the seat. Nia Reynolds. Mathematical sciences. Huntsville. I like graphs when they tell the truth and people when they try to.\n\nMalik Baptiste. Actuarial science. Gulfport. I like complete introductions.\n\nThat was complete. You know my major, my hometown, and my entire moral philosophy.\n\nThis time, he did smile."
+    },
+    {
+      "id": "04-two-kinds-of-plans",
+      "panel": "page-01-panel-03",
+      "text": "Around them, the room filled with the sound of new beginnings: chairs scraping, families calling with last instructions, staff passing out indigo folders stamped with a copper heron. Through the tall windows, McCall-Hart University glowed honey-gold in the morning light. Malik had studied the campus map for two weeks, but a map had not prepared him for how old and alive the place felt.\n\nNia tilted her head toward his screen. Do you need help?\n\nHis first instinct was no. His second was also no, but with better manners.\n\nI can fix it, he said.\n\nI didn't ask if you could.\n\nThat answer stayed with him longer than it should have."
+    },
+    {
+      "id": "05-dr-brooks",
+      "panel": "page-01-panel-04",
+      "text": "The Bridge program opened with introductions, placement details, and a challenge from Dr. Camille Brooks, a calculus professor with silver-framed glasses and the calm voice of someone who could hear weak reasoning from across a building.\n\nThis program is not here to prove whether you belong, she told the room. Admission settled that question. We are here to learn how you think, where your preparation is strong, and where we need to build.\n\nMalik wrote the sentence down exactly.\n\nNia drew a box around where we need to build and added a tiny crane beside it."
+    },
+    {
+      "id": "06-the-situation",
+      "panel": "page-01-panel-04",
+      "text": "Their first activity was simple: examine a table showing hours worked, transportation costs, and weekly take-home pay. Identify the variables. Describe a possible relationship. State what the table did not reveal.\n\nMalik listed the inputs, output, units, and likely errors before Nia had finished drawing arrows.\n\nWhy are you decorating the data? he asked.\n\nI'm showing the situation.\n\nThe situation is in the columns.\n\nNo, the numbers are in the columns. The situation is a person trying to get to work.\n\nMalik glanced at the prompt. It doesn't say that.\n\nExactly. We don't know whether the transportation cost is gas, a bus pass, rideshare money, or paying somebody's cousin. That changes what choices are possible.\n\nHe disliked how quickly her answer improved his."
+    },
+    {
+      "id": "07-visible-assumptions",
+      "panel": "page-01-panel-04",
+      "text": "When Dr. Brooks asked for observations, Malik explained the numeric pattern. Nia followed by naming the missing context. Dr. Brooks nodded at both of them.\n\nA clean calculation built on an invisible assumption is still an unstable model, she said. Make your assumptions visible.\n\nMalik underlined that sentence too."
+    },
+    {
+      "id": "08-corporate-yelling",
+      "panel": "page-02-panels-01-through-04",
+      "text": "At lunch, Nia found him correcting the family budget.\n\nYou fixed the accusation?\n\nI moved the expense, reduced two categories, and added a warning rule.\n\nSo your spreadsheet can yell before the problem gets bad.\n\nIt does not yell. It changes color.\n\nCorporate yelling.\n\nHe showed her the repaired balance. He did not show her the text from his mother asking whether everything still worked. Some truths felt easier in formulas than in conversation."
+    }
+  ]
+}

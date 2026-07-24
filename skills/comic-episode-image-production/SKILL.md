@@ -1,6 +1,6 @@
 ---
 name: comic-episode-image-production
-description: Create one polished, lettered 4-panel comic page from an approved McCall-Hart University episode storyboard, using current v2 continuity assets and a two-pass art-then-lettering workflow. Use when the user asks to turn an approved storyboard into a comic page or reuse the established episode-image process. Refuse image production while the repository approval gate is closed.
+description: "Create and package a polished comic episode as a three-section release from an approved McCall-Hart University storyboard: title card, lettered story page, and approved message card. Use the current v2 continuity assets and a two-pass art-then-lettering workflow. Refuse image production while the repository approval gate is closed."
 ---
 
 # Comic Episode Image Production
@@ -28,7 +28,7 @@ After the gate is open, read:
 
 Never use files under any `archive/` path as visual references. They preserve obsolete continuity and institutional identity.
 
-## Produce One Page
+## Produce the Story Page
 
 Default to one image containing the full four-panel episode page unless the user explicitly requests a single panel.
 
@@ -69,6 +69,38 @@ Read `references/prompt-template.md` when constructing the two image prompts.
 - Preserve storyboard wording exactly unless the user asks for a dialogue revision.
 - Keep reading order unambiguous and do not cover faces, hands, equations, or essential props.
 
+## Package the Three-Section Release
+
+After the story page passes review, package the episode under
+`art/final/week-XX/episode-YY/sequence/` in this exact reading order:
+
+1. `01-title-card-v1.png`: Start with the approved series logo. Add the exact
+   weekly title from `story/timeline-weeks/XX.md` as the arc title, followed by
+   `PART N`, where `N` is the episode's one-indexed day within that week.
+2. `02-comic-page-v1.png`: Place the approved lettered comic itself here. For
+   episodes needing several story pages, number them consecutively after the
+   title card and before the closing card.
+3. `03-<approved-message>-end-card-v1.png`: End with exactly one approved
+   message card selected from `art/final/series-endcards/approved/`.
+
+Use the title card only for series and arc information. Do not invent an arc
+title, part number, university identity, or promotional language. Preserve the
+approved wording and artwork of the closing card.
+
 ## Output Rule
 
-Save approved v2 outputs under `art/final/` using week and episode folders. Never write new output into an archive path.
+Save approved v2 outputs under `art/final/` using week and episode folders.
+Never write new output into an archive path. Add a short `sequence/README.md`
+recording the title card, story page or pages, and closing card used.
+
+## Series Mark and Closing Card
+
+Use the approved transparent page mark at
+`art/final/series-endcards/approved/formula-of-becoming-famu-math-page-mark-v1.png`
+at the bottom-right of every final comic page. Keep it small, legible, and clear
+of lettering and decisive art. It contains plain-text FAMU Mathematics Department
+attribution and is not an official FAMU mark.
+
+Use one approved closing card from `art/final/series-endcards/approved/` as
+the last section of every release. Do not invent a new advertising message or
+use review assets.

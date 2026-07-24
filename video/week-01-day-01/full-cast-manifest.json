@@ -1,0 +1,346 @@
+{
+  "project": "The Formula of Becoming - Week 1 Day 1 - Full Cast",
+  "model": "gpt-4o-mini-tts",
+  "response_format": "mp3",
+  "default_pause_after": 0.18,
+  "speakers": {
+    "narrator": {
+      "voice": "cedar",
+      "instructions": "Speak only the supplied narration. Use a warm, grounded, observant, quietly lyrical documentary delivery with clear diction, restrained emotion, gentle wit, and an unhurried pace. Do not perform character dialogue, add words, or imitate a real person."
+    },
+    "malik": {
+      "voice": "ash",
+      "instructions": "Speak only Malik's supplied words. He is an 18-year-old first-year actuarial science student: thoughtful, precise, guarded, and economical, with a measured medium-low delivery and dry humor that sounds discovered rather than performed. Let warmth emerge naturally. Do not add words or imitate a real person."
+    },
+    "nia": {
+      "voice": "coral",
+      "instructions": "Speak only Nia's supplied words. She is an 18-year-old mathematical sciences student: bright, expressive, curious, playful, and emotionally available, with a lively conversational pace and agile emphasis. Slow slightly for human consequences. Never sound cruel, caricatured, or generically spunky. Do not add words or imitate a real person."
+    },
+    "dr-brooks": {
+      "voice": "marin",
+      "instructions": "Speak only Dr. Camille Brooks's supplied words. Use calm, warm, intellectually demanding classroom authority with clear projection and purposeful pauses. Make precision feel like care, without sounding theatrical, preachy, or condescending. Do not add words or imitate a real person."
+    }
+  },
+  "scenes": [
+    {
+      "id": "01-arrival",
+      "panel": "page-01-panel-01",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "The first thing Malik Baptiste discovered about Bellwether, Alabama, was that the heat did not simply sit on you. It negotiated."
+        },
+        {
+          "speaker": "narrator",
+          "text": "It followed him from the rideshare drop-off to the limestone steps of Eliza Moss Hall, offering sweat in exchange for every box he carried. It fogged the edge of his glasses while he tried to balance a laptop bag, a duffel, and the promise he had made before leaving Gulfport:"
+        },
+        {
+          "speaker": "malik",
+          "text": "I have the money part handled.",
+          "pause_after": 0.28
+        },
+        {
+          "speaker": "narrator",
+          "text": "Inside, the Quantitative Summer Bridge welcome room was cool enough to make him forgive the entire city.",
+          "pause_after": 0
+        }
+      ]
+    },
+    {
+      "id": "02-red-number",
+      "panel": "page-01-panel-02",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "Malik chose a table near an outlet, opened his laptop, and pulled up the family budget he had finished three nights ago. He only meant to check one thing. Then he found the mistake."
+        },
+        {
+          "speaker": "narrator",
+          "text": "The repair estimate for his mother's car had been entered in the monthly column instead of the emergency-expense column. Correcting it pushed the August balance below zero."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Not far below zero. But zero did not care how close you came."
+        },
+        {
+          "speaker": "narrator",
+          "text": "He stared at the red number as students entered around him in bright shirts, fresh sneakers, and the nervous confidence of people pretending not to look for somewhere safe to sit.",
+          "pause_after": 0.3
+        },
+        {
+          "speaker": "nia",
+          "text": "That spreadsheet looks like it just told you a family secret.",
+          "pause_after": 0
+        }
+      ]
+    },
+    {
+      "id": "03-first-joke",
+      "panel": "page-01-panel-03",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "Malik looked up."
+        },
+        {
+          "speaker": "narrator",
+          "text": "The girl beside the chair across from him wore copper-colored headphones around her neck and carried a notebook thick with tabs. Her smile was curious, not cruel."
+        },
+        {
+          "speaker": "malik",
+          "text": "It made an accusation,",
+          "pause_after": 0.08
+        },
+        {
+          "speaker": "narrator",
+          "text": "Malik said."
+        },
+        {
+          "speaker": "nia",
+          "text": "Serious one?"
+        },
+        {
+          "speaker": "malik",
+          "text": "Misplaced expense."
+        },
+        {
+          "speaker": "narrator",
+          "text": "She pressed a hand to her chest.",
+          "pause_after": 0.08
+        },
+        {
+          "speaker": "nia",
+          "text": "In broad daylight?"
+        },
+        {
+          "speaker": "narrator",
+          "text": "He almost smiled. Almost."
+        },
+        {
+          "speaker": "narrator",
+          "text": "She pointed at the chair.",
+          "pause_after": 0.08
+        },
+        {
+          "speaker": "nia",
+          "text": "Can I sit here, or is it reserved for the audit committee?"
+        },
+        {
+          "speaker": "malik",
+          "text": "Go ahead."
+        },
+        {
+          "speaker": "narrator",
+          "text": "She slid into the seat.",
+          "pause_after": 0.08
+        },
+        {
+          "speaker": "nia",
+          "text": "Nia Reynolds. Mathematical sciences. Huntsville. I like graphs when they tell the truth and people when they try to."
+        },
+        {
+          "speaker": "malik",
+          "text": "Malik Baptiste. Actuarial science. Gulfport. I like complete introductions."
+        },
+        {
+          "speaker": "nia",
+          "text": "That was complete. You know my major, my hometown, and my entire moral philosophy."
+        },
+        {
+          "speaker": "narrator",
+          "text": "This time, he did smile.",
+          "pause_after": 0
+        }
+      ]
+    },
+    {
+      "id": "04-two-kinds-of-plans",
+      "panel": "page-01-panel-03",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "Around them, the room filled with the sound of new beginnings: chairs scraping, families calling with last instructions, staff passing out indigo folders stamped with a copper heron. Through the tall windows, McCall-Hart University glowed honey-gold in the morning light. Malik had studied the campus map for two weeks, but a map had not prepared him for how old and alive the place felt."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Nia tilted her head toward his screen.",
+          "pause_after": 0.08
+        },
+        {
+          "speaker": "nia",
+          "text": "Do you need help?"
+        },
+        {
+          "speaker": "narrator",
+          "text": "His first instinct was no. His second was also no, but with better manners."
+        },
+        {
+          "speaker": "malik",
+          "text": "I can fix it,",
+          "pause_after": 0.08
+        },
+        {
+          "speaker": "narrator",
+          "text": "he said."
+        },
+        {
+          "speaker": "nia",
+          "text": "I didn't ask if you could."
+        },
+        {
+          "speaker": "narrator",
+          "text": "That answer stayed with him longer than it should have.",
+          "pause_after": 0
+        }
+      ]
+    },
+    {
+      "id": "05-dr-brooks",
+      "panel": "page-01-panel-04",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "The Bridge program opened with introductions, placement details, and a challenge from Dr. Camille Brooks, a calculus professor with silver-framed glasses and the calm voice of someone who could hear weak reasoning from across a building."
+        },
+        {
+          "speaker": "dr-brooks",
+          "text": "This program is not here to prove whether you belong,",
+          "pause_after": 0.08
+        },
+        {
+          "speaker": "narrator",
+          "text": "she told the room."
+        },
+        {
+          "speaker": "dr-brooks",
+          "text": "Admission settled that question. We are here to learn how you think, where your preparation is strong, and where we need to build."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Malik wrote the sentence down exactly."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Nia drew a box around where we need to build and added a tiny crane beside it.",
+          "pause_after": 0
+        }
+      ]
+    },
+    {
+      "id": "06-the-situation",
+      "panel": "page-01-panel-04",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "Their first activity was simple: examine a table showing hours worked, transportation costs, and weekly take-home pay. Identify the variables. Describe a possible relationship. State what the table did not reveal."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Malik listed the inputs, output, units, and likely errors before Nia had finished drawing arrows."
+        },
+        {
+          "speaker": "malik",
+          "text": "Why are you decorating the data?",
+          "pause_after": 0.08
+        },
+        {
+          "speaker": "narrator",
+          "text": "he asked."
+        },
+        {
+          "speaker": "nia",
+          "text": "I'm showing the situation."
+        },
+        {
+          "speaker": "malik",
+          "text": "The situation is in the columns."
+        },
+        {
+          "speaker": "nia",
+          "text": "No, the numbers are in the columns. The situation is a person trying to get to work."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Malik glanced at the prompt.",
+          "pause_after": 0.08
+        },
+        {
+          "speaker": "malik",
+          "text": "It doesn't say that."
+        },
+        {
+          "speaker": "nia",
+          "text": "Exactly. We don't know whether the transportation cost is gas, a bus pass, rideshare money, or paying somebody's cousin. That changes what choices are possible."
+        },
+        {
+          "speaker": "narrator",
+          "text": "He disliked how quickly her answer improved his.",
+          "pause_after": 0
+        }
+      ]
+    },
+    {
+      "id": "07-visible-assumptions",
+      "panel": "page-01-panel-04",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "When Dr. Brooks asked for observations, Malik explained the numeric pattern. Nia followed by naming the missing context. Dr. Brooks nodded at both of them."
+        },
+        {
+          "speaker": "dr-brooks",
+          "text": "A clean calculation built on an invisible assumption is still an unstable model,",
+          "pause_after": 0.08
+        },
+        {
+          "speaker": "narrator",
+          "text": "she said."
+        },
+        {
+          "speaker": "dr-brooks",
+          "text": "Make your assumptions visible."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Malik underlined that sentence too.",
+          "pause_after": 0
+        }
+      ]
+    },
+    {
+      "id": "08-corporate-yelling",
+      "panel": "page-02-panels-01-through-04",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "At lunch, Nia found him correcting the family budget."
+        },
+        {
+          "speaker": "nia",
+          "text": "You fixed the accusation?"
+        },
+        {
+          "speaker": "malik",
+          "text": "I moved the expense, reduced two categories, and added a warning rule."
+        },
+        {
+          "speaker": "nia",
+          "text": "So your spreadsheet can yell before the problem gets bad."
+        },
+        {
+          "speaker": "malik",
+          "text": "It does not yell. It changes color."
+        },
+        {
+          "speaker": "nia",
+          "text": "Corporate yelling."
+        },
+        {
+          "speaker": "narrator",
+          "text": "He showed her the repaired balance. He did not show her the text from his mother asking whether everything still worked. Some truths felt easier in formulas than in conversation.",
+          "pause_after": 0
+        }
+      ]
+    }
+  ]
+}

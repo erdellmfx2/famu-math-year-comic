@@ -1,0 +1,639 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="assets/gsap.min.js"></script>
+    <script src="assets/captions-data.js"></script>
+    <style>
+      :root {
+        --indigo: #07172e;
+        --copper: #c87542;
+        --cream: #f1e2c3;
+        --famu-green: #215732;
+        --white: #ffffff;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        width: 1080px;
+        height: 1920px;
+        overflow: hidden;
+        background: var(--indigo);
+      }
+
+      #root {
+        position: relative;
+        width: 1080px;
+        height: 1920px;
+        overflow: hidden;
+        background: var(--indigo);
+        isolation: isolate;
+      }
+
+      .scene {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background: var(--indigo);
+        opacity: 0;
+      }
+
+      .card-image {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .art-layer {
+        position: absolute;
+        inset: -18px;
+        background-image: url("assets/comic-page-01.png");
+        background-repeat: no-repeat;
+        background-size: 204% 204%;
+        will-change: transform, background-position;
+      }
+
+      .panel-1 {
+        background-position: left top;
+      }
+
+      .panel-2 {
+        background-position: right top;
+      }
+
+      .panel-3 {
+        background-position: left bottom;
+      }
+
+      .panel-4 {
+        background-position: right bottom;
+      }
+
+      .scene-wash {
+        position: absolute;
+        inset: 0;
+        background:
+          radial-gradient(circle at 50% 42%, transparent 48%, rgba(7, 23, 46, 0.22) 100%),
+          linear-gradient(180deg, rgba(7, 23, 46, 0.08), transparent 18%, transparent 82%, rgba(7, 23, 46, 0.12));
+        pointer-events: none;
+      }
+
+      .strip-blur {
+        position: absolute;
+        inset: -80px;
+        background-image: url("assets/comic-page-02.png");
+        background-repeat: no-repeat;
+        background-size: auto 400%;
+        filter: blur(30px) saturate(0.9) brightness(0.72);
+        transform: scale(1.14);
+      }
+
+      .strip-card {
+        position: absolute;
+        left: 0;
+        top: 720px;
+        width: 1080px;
+        height: 480px;
+        background-image: url("assets/comic-page-02.png");
+        background-repeat: no-repeat;
+        background-size: 100% 400%;
+        box-shadow:
+          0 0 0 3px rgba(241, 226, 195, 0.92),
+          0 28px 72px rgba(7, 23, 46, 0.58);
+        will-change: transform;
+      }
+
+      .strip-1 {
+        background-position: center 0%;
+      }
+
+      .strip-2 {
+        background-position: center 33.333%;
+      }
+
+      .strip-3 {
+        background-position: center 66.667%;
+      }
+
+      .strip-4 {
+        background-position: center 100%;
+      }
+
+      .strip-vignette {
+        position: absolute;
+        inset: 0;
+        background:
+          linear-gradient(180deg, rgba(7, 23, 46, 0.28), transparent 30%, transparent 70%, rgba(7, 23, 46, 0.34)),
+          radial-gradient(circle at center, transparent 28%, rgba(7, 23, 46, 0.22) 100%);
+        pointer-events: none;
+      }
+
+      .final-indigo {
+        position: absolute;
+        inset: 0;
+        background: var(--indigo);
+        opacity: 0;
+        pointer-events: none;
+      }
+
+      #caption-layer {
+        position: absolute;
+        left: 54px;
+        right: 54px;
+        bottom: 235px;
+        height: 230px;
+        z-index: 100;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        pointer-events: none;
+      }
+
+      .caption-group {
+        position: absolute;
+        left: 0;
+        right: 0;
+        min-height: 92px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 2px 4px;
+        padding: 16px 22px;
+        border: 2px solid rgba(255, 255, 255, 0.16);
+        border-radius: 22px;
+        background: rgba(7, 23, 46, 0.82);
+        box-shadow: 0 14px 44px rgba(0, 0, 0, 0.38);
+        color: var(--white);
+        font-family: "Montserrat", sans-serif;
+        font-size: 58px;
+        font-weight: 800;
+        line-height: 1.12;
+        letter-spacing: -1px;
+        text-align: center;
+        text-shadow: 0 2px 7px rgba(0, 0, 0, 0.92);
+        opacity: 0;
+        visibility: hidden;
+      }
+
+      .caption-word {
+        display: inline-block;
+        padding: 4px 8px 6px;
+        border-radius: 10px;
+        color: var(--white);
+        background: rgba(33, 87, 50, 0);
+        transform-origin: center;
+        will-change: transform, background-color, box-shadow;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      id="root"
+      data-composition-id="week-01-day-01"
+      data-start="0"
+      data-duration="358.304"
+      data-width="1080"
+      data-height="1920"
+    >
+      <div
+        id="title-card"
+        class="clip scene"
+        data-start="0"
+        data-duration="5"
+        data-track-index="1"
+      >
+        <img class="card-image" src="assets/title-card.png" alt="" data-layout-allow-overflow />
+      </div>
+
+      <div
+        id="scene-arrival"
+        class="clip scene"
+        data-start="4.4"
+        data-duration="38.642"
+        data-track-index="2"
+      >
+        <div class="art-layer panel-1" data-layout-allow-overflow></div>
+        <div class="scene-wash" data-layout-ignore></div>
+      </div>
+
+      <div
+        id="scene-red-number"
+        class="clip scene"
+        data-start="42.442"
+        data-duration="39.85"
+        data-track-index="3"
+      >
+        <div class="art-layer panel-2" data-layout-allow-overflow></div>
+        <div class="scene-wash" data-layout-ignore></div>
+      </div>
+
+      <div
+        id="scene-first-joke"
+        class="clip scene"
+        data-start="81.692"
+        data-duration="66.642"
+        data-track-index="4"
+      >
+        <div class="art-layer panel-3" data-layout-allow-overflow></div>
+        <div class="scene-wash" data-layout-ignore></div>
+      </div>
+
+      <div
+        id="scene-two-plans"
+        class="clip scene"
+        data-start="147.734"
+        data-duration="47.87"
+        data-track-index="5"
+      >
+        <div class="art-layer panel-3" data-layout-allow-overflow></div>
+        <div class="scene-wash" data-layout-ignore></div>
+      </div>
+
+      <div
+        id="scene-dr-brooks"
+        class="clip scene"
+        data-start="195.004"
+        data-duration="37.722"
+        data-track-index="6"
+      >
+        <div class="art-layer panel-4" data-layout-allow-overflow></div>
+        <div class="scene-wash" data-layout-ignore></div>
+      </div>
+
+      <div
+        id="scene-situation"
+        class="clip scene"
+        data-start="232.126"
+        data-duration="60.314"
+        data-track-index="7"
+      >
+        <div class="art-layer panel-4" data-layout-allow-overflow></div>
+        <div class="scene-wash" data-layout-ignore></div>
+      </div>
+
+      <div
+        id="scene-assumptions"
+        class="clip scene"
+        data-start="291.84"
+        data-duration="23.91"
+        data-track-index="8"
+      >
+        <div class="art-layer panel-4" data-layout-allow-overflow></div>
+        <div class="scene-wash" data-layout-ignore></div>
+      </div>
+
+      <div
+        id="scene-lunch"
+        class="clip scene"
+        data-start="315.15"
+        data-duration="7.68"
+        data-track-index="9"
+      >
+        <div class="strip-blur strip-1" data-layout-ignore></div>
+        <div class="strip-card strip-1" data-layout-allow-overflow></div>
+        <div class="strip-vignette" data-layout-ignore></div>
+      </div>
+
+      <div
+        id="scene-yelling"
+        class="clip scene"
+        data-start="322.23"
+        data-duration="11.784"
+        data-track-index="10"
+      >
+        <div class="strip-blur strip-2" data-layout-ignore></div>
+        <div class="strip-card strip-2" data-layout-allow-overflow></div>
+        <div class="strip-vignette" data-layout-ignore></div>
+      </div>
+
+      <div
+        id="scene-unshown-text"
+        class="clip scene"
+        data-start="333.414"
+        data-duration="6.024"
+        data-track-index="11"
+      >
+        <div class="strip-blur strip-3" data-layout-ignore></div>
+        <div class="strip-card strip-3" data-layout-allow-overflow></div>
+        <div class="strip-vignette" data-layout-ignore></div>
+      </div>
+
+      <div
+        id="scene-truths"
+        class="clip scene"
+        data-start="338.838"
+        data-duration="12.466"
+        data-track-index="12"
+      >
+        <div class="strip-blur strip-4" data-layout-ignore></div>
+        <div class="strip-card strip-4" data-layout-allow-overflow></div>
+        <div class="strip-vignette" data-layout-ignore></div>
+      </div>
+
+      <div
+        id="message-card"
+        class="clip scene"
+        data-start="351.304"
+        data-duration="7"
+        data-track-index="13"
+      >
+        <img class="card-image" src="assets/message-card.png" alt="" data-layout-allow-overflow />
+        <div class="final-indigo" data-layout-ignore></div>
+      </div>
+
+      <audio
+        id="audio-arrival"
+        class="clip"
+        data-start="5"
+        data-duration="37.792"
+        data-track-index="100"
+        src="assets/audio/01-arrival.mp3"
+        data-volume="1"
+      ></audio>
+      <audio
+        id="audio-red-number"
+        class="clip"
+        data-start="43.042"
+        data-duration="39"
+        data-track-index="100"
+        src="assets/audio/02-red-number.mp3"
+        data-volume="1"
+      ></audio>
+      <audio
+        id="audio-first-joke"
+        class="clip"
+        data-start="82.292"
+        data-duration="65.792"
+        data-track-index="100"
+        src="assets/audio/03-first-joke.mp3"
+        data-volume="1"
+      ></audio>
+      <audio
+        id="audio-two-plans"
+        class="clip"
+        data-start="148.334"
+        data-duration="47.02"
+        data-track-index="100"
+        src="assets/audio/04-two-kinds-of-plans.mp3"
+        data-volume="1"
+      ></audio>
+      <audio
+        id="audio-dr-brooks"
+        class="clip"
+        data-start="195.604"
+        data-duration="36.872"
+        data-track-index="100"
+        src="assets/audio/05-dr-brooks.mp3"
+        data-volume="1"
+      ></audio>
+      <audio
+        id="audio-situation"
+        class="clip"
+        data-start="232.726"
+        data-duration="59.464"
+        data-track-index="100"
+        src="assets/audio/06-the-situation.mp3"
+        data-volume="1"
+      ></audio>
+      <audio
+        id="audio-assumptions"
+        class="clip"
+        data-start="292.44"
+        data-duration="23.06"
+        data-track-index="100"
+        src="assets/audio/07-visible-assumptions.mp3"
+        data-volume="1"
+      ></audio>
+      <audio
+        id="audio-lunch"
+        class="clip"
+        data-start="315.75"
+        data-duration="35.304"
+        data-track-index="100"
+        src="assets/audio/08-corporate-yelling.mp3"
+        data-volume="1"
+      ></audio>
+      <div id="caption-layer" data-layout-allow-overlap></div>
+    </div>
+
+    <script>
+      window.__timelines = window.__timelines || {};
+      const groups = window.CAPTION_GROUPS || [];
+      const captionLayer = document.getElementById("caption-layer");
+
+      groups.forEach((group, groupIndex) => {
+        const groupElement = document.createElement("div");
+        groupElement.id = `caption-group-${groupIndex}`;
+        groupElement.className = "caption-group";
+        groupElement.setAttribute("data-layout-allow-overlap", "");
+
+        group.words.forEach((word, wordIndex) => {
+          const wordElement = document.createElement("span");
+          wordElement.id = `caption-word-${groupIndex}-${wordIndex}`;
+          wordElement.className = "caption-word";
+          wordElement.textContent = word.text;
+          groupElement.appendChild(wordElement);
+        });
+
+        captionLayer.appendChild(groupElement);
+      });
+
+      const tl = gsap.timeline({ paused: true });
+
+      const enterScene = (selector, start, ease) => {
+        tl.fromTo(selector, { opacity: 0 }, { opacity: 1, duration: 0.6, ease }, start);
+      };
+
+      const kenBurnsOut = (selector, start, duration, from, to) => {
+        tl.fromTo(
+          selector,
+          from,
+          { ...to, duration, ease: "sine.inOut" },
+          start,
+        );
+      };
+
+      tl.fromTo(
+        "#title-card",
+        { opacity: 0 },
+        { opacity: 1, duration: 0.7, ease: "power2.out" },
+        0.2,
+      );
+      tl.fromTo(
+        "#title-card .card-image",
+        { scale: 1 },
+        { scale: 1.015, duration: 4.8, ease: "sine.inOut" },
+        0.2,
+      );
+
+      enterScene("#scene-arrival", 4.4, "power2.inOut");
+      kenBurnsOut(
+        "#scene-arrival .art-layer",
+        4.45,
+        38.49,
+        { scale: 1.11, x: 18, y: 12 },
+        { scale: 1.005, x: -4, y: -3 },
+      );
+
+      enterScene("#scene-red-number", 42.442, "sine.inOut");
+      kenBurnsOut(
+        "#scene-red-number .art-layer",
+        42.492,
+        39.7,
+        { scale: 1.11, x: -18, y: 8 },
+        { scale: 1.005, x: 4, y: -3 },
+      );
+
+      enterScene("#scene-first-joke", 81.692, "power1.inOut");
+      kenBurnsOut(
+        "#scene-first-joke .art-layer",
+        81.742,
+        66.49,
+        { scale: 1.1, x: -14, y: 8 },
+        { scale: 1.005, x: 4, y: -3 },
+      );
+
+      enterScene("#scene-two-plans", 147.734, "power2.inOut");
+      kenBurnsOut(
+        "#scene-two-plans .art-layer",
+        147.784,
+        47.72,
+        { scale: 1.1, x: 16, y: -8 },
+        { scale: 1.005, x: -4, y: 3 },
+      );
+
+      enterScene("#scene-dr-brooks", 195.004, "sine.inOut");
+      kenBurnsOut(
+        "#scene-dr-brooks .art-layer",
+        195.054,
+        37.57,
+        { scale: 1.1, x: 8, y: -18 },
+        { scale: 1.005, x: -3, y: 5 },
+      );
+
+      enterScene("#scene-situation", 232.126, "power1.inOut");
+      kenBurnsOut(
+        "#scene-situation .art-layer",
+        232.176,
+        60.16,
+        { scale: 1.11, x: -10, y: 16 },
+        { scale: 1.005, x: 4, y: -4 },
+      );
+
+      enterScene("#scene-assumptions", 291.84, "power2.inOut");
+      kenBurnsOut(
+        "#scene-assumptions .art-layer",
+        291.89,
+        23.76,
+        { scale: 1.1, x: 8, y: -14 },
+        { scale: 1.005, x: -3, y: 4 },
+      );
+
+      enterScene("#scene-lunch", 315.15, "sine.inOut");
+      kenBurnsOut(
+        "#scene-lunch .strip-card",
+        315.2,
+        7.53,
+        { scale: 1.1, y: 20 },
+        { scale: 1, y: 0 },
+      );
+
+      enterScene("#scene-yelling", 322.23, "power2.inOut");
+      kenBurnsOut(
+        "#scene-yelling .strip-card",
+        322.28,
+        11.63,
+        { scale: 1.1, x: -18 },
+        { scale: 1, x: 0 },
+      );
+
+      enterScene("#scene-unshown-text", 333.414, "sine.inOut");
+      kenBurnsOut(
+        "#scene-unshown-text .strip-card",
+        333.464,
+        5.87,
+        { scale: 1.09, y: -16 },
+        { scale: 1, y: 0 },
+      );
+
+      enterScene("#scene-truths", 338.838, "power1.inOut");
+      kenBurnsOut(
+        "#scene-truths .strip-card",
+        338.888,
+        12.31,
+        { scale: 1.1, x: 18 },
+        { scale: 1, x: 0 },
+      );
+
+      enterScene("#message-card", 351.304, "sine.inOut");
+      tl.fromTo(
+        "#message-card .card-image",
+        { scale: 1 },
+        { scale: 1.015, duration: 6.25, ease: "sine.inOut" },
+        351.404,
+      );
+      tl.to("#message-card .final-indigo", { opacity: 1, duration: 0.75, ease: "power2.in" }, 357.554);
+
+      groups.forEach((group, groupIndex) => {
+        const groupSelector = `#caption-group-${groupIndex}`;
+        tl.set(
+          groupSelector,
+          { opacity: 1, visibility: "visible", y: 0 },
+          group.show,
+        );
+
+        group.words.forEach((word, wordIndex) => {
+          const wordSelector = `#caption-word-${groupIndex}-${wordIndex}`;
+          tl.set(
+            wordSelector,
+            {
+              backgroundColor: "#215732",
+              boxShadow: "0 0 0 3px rgba(255,255,255,0.24)",
+              scale: 1.055,
+            },
+            word.start,
+          );
+          tl.set(
+            wordSelector,
+            {
+              backgroundColor: "rgba(33,87,50,0)",
+              boxShadow: "0 0 0 0 rgba(255,255,255,0)",
+              scale: 1,
+            },
+            word.end,
+          );
+        });
+
+        tl.set(
+          groupSelector,
+          { opacity: 0, visibility: "hidden" },
+          group.hide,
+        );
+      });
+
+      groups.forEach((group, groupIndex) => {
+        const element = document.getElementById(`caption-group-${groupIndex}`);
+        tl.seek(group.hide + 0.01);
+        const computed = window.getComputedStyle(element);
+        if (computed.opacity !== "0" && computed.visibility !== "hidden") {
+          console.warn(`[caption-lint] group ${groupIndex} remains visible after exit`);
+        }
+      });
+      tl.seek(0);
+
+      window.__timelines["week-01-day-01"] = tl;
+    </script>
+  </body>
+</html>

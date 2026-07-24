@@ -1,0 +1,72 @@
+{
+  "model": "whisper-1",
+  "words": 795,
+  "scenes": [
+    {
+      "scene": "01-arrival",
+      "expected_words": 94,
+      "transcribed_words": 95,
+      "similarity": 0.9789,
+      "repaired_word_spans": 4,
+      "needs_review": false
+    },
+    {
+      "scene": "02-red-number",
+      "expected_words": 116,
+      "transcribed_words": 117,
+      "similarity": 0.9829,
+      "repaired_word_spans": 10,
+      "needs_review": false
+    },
+    {
+      "scene": "03-first-joke",
+      "expected_words": 125,
+      "transcribed_words": 126,
+      "similarity": 0.9841,
+      "repaired_word_spans": 15,
+      "needs_review": false
+    },
+    {
+      "scene": "04-two-kinds-of-plans",
+      "expected_words": 111,
+      "transcribed_words": 113,
+      "similarity": 0.9646,
+      "repaired_word_spans": 8,
+      "needs_review": false
+    },
+    {
+      "scene": "05-dr-brooks",
+      "expected_words": 96,
+      "transcribed_words": 97,
+      "similarity": 0.9794,
+      "repaired_word_spans": 7,
+      "needs_review": false
+    },
+    {
+      "scene": "06-the-situation",
+      "expected_words": 123,
+      "transcribed_words": 124,
+      "similarity": 0.9839,
+      "repaired_word_spans": 17,
+      "needs_review": false
+    },
+    {
+      "scene": "07-visible-assumptions",
+      "expected_words": 49,
+      "transcribed_words": 49,
+      "similarity": 1,
+      "repaired_word_spans": 6,
+      "needs_review": false
+    },
+    {
+      "scene": "08-corporate-yelling",
+      "expected_words": 74,
+      "transcribed_words": 74,
+      "similarity": 1,
+      "repaired_word_spans": 12,
+      "needs_review": false
+    }
+  ],
+  "minimum_similarity": 0.9646,
+  "review_required": false
+}

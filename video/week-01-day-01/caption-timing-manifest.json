@@ -1,0 +1,36 @@
+{
+  "scenes": [
+    {
+      "id": "01-arrival",
+      "audio_start": 5
+    },
+    {
+      "id": "02-red-number",
+      "audio_start": 43.042
+    },
+    {
+      "id": "03-first-joke",
+      "audio_start": 82.292
+    },
+    {
+      "id": "04-two-kinds-of-plans",
+      "audio_start": 148.334
+    },
+    {
+      "id": "05-dr-brooks",
+      "audio_start": 195.604
+    },
+    {
+      "id": "06-the-situation",
+      "audio_start": 232.726
+    },
+    {
+      "id": "07-visible-assumptions",
+      "audio_start": 292.44
+    },
+    {
+      "id": "08-corporate-yelling",
+      "audio_start": 315.75
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "scenes": [
+    { "id": "01-arrival", "audio_start": 5 },
+    { "id": "02-hidden-sheet", "audio_start": 40.186 },
+    { "id": "03-earned-access", "audio_start": 61.172 },
+    { "id": "04-new-information", "audio_start": 84.69 },
+    { "id": "05-two-boxes", "audio_start": 106.576 }
+  ]
+}

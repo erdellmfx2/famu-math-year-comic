@@ -1,11 +1,11 @@
 ---
 name: comic-week-generator
-description: Build a complete, consistent weekly comic package from approved McCall-Hart story sources. Use when Codex needs to adapt a timeline week and its prose into every daily episode's storyboard and finished lettered comic page, especially when location transitions, character continuity, source-faithful dialogue, and visual-quality checks must remain consistent across a week.
+description: Build a complete, consistent weekly comic package from approved McCall-Hart story sources. Use when Codex needs to adapt a timeline week and its prose into daily releases with a title card, one or more lettered comic pages, and a rotating approved message card, especially when longer dialogue, location transitions, character continuity, source-faithful wording, and visual-quality checks must remain consistent across a week.
 ---
 
 # Comic Week Generator
 
-Create a coherent seven-day comic sequence, not a disconnected batch of images. Plan the week as one story unit; generate and letter each daily page as a deliberate part of that unit.
+Create a coherent seven-day comic sequence, not a disconnected batch of images. Plan the week as one story unit; generate and letter each daily release as a deliberate part of that unit.
 
 ## Confirm Production Is Open
 
@@ -50,7 +50,10 @@ Read `references/week-production-checklist.md` while assembling the episode map 
 
 ## Write the Storyboards
 
-Create `art/storyboards/week-XX/week-XX-episode-YY.md` for every daily episode before generating a new weekly batch.
+Create `art/storyboards/week-XX/week-XX-episode-YY-page-01.md` and
+`week-XX-episode-YY-page-02.md` for every daily episode before generating a
+new weekly batch. Create `page-03` only when the prose needs an additional
+location transition, emotional turn, or conversation to remain understandable.
 
 Each storyboard must include:
 
@@ -62,7 +65,27 @@ Each storyboard must include:
 6. A clear initial setting introduction and clear location transitions.
 7. Pass-one restrictions: no dialogue, captions, readable equations, incidental signs, or logos.
 
-Use four panels as a default phone-readable page. Use more panels or more than one page when the source material needs room for an understandable setting transition, emotional beat, or dialogue sequence. Never force a whole day into one page simply to preserve a fixed panel count.
+Use four panels as a default phone-readable page. Every daily release normally
+uses at least two comic pages: Page 1 for setup and forward action; Page 2 for
+the longer banter, explanation, reaction, or emotional turn that would
+otherwise be lost in compression. Use Page 3 when the prose needs an
+additional location transition, emotional beat, or dialogue sequence. Never
+force a whole day into one page simply to preserve a fixed panel count.
+
+## Preserve Longer Banter
+
+For every daily episode, compare the prose scene with Page 1's selected text
+before finalizing Page 2. Put the omitted material with the greatest character
+value on Page 2, prioritizing:
+
+1. Back-and-forth dialogue that changes how Malik and Nia understand each other.
+2. A reply, pause, or joke that changes the emotional meaning of the scene.
+3. Explanations that connect a mathematical idea to a person or lived context.
+4. Private reactions that the art can show with a concise caption or silent panel.
+5. A clear aftermath that hands the day forward to the next episode.
+
+Do not repeat dialogue already used on Page 1. Preserve the prose wording
+exactly unless a dialogue revision is explicitly approved.
 
 ## Generate Art Then Lettering
 
@@ -87,6 +110,33 @@ Use only fictional McCall-Hart visual language: indigo, copper, cream, cypress g
 5. Keep reading order clear and never cover faces, hands, key props, equations, or decisive visual action.
 6. Inspect every lettered image at a readable size.
 
+### Apply the Series Mark and Package Each Release
+
+After lettering, add the approved transparent page mark
+`art/final/series-endcards/approved/formula-of-becoming-famu-math-page-mark-v1.png`
+to the bottom-right of every final comic page. Preserve its scale and circular
+shape, keep it clear of dialogue and important art, and do not substitute an
+official FAMU mark. The circular text is plain attribution only.
+
+For every daily episode, create `sequence/` within its final episode folder
+and package these sections in reading order:
+
+1. `01-title-card-v1.png`: Begin with the approved series logo, the exact
+   weekly timeline title as the arc title, then `PART N` for that episode's
+   one-indexed day in the week.
+2. `02-comic-page-01-v1.png`: The first lettered comic page, carrying setup
+   and action.
+3. `03-comic-page-02-v1.png`: The second lettered comic page, carrying
+   expanded banter, reaction, explanation, or emotional turn.
+4. `04-<approved-message>-end-card-v1.png`: One approved message card from
+   `art/final/series-endcards/approved/`.
+
+Use `04-comic-page-03-v1.png` and move the message card to `05-` only when a
+third comic page is genuinely needed.
+
+Do not invent arc labels or message wording. Preserve the selected approved
+closing card unchanged.
+
 Correct dialogue attribution or wording in the storyboard before lettering if source review exposes an error. Preserve prose wording unless a dialogue revision is explicitly approved.
 
 ## Save Predictably
@@ -102,6 +152,12 @@ art/final/week-XX/
   episode-01/
     week-XX-episode-01-art-v1.png
     week-XX-episode-01-lettered-v1.png
+    sequence/
+      01-title-card-v1.png
+      02-comic-page-01-v1.png
+      03-comic-page-02-v1.png
+      04-<approved-message>-end-card-v1.png
+      README.md
   ...
 ```
 
@@ -112,12 +168,20 @@ Copy accepted generated images from the image tool's default location into the p
 Before presenting the week as complete, verify:
 
 - Every required daily episode has a storyboard.
-- Every required daily episode has both an unlettered and lettered final page.
+- Every required daily episode has Page 1 and Page 2 storyboards, unlettered
+  art, and lettered final pages.
 - Every page has a recognizable opening setting.
 - Every location change is visible rather than implied by generic backgrounds.
 - Character faces, hair, body language, wardrobe logic, and recurring props match the cited asset boards.
 - All identity is fictional McCall-Hart and all archive material is excluded.
 - Lettering is legible, correctly ordered, source-faithful, and clear of important art.
+- Page 2 carries distinct prose banter, reaction, or explanation rather than
+  repeating Page 1's dialogue.
+- The approved FAMU Mathematics Department page mark is visible in the
+  bottom-right of every final comic page.
+- Every daily release begins with the series-logo title card, exact weekly arc
+  title, and correct `PART N` label.
+- Every daily release ends with one approved series message card.
 - The weekly turn and end-of-week handoff remain intact across the full sequence.
 
 Report the saved storyboard and final-page paths, the source files used, and any residual visual limitation honestly.

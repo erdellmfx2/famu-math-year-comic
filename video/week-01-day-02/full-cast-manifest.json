@@ -1,0 +1,186 @@
+{
+  "project": "The Formula of Becoming - Week 1 Day 2 - Full Cast",
+  "model": "gpt-4o-mini-tts",
+  "response_format": "mp3",
+  "default_pause_after": 0.18,
+  "speakers": {
+    "narrator": {
+      "voice": "cedar",
+      "instructions": "Speak only the supplied narration. Use a warm, grounded, observant, quietly lyrical documentary delivery with clear diction, restrained emotion, gentle wit, and an unhurried pace. Do not perform character dialogue, add words, or imitate a real person."
+    },
+    "malik": {
+      "voice": "ash",
+      "instructions": "Speak only Malik's supplied words. He is an 18-year-old first-year actuarial science student: thoughtful, precise, guarded, and economical, with a measured medium-low delivery and dry humor that sounds discovered rather than performed. Let fear sound controlled rather than flat, then let warmth emerge naturally. Do not add words or imitate a real person."
+    },
+    "nia": {
+      "voice": "coral",
+      "instructions": "Speak only Nia's supplied words. She is an 18-year-old mathematical sciences student: bright, expressive, curious, playful, and emotionally available, with a lively conversational pace and agile emphasis. Slow slightly for human consequences. Never sound cruel, caricatured, or generically spunky. Do not add words or imitate a real person."
+    }
+  },
+  "scenes": [
+    {
+      "id": "01-arrival",
+      "panel": "page-01-panel-01",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "Saturday's Bridge session was optional, which meant Nia arrived ten minutes late carrying iced coffee and insisting that optional mornings should begin at noon."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Malik had already claimed the same table."
+        },
+        {
+          "speaker": "nia",
+          "text": "Look at us,"
+        },
+        {
+          "speaker": "narrator",
+          "text": "she said, sitting across from him."
+        },
+        {
+          "speaker": "nia",
+          "text": "A tradition."
+        },
+        {
+          "speaker": "malik",
+          "text": "It has happened twice."
+        },
+        {
+          "speaker": "nia",
+          "text": "Every tradition starts before somebody puts it on a T-shirt.",
+          "pause_after": 0.28
+        },
+        {
+          "speaker": "narrator",
+          "text": "They worked through readiness problems until Nia noticed Malik checking the budget between questions. He minimized it.",
+          "pause_after": 0
+        }
+      ]
+    },
+    {
+      "id": "02-hidden-sheet",
+      "panel": "page-01-panel-02",
+      "utterances": [
+        {
+          "speaker": "nia",
+          "text": "You do that every time somebody walks by,"
+        },
+        {
+          "speaker": "narrator",
+          "text": "she said."
+        },
+        {
+          "speaker": "malik",
+          "text": "Do what?"
+        },
+        {
+          "speaker": "nia",
+          "text": "Hide the sheet."
+        },
+        {
+          "speaker": "malik",
+          "text": "It is private."
+        },
+        {
+          "speaker": "nia",
+          "text": "Private is fine. Panicked is different."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Malik's shoulders tightened. Nia saw it and leaned back.",
+          "pause_after": 0
+        }
+      ]
+    },
+    {
+      "id": "03-earned-access",
+      "panel": "page-01-panel-03",
+      "utterances": [
+        {
+          "speaker": "nia",
+          "text": "Sorry,"
+        },
+        {
+          "speaker": "narrator",
+          "text": "she said."
+        },
+        {
+          "speaker": "nia",
+          "text": "That came out like I had earned access. I haven't."
+        },
+        {
+          "speaker": "narrator",
+          "text": "The quick apology surprised him more than the question."
+        },
+        {
+          "speaker": "narrator",
+          "text": "He reopened the file."
+        },
+        {
+          "speaker": "malik",
+          "text": "My family budget was balanced when I left. Now it isn't. I told them it was."
+        },
+        {
+          "speaker": "nia",
+          "text": "Was that a lie?"
+        },
+        {
+          "speaker": "malik",
+          "text": "No.",
+          "pause_after": 0
+        }
+      ]
+    },
+    {
+      "id": "04-new-information",
+      "panel": "page-02-panel-03",
+      "utterances": [
+        {
+          "speaker": "nia",
+          "text": "Then it was a model with new information."
+        },
+        {
+          "speaker": "malik",
+          "text": "That sounds like something people say to feel better about being wrong."
+        },
+        {
+          "speaker": "nia",
+          "text": "Sometimes. It can also be true."
+        },
+        {
+          "speaker": "narrator",
+          "text": "She took out her notebook and drew two boxes. In the first, she wrote what changed. In the second, what can change next.",
+          "pause_after": 0
+        }
+      ]
+    },
+    {
+      "id": "05-two-boxes",
+      "panel": "page-02-panel-04",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "Malik looked at the page."
+        },
+        {
+          "speaker": "malik",
+          "text": "That is not a budget."
+        },
+        {
+          "speaker": "nia",
+          "text": "Correct. It is me stopping you from staring at one red number like it has been elected president of your life."
+        },
+        {
+          "speaker": "narrator",
+          "text": "He laughed loudly enough that two students turned around."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Together they found a duplicate textbook estimate and a subscription Malik could pause. The balance returned to black, but that was not the part he remembered. He remembered that Nia had known when to ask, when to back up, and when to make him laugh.",
+          "pause_after": 0
+        }
+      ]
+    }
+  ]
+}

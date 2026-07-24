@@ -1,0 +1,14 @@
+{
+  "scenes": [
+    {
+      "id": "01-arrival",
+      "audio_start": 5,
+      "file": "01-arrival.mp3"
+    },
+    {
+      "id": "02-first-joke",
+      "audio_start": 42.5,
+      "file": "02-first-joke.mp3"
+    }
+  ]
+}

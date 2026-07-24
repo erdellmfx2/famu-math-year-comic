@@ -1,0 +1,4 @@
+interface:
+  display_name: "Comic to Video"
+  short_description: "Create full-cast social comic videos"
+  default_prompt: "Use $comic-to-video to turn an approved comic episode into a full-cast vertical video with locked character-name pronunciations, perceptible Ken Burns motion, and optional active-word social captions."

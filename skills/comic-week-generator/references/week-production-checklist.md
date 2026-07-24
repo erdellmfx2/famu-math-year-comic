@@ -10,13 +10,16 @@
 
 ## Storyboard Checklist
 
-- Write every daily storyboard before starting the weekly image batch.
+- Write Page 1 and Page 2 storyboards for every daily episode before starting
+  the weekly image batch. Reserve Page 3 for a source-required additional turn.
 - Identify a distinct first-setting establishing panel for every day.
 - Identify each meaningful setting transition and give it a visual introduction.
 - Cite character, environment, prop, and composition coordinates.
 - Keep one dominant beat per panel.
 - Quote dialogue and captions exactly for the later lettering pass.
-- Use extra panels or pages when the source requires space; do not compress a story beat merely to keep four panels.
+- Use Page 1 for setup and action, then Page 2 for longer banter, reactions,
+  explanations, or emotional aftermath from the prose. Do not compress those
+  beats merely to keep one four-panel page.
 
 ## Art Checklist
 
@@ -30,7 +33,10 @@
 
 ## Final Review Checklist
 
-- Confirm seven storyboard files and seven lettered pages for a seven-day week.
+- Confirm fourteen storyboard files and fourteen lettered comic pages for a
+  seven-day week unless an additional source-required Page 3 is present.
+- Confirm every Page 2 contains distinct source-faithful dialogue or reaction
+  not already used on Page 1.
 - Check panel order, setting clarity, and continuity across the week.
 - Check every balloon's wording, attribution, tail direction, and face clearance.
 - Check for unwanted readable signs, logos, watermarks, legacy green-and-orange identity, snake imagery, or real-university references.

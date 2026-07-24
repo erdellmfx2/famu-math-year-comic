@@ -1,0 +1,5567 @@
+[
+  {
+    "id": "w0",
+    "scene": "01-arrival",
+    "text": "The",
+    "start": 5,
+    "end": 5.32
+  },
+  {
+    "id": "w1",
+    "scene": "01-arrival",
+    "text": "first",
+    "start": 5.32,
+    "end": 5.68
+  },
+  {
+    "id": "w2",
+    "scene": "01-arrival",
+    "text": "thing",
+    "start": 5.68,
+    "end": 6.34
+  },
+  {
+    "id": "w3",
+    "scene": "01-arrival",
+    "text": "Malik",
+    "start": 6.34,
+    "end": 6.8
+  },
+  {
+    "id": "w4",
+    "scene": "01-arrival",
+    "text": "Baptiste",
+    "start": 6.8,
+    "end": 7.28
+  },
+  {
+    "id": "w5",
+    "scene": "01-arrival",
+    "text": "discovered",
+    "start": 7.28,
+    "end": 7.74
+  },
+  {
+    "id": "w6",
+    "scene": "01-arrival",
+    "text": "about",
+    "start": 7.74,
+    "end": 8.08
+  },
+  {
+    "id": "w7",
+    "scene": "01-arrival",
+    "text": "Bellwether",
+    "start": 8.08,
+    "end": 8.54
+  },
+  {
+    "id": "w8",
+    "scene": "01-arrival",
+    "text": "Alabama",
+    "start": 8.62,
+    "end": 9.04
+  },
+  {
+    "id": "w9",
+    "scene": "01-arrival",
+    "text": "was",
+    "start": 9.22,
+    "end": 9.78
+  },
+  {
+    "id": "w10",
+    "scene": "01-arrival",
+    "text": "that",
+    "start": 9.78,
+    "end": 9.9
+  },
+  {
+    "id": "w11",
+    "scene": "01-arrival",
+    "text": "the",
+    "start": 9.9,
+    "end": 10.2
+  },
+  {
+    "id": "w12",
+    "scene": "01-arrival",
+    "text": "heat",
+    "start": 10.2,
+    "end": 10.24
+  },
+  {
+    "id": "w13",
+    "scene": "01-arrival",
+    "text": "did",
+    "start": 10.24,
+    "end": 10.48
+  },
+  {
+    "id": "w14",
+    "scene": "01-arrival",
+    "text": "not",
+    "start": 10.48,
+    "end": 10.72
+  },
+  {
+    "id": "w15",
+    "scene": "01-arrival",
+    "text": "simply",
+    "start": 10.72,
+    "end": 11.08
+  },
+  {
+    "id": "w16",
+    "scene": "01-arrival",
+    "text": "sit",
+    "start": 11.08,
+    "end": 11.18
+  },
+  {
+    "id": "w17",
+    "scene": "01-arrival",
+    "text": "on",
+    "start": 11.18,
+    "end": 11.38
+  },
+  {
+    "id": "w18",
+    "scene": "01-arrival",
+    "text": "you",
+    "start": 11.38,
+    "end": 11.6
+  },
+  {
+    "id": "w19",
+    "scene": "01-arrival",
+    "text": "It",
+    "start": 12.08,
+    "end": 12.32
+  },
+  {
+    "id": "w20",
+    "scene": "01-arrival",
+    "text": "negotiated",
+    "start": 12.32,
+    "end": 13.14
+  },
+  {
+    "id": "w21",
+    "scene": "01-arrival",
+    "text": "It",
+    "start": 13.64,
+    "end": 13.86
+  },
+  {
+    "id": "w22",
+    "scene": "01-arrival",
+    "text": "followed",
+    "start": 13.86,
+    "end": 14.14
+  },
+  {
+    "id": "w23",
+    "scene": "01-arrival",
+    "text": "him",
+    "start": 14.14,
+    "end": 14.42
+  },
+  {
+    "id": "w24",
+    "scene": "01-arrival",
+    "text": "from",
+    "start": 14.42,
+    "end": 14.64
+  },
+  {
+    "id": "w25",
+    "scene": "01-arrival",
+    "text": "the",
+    "start": 14.64,
+    "end": 14.84
+  },
+  {
+    "id": "w26",
+    "scene": "01-arrival",
+    "text": "rideshare",
+    "start": 14.84,
+    "end": 15.34
+  },
+  {
+    "id": "w27",
+    "scene": "01-arrival",
+    "text": "drop",
+    "start": 15.34,
+    "end": 15.68
+  },
+  {
+    "id": "w28",
+    "scene": "01-arrival",
+    "text": "off",
+    "start": 15.68,
+    "end": 16.08
+  },
+  {
+    "id": "w29",
+    "scene": "01-arrival",
+    "text": "to",
+    "start": 16.08,
+    "end": 16.38
+  },
+  {
+    "id": "w30",
+    "scene": "01-arrival",
+    "text": "the",
+    "start": 16.38,
+    "end": 16.62
+  },
+  {
+    "id": "w31",
+    "scene": "01-arrival",
+    "text": "limestone",
+    "start": 16.62,
+    "end": 17.08
+  },
+  {
+    "id": "w32",
+    "scene": "01-arrival",
+    "text": "steps",
+    "start": 17.08,
+    "end": 17.5
+  },
+  {
+    "id": "w33",
+    "scene": "01-arrival",
+    "text": "of",
+    "start": 17.5,
+    "end": 18.08
+  },
+  {
+    "id": "w34",
+    "scene": "01-arrival",
+    "text": "Eliza",
+    "start": 18.08,
+    "end": 18.5
+  },
+  {
+    "id": "w35",
+    "scene": "01-arrival",
+    "text": "Moss",
+    "start": 18.5,
+    "end": 18.74
+  },
+  {
+    "id": "w36",
+    "scene": "01-arrival",
+    "text": "Hall",
+    "start": 18.74,
+    "end": 19.02
+  },
+  {
+    "id": "w37",
+    "scene": "01-arrival",
+    "text": "offering",
+    "start": 20.08,
+    "end": 20.29
+  },
+  {
+    "id": "w38",
+    "scene": "01-arrival",
+    "text": "sweat",
+    "start": 20.29,
+    "end": 20.5
+  },
+  {
+    "id": "w39",
+    "scene": "01-arrival",
+    "text": "in",
+    "start": 20.5,
+    "end": 20.9
+  },
+  {
+    "id": "w40",
+    "scene": "01-arrival",
+    "text": "exchange",
+    "start": 20.9,
+    "end": 21.18
+  },
+  {
+    "id": "w41",
+    "scene": "01-arrival",
+    "text": "for",
+    "start": 21.18,
+    "end": 21.46
+  },
+  {
+    "id": "w42",
+    "scene": "01-arrival",
+    "text": "every",
+    "start": 21.46,
+    "end": 21.82
+  },
+  {
+    "id": "w43",
+    "scene": "01-arrival",
+    "text": "box",
+    "start": 21.82,
+    "end": 22.1
+  },
+  {
+    "id": "w44",
+    "scene": "01-arrival",
+    "text": "he",
+    "start": 22.1,
+    "end": 22.38
+  },
+  {
+    "id": "w45",
+    "scene": "01-arrival",
+    "text": "carried",
+    "start": 22.38,
+    "end": 22.6
+  },
+  {
+    "id": "w46",
+    "scene": "01-arrival",
+    "text": "It",
+    "start": 23.4,
+    "end": 23.88
+  },
+  {
+    "id": "w47",
+    "scene": "01-arrival",
+    "text": "fogged",
+    "start": 23.88,
+    "end": 24.28
+  },
+  {
+    "id": "w48",
+    "scene": "01-arrival",
+    "text": "the",
+    "start": 24.28,
+    "end": 24.74
+  },
+  {
+    "id": "w49",
+    "scene": "01-arrival",
+    "text": "edge",
+    "start": 24.74,
+    "end": 24.92
+  },
+  {
+    "id": "w50",
+    "scene": "01-arrival",
+    "text": "of",
+    "start": 24.92,
+    "end": 25.04
+  },
+  {
+    "id": "w51",
+    "scene": "01-arrival",
+    "text": "his",
+    "start": 25.04,
+    "end": 25.24
+  },
+  {
+    "id": "w52",
+    "scene": "01-arrival",
+    "text": "glasses",
+    "start": 25.24,
+    "end": 25.56
+  },
+  {
+    "id": "w53",
+    "scene": "01-arrival",
+    "text": "while",
+    "start": 25.56,
+    "end": 26.26
+  },
+  {
+    "id": "w54",
+    "scene": "01-arrival",
+    "text": "he",
+    "start": 26.26,
+    "end": 26.42
+  },
+  {
+    "id": "w55",
+    "scene": "01-arrival",
+    "text": "tried",
+    "start": 26.42,
+    "end": 26.6
+  },
+  {
+    "id": "w56",
+    "scene": "01-arrival",
+    "text": "to",
+    "start": 26.6,
+    "end": 27.14
+  },
+  {
+    "id": "w57",
+    "scene": "01-arrival",
+    "text": "balance",
+    "start": 27.14,
+    "end": 27.27
+  },
+  {
+    "id": "w58",
+    "scene": "01-arrival",
+    "text": "a",
+    "start": 27.27,
+    "end": 27.4
+  },
+  {
+    "id": "w59",
+    "scene": "01-arrival",
+    "text": "laptop",
+    "start": 27.4,
+    "end": 27.68
+  },
+  {
+    "id": "w60",
+    "scene": "01-arrival",
+    "text": "bag",
+    "start": 27.68,
+    "end": 28.06
+  },
+  {
+    "id": "w61",
+    "scene": "01-arrival",
+    "text": "a",
+    "start": 28.46,
+    "end": 28.8
+  },
+  {
+    "id": "w62",
+    "scene": "01-arrival",
+    "text": "duffel",
+    "start": 28.8,
+    "end": 28.9
+  },
+  {
+    "id": "w63",
+    "scene": "01-arrival",
+    "text": "and",
+    "start": 29.12,
+    "end": 29.6
+  },
+  {
+    "id": "w64",
+    "scene": "01-arrival",
+    "text": "the",
+    "start": 29.6,
+    "end": 29.86
+  },
+  {
+    "id": "w65",
+    "scene": "01-arrival",
+    "text": "promise",
+    "start": 29.86,
+    "end": 30.02
+  },
+  {
+    "id": "w66",
+    "scene": "01-arrival",
+    "text": "he",
+    "start": 30.02,
+    "end": 30.18
+  },
+  {
+    "id": "w67",
+    "scene": "01-arrival",
+    "text": "had",
+    "start": 30.18,
+    "end": 30.34
+  },
+  {
+    "id": "w68",
+    "scene": "01-arrival",
+    "text": "made",
+    "start": 30.34,
+    "end": 30.64
+  },
+  {
+    "id": "w69",
+    "scene": "01-arrival",
+    "text": "before",
+    "start": 30.64,
+    "end": 31.2
+  },
+  {
+    "id": "w70",
+    "scene": "01-arrival",
+    "text": "leaving",
+    "start": 31.2,
+    "end": 31.6
+  },
+  {
+    "id": "w71",
+    "scene": "01-arrival",
+    "text": "Gulfport",
+    "start": 31.6,
+    "end": 32.12
+  },
+  {
+    "id": "w72",
+    "scene": "01-arrival",
+    "text": "I",
+    "start": 32.92,
+    "end": 33.06
+  },
+  {
+    "id": "w73",
+    "scene": "01-arrival",
+    "text": "have",
+    "start": 33.06,
+    "end": 33.28
+  },
+  {
+    "id": "w74",
+    "scene": "01-arrival",
+    "text": "the",
+    "start": 33.28,
+    "end": 33.5
+  },
+  {
+    "id": "w75",
+    "scene": "01-arrival",
+    "text": "money",
+    "start": 33.5,
+    "end": 33.74
+  },
+  {
+    "id": "w76",
+    "scene": "01-arrival",
+    "text": "part",
+    "start": 33.74,
+    "end": 34.42
+  },
+  {
+    "id": "w77",
+    "scene": "01-arrival",
+    "text": "handled",
+    "start": 34.42,
+    "end": 34.9
+  },
+  {
+    "id": "w78",
+    "scene": "01-arrival",
+    "text": "Inside",
+    "start": 36.88,
+    "end": 37.18
+  },
+  {
+    "id": "w79",
+    "scene": "01-arrival",
+    "text": "the",
+    "start": 37.68,
+    "end": 37.84
+  },
+  {
+    "id": "w80",
+    "scene": "01-arrival",
+    "text": "Quantitative",
+    "start": 37.84,
+    "end": 38.34
+  },
+  {
+    "id": "w81",
+    "scene": "01-arrival",
+    "text": "Summer",
+    "start": 38.34,
+    "end": 38.72
+  },
+  {
+    "id": "w82",
+    "scene": "01-arrival",
+    "text": "Bridge",
+    "start": 38.72,
+    "end": 38.96
+  },
+  {
+    "id": "w83",
+    "scene": "01-arrival",
+    "text": "welcome",
+    "start": 38.96,
+    "end": 39.32
+  },
+  {
+    "id": "w84",
+    "scene": "01-arrival",
+    "text": "room",
+    "start": 39.32,
+    "end": 39.56
+  },
+  {
+    "id": "w85",
+    "scene": "01-arrival",
+    "text": "was",
+    "start": 39.56,
+    "end": 40.06
+  },
+  {
+    "id": "w86",
+    "scene": "01-arrival",
+    "text": "cool",
+    "start": 40.06,
+    "end": 40.32
+  },
+  {
+    "id": "w87",
+    "scene": "01-arrival",
+    "text": "enough",
+    "start": 40.32,
+    "end": 40.64
+  },
+  {
+    "id": "w88",
+    "scene": "01-arrival",
+    "text": "to",
+    "start": 40.64,
+    "end": 41.08
+  },
+  {
+    "id": "w89",
+    "scene": "01-arrival",
+    "text": "make",
+    "start": 41.08,
+    "end": 41.24
+  },
+  {
+    "id": "w90",
+    "scene": "01-arrival",
+    "text": "him",
+    "start": 41.24,
+    "end": 41.42
+  },
+  {
+    "id": "w91",
+    "scene": "01-arrival",
+    "text": "forgive",
+    "start": 41.42,
+    "end": 41.74
+  },
+  {
+    "id": "w92",
+    "scene": "01-arrival",
+    "text": "the",
+    "start": 41.74,
+    "end": 41.92
+  },
+  {
+    "id": "w93",
+    "scene": "01-arrival",
+    "text": "entire",
+    "start": 41.92,
+    "end": 42.4
+  },
+  {
+    "id": "w94",
+    "scene": "01-arrival",
+    "text": "city",
+    "start": 42.4,
+    "end": 42.58
+  },
+  {
+    "id": "w95",
+    "scene": "02-red-number",
+    "text": "Malik",
+    "start": 43.042,
+    "end": 43.442
+  },
+  {
+    "id": "w96",
+    "scene": "02-red-number",
+    "text": "chose",
+    "start": 43.442,
+    "end": 43.782
+  },
+  {
+    "id": "w97",
+    "scene": "02-red-number",
+    "text": "a",
+    "start": 43.782,
+    "end": 44.202
+  },
+  {
+    "id": "w98",
+    "scene": "02-red-number",
+    "text": "table",
+    "start": 44.202,
+    "end": 44.302
+  },
+  {
+    "id": "w99",
+    "scene": "02-red-number",
+    "text": "near",
+    "start": 44.302,
+    "end": 44.402
+  },
+  {
+    "id": "w100",
+    "scene": "02-red-number",
+    "text": "an",
+    "start": 44.402,
+    "end": 44.802
+  },
+  {
+    "id": "w101",
+    "scene": "02-red-number",
+    "text": "outlet",
+    "start": 44.802,
+    "end": 45.522
+  },
+  {
+    "id": "w102",
+    "scene": "02-red-number",
+    "text": "opened",
+    "start": 45.522,
+    "end": 45.632
+  },
+  {
+    "id": "w103",
+    "scene": "02-red-number",
+    "text": "his",
+    "start": 45.632,
+    "end": 45.742
+  },
+  {
+    "id": "w104",
+    "scene": "02-red-number",
+    "text": "laptop",
+    "start": 45.742,
+    "end": 46.062
+  },
+  {
+    "id": "w105",
+    "scene": "02-red-number",
+    "text": "and",
+    "start": 46.382,
+    "end": 46.582
+  },
+  {
+    "id": "w106",
+    "scene": "02-red-number",
+    "text": "pulled",
+    "start": 46.582,
+    "end": 46.722
+  },
+  {
+    "id": "w107",
+    "scene": "02-red-number",
+    "text": "up",
+    "start": 46.722,
+    "end": 46.922
+  },
+  {
+    "id": "w108",
+    "scene": "02-red-number",
+    "text": "the",
+    "start": 46.922,
+    "end": 47.062
+  },
+  {
+    "id": "w109",
+    "scene": "02-red-number",
+    "text": "family",
+    "start": 47.062,
+    "end": 47.342
+  },
+  {
+    "id": "w110",
+    "scene": "02-red-number",
+    "text": "budget",
+    "start": 47.342,
+    "end": 47.562
+  },
+  {
+    "id": "w111",
+    "scene": "02-red-number",
+    "text": "he",
+    "start": 47.562,
+    "end": 47.742
+  },
+  {
+    "id": "w112",
+    "scene": "02-red-number",
+    "text": "had",
+    "start": 47.742,
+    "end": 48.142
+  },
+  {
+    "id": "w113",
+    "scene": "02-red-number",
+    "text": "finished",
+    "start": 48.142,
+    "end": 48.322
+  },
+  {
+    "id": "w114",
+    "scene": "02-red-number",
+    "text": "three",
+    "start": 48.322,
+    "end": 48.502
+  },
+  {
+    "id": "w115",
+    "scene": "02-red-number",
+    "text": "nights",
+    "start": 48.502,
+    "end": 48.622
+  },
+  {
+    "id": "w116",
+    "scene": "02-red-number",
+    "text": "ago",
+    "start": 48.622,
+    "end": 48.922
+  },
+  {
+    "id": "w117",
+    "scene": "02-red-number",
+    "text": "He",
+    "start": 49.862,
+    "end": 49.962
+  },
+  {
+    "id": "w118",
+    "scene": "02-red-number",
+    "text": "only",
+    "start": 49.962,
+    "end": 50.222
+  },
+  {
+    "id": "w119",
+    "scene": "02-red-number",
+    "text": "meant",
+    "start": 50.222,
+    "end": 50.322
+  },
+  {
+    "id": "w120",
+    "scene": "02-red-number",
+    "text": "to",
+    "start": 50.322,
+    "end": 50.642
+  },
+  {
+    "id": "w121",
+    "scene": "02-red-number",
+    "text": "check",
+    "start": 50.642,
+    "end": 50.832
+  },
+  {
+    "id": "w122",
+    "scene": "02-red-number",
+    "text": "one",
+    "start": 50.832,
+    "end": 51.022
+  },
+  {
+    "id": "w123",
+    "scene": "02-red-number",
+    "text": "thing",
+    "start": 51.022,
+    "end": 51.182
+  },
+  {
+    "id": "w124",
+    "scene": "02-red-number",
+    "text": "Then",
+    "start": 51.982,
+    "end": 52.122
+  },
+  {
+    "id": "w125",
+    "scene": "02-red-number",
+    "text": "he",
+    "start": 52.122,
+    "end": 52.402
+  },
+  {
+    "id": "w126",
+    "scene": "02-red-number",
+    "text": "found",
+    "start": 52.402,
+    "end": 52.482
+  },
+  {
+    "id": "w127",
+    "scene": "02-red-number",
+    "text": "the",
+    "start": 52.482,
+    "end": 52.742
+  },
+  {
+    "id": "w128",
+    "scene": "02-red-number",
+    "text": "mistake",
+    "start": 52.742,
+    "end": 53.022
+  },
+  {
+    "id": "w129",
+    "scene": "02-red-number",
+    "text": "The",
+    "start": 53.542,
+    "end": 53.562
+  },
+  {
+    "id": "w130",
+    "scene": "02-red-number",
+    "text": "repair",
+    "start": 53.562,
+    "end": 53.942
+  },
+  {
+    "id": "w131",
+    "scene": "02-red-number",
+    "text": "estimate",
+    "start": 53.942,
+    "end": 54.322
+  },
+  {
+    "id": "w132",
+    "scene": "02-red-number",
+    "text": "for",
+    "start": 54.322,
+    "end": 54.582
+  },
+  {
+    "id": "w133",
+    "scene": "02-red-number",
+    "text": "his",
+    "start": 54.582,
+    "end": 54.822
+  },
+  {
+    "id": "w134",
+    "scene": "02-red-number",
+    "text": "mother's",
+    "start": 54.822,
+    "end": 55.082
+  },
+  {
+    "id": "w135",
+    "scene": "02-red-number",
+    "text": "car",
+    "start": 55.082,
+    "end": 55.322
+  },
+  {
+    "id": "w136",
+    "scene": "02-red-number",
+    "text": "had",
+    "start": 55.322,
+    "end": 55.562
+  },
+  {
+    "id": "w137",
+    "scene": "02-red-number",
+    "text": "been",
+    "start": 55.562,
+    "end": 55.762
+  },
+  {
+    "id": "w138",
+    "scene": "02-red-number",
+    "text": "entered",
+    "start": 55.762,
+    "end": 55.922
+  },
+  {
+    "id": "w139",
+    "scene": "02-red-number",
+    "text": "in",
+    "start": 55.922,
+    "end": 56.062
+  },
+  {
+    "id": "w140",
+    "scene": "02-red-number",
+    "text": "the",
+    "start": 56.062,
+    "end": 56.202
+  },
+  {
+    "id": "w141",
+    "scene": "02-red-number",
+    "text": "monthly",
+    "start": 56.202,
+    "end": 56.442
+  },
+  {
+    "id": "w142",
+    "scene": "02-red-number",
+    "text": "column",
+    "start": 56.442,
+    "end": 56.762
+  },
+  {
+    "id": "w143",
+    "scene": "02-red-number",
+    "text": "instead",
+    "start": 56.782,
+    "end": 57.302
+  },
+  {
+    "id": "w144",
+    "scene": "02-red-number",
+    "text": "of",
+    "start": 57.302,
+    "end": 57.482
+  },
+  {
+    "id": "w145",
+    "scene": "02-red-number",
+    "text": "the",
+    "start": 57.482,
+    "end": 57.642
+  },
+  {
+    "id": "w146",
+    "scene": "02-red-number",
+    "text": "emergency",
+    "start": 57.642,
+    "end": 58.082
+  },
+  {
+    "id": "w147",
+    "scene": "02-red-number",
+    "text": "expense",
+    "start": 58.082,
+    "end": 58.442
+  },
+  {
+    "id": "w148",
+    "scene": "02-red-number",
+    "text": "column",
+    "start": 58.442,
+    "end": 58.782
+  },
+  {
+    "id": "w149",
+    "scene": "02-red-number",
+    "text": "Correcting",
+    "start": 59.722,
+    "end": 59.922
+  },
+  {
+    "id": "w150",
+    "scene": "02-red-number",
+    "text": "it",
+    "start": 59.922,
+    "end": 60.162
+  },
+  {
+    "id": "w151",
+    "scene": "02-red-number",
+    "text": "pushed",
+    "start": 60.162,
+    "end": 60.362
+  },
+  {
+    "id": "w152",
+    "scene": "02-red-number",
+    "text": "the",
+    "start": 60.362,
+    "end": 60.602
+  },
+  {
+    "id": "w153",
+    "scene": "02-red-number",
+    "text": "August",
+    "start": 60.602,
+    "end": 60.922
+  },
+  {
+    "id": "w154",
+    "scene": "02-red-number",
+    "text": "balance",
+    "start": 60.922,
+    "end": 61.282
+  },
+  {
+    "id": "w155",
+    "scene": "02-red-number",
+    "text": "below",
+    "start": 61.282,
+    "end": 61.642
+  },
+  {
+    "id": "w156",
+    "scene": "02-red-number",
+    "text": "zero",
+    "start": 61.642,
+    "end": 61.942
+  },
+  {
+    "id": "w157",
+    "scene": "02-red-number",
+    "text": "Not",
+    "start": 62.522,
+    "end": 62.762
+  },
+  {
+    "id": "w158",
+    "scene": "02-red-number",
+    "text": "far",
+    "start": 62.762,
+    "end": 63.222
+  },
+  {
+    "id": "w159",
+    "scene": "02-red-number",
+    "text": "below",
+    "start": 63.222,
+    "end": 63.542
+  },
+  {
+    "id": "w160",
+    "scene": "02-red-number",
+    "text": "zero",
+    "start": 63.542,
+    "end": 63.962
+  },
+  {
+    "id": "w161",
+    "scene": "02-red-number",
+    "text": "But",
+    "start": 64.842,
+    "end": 65.062
+  },
+  {
+    "id": "w162",
+    "scene": "02-red-number",
+    "text": "zero",
+    "start": 65.062,
+    "end": 65.302
+  },
+  {
+    "id": "w163",
+    "scene": "02-red-number",
+    "text": "did",
+    "start": 65.302,
+    "end": 65.562
+  },
+  {
+    "id": "w164",
+    "scene": "02-red-number",
+    "text": "not",
+    "start": 65.562,
+    "end": 65.782
+  },
+  {
+    "id": "w165",
+    "scene": "02-red-number",
+    "text": "care",
+    "start": 65.782,
+    "end": 66.042
+  },
+  {
+    "id": "w166",
+    "scene": "02-red-number",
+    "text": "how",
+    "start": 66.042,
+    "end": 66.322
+  },
+  {
+    "id": "w167",
+    "scene": "02-red-number",
+    "text": "close",
+    "start": 66.322,
+    "end": 66.582
+  },
+  {
+    "id": "w168",
+    "scene": "02-red-number",
+    "text": "you",
+    "start": 66.582,
+    "end": 66.782
+  },
+  {
+    "id": "w169",
+    "scene": "02-red-number",
+    "text": "came",
+    "start": 66.782,
+    "end": 67.002
+  },
+  {
+    "id": "w170",
+    "scene": "02-red-number",
+    "text": "He",
+    "start": 67.542,
+    "end": 67.802
+  },
+  {
+    "id": "w171",
+    "scene": "02-red-number",
+    "text": "stared",
+    "start": 67.802,
+    "end": 68.182
+  },
+  {
+    "id": "w172",
+    "scene": "02-red-number",
+    "text": "at",
+    "start": 68.182,
+    "end": 68.402
+  },
+  {
+    "id": "w173",
+    "scene": "02-red-number",
+    "text": "the",
+    "start": 68.402,
+    "end": 68.542
+  },
+  {
+    "id": "w174",
+    "scene": "02-red-number",
+    "text": "red",
+    "start": 68.542,
+    "end": 68.762
+  },
+  {
+    "id": "w175",
+    "scene": "02-red-number",
+    "text": "number",
+    "start": 68.762,
+    "end": 69.042
+  },
+  {
+    "id": "w176",
+    "scene": "02-red-number",
+    "text": "as",
+    "start": 69.042,
+    "end": 69.582
+  },
+  {
+    "id": "w177",
+    "scene": "02-red-number",
+    "text": "students",
+    "start": 69.582,
+    "end": 69.922
+  },
+  {
+    "id": "w178",
+    "scene": "02-red-number",
+    "text": "entered",
+    "start": 69.922,
+    "end": 70.202
+  },
+  {
+    "id": "w179",
+    "scene": "02-red-number",
+    "text": "around",
+    "start": 70.202,
+    "end": 70.522
+  },
+  {
+    "id": "w180",
+    "scene": "02-red-number",
+    "text": "him",
+    "start": 70.522,
+    "end": 70.682
+  },
+  {
+    "id": "w181",
+    "scene": "02-red-number",
+    "text": "in",
+    "start": 70.682,
+    "end": 70.882
+  },
+  {
+    "id": "w182",
+    "scene": "02-red-number",
+    "text": "bright",
+    "start": 70.882,
+    "end": 71.122
+  },
+  {
+    "id": "w183",
+    "scene": "02-red-number",
+    "text": "shirts",
+    "start": 71.122,
+    "end": 71.462
+  },
+  {
+    "id": "w184",
+    "scene": "02-red-number",
+    "text": "fresh",
+    "start": 72.122,
+    "end": 72.182
+  },
+  {
+    "id": "w185",
+    "scene": "02-red-number",
+    "text": "sneakers",
+    "start": 72.182,
+    "end": 72.502
+  },
+  {
+    "id": "w186",
+    "scene": "02-red-number",
+    "text": "and",
+    "start": 73.082,
+    "end": 73.102
+  },
+  {
+    "id": "w187",
+    "scene": "02-red-number",
+    "text": "the",
+    "start": 73.102,
+    "end": 73.302
+  },
+  {
+    "id": "w188",
+    "scene": "02-red-number",
+    "text": "nervous",
+    "start": 73.302,
+    "end": 73.562
+  },
+  {
+    "id": "w189",
+    "scene": "02-red-number",
+    "text": "confidence",
+    "start": 73.562,
+    "end": 74.062
+  },
+  {
+    "id": "w190",
+    "scene": "02-red-number",
+    "text": "of",
+    "start": 74.062,
+    "end": 74.302
+  },
+  {
+    "id": "w191",
+    "scene": "02-red-number",
+    "text": "people",
+    "start": 74.302,
+    "end": 74.542
+  },
+  {
+    "id": "w192",
+    "scene": "02-red-number",
+    "text": "pretending",
+    "start": 74.542,
+    "end": 74.922
+  },
+  {
+    "id": "w193",
+    "scene": "02-red-number",
+    "text": "not",
+    "start": 74.922,
+    "end": 75.162
+  },
+  {
+    "id": "w194",
+    "scene": "02-red-number",
+    "text": "to",
+    "start": 75.162,
+    "end": 75.522
+  },
+  {
+    "id": "w195",
+    "scene": "02-red-number",
+    "text": "look",
+    "start": 75.522,
+    "end": 75.582
+  },
+  {
+    "id": "w196",
+    "scene": "02-red-number",
+    "text": "for",
+    "start": 75.582,
+    "end": 76.122
+  },
+  {
+    "id": "w197",
+    "scene": "02-red-number",
+    "text": "somewhere",
+    "start": 76.122,
+    "end": 76.362
+  },
+  {
+    "id": "w198",
+    "scene": "02-red-number",
+    "text": "safe",
+    "start": 76.362,
+    "end": 76.662
+  },
+  {
+    "id": "w199",
+    "scene": "02-red-number",
+    "text": "to",
+    "start": 76.662,
+    "end": 77.082
+  },
+  {
+    "id": "w200",
+    "scene": "02-red-number",
+    "text": "sit",
+    "start": 77.082,
+    "end": 77.682
+  },
+  {
+    "id": "w201",
+    "scene": "02-red-number",
+    "text": "That",
+    "start": 77.682,
+    "end": 78.142
+  },
+  {
+    "id": "w202",
+    "scene": "02-red-number",
+    "text": "spreadsheet",
+    "start": 78.142,
+    "end": 78.702
+  },
+  {
+    "id": "w203",
+    "scene": "02-red-number",
+    "text": "looks",
+    "start": 78.702,
+    "end": 79.062
+  },
+  {
+    "id": "w204",
+    "scene": "02-red-number",
+    "text": "like",
+    "start": 79.062,
+    "end": 79.362
+  },
+  {
+    "id": "w205",
+    "scene": "02-red-number",
+    "text": "it",
+    "start": 79.362,
+    "end": 79.622
+  },
+  {
+    "id": "w206",
+    "scene": "02-red-number",
+    "text": "just",
+    "start": 79.622,
+    "end": 79.982
+  },
+  {
+    "id": "w207",
+    "scene": "02-red-number",
+    "text": "told",
+    "start": 79.982,
+    "end": 80.282
+  },
+  {
+    "id": "w208",
+    "scene": "02-red-number",
+    "text": "you",
+    "start": 80.282,
+    "end": 80.482
+  },
+  {
+    "id": "w209",
+    "scene": "02-red-number",
+    "text": "a",
+    "start": 80.482,
+    "end": 80.762
+  },
+  {
+    "id": "w210",
+    "scene": "02-red-number",
+    "text": "family",
+    "start": 80.762,
+    "end": 81.102
+  },
+  {
+    "id": "w211",
+    "scene": "02-red-number",
+    "text": "secret",
+    "start": 81.102,
+    "end": 81.522
+  },
+  {
+    "id": "w212",
+    "scene": "03-first-joke",
+    "text": "Malik",
+    "start": 82.292,
+    "end": 82.752
+  },
+  {
+    "id": "w213",
+    "scene": "03-first-joke",
+    "text": "looked",
+    "start": 82.752,
+    "end": 83.292
+  },
+  {
+    "id": "w214",
+    "scene": "03-first-joke",
+    "text": "up",
+    "start": 83.292,
+    "end": 83.712
+  },
+  {
+    "id": "w215",
+    "scene": "03-first-joke",
+    "text": "The",
+    "start": 84.592,
+    "end": 84.672
+  },
+  {
+    "id": "w216",
+    "scene": "03-first-joke",
+    "text": "girl",
+    "start": 84.672,
+    "end": 84.892
+  },
+  {
+    "id": "w217",
+    "scene": "03-first-joke",
+    "text": "beside",
+    "start": 84.892,
+    "end": 85.432
+  },
+  {
+    "id": "w218",
+    "scene": "03-first-joke",
+    "text": "the",
+    "start": 85.432,
+    "end": 85.832
+  },
+  {
+    "id": "w219",
+    "scene": "03-first-joke",
+    "text": "chair",
+    "start": 85.832,
+    "end": 86.052
+  },
+  {
+    "id": "w220",
+    "scene": "03-first-joke",
+    "text": "across",
+    "start": 86.052,
+    "end": 86.272
+  },
+  {
+    "id": "w221",
+    "scene": "03-first-joke",
+    "text": "from",
+    "start": 86.272,
+    "end": 86.512
+  },
+  {
+    "id": "w222",
+    "scene": "03-first-joke",
+    "text": "him",
+    "start": 86.512,
+    "end": 86.652
+  },
+  {
+    "id": "w223",
+    "scene": "03-first-joke",
+    "text": "wore",
+    "start": 86.652,
+    "end": 87.072
+  },
+  {
+    "id": "w224",
+    "scene": "03-first-joke",
+    "text": "copper",
+    "start": 87.072,
+    "end": 87.452
+  },
+  {
+    "id": "w225",
+    "scene": "03-first-joke",
+    "text": "colored",
+    "start": 87.452,
+    "end": 87.772
+  },
+  {
+    "id": "w226",
+    "scene": "03-first-joke",
+    "text": "headphones",
+    "start": 87.772,
+    "end": 88.232
+  },
+  {
+    "id": "w227",
+    "scene": "03-first-joke",
+    "text": "around",
+    "start": 88.232,
+    "end": 88.512
+  },
+  {
+    "id": "w228",
+    "scene": "03-first-joke",
+    "text": "her",
+    "start": 88.512,
+    "end": 88.892
+  },
+  {
+    "id": "w229",
+    "scene": "03-first-joke",
+    "text": "neck",
+    "start": 88.892,
+    "end": 88.932
+  },
+  {
+    "id": "w230",
+    "scene": "03-first-joke",
+    "text": "and",
+    "start": 88.932,
+    "end": 89.572
+  },
+  {
+    "id": "w231",
+    "scene": "03-first-joke",
+    "text": "carried",
+    "start": 89.572,
+    "end": 89.752
+  },
+  {
+    "id": "w232",
+    "scene": "03-first-joke",
+    "text": "a",
+    "start": 89.752,
+    "end": 90.272
+  },
+  {
+    "id": "w233",
+    "scene": "03-first-joke",
+    "text": "notebook",
+    "start": 90.272,
+    "end": 90.412
+  },
+  {
+    "id": "w234",
+    "scene": "03-first-joke",
+    "text": "thick",
+    "start": 90.412,
+    "end": 90.552
+  },
+  {
+    "id": "w235",
+    "scene": "03-first-joke",
+    "text": "with",
+    "start": 90.552,
+    "end": 91.112
+  },
+  {
+    "id": "w236",
+    "scene": "03-first-joke",
+    "text": "tabs",
+    "start": 91.112,
+    "end": 91.892
+  },
+  {
+    "id": "w237",
+    "scene": "03-first-joke",
+    "text": "Her",
+    "start": 91.892,
+    "end": 92.092
+  },
+  {
+    "id": "w238",
+    "scene": "03-first-joke",
+    "text": "smile",
+    "start": 92.092,
+    "end": 92.412
+  },
+  {
+    "id": "w239",
+    "scene": "03-first-joke",
+    "text": "was",
+    "start": 92.412,
+    "end": 92.732
+  },
+  {
+    "id": "w240",
+    "scene": "03-first-joke",
+    "text": "curious",
+    "start": 92.732,
+    "end": 93.152
+  },
+  {
+    "id": "w241",
+    "scene": "03-first-joke",
+    "text": "not",
+    "start": 93.752,
+    "end": 93.892
+  },
+  {
+    "id": "w242",
+    "scene": "03-first-joke",
+    "text": "cruel",
+    "start": 93.892,
+    "end": 94.192
+  },
+  {
+    "id": "w243",
+    "scene": "03-first-joke",
+    "text": "It",
+    "start": 95.092,
+    "end": 95.652
+  },
+  {
+    "id": "w244",
+    "scene": "03-first-joke",
+    "text": "made",
+    "start": 95.652,
+    "end": 95.992
+  },
+  {
+    "id": "w245",
+    "scene": "03-first-joke",
+    "text": "an",
+    "start": 95.992,
+    "end": 96.332
+  },
+  {
+    "id": "w246",
+    "scene": "03-first-joke",
+    "text": "accusation",
+    "start": 96.332,
+    "end": 96.992
+  },
+  {
+    "id": "w247",
+    "scene": "03-first-joke",
+    "text": "Malik",
+    "start": 97.612,
+    "end": 98.152
+  },
+  {
+    "id": "w248",
+    "scene": "03-first-joke",
+    "text": "said",
+    "start": 98.152,
+    "end": 98.572
+  },
+  {
+    "id": "w249",
+    "scene": "03-first-joke",
+    "text": "Serious",
+    "start": 99.732,
+    "end": 99.982
+  },
+  {
+    "id": "w250",
+    "scene": "03-first-joke",
+    "text": "one",
+    "start": 99.982,
+    "end": 100.232
+  },
+  {
+    "id": "w251",
+    "scene": "03-first-joke",
+    "text": "Misplaced",
+    "start": 101.512,
+    "end": 101.932
+  },
+  {
+    "id": "w252",
+    "scene": "03-first-joke",
+    "text": "expense",
+    "start": 101.932,
+    "end": 102.672
+  },
+  {
+    "id": "w253",
+    "scene": "03-first-joke",
+    "text": "She",
+    "start": 103.532,
+    "end": 103.752
+  },
+  {
+    "id": "w254",
+    "scene": "03-first-joke",
+    "text": "pressed",
+    "start": 103.752,
+    "end": 104.092
+  },
+  {
+    "id": "w255",
+    "scene": "03-first-joke",
+    "text": "a",
+    "start": 104.092,
+    "end": 104.832
+  },
+  {
+    "id": "w256",
+    "scene": "03-first-joke",
+    "text": "hand",
+    "start": 104.832,
+    "end": 105.052
+  },
+  {
+    "id": "w257",
+    "scene": "03-first-joke",
+    "text": "to",
+    "start": 105.052,
+    "end": 105.272
+  },
+  {
+    "id": "w258",
+    "scene": "03-first-joke",
+    "text": "her",
+    "start": 105.272,
+    "end": 105.752
+  },
+  {
+    "id": "w259",
+    "scene": "03-first-joke",
+    "text": "chest",
+    "start": 105.752,
+    "end": 105.852
+  },
+  {
+    "id": "w260",
+    "scene": "03-first-joke",
+    "text": "In",
+    "start": 106.772,
+    "end": 107.492
+  },
+  {
+    "id": "w261",
+    "scene": "03-first-joke",
+    "text": "broad",
+    "start": 107.492,
+    "end": 108.092
+  },
+  {
+    "id": "w262",
+    "scene": "03-first-joke",
+    "text": "daylight",
+    "start": 108.092,
+    "end": 108.652
+  },
+  {
+    "id": "w263",
+    "scene": "03-first-joke",
+    "text": "He",
+    "start": 109.772,
+    "end": 109.932
+  },
+  {
+    "id": "w264",
+    "scene": "03-first-joke",
+    "text": "almost",
+    "start": 109.932,
+    "end": 110.592
+  },
+  {
+    "id": "w265",
+    "scene": "03-first-joke",
+    "text": "smiled",
+    "start": 110.592,
+    "end": 111.052
+  },
+  {
+    "id": "w266",
+    "scene": "03-first-joke",
+    "text": "Almost",
+    "start": 111.692,
+    "end": 112.172
+  },
+  {
+    "id": "w267",
+    "scene": "03-first-joke",
+    "text": "She",
+    "start": 112.932,
+    "end": 113.212
+  },
+  {
+    "id": "w268",
+    "scene": "03-first-joke",
+    "text": "pointed",
+    "start": 113.212,
+    "end": 113.532
+  },
+  {
+    "id": "w269",
+    "scene": "03-first-joke",
+    "text": "at",
+    "start": 113.532,
+    "end": 113.772
+  },
+  {
+    "id": "w270",
+    "scene": "03-first-joke",
+    "text": "the",
+    "start": 113.772,
+    "end": 114.272
+  },
+  {
+    "id": "w271",
+    "scene": "03-first-joke",
+    "text": "chair",
+    "start": 114.272,
+    "end": 114.892
+  },
+  {
+    "id": "w272",
+    "scene": "03-first-joke",
+    "text": "Can",
+    "start": 114.892,
+    "end": 114.972
+  },
+  {
+    "id": "w273",
+    "scene": "03-first-joke",
+    "text": "I",
+    "start": 114.972,
+    "end": 115.312
+  },
+  {
+    "id": "w274",
+    "scene": "03-first-joke",
+    "text": "sit",
+    "start": 115.312,
+    "end": 115.392
+  },
+  {
+    "id": "w275",
+    "scene": "03-first-joke",
+    "text": "here",
+    "start": 115.392,
+    "end": 115.752
+  },
+  {
+    "id": "w276",
+    "scene": "03-first-joke",
+    "text": "or",
+    "start": 115.832,
+    "end": 116.192
+  },
+  {
+    "id": "w277",
+    "scene": "03-first-joke",
+    "text": "is",
+    "start": 116.192,
+    "end": 116.332
+  },
+  {
+    "id": "w278",
+    "scene": "03-first-joke",
+    "text": "it",
+    "start": 116.332,
+    "end": 116.832
+  },
+  {
+    "id": "w279",
+    "scene": "03-first-joke",
+    "text": "reserved",
+    "start": 116.832,
+    "end": 116.942
+  },
+  {
+    "id": "w280",
+    "scene": "03-first-joke",
+    "text": "for",
+    "start": 116.942,
+    "end": 117.052
+  },
+  {
+    "id": "w281",
+    "scene": "03-first-joke",
+    "text": "the",
+    "start": 117.052,
+    "end": 117.392
+  },
+  {
+    "id": "w282",
+    "scene": "03-first-joke",
+    "text": "audit",
+    "start": 117.392,
+    "end": 117.512
+  },
+  {
+    "id": "w283",
+    "scene": "03-first-joke",
+    "text": "committee",
+    "start": 117.512,
+    "end": 117.832
+  },
+  {
+    "id": "w284",
+    "scene": "03-first-joke",
+    "text": "Go",
+    "start": 118.752,
+    "end": 119.052
+  },
+  {
+    "id": "w285",
+    "scene": "03-first-joke",
+    "text": "ahead",
+    "start": 119.052,
+    "end": 119.592
+  },
+  {
+    "id": "w286",
+    "scene": "03-first-joke",
+    "text": "She",
+    "start": 120.432,
+    "end": 120.832
+  },
+  {
+    "id": "w287",
+    "scene": "03-first-joke",
+    "text": "slid",
+    "start": 120.832,
+    "end": 121.572
+  },
+  {
+    "id": "w288",
+    "scene": "03-first-joke",
+    "text": "into",
+    "start": 121.572,
+    "end": 121.872
+  },
+  {
+    "id": "w289",
+    "scene": "03-first-joke",
+    "text": "the",
+    "start": 121.872,
+    "end": 122.452
+  },
+  {
+    "id": "w290",
+    "scene": "03-first-joke",
+    "text": "seat",
+    "start": 122.452,
+    "end": 123.472
+  },
+  {
+    "id": "w291",
+    "scene": "03-first-joke",
+    "text": "Nia",
+    "start": 123.472,
+    "end": 123.692
+  },
+  {
+    "id": "w292",
+    "scene": "03-first-joke",
+    "text": "Reynolds",
+    "start": 123.692,
+    "end": 124.152
+  },
+  {
+    "id": "w293",
+    "scene": "03-first-joke",
+    "text": "Mathematical",
+    "start": 124.992,
+    "end": 125.472
+  },
+  {
+    "id": "w294",
+    "scene": "03-first-joke",
+    "text": "sciences",
+    "start": 125.472,
+    "end": 125.992
+  },
+  {
+    "id": "w295",
+    "scene": "03-first-joke",
+    "text": "Huntsville",
+    "start": 126.752,
+    "end": 127.052
+  },
+  {
+    "id": "w296",
+    "scene": "03-first-joke",
+    "text": "I",
+    "start": 127.812,
+    "end": 127.932
+  },
+  {
+    "id": "w297",
+    "scene": "03-first-joke",
+    "text": "like",
+    "start": 127.932,
+    "end": 128.152
+  },
+  {
+    "id": "w298",
+    "scene": "03-first-joke",
+    "text": "graphs",
+    "start": 128.152,
+    "end": 128.512
+  },
+  {
+    "id": "w299",
+    "scene": "03-first-joke",
+    "text": "when",
+    "start": 128.512,
+    "end": 128.712
+  },
+  {
+    "id": "w300",
+    "scene": "03-first-joke",
+    "text": "they",
+    "start": 128.712,
+    "end": 128.912
+  },
+  {
+    "id": "w301",
+    "scene": "03-first-joke",
+    "text": "tell",
+    "start": 128.912,
+    "end": 129.052
+  },
+  {
+    "id": "w302",
+    "scene": "03-first-joke",
+    "text": "the",
+    "start": 129.052,
+    "end": 129.572
+  },
+  {
+    "id": "w303",
+    "scene": "03-first-joke",
+    "text": "truth",
+    "start": 129.572,
+    "end": 129.782
+  },
+  {
+    "id": "w304",
+    "scene": "03-first-joke",
+    "text": "and",
+    "start": 129.782,
+    "end": 129.992
+  },
+  {
+    "id": "w305",
+    "scene": "03-first-joke",
+    "text": "people",
+    "start": 129.992,
+    "end": 130.332
+  },
+  {
+    "id": "w306",
+    "scene": "03-first-joke",
+    "text": "when",
+    "start": 130.332,
+    "end": 130.552
+  },
+  {
+    "id": "w307",
+    "scene": "03-first-joke",
+    "text": "they",
+    "start": 130.552,
+    "end": 130.712
+  },
+  {
+    "id": "w308",
+    "scene": "03-first-joke",
+    "text": "try",
+    "start": 130.712,
+    "end": 130.972
+  },
+  {
+    "id": "w309",
+    "scene": "03-first-joke",
+    "text": "to",
+    "start": 130.972,
+    "end": 131.272
+  },
+  {
+    "id": "w310",
+    "scene": "03-first-joke",
+    "text": "Malik",
+    "start": 132.272,
+    "end": 132.992
+  },
+  {
+    "id": "w311",
+    "scene": "03-first-joke",
+    "text": "Baptiste",
+    "start": 132.992,
+    "end": 133.712
+  },
+  {
+    "id": "w312",
+    "scene": "03-first-joke",
+    "text": "Actuarial",
+    "start": 134.332,
+    "end": 134.792
+  },
+  {
+    "id": "w313",
+    "scene": "03-first-joke",
+    "text": "science",
+    "start": 134.792,
+    "end": 135.272
+  },
+  {
+    "id": "w314",
+    "scene": "03-first-joke",
+    "text": "Gulfport",
+    "start": 135.752,
+    "end": 136.272
+  },
+  {
+    "id": "w315",
+    "scene": "03-first-joke",
+    "text": "I",
+    "start": 136.912,
+    "end": 137.112
+  },
+  {
+    "id": "w316",
+    "scene": "03-first-joke",
+    "text": "like",
+    "start": 137.112,
+    "end": 137.392
+  },
+  {
+    "id": "w317",
+    "scene": "03-first-joke",
+    "text": "complete",
+    "start": 137.392,
+    "end": 138.012
+  },
+  {
+    "id": "w318",
+    "scene": "03-first-joke",
+    "text": "introductions",
+    "start": 138.012,
+    "end": 138.732
+  },
+  {
+    "id": "w319",
+    "scene": "03-first-joke",
+    "text": "That",
+    "start": 139.512,
+    "end": 139.672
+  },
+  {
+    "id": "w320",
+    "scene": "03-first-joke",
+    "text": "was",
+    "start": 139.672,
+    "end": 139.972
+  },
+  {
+    "id": "w321",
+    "scene": "03-first-joke",
+    "text": "complete",
+    "start": 139.972,
+    "end": 140.412
+  },
+  {
+    "id": "w322",
+    "scene": "03-first-joke",
+    "text": "You",
+    "start": 141.052,
+    "end": 141.232
+  },
+  {
+    "id": "w323",
+    "scene": "03-first-joke",
+    "text": "know",
+    "start": 141.232,
+    "end": 141.412
+  },
+  {
+    "id": "w324",
+    "scene": "03-first-joke",
+    "text": "my",
+    "start": 141.412,
+    "end": 141.612
+  },
+  {
+    "id": "w325",
+    "scene": "03-first-joke",
+    "text": "major",
+    "start": 141.612,
+    "end": 141.972
+  },
+  {
+    "id": "w326",
+    "scene": "03-first-joke",
+    "text": "my",
+    "start": 142.412,
+    "end": 142.752
+  },
+  {
+    "id": "w327",
+    "scene": "03-first-joke",
+    "text": "hometown",
+    "start": 142.752,
+    "end": 143.012
+  },
+  {
+    "id": "w328",
+    "scene": "03-first-joke",
+    "text": "and",
+    "start": 143.272,
+    "end": 143.652
+  },
+  {
+    "id": "w329",
+    "scene": "03-first-joke",
+    "text": "my",
+    "start": 143.652,
+    "end": 143.872
+  },
+  {
+    "id": "w330",
+    "scene": "03-first-joke",
+    "text": "entire",
+    "start": 143.872,
+    "end": 144.472
+  },
+  {
+    "id": "w331",
+    "scene": "03-first-joke",
+    "text": "moral",
+    "start": 144.472,
+    "end": 144.832
+  },
+  {
+    "id": "w332",
+    "scene": "03-first-joke",
+    "text": "philosophy",
+    "start": 144.832,
+    "end": 145.372
+  },
+  {
+    "id": "w333",
+    "scene": "03-first-joke",
+    "text": "This",
+    "start": 145.672,
+    "end": 146.292
+  },
+  {
+    "id": "w334",
+    "scene": "03-first-joke",
+    "text": "time",
+    "start": 146.292,
+    "end": 146.632
+  },
+  {
+    "id": "w335",
+    "scene": "03-first-joke",
+    "text": "he",
+    "start": 146.912,
+    "end": 147.112
+  },
+  {
+    "id": "w336",
+    "scene": "03-first-joke",
+    "text": "did",
+    "start": 147.112,
+    "end": 147.452
+  },
+  {
+    "id": "w337",
+    "scene": "03-first-joke",
+    "text": "smile",
+    "start": 147.452,
+    "end": 147.792
+  },
+  {
+    "id": "w338",
+    "scene": "04-two-kinds-of-plans",
+    "text": "Around",
+    "start": 148.334,
+    "end": 148.734
+  },
+  {
+    "id": "w339",
+    "scene": "04-two-kinds-of-plans",
+    "text": "them",
+    "start": 148.734,
+    "end": 149.034
+  },
+  {
+    "id": "w340",
+    "scene": "04-two-kinds-of-plans",
+    "text": "the",
+    "start": 149.474,
+    "end": 149.594
+  },
+  {
+    "id": "w341",
+    "scene": "04-two-kinds-of-plans",
+    "text": "room",
+    "start": 149.594,
+    "end": 149.834
+  },
+  {
+    "id": "w342",
+    "scene": "04-two-kinds-of-plans",
+    "text": "filled",
+    "start": 149.834,
+    "end": 150.134
+  },
+  {
+    "id": "w343",
+    "scene": "04-two-kinds-of-plans",
+    "text": "with",
+    "start": 150.134,
+    "end": 150.294
+  },
+  {
+    "id": "w344",
+    "scene": "04-two-kinds-of-plans",
+    "text": "the",
+    "start": 150.294,
+    "end": 150.634
+  },
+  {
+    "id": "w345",
+    "scene": "04-two-kinds-of-plans",
+    "text": "sound",
+    "start": 150.634,
+    "end": 150.714
+  },
+  {
+    "id": "w346",
+    "scene": "04-two-kinds-of-plans",
+    "text": "of",
+    "start": 150.714,
+    "end": 150.914
+  },
+  {
+    "id": "w347",
+    "scene": "04-two-kinds-of-plans",
+    "text": "new",
+    "start": 150.914,
+    "end": 151.154
+  },
+  {
+    "id": "w348",
+    "scene": "04-two-kinds-of-plans",
+    "text": "beginnings",
+    "start": 151.154,
+    "end": 151.514
+  },
+  {
+    "id": "w349",
+    "scene": "04-two-kinds-of-plans",
+    "text": "Chairs",
+    "start": 152.474,
+    "end": 152.674
+  },
+  {
+    "id": "w350",
+    "scene": "04-two-kinds-of-plans",
+    "text": "scraping",
+    "start": 152.674,
+    "end": 152.874
+  },
+  {
+    "id": "w351",
+    "scene": "04-two-kinds-of-plans",
+    "text": "families",
+    "start": 153.834,
+    "end": 153.984
+  },
+  {
+    "id": "w352",
+    "scene": "04-two-kinds-of-plans",
+    "text": "calling",
+    "start": 153.984,
+    "end": 154.134
+  },
+  {
+    "id": "w353",
+    "scene": "04-two-kinds-of-plans",
+    "text": "with",
+    "start": 154.134,
+    "end": 154.354
+  },
+  {
+    "id": "w354",
+    "scene": "04-two-kinds-of-plans",
+    "text": "last",
+    "start": 154.354,
+    "end": 154.674
+  },
+  {
+    "id": "w355",
+    "scene": "04-two-kinds-of-plans",
+    "text": "instructions",
+    "start": 154.674,
+    "end": 155.154
+  },
+  {
+    "id": "w356",
+    "scene": "04-two-kinds-of-plans",
+    "text": "staff",
+    "start": 156.014,
+    "end": 156.074
+  },
+  {
+    "id": "w357",
+    "scene": "04-two-kinds-of-plans",
+    "text": "passing",
+    "start": 156.074,
+    "end": 156.374
+  },
+  {
+    "id": "w358",
+    "scene": "04-two-kinds-of-plans",
+    "text": "out",
+    "start": 156.374,
+    "end": 156.774
+  },
+  {
+    "id": "w359",
+    "scene": "04-two-kinds-of-plans",
+    "text": "indigo",
+    "start": 156.774,
+    "end": 157.074
+  },
+  {
+    "id": "w360",
+    "scene": "04-two-kinds-of-plans",
+    "text": "folders",
+    "start": 157.074,
+    "end": 157.514
+  },
+  {
+    "id": "w361",
+    "scene": "04-two-kinds-of-plans",
+    "text": "stamped",
+    "start": 157.514,
+    "end": 158.194
+  },
+  {
+    "id": "w362",
+    "scene": "04-two-kinds-of-plans",
+    "text": "with",
+    "start": 158.194,
+    "end": 158.374
+  },
+  {
+    "id": "w363",
+    "scene": "04-two-kinds-of-plans",
+    "text": "a",
+    "start": 158.374,
+    "end": 158.674
+  },
+  {
+    "id": "w364",
+    "scene": "04-two-kinds-of-plans",
+    "text": "copper",
+    "start": 158.674,
+    "end": 158.834
+  },
+  {
+    "id": "w365",
+    "scene": "04-two-kinds-of-plans",
+    "text": "heron",
+    "start": 158.834,
+    "end": 159.174
+  },
+  {
+    "id": "w366",
+    "scene": "04-two-kinds-of-plans",
+    "text": "Through",
+    "start": 160.114,
+    "end": 160.134
+  },
+  {
+    "id": "w367",
+    "scene": "04-two-kinds-of-plans",
+    "text": "the",
+    "start": 160.134,
+    "end": 160.374
+  },
+  {
+    "id": "w368",
+    "scene": "04-two-kinds-of-plans",
+    "text": "tall",
+    "start": 160.374,
+    "end": 160.574
+  },
+  {
+    "id": "w369",
+    "scene": "04-two-kinds-of-plans",
+    "text": "windows",
+    "start": 160.574,
+    "end": 160.914
+  },
+  {
+    "id": "w370",
+    "scene": "04-two-kinds-of-plans",
+    "text": "McCall",
+    "start": 161.474,
+    "end": 161.694
+  },
+  {
+    "id": "w371",
+    "scene": "04-two-kinds-of-plans",
+    "text": "Hart",
+    "start": 161.694,
+    "end": 161.914
+  },
+  {
+    "id": "w372",
+    "scene": "04-two-kinds-of-plans",
+    "text": "University",
+    "start": 161.914,
+    "end": 162.534
+  },
+  {
+    "id": "w373",
+    "scene": "04-two-kinds-of-plans",
+    "text": "glowed",
+    "start": 162.534,
+    "end": 163.034
+  },
+  {
+    "id": "w374",
+    "scene": "04-two-kinds-of-plans",
+    "text": "honey",
+    "start": 163.034,
+    "end": 163.314
+  },
+  {
+    "id": "w375",
+    "scene": "04-two-kinds-of-plans",
+    "text": "gold",
+    "start": 163.314,
+    "end": 163.614
+  },
+  {
+    "id": "w376",
+    "scene": "04-two-kinds-of-plans",
+    "text": "in",
+    "start": 163.614,
+    "end": 163.814
+  },
+  {
+    "id": "w377",
+    "scene": "04-two-kinds-of-plans",
+    "text": "the",
+    "start": 163.814,
+    "end": 163.934
+  },
+  {
+    "id": "w378",
+    "scene": "04-two-kinds-of-plans",
+    "text": "morning",
+    "start": 163.934,
+    "end": 164.114
+  },
+  {
+    "id": "w379",
+    "scene": "04-two-kinds-of-plans",
+    "text": "light",
+    "start": 164.114,
+    "end": 164.434
+  },
+  {
+    "id": "w380",
+    "scene": "04-two-kinds-of-plans",
+    "text": "Malik",
+    "start": 165.434,
+    "end": 165.594
+  },
+  {
+    "id": "w381",
+    "scene": "04-two-kinds-of-plans",
+    "text": "had",
+    "start": 165.594,
+    "end": 165.754
+  },
+  {
+    "id": "w382",
+    "scene": "04-two-kinds-of-plans",
+    "text": "studied",
+    "start": 165.754,
+    "end": 165.914
+  },
+  {
+    "id": "w383",
+    "scene": "04-two-kinds-of-plans",
+    "text": "the",
+    "start": 165.914,
+    "end": 166.194
+  },
+  {
+    "id": "w384",
+    "scene": "04-two-kinds-of-plans",
+    "text": "campus",
+    "start": 166.194,
+    "end": 166.394
+  },
+  {
+    "id": "w385",
+    "scene": "04-two-kinds-of-plans",
+    "text": "map",
+    "start": 166.394,
+    "end": 166.614
+  },
+  {
+    "id": "w386",
+    "scene": "04-two-kinds-of-plans",
+    "text": "for",
+    "start": 166.614,
+    "end": 166.894
+  },
+  {
+    "id": "w387",
+    "scene": "04-two-kinds-of-plans",
+    "text": "two",
+    "start": 166.894,
+    "end": 167.114
+  },
+  {
+    "id": "w388",
+    "scene": "04-two-kinds-of-plans",
+    "text": "weeks",
+    "start": 167.114,
+    "end": 167.374
+  },
+  {
+    "id": "w389",
+    "scene": "04-two-kinds-of-plans",
+    "text": "but",
+    "start": 167.574,
+    "end": 168.074
+  },
+  {
+    "id": "w390",
+    "scene": "04-two-kinds-of-plans",
+    "text": "a",
+    "start": 168.074,
+    "end": 168.434
+  },
+  {
+    "id": "w391",
+    "scene": "04-two-kinds-of-plans",
+    "text": "map",
+    "start": 168.434,
+    "end": 168.534
+  },
+  {
+    "id": "w392",
+    "scene": "04-two-kinds-of-plans",
+    "text": "had",
+    "start": 168.534,
+    "end": 168.634
+  },
+  {
+    "id": "w393",
+    "scene": "04-two-kinds-of-plans",
+    "text": "not",
+    "start": 168.634,
+    "end": 168.814
+  },
+  {
+    "id": "w394",
+    "scene": "04-two-kinds-of-plans",
+    "text": "prepared",
+    "start": 168.814,
+    "end": 169.134
+  },
+  {
+    "id": "w395",
+    "scene": "04-two-kinds-of-plans",
+    "text": "him",
+    "start": 169.134,
+    "end": 169.294
+  },
+  {
+    "id": "w396",
+    "scene": "04-two-kinds-of-plans",
+    "text": "for",
+    "start": 169.294,
+    "end": 169.494
+  },
+  {
+    "id": "w397",
+    "scene": "04-two-kinds-of-plans",
+    "text": "how",
+    "start": 169.494,
+    "end": 169.674
+  },
+  {
+    "id": "w398",
+    "scene": "04-two-kinds-of-plans",
+    "text": "old",
+    "start": 169.674,
+    "end": 170.134
+  },
+  {
+    "id": "w399",
+    "scene": "04-two-kinds-of-plans",
+    "text": "and",
+    "start": 170.134,
+    "end": 170.594
+  },
+  {
+    "id": "w400",
+    "scene": "04-two-kinds-of-plans",
+    "text": "alive",
+    "start": 170.594,
+    "end": 170.974
+  },
+  {
+    "id": "w401",
+    "scene": "04-two-kinds-of-plans",
+    "text": "the",
+    "start": 170.974,
+    "end": 171.194
+  },
+  {
+    "id": "w402",
+    "scene": "04-two-kinds-of-plans",
+    "text": "place",
+    "start": 171.194,
+    "end": 171.374
+  },
+  {
+    "id": "w403",
+    "scene": "04-two-kinds-of-plans",
+    "text": "felt",
+    "start": 171.374,
+    "end": 171.694
+  },
+  {
+    "id": "w404",
+    "scene": "04-two-kinds-of-plans",
+    "text": "Nia",
+    "start": 172.434,
+    "end": 172.674
+  },
+  {
+    "id": "w405",
+    "scene": "04-two-kinds-of-plans",
+    "text": "tilted",
+    "start": 172.674,
+    "end": 173.114
+  },
+  {
+    "id": "w406",
+    "scene": "04-two-kinds-of-plans",
+    "text": "her",
+    "start": 173.114,
+    "end": 173.414
+  },
+  {
+    "id": "w407",
+    "scene": "04-two-kinds-of-plans",
+    "text": "head",
+    "start": 173.414,
+    "end": 173.714
+  },
+  {
+    "id": "w408",
+    "scene": "04-two-kinds-of-plans",
+    "text": "toward",
+    "start": 173.714,
+    "end": 174.274
+  },
+  {
+    "id": "w409",
+    "scene": "04-two-kinds-of-plans",
+    "text": "his",
+    "start": 174.274,
+    "end": 174.494
+  },
+  {
+    "id": "w410",
+    "scene": "04-two-kinds-of-plans",
+    "text": "screen",
+    "start": 174.494,
+    "end": 174.814
+  },
+  {
+    "id": "w411",
+    "scene": "04-two-kinds-of-plans",
+    "text": "Do",
+    "start": 175.254,
+    "end": 175.534
+  },
+  {
+    "id": "w412",
+    "scene": "04-two-kinds-of-plans",
+    "text": "you",
+    "start": 175.534,
+    "end": 175.874
+  },
+  {
+    "id": "w413",
+    "scene": "04-two-kinds-of-plans",
+    "text": "need",
+    "start": 175.874,
+    "end": 176.314
+  },
+  {
+    "id": "w414",
+    "scene": "04-two-kinds-of-plans",
+    "text": "help",
+    "start": 176.314,
+    "end": 176.694
+  },
+  {
+    "id": "w415",
+    "scene": "04-two-kinds-of-plans",
+    "text": "His",
+    "start": 177.714,
+    "end": 178.394
+  },
+  {
+    "id": "w416",
+    "scene": "04-two-kinds-of-plans",
+    "text": "first",
+    "start": 178.394,
+    "end": 178.894
+  },
+  {
+    "id": "w417",
+    "scene": "04-two-kinds-of-plans",
+    "text": "instinct",
+    "start": 178.894,
+    "end": 179.354
+  },
+  {
+    "id": "w418",
+    "scene": "04-two-kinds-of-plans",
+    "text": "was",
+    "start": 179.354,
+    "end": 179.754
+  },
+  {
+    "id": "w419",
+    "scene": "04-two-kinds-of-plans",
+    "text": "no",
+    "start": 179.754,
+    "end": 180.114
+  },
+  {
+    "id": "w420",
+    "scene": "04-two-kinds-of-plans",
+    "text": "His",
+    "start": 180.694,
+    "end": 180.914
+  },
+  {
+    "id": "w421",
+    "scene": "04-two-kinds-of-plans",
+    "text": "second",
+    "start": 180.914,
+    "end": 181.254
+  },
+  {
+    "id": "w422",
+    "scene": "04-two-kinds-of-plans",
+    "text": "was",
+    "start": 181.254,
+    "end": 181.634
+  },
+  {
+    "id": "w423",
+    "scene": "04-two-kinds-of-plans",
+    "text": "also",
+    "start": 181.634,
+    "end": 182.114
+  },
+  {
+    "id": "w424",
+    "scene": "04-two-kinds-of-plans",
+    "text": "no",
+    "start": 182.114,
+    "end": 182.414
+  },
+  {
+    "id": "w425",
+    "scene": "04-two-kinds-of-plans",
+    "text": "but",
+    "start": 182.534,
+    "end": 182.854
+  },
+  {
+    "id": "w426",
+    "scene": "04-two-kinds-of-plans",
+    "text": "with",
+    "start": 182.854,
+    "end": 183.094
+  },
+  {
+    "id": "w427",
+    "scene": "04-two-kinds-of-plans",
+    "text": "better",
+    "start": 183.094,
+    "end": 183.374
+  },
+  {
+    "id": "w428",
+    "scene": "04-two-kinds-of-plans",
+    "text": "manners",
+    "start": 183.374,
+    "end": 183.714
+  },
+  {
+    "id": "w429",
+    "scene": "04-two-kinds-of-plans",
+    "text": "I",
+    "start": 184.434,
+    "end": 184.674
+  },
+  {
+    "id": "w430",
+    "scene": "04-two-kinds-of-plans",
+    "text": "can",
+    "start": 184.674,
+    "end": 185.114
+  },
+  {
+    "id": "w431",
+    "scene": "04-two-kinds-of-plans",
+    "text": "fix",
+    "start": 185.114,
+    "end": 185.414
+  },
+  {
+    "id": "w432",
+    "scene": "04-two-kinds-of-plans",
+    "text": "it",
+    "start": 185.414,
+    "end": 185.834
+  },
+  {
+    "id": "w433",
+    "scene": "04-two-kinds-of-plans",
+    "text": "he",
+    "start": 186.814,
+    "end": 186.994
+  },
+  {
+    "id": "w434",
+    "scene": "04-two-kinds-of-plans",
+    "text": "said",
+    "start": 186.994,
+    "end": 187.634
+  },
+  {
+    "id": "w435",
+    "scene": "04-two-kinds-of-plans",
+    "text": "I",
+    "start": 188.254,
+    "end": 188.434
+  },
+  {
+    "id": "w436",
+    "scene": "04-two-kinds-of-plans",
+    "text": "didn't",
+    "start": 188.434,
+    "end": 188.954
+  },
+  {
+    "id": "w437",
+    "scene": "04-two-kinds-of-plans",
+    "text": "ask",
+    "start": 188.954,
+    "end": 189.534
+  },
+  {
+    "id": "w438",
+    "scene": "04-two-kinds-of-plans",
+    "text": "if",
+    "start": 189.534,
+    "end": 190.034
+  },
+  {
+    "id": "w439",
+    "scene": "04-two-kinds-of-plans",
+    "text": "you",
+    "start": 190.034,
+    "end": 190.254
+  },
+  {
+    "id": "w440",
+    "scene": "04-two-kinds-of-plans",
+    "text": "could",
+    "start": 190.254,
+    "end": 190.574
+  },
+  {
+    "id": "w441",
+    "scene": "04-two-kinds-of-plans",
+    "text": "That",
+    "start": 192.074,
+    "end": 192.374
+  },
+  {
+    "id": "w442",
+    "scene": "04-two-kinds-of-plans",
+    "text": "answer",
+    "start": 192.374,
+    "end": 192.734
+  },
+  {
+    "id": "w443",
+    "scene": "04-two-kinds-of-plans",
+    "text": "stayed",
+    "start": 192.734,
+    "end": 193.034
+  },
+  {
+    "id": "w444",
+    "scene": "04-two-kinds-of-plans",
+    "text": "with",
+    "start": 193.034,
+    "end": 193.234
+  },
+  {
+    "id": "w445",
+    "scene": "04-two-kinds-of-plans",
+    "text": "him",
+    "start": 193.234,
+    "end": 193.554
+  },
+  {
+    "id": "w446",
+    "scene": "04-two-kinds-of-plans",
+    "text": "longer",
+    "start": 193.554,
+    "end": 193.954
+  },
+  {
+    "id": "w447",
+    "scene": "04-two-kinds-of-plans",
+    "text": "than",
+    "start": 193.954,
+    "end": 194.134
+  },
+  {
+    "id": "w448",
+    "scene": "04-two-kinds-of-plans",
+    "text": "it",
+    "start": 194.134,
+    "end": 194.334
+  },
+  {
+    "id": "w449",
+    "scene": "04-two-kinds-of-plans",
+    "text": "should",
+    "start": 194.334,
+    "end": 194.454
+  },
+  {
+    "id": "w450",
+    "scene": "04-two-kinds-of-plans",
+    "text": "have",
+    "start": 194.454,
+    "end": 194.734
+  },
+  {
+    "id": "w451",
+    "scene": "05-dr-brooks",
+    "text": "The",
+    "start": 195.604,
+    "end": 195.884
+  },
+  {
+    "id": "w452",
+    "scene": "05-dr-brooks",
+    "text": "Bridge",
+    "start": 195.884,
+    "end": 196.384
+  },
+  {
+    "id": "w453",
+    "scene": "05-dr-brooks",
+    "text": "program",
+    "start": 196.384,
+    "end": 197.044
+  },
+  {
+    "id": "w454",
+    "scene": "05-dr-brooks",
+    "text": "opened",
+    "start": 197.044,
+    "end": 197.424
+  },
+  {
+    "id": "w455",
+    "scene": "05-dr-brooks",
+    "text": "with",
+    "start": 197.424,
+    "end": 197.964
+  },
+  {
+    "id": "w456",
+    "scene": "05-dr-brooks",
+    "text": "introductions",
+    "start": 197.964,
+    "end": 198.544
+  },
+  {
+    "id": "w457",
+    "scene": "05-dr-brooks",
+    "text": "placement",
+    "start": 199.444,
+    "end": 199.694
+  },
+  {
+    "id": "w458",
+    "scene": "05-dr-brooks",
+    "text": "details",
+    "start": 199.694,
+    "end": 199.944
+  },
+  {
+    "id": "w459",
+    "scene": "05-dr-brooks",
+    "text": "and",
+    "start": 200.184,
+    "end": 200.504
+  },
+  {
+    "id": "w460",
+    "scene": "05-dr-brooks",
+    "text": "a",
+    "start": 200.504,
+    "end": 200.884
+  },
+  {
+    "id": "w461",
+    "scene": "05-dr-brooks",
+    "text": "challenge",
+    "start": 200.884,
+    "end": 201.044
+  },
+  {
+    "id": "w462",
+    "scene": "05-dr-brooks",
+    "text": "from",
+    "start": 201.044,
+    "end": 201.324
+  },
+  {
+    "id": "w463",
+    "scene": "05-dr-brooks",
+    "text": "Dr",
+    "start": 201.324,
+    "end": 201.704
+  },
+  {
+    "id": "w464",
+    "scene": "05-dr-brooks",
+    "text": "Camille",
+    "start": 201.724,
+    "end": 202.044
+  },
+  {
+    "id": "w465",
+    "scene": "05-dr-brooks",
+    "text": "Brooks",
+    "start": 202.044,
+    "end": 202.484
+  },
+  {
+    "id": "w466",
+    "scene": "05-dr-brooks",
+    "text": "a",
+    "start": 203.024,
+    "end": 203.384
+  },
+  {
+    "id": "w467",
+    "scene": "05-dr-brooks",
+    "text": "calculus",
+    "start": 203.384,
+    "end": 203.604
+  },
+  {
+    "id": "w468",
+    "scene": "05-dr-brooks",
+    "text": "professor",
+    "start": 203.604,
+    "end": 204.044
+  },
+  {
+    "id": "w469",
+    "scene": "05-dr-brooks",
+    "text": "with",
+    "start": 204.044,
+    "end": 204.744
+  },
+  {
+    "id": "w470",
+    "scene": "05-dr-brooks",
+    "text": "silver",
+    "start": 204.744,
+    "end": 205.044
+  },
+  {
+    "id": "w471",
+    "scene": "05-dr-brooks",
+    "text": "framed",
+    "start": 205.044,
+    "end": 205.324
+  },
+  {
+    "id": "w472",
+    "scene": "05-dr-brooks",
+    "text": "glasses",
+    "start": 205.324,
+    "end": 205.684
+  },
+  {
+    "id": "w473",
+    "scene": "05-dr-brooks",
+    "text": "and",
+    "start": 205.684,
+    "end": 206.324
+  },
+  {
+    "id": "w474",
+    "scene": "05-dr-brooks",
+    "text": "the",
+    "start": 206.324,
+    "end": 206.784
+  },
+  {
+    "id": "w475",
+    "scene": "05-dr-brooks",
+    "text": "calm",
+    "start": 206.784,
+    "end": 206.824
+  },
+  {
+    "id": "w476",
+    "scene": "05-dr-brooks",
+    "text": "voice",
+    "start": 206.824,
+    "end": 207.084
+  },
+  {
+    "id": "w477",
+    "scene": "05-dr-brooks",
+    "text": "of",
+    "start": 207.084,
+    "end": 207.424
+  },
+  {
+    "id": "w478",
+    "scene": "05-dr-brooks",
+    "text": "someone",
+    "start": 207.424,
+    "end": 207.584
+  },
+  {
+    "id": "w479",
+    "scene": "05-dr-brooks",
+    "text": "who",
+    "start": 207.584,
+    "end": 208.064
+  },
+  {
+    "id": "w480",
+    "scene": "05-dr-brooks",
+    "text": "could",
+    "start": 208.064,
+    "end": 208.264
+  },
+  {
+    "id": "w481",
+    "scene": "05-dr-brooks",
+    "text": "hear",
+    "start": 208.264,
+    "end": 208.504
+  },
+  {
+    "id": "w482",
+    "scene": "05-dr-brooks",
+    "text": "weak",
+    "start": 208.504,
+    "end": 208.784
+  },
+  {
+    "id": "w483",
+    "scene": "05-dr-brooks",
+    "text": "reasoning",
+    "start": 208.784,
+    "end": 209.084
+  },
+  {
+    "id": "w484",
+    "scene": "05-dr-brooks",
+    "text": "from",
+    "start": 209.084,
+    "end": 209.744
+  },
+  {
+    "id": "w485",
+    "scene": "05-dr-brooks",
+    "text": "across",
+    "start": 209.744,
+    "end": 210.024
+  },
+  {
+    "id": "w486",
+    "scene": "05-dr-brooks",
+    "text": "a",
+    "start": 210.024,
+    "end": 210.604
+  },
+  {
+    "id": "w487",
+    "scene": "05-dr-brooks",
+    "text": "building",
+    "start": 210.604,
+    "end": 210.944
+  },
+  {
+    "id": "w488",
+    "scene": "05-dr-brooks",
+    "text": "This",
+    "start": 210.944,
+    "end": 211.224
+  },
+  {
+    "id": "w489",
+    "scene": "05-dr-brooks",
+    "text": "program",
+    "start": 211.224,
+    "end": 211.744
+  },
+  {
+    "id": "w490",
+    "scene": "05-dr-brooks",
+    "text": "is",
+    "start": 211.744,
+    "end": 212.004
+  },
+  {
+    "id": "w491",
+    "scene": "05-dr-brooks",
+    "text": "not",
+    "start": 212.004,
+    "end": 212.304
+  },
+  {
+    "id": "w492",
+    "scene": "05-dr-brooks",
+    "text": "here",
+    "start": 212.304,
+    "end": 212.544
+  },
+  {
+    "id": "w493",
+    "scene": "05-dr-brooks",
+    "text": "to",
+    "start": 212.544,
+    "end": 212.764
+  },
+  {
+    "id": "w494",
+    "scene": "05-dr-brooks",
+    "text": "prove",
+    "start": 212.764,
+    "end": 212.984
+  },
+  {
+    "id": "w495",
+    "scene": "05-dr-brooks",
+    "text": "whether",
+    "start": 212.984,
+    "end": 213.284
+  },
+  {
+    "id": "w496",
+    "scene": "05-dr-brooks",
+    "text": "you",
+    "start": 213.284,
+    "end": 213.524
+  },
+  {
+    "id": "w497",
+    "scene": "05-dr-brooks",
+    "text": "belong",
+    "start": 213.524,
+    "end": 213.844
+  },
+  {
+    "id": "w498",
+    "scene": "05-dr-brooks",
+    "text": "she",
+    "start": 214.524,
+    "end": 214.864
+  },
+  {
+    "id": "w499",
+    "scene": "05-dr-brooks",
+    "text": "told",
+    "start": 214.864,
+    "end": 215.264
+  },
+  {
+    "id": "w500",
+    "scene": "05-dr-brooks",
+    "text": "the",
+    "start": 215.264,
+    "end": 215.544
+  },
+  {
+    "id": "w501",
+    "scene": "05-dr-brooks",
+    "text": "room",
+    "start": 215.544,
+    "end": 216.084
+  },
+  {
+    "id": "w502",
+    "scene": "05-dr-brooks",
+    "text": "Admission",
+    "start": 216.664,
+    "end": 217.004
+  },
+  {
+    "id": "w503",
+    "scene": "05-dr-brooks",
+    "text": "settled",
+    "start": 217.004,
+    "end": 217.324
+  },
+  {
+    "id": "w504",
+    "scene": "05-dr-brooks",
+    "text": "that",
+    "start": 217.324,
+    "end": 217.704
+  },
+  {
+    "id": "w505",
+    "scene": "05-dr-brooks",
+    "text": "question",
+    "start": 217.704,
+    "end": 218.084
+  },
+  {
+    "id": "w506",
+    "scene": "05-dr-brooks",
+    "text": "We",
+    "start": 218.664,
+    "end": 218.864
+  },
+  {
+    "id": "w507",
+    "scene": "05-dr-brooks",
+    "text": "are",
+    "start": 218.864,
+    "end": 219.044
+  },
+  {
+    "id": "w508",
+    "scene": "05-dr-brooks",
+    "text": "here",
+    "start": 219.044,
+    "end": 219.264
+  },
+  {
+    "id": "w509",
+    "scene": "05-dr-brooks",
+    "text": "to",
+    "start": 219.264,
+    "end": 219.524
+  },
+  {
+    "id": "w510",
+    "scene": "05-dr-brooks",
+    "text": "learn",
+    "start": 219.524,
+    "end": 219.724
+  },
+  {
+    "id": "w511",
+    "scene": "05-dr-brooks",
+    "text": "how",
+    "start": 219.724,
+    "end": 220.004
+  },
+  {
+    "id": "w512",
+    "scene": "05-dr-brooks",
+    "text": "you",
+    "start": 220.004,
+    "end": 220.304
+  },
+  {
+    "id": "w513",
+    "scene": "05-dr-brooks",
+    "text": "think",
+    "start": 220.304,
+    "end": 220.544
+  },
+  {
+    "id": "w514",
+    "scene": "05-dr-brooks",
+    "text": "where",
+    "start": 221.084,
+    "end": 221.184
+  },
+  {
+    "id": "w515",
+    "scene": "05-dr-brooks",
+    "text": "your",
+    "start": 221.184,
+    "end": 221.424
+  },
+  {
+    "id": "w516",
+    "scene": "05-dr-brooks",
+    "text": "preparation",
+    "start": 221.424,
+    "end": 221.764
+  },
+  {
+    "id": "w517",
+    "scene": "05-dr-brooks",
+    "text": "is",
+    "start": 221.764,
+    "end": 222.144
+  },
+  {
+    "id": "w518",
+    "scene": "05-dr-brooks",
+    "text": "strong",
+    "start": 222.144,
+    "end": 222.384
+  },
+  {
+    "id": "w519",
+    "scene": "05-dr-brooks",
+    "text": "and",
+    "start": 222.664,
+    "end": 222.924
+  },
+  {
+    "id": "w520",
+    "scene": "05-dr-brooks",
+    "text": "where",
+    "start": 222.924,
+    "end": 223.044
+  },
+  {
+    "id": "w521",
+    "scene": "05-dr-brooks",
+    "text": "we",
+    "start": 223.044,
+    "end": 223.224
+  },
+  {
+    "id": "w522",
+    "scene": "05-dr-brooks",
+    "text": "need",
+    "start": 223.224,
+    "end": 223.344
+  },
+  {
+    "id": "w523",
+    "scene": "05-dr-brooks",
+    "text": "to",
+    "start": 223.344,
+    "end": 223.664
+  },
+  {
+    "id": "w524",
+    "scene": "05-dr-brooks",
+    "text": "build",
+    "start": 223.664,
+    "end": 223.764
+  },
+  {
+    "id": "w525",
+    "scene": "05-dr-brooks",
+    "text": "Malik",
+    "start": 223.764,
+    "end": 224.604
+  },
+  {
+    "id": "w526",
+    "scene": "05-dr-brooks",
+    "text": "wrote",
+    "start": 224.604,
+    "end": 225.004
+  },
+  {
+    "id": "w527",
+    "scene": "05-dr-brooks",
+    "text": "the",
+    "start": 225.004,
+    "end": 225.184
+  },
+  {
+    "id": "w528",
+    "scene": "05-dr-brooks",
+    "text": "sentence",
+    "start": 225.184,
+    "end": 225.464
+  },
+  {
+    "id": "w529",
+    "scene": "05-dr-brooks",
+    "text": "down",
+    "start": 225.464,
+    "end": 225.864
+  },
+  {
+    "id": "w530",
+    "scene": "05-dr-brooks",
+    "text": "exactly",
+    "start": 225.864,
+    "end": 226.424
+  },
+  {
+    "id": "w531",
+    "scene": "05-dr-brooks",
+    "text": "Nia",
+    "start": 227.284,
+    "end": 227.454
+  },
+  {
+    "id": "w532",
+    "scene": "05-dr-brooks",
+    "text": "drew",
+    "start": 227.454,
+    "end": 227.624
+  },
+  {
+    "id": "w533",
+    "scene": "05-dr-brooks",
+    "text": "a",
+    "start": 227.624,
+    "end": 227.964
+  },
+  {
+    "id": "w534",
+    "scene": "05-dr-brooks",
+    "text": "box",
+    "start": 227.964,
+    "end": 228.124
+  },
+  {
+    "id": "w535",
+    "scene": "05-dr-brooks",
+    "text": "around",
+    "start": 228.124,
+    "end": 228.444
+  },
+  {
+    "id": "w536",
+    "scene": "05-dr-brooks",
+    "text": "where",
+    "start": 228.444,
+    "end": 228.704
+  },
+  {
+    "id": "w537",
+    "scene": "05-dr-brooks",
+    "text": "we",
+    "start": 228.704,
+    "end": 228.844
+  },
+  {
+    "id": "w538",
+    "scene": "05-dr-brooks",
+    "text": "need",
+    "start": 228.844,
+    "end": 229.044
+  },
+  {
+    "id": "w539",
+    "scene": "05-dr-brooks",
+    "text": "to",
+    "start": 229.044,
+    "end": 229.424
+  },
+  {
+    "id": "w540",
+    "scene": "05-dr-brooks",
+    "text": "build",
+    "start": 229.424,
+    "end": 229.714
+  },
+  {
+    "id": "w541",
+    "scene": "05-dr-brooks",
+    "text": "and",
+    "start": 229.714,
+    "end": 230.004
+  },
+  {
+    "id": "w542",
+    "scene": "05-dr-brooks",
+    "text": "added",
+    "start": 230.004,
+    "end": 230.284
+  },
+  {
+    "id": "w543",
+    "scene": "05-dr-brooks",
+    "text": "a",
+    "start": 230.284,
+    "end": 230.504
+  },
+  {
+    "id": "w544",
+    "scene": "05-dr-brooks",
+    "text": "tiny",
+    "start": 230.504,
+    "end": 230.824
+  },
+  {
+    "id": "w545",
+    "scene": "05-dr-brooks",
+    "text": "crane",
+    "start": 230.824,
+    "end": 231.084
+  },
+  {
+    "id": "w546",
+    "scene": "05-dr-brooks",
+    "text": "beside",
+    "start": 231.084,
+    "end": 231.444
+  },
+  {
+    "id": "w547",
+    "scene": "05-dr-brooks",
+    "text": "it",
+    "start": 231.444,
+    "end": 231.684
+  },
+  {
+    "id": "w548",
+    "scene": "06-the-situation",
+    "text": "Their",
+    "start": 232.726,
+    "end": 233.026
+  },
+  {
+    "id": "w549",
+    "scene": "06-the-situation",
+    "text": "first",
+    "start": 233.026,
+    "end": 233.486
+  },
+  {
+    "id": "w550",
+    "scene": "06-the-situation",
+    "text": "activity",
+    "start": 233.486,
+    "end": 233.826
+  },
+  {
+    "id": "w551",
+    "scene": "06-the-situation",
+    "text": "was",
+    "start": 233.826,
+    "end": 234.086
+  },
+  {
+    "id": "w552",
+    "scene": "06-the-situation",
+    "text": "simple",
+    "start": 234.086,
+    "end": 234.346
+  },
+  {
+    "id": "w553",
+    "scene": "06-the-situation",
+    "text": "Examine",
+    "start": 235.446,
+    "end": 235.666
+  },
+  {
+    "id": "w554",
+    "scene": "06-the-situation",
+    "text": "a",
+    "start": 235.666,
+    "end": 235.886
+  },
+  {
+    "id": "w555",
+    "scene": "06-the-situation",
+    "text": "table",
+    "start": 235.886,
+    "end": 236.036
+  },
+  {
+    "id": "w556",
+    "scene": "06-the-situation",
+    "text": "showing",
+    "start": 236.036,
+    "end": 236.186
+  },
+  {
+    "id": "w557",
+    "scene": "06-the-situation",
+    "text": "hours",
+    "start": 236.186,
+    "end": 236.566
+  },
+  {
+    "id": "w558",
+    "scene": "06-the-situation",
+    "text": "worked",
+    "start": 236.566,
+    "end": 236.846
+  },
+  {
+    "id": "w559",
+    "scene": "06-the-situation",
+    "text": "transportation",
+    "start": 237.526,
+    "end": 237.886
+  },
+  {
+    "id": "w560",
+    "scene": "06-the-situation",
+    "text": "costs",
+    "start": 237.886,
+    "end": 238.326
+  },
+  {
+    "id": "w561",
+    "scene": "06-the-situation",
+    "text": "and",
+    "start": 238.626,
+    "end": 239.166
+  },
+  {
+    "id": "w562",
+    "scene": "06-the-situation",
+    "text": "weekly",
+    "start": 239.166,
+    "end": 239.286
+  },
+  {
+    "id": "w563",
+    "scene": "06-the-situation",
+    "text": "take",
+    "start": 239.286,
+    "end": 239.706
+  },
+  {
+    "id": "w564",
+    "scene": "06-the-situation",
+    "text": "home",
+    "start": 239.706,
+    "end": 239.836
+  },
+  {
+    "id": "w565",
+    "scene": "06-the-situation",
+    "text": "pay",
+    "start": 239.836,
+    "end": 239.966
+  },
+  {
+    "id": "w566",
+    "scene": "06-the-situation",
+    "text": "Identify",
+    "start": 241.086,
+    "end": 241.266
+  },
+  {
+    "id": "w567",
+    "scene": "06-the-situation",
+    "text": "the",
+    "start": 241.266,
+    "end": 241.906
+  },
+  {
+    "id": "w568",
+    "scene": "06-the-situation",
+    "text": "variables",
+    "start": 241.906,
+    "end": 242.946
+  },
+  {
+    "id": "w569",
+    "scene": "06-the-situation",
+    "text": "Describe",
+    "start": 242.946,
+    "end": 243.066
+  },
+  {
+    "id": "w570",
+    "scene": "06-the-situation",
+    "text": "a",
+    "start": 243.066,
+    "end": 243.186
+  },
+  {
+    "id": "w571",
+    "scene": "06-the-situation",
+    "text": "possible",
+    "start": 243.186,
+    "end": 243.506
+  },
+  {
+    "id": "w572",
+    "scene": "06-the-situation",
+    "text": "relationship",
+    "start": 243.506,
+    "end": 244.066
+  },
+  {
+    "id": "w573",
+    "scene": "06-the-situation",
+    "text": "State",
+    "start": 245.166,
+    "end": 245.246
+  },
+  {
+    "id": "w574",
+    "scene": "06-the-situation",
+    "text": "what",
+    "start": 245.246,
+    "end": 245.326
+  },
+  {
+    "id": "w575",
+    "scene": "06-the-situation",
+    "text": "the",
+    "start": 245.326,
+    "end": 245.706
+  },
+  {
+    "id": "w576",
+    "scene": "06-the-situation",
+    "text": "table",
+    "start": 245.706,
+    "end": 245.866
+  },
+  {
+    "id": "w577",
+    "scene": "06-the-situation",
+    "text": "did",
+    "start": 245.866,
+    "end": 246.026
+  },
+  {
+    "id": "w578",
+    "scene": "06-the-situation",
+    "text": "not",
+    "start": 246.026,
+    "end": 246.266
+  },
+  {
+    "id": "w579",
+    "scene": "06-the-situation",
+    "text": "reveal",
+    "start": 246.266,
+    "end": 246.566
+  },
+  {
+    "id": "w580",
+    "scene": "06-the-situation",
+    "text": "Malik",
+    "start": 247.726,
+    "end": 247.746
+  },
+  {
+    "id": "w581",
+    "scene": "06-the-situation",
+    "text": "listed",
+    "start": 247.746,
+    "end": 248.266
+  },
+  {
+    "id": "w582",
+    "scene": "06-the-situation",
+    "text": "the",
+    "start": 248.266,
+    "end": 248.626
+  },
+  {
+    "id": "w583",
+    "scene": "06-the-situation",
+    "text": "inputs",
+    "start": 248.626,
+    "end": 248.886
+  },
+  {
+    "id": "w584",
+    "scene": "06-the-situation",
+    "text": "output",
+    "start": 249.406,
+    "end": 249.686
+  },
+  {
+    "id": "w585",
+    "scene": "06-the-situation",
+    "text": "units",
+    "start": 250.026,
+    "end": 250.246
+  },
+  {
+    "id": "w586",
+    "scene": "06-the-situation",
+    "text": "and",
+    "start": 250.246,
+    "end": 250.946
+  },
+  {
+    "id": "w587",
+    "scene": "06-the-situation",
+    "text": "likely",
+    "start": 250.946,
+    "end": 251.026
+  },
+  {
+    "id": "w588",
+    "scene": "06-the-situation",
+    "text": "errors",
+    "start": 251.026,
+    "end": 251.346
+  },
+  {
+    "id": "w589",
+    "scene": "06-the-situation",
+    "text": "before",
+    "start": 251.386,
+    "end": 252.086
+  },
+  {
+    "id": "w590",
+    "scene": "06-the-situation",
+    "text": "Nia",
+    "start": 252.086,
+    "end": 252.326
+  },
+  {
+    "id": "w591",
+    "scene": "06-the-situation",
+    "text": "had",
+    "start": 252.326,
+    "end": 252.666
+  },
+  {
+    "id": "w592",
+    "scene": "06-the-situation",
+    "text": "finished",
+    "start": 252.666,
+    "end": 252.886
+  },
+  {
+    "id": "w593",
+    "scene": "06-the-situation",
+    "text": "drawing",
+    "start": 252.886,
+    "end": 253.166
+  },
+  {
+    "id": "w594",
+    "scene": "06-the-situation",
+    "text": "arrows",
+    "start": 253.166,
+    "end": 253.526
+  },
+  {
+    "id": "w595",
+    "scene": "06-the-situation",
+    "text": "Why",
+    "start": 253.986,
+    "end": 254.346
+  },
+  {
+    "id": "w596",
+    "scene": "06-the-situation",
+    "text": "are",
+    "start": 254.346,
+    "end": 254.746
+  },
+  {
+    "id": "w597",
+    "scene": "06-the-situation",
+    "text": "you",
+    "start": 254.746,
+    "end": 255.126
+  },
+  {
+    "id": "w598",
+    "scene": "06-the-situation",
+    "text": "decorating",
+    "start": 255.126,
+    "end": 255.466
+  },
+  {
+    "id": "w599",
+    "scene": "06-the-situation",
+    "text": "the",
+    "start": 255.466,
+    "end": 255.826
+  },
+  {
+    "id": "w600",
+    "scene": "06-the-situation",
+    "text": "data",
+    "start": 255.826,
+    "end": 256.106
+  },
+  {
+    "id": "w601",
+    "scene": "06-the-situation",
+    "text": "he",
+    "start": 256.646,
+    "end": 256.826
+  },
+  {
+    "id": "w602",
+    "scene": "06-the-situation",
+    "text": "asked",
+    "start": 256.826,
+    "end": 257.266
+  },
+  {
+    "id": "w603",
+    "scene": "06-the-situation",
+    "text": "I'm",
+    "start": 257.906,
+    "end": 258.366
+  },
+  {
+    "id": "w604",
+    "scene": "06-the-situation",
+    "text": "showing",
+    "start": 258.366,
+    "end": 258.906
+  },
+  {
+    "id": "w605",
+    "scene": "06-the-situation",
+    "text": "the",
+    "start": 258.906,
+    "end": 259.446
+  },
+  {
+    "id": "w606",
+    "scene": "06-the-situation",
+    "text": "situation",
+    "start": 259.446,
+    "end": 260.166
+  },
+  {
+    "id": "w607",
+    "scene": "06-the-situation",
+    "text": "The",
+    "start": 261.686,
+    "end": 261.946
+  },
+  {
+    "id": "w608",
+    "scene": "06-the-situation",
+    "text": "situation",
+    "start": 261.946,
+    "end": 262.566
+  },
+  {
+    "id": "w609",
+    "scene": "06-the-situation",
+    "text": "is",
+    "start": 262.566,
+    "end": 263.306
+  },
+  {
+    "id": "w610",
+    "scene": "06-the-situation",
+    "text": "in",
+    "start": 263.306,
+    "end": 263.486
+  },
+  {
+    "id": "w611",
+    "scene": "06-the-situation",
+    "text": "the",
+    "start": 263.486,
+    "end": 264.166
+  },
+  {
+    "id": "w612",
+    "scene": "06-the-situation",
+    "text": "columns",
+    "start": 264.166,
+    "end": 265.106
+  },
+  {
+    "id": "w613",
+    "scene": "06-the-situation",
+    "text": "No",
+    "start": 265.106,
+    "end": 265.246
+  },
+  {
+    "id": "w614",
+    "scene": "06-the-situation",
+    "text": "the",
+    "start": 265.786,
+    "end": 266.126
+  },
+  {
+    "id": "w615",
+    "scene": "06-the-situation",
+    "text": "numbers",
+    "start": 266.126,
+    "end": 266.386
+  },
+  {
+    "id": "w616",
+    "scene": "06-the-situation",
+    "text": "are",
+    "start": 266.386,
+    "end": 266.746
+  },
+  {
+    "id": "w617",
+    "scene": "06-the-situation",
+    "text": "in",
+    "start": 266.746,
+    "end": 266.866
+  },
+  {
+    "id": "w618",
+    "scene": "06-the-situation",
+    "text": "the",
+    "start": 266.866,
+    "end": 267.426
+  },
+  {
+    "id": "w619",
+    "scene": "06-the-situation",
+    "text": "columns",
+    "start": 267.426,
+    "end": 268.126
+  },
+  {
+    "id": "w620",
+    "scene": "06-the-situation",
+    "text": "The",
+    "start": 268.126,
+    "end": 268.286
+  },
+  {
+    "id": "w621",
+    "scene": "06-the-situation",
+    "text": "situation",
+    "start": 268.286,
+    "end": 268.786
+  },
+  {
+    "id": "w622",
+    "scene": "06-the-situation",
+    "text": "is",
+    "start": 268.786,
+    "end": 269.086
+  },
+  {
+    "id": "w623",
+    "scene": "06-the-situation",
+    "text": "a",
+    "start": 269.086,
+    "end": 269.286
+  },
+  {
+    "id": "w624",
+    "scene": "06-the-situation",
+    "text": "person",
+    "start": 269.286,
+    "end": 269.546
+  },
+  {
+    "id": "w625",
+    "scene": "06-the-situation",
+    "text": "trying",
+    "start": 269.546,
+    "end": 269.906
+  },
+  {
+    "id": "w626",
+    "scene": "06-the-situation",
+    "text": "to",
+    "start": 269.906,
+    "end": 270.106
+  },
+  {
+    "id": "w627",
+    "scene": "06-the-situation",
+    "text": "get",
+    "start": 270.106,
+    "end": 270.206
+  },
+  {
+    "id": "w628",
+    "scene": "06-the-situation",
+    "text": "to",
+    "start": 270.206,
+    "end": 270.606
+  },
+  {
+    "id": "w629",
+    "scene": "06-the-situation",
+    "text": "work",
+    "start": 270.606,
+    "end": 270.686
+  },
+  {
+    "id": "w630",
+    "scene": "06-the-situation",
+    "text": "Malik",
+    "start": 271.686,
+    "end": 271.706
+  },
+  {
+    "id": "w631",
+    "scene": "06-the-situation",
+    "text": "glanced",
+    "start": 271.706,
+    "end": 272.366
+  },
+  {
+    "id": "w632",
+    "scene": "06-the-situation",
+    "text": "at",
+    "start": 272.366,
+    "end": 272.686
+  },
+  {
+    "id": "w633",
+    "scene": "06-the-situation",
+    "text": "the",
+    "start": 272.686,
+    "end": 273.166
+  },
+  {
+    "id": "w634",
+    "scene": "06-the-situation",
+    "text": "prompt",
+    "start": 273.166,
+    "end": 273.726
+  },
+  {
+    "id": "w635",
+    "scene": "06-the-situation",
+    "text": "It",
+    "start": 273.726,
+    "end": 273.926
+  },
+  {
+    "id": "w636",
+    "scene": "06-the-situation",
+    "text": "doesn't",
+    "start": 273.926,
+    "end": 274.486
+  },
+  {
+    "id": "w637",
+    "scene": "06-the-situation",
+    "text": "say",
+    "start": 274.486,
+    "end": 274.806
+  },
+  {
+    "id": "w638",
+    "scene": "06-the-situation",
+    "text": "that",
+    "start": 274.806,
+    "end": 275.186
+  },
+  {
+    "id": "w639",
+    "scene": "06-the-situation",
+    "text": "Exactly",
+    "start": 276.306,
+    "end": 276.806
+  },
+  {
+    "id": "w640",
+    "scene": "06-the-situation",
+    "text": "We",
+    "start": 277.186,
+    "end": 277.826
+  },
+  {
+    "id": "w641",
+    "scene": "06-the-situation",
+    "text": "don't",
+    "start": 277.826,
+    "end": 278.246
+  },
+  {
+    "id": "w642",
+    "scene": "06-the-situation",
+    "text": "know",
+    "start": 278.246,
+    "end": 278.646
+  },
+  {
+    "id": "w643",
+    "scene": "06-the-situation",
+    "text": "whether",
+    "start": 278.646,
+    "end": 278.846
+  },
+  {
+    "id": "w644",
+    "scene": "06-the-situation",
+    "text": "the",
+    "start": 278.846,
+    "end": 279.126
+  },
+  {
+    "id": "w645",
+    "scene": "06-the-situation",
+    "text": "transportation",
+    "start": 279.126,
+    "end": 279.746
+  },
+  {
+    "id": "w646",
+    "scene": "06-the-situation",
+    "text": "cost",
+    "start": 279.746,
+    "end": 280.186
+  },
+  {
+    "id": "w647",
+    "scene": "06-the-situation",
+    "text": "is",
+    "start": 280.186,
+    "end": 280.486
+  },
+  {
+    "id": "w648",
+    "scene": "06-the-situation",
+    "text": "gas",
+    "start": 280.486,
+    "end": 280.886
+  },
+  {
+    "id": "w649",
+    "scene": "06-the-situation",
+    "text": "a",
+    "start": 281.246,
+    "end": 281.566
+  },
+  {
+    "id": "w650",
+    "scene": "06-the-situation",
+    "text": "bus",
+    "start": 281.566,
+    "end": 281.666
+  },
+  {
+    "id": "w651",
+    "scene": "06-the-situation",
+    "text": "pass",
+    "start": 281.666,
+    "end": 281.986
+  },
+  {
+    "id": "w652",
+    "scene": "06-the-situation",
+    "text": "rideshare",
+    "start": 282.646,
+    "end": 282.946
+  },
+  {
+    "id": "w653",
+    "scene": "06-the-situation",
+    "text": "money",
+    "start": 282.946,
+    "end": 283.226
+  },
+  {
+    "id": "w654",
+    "scene": "06-the-situation",
+    "text": "or",
+    "start": 283.226,
+    "end": 283.626
+  },
+  {
+    "id": "w655",
+    "scene": "06-the-situation",
+    "text": "paying",
+    "start": 283.626,
+    "end": 284.026
+  },
+  {
+    "id": "w656",
+    "scene": "06-the-situation",
+    "text": "somebody's",
+    "start": 284.026,
+    "end": 284.826
+  },
+  {
+    "id": "w657",
+    "scene": "06-the-situation",
+    "text": "cousin",
+    "start": 284.826,
+    "end": 285.526
+  },
+  {
+    "id": "w658",
+    "scene": "06-the-situation",
+    "text": "That",
+    "start": 285.526,
+    "end": 285.746
+  },
+  {
+    "id": "w659",
+    "scene": "06-the-situation",
+    "text": "changes",
+    "start": 285.746,
+    "end": 286.126
+  },
+  {
+    "id": "w660",
+    "scene": "06-the-situation",
+    "text": "what",
+    "start": 286.126,
+    "end": 286.426
+  },
+  {
+    "id": "w661",
+    "scene": "06-the-situation",
+    "text": "choices",
+    "start": 286.426,
+    "end": 286.806
+  },
+  {
+    "id": "w662",
+    "scene": "06-the-situation",
+    "text": "are",
+    "start": 286.806,
+    "end": 287.026
+  },
+  {
+    "id": "w663",
+    "scene": "06-the-situation",
+    "text": "possible",
+    "start": 287.026,
+    "end": 287.466
+  },
+  {
+    "id": "w664",
+    "scene": "06-the-situation",
+    "text": "He",
+    "start": 288.146,
+    "end": 288.446
+  },
+  {
+    "id": "w665",
+    "scene": "06-the-situation",
+    "text": "disliked",
+    "start": 288.446,
+    "end": 289.126
+  },
+  {
+    "id": "w666",
+    "scene": "06-the-situation",
+    "text": "how",
+    "start": 289.126,
+    "end": 289.626
+  },
+  {
+    "id": "w667",
+    "scene": "06-the-situation",
+    "text": "quickly",
+    "start": 289.626,
+    "end": 289.966
+  },
+  {
+    "id": "w668",
+    "scene": "06-the-situation",
+    "text": "her",
+    "start": 289.966,
+    "end": 290.286
+  },
+  {
+    "id": "w669",
+    "scene": "06-the-situation",
+    "text": "answer",
+    "start": 290.286,
+    "end": 290.666
+  },
+  {
+    "id": "w670",
+    "scene": "06-the-situation",
+    "text": "improved",
+    "start": 290.666,
+    "end": 291.226
+  },
+  {
+    "id": "w671",
+    "scene": "06-the-situation",
+    "text": "his",
+    "start": 291.226,
+    "end": 291.606
+  },
+  {
+    "id": "w672",
+    "scene": "07-visible-assumptions",
+    "text": "When",
+    "start": 292.44,
+    "end": 292.76
+  },
+  {
+    "id": "w673",
+    "scene": "07-visible-assumptions",
+    "text": "Dr",
+    "start": 292.76,
+    "end": 293.3
+  },
+  {
+    "id": "w674",
+    "scene": "07-visible-assumptions",
+    "text": "Brooks",
+    "start": 293.52,
+    "end": 293.54
+  },
+  {
+    "id": "w675",
+    "scene": "07-visible-assumptions",
+    "text": "asked",
+    "start": 293.54,
+    "end": 293.96
+  },
+  {
+    "id": "w676",
+    "scene": "07-visible-assumptions",
+    "text": "for",
+    "start": 293.96,
+    "end": 294.24
+  },
+  {
+    "id": "w677",
+    "scene": "07-visible-assumptions",
+    "text": "observations",
+    "start": 294.24,
+    "end": 294.8
+  },
+  {
+    "id": "w678",
+    "scene": "07-visible-assumptions",
+    "text": "Malik",
+    "start": 295.56,
+    "end": 295.83
+  },
+  {
+    "id": "w679",
+    "scene": "07-visible-assumptions",
+    "text": "explained",
+    "start": 295.83,
+    "end": 296.1
+  },
+  {
+    "id": "w680",
+    "scene": "07-visible-assumptions",
+    "text": "the",
+    "start": 296.1,
+    "end": 296.36
+  },
+  {
+    "id": "w681",
+    "scene": "07-visible-assumptions",
+    "text": "numeric",
+    "start": 296.36,
+    "end": 296.74
+  },
+  {
+    "id": "w682",
+    "scene": "07-visible-assumptions",
+    "text": "pattern",
+    "start": 296.74,
+    "end": 297
+  },
+  {
+    "id": "w683",
+    "scene": "07-visible-assumptions",
+    "text": "Nia",
+    "start": 297.9,
+    "end": 298.07
+  },
+  {
+    "id": "w684",
+    "scene": "07-visible-assumptions",
+    "text": "followed",
+    "start": 298.07,
+    "end": 298.24
+  },
+  {
+    "id": "w685",
+    "scene": "07-visible-assumptions",
+    "text": "by",
+    "start": 298.24,
+    "end": 298.6
+  },
+  {
+    "id": "w686",
+    "scene": "07-visible-assumptions",
+    "text": "naming",
+    "start": 298.6,
+    "end": 298.76
+  },
+  {
+    "id": "w687",
+    "scene": "07-visible-assumptions",
+    "text": "the",
+    "start": 298.76,
+    "end": 299.14
+  },
+  {
+    "id": "w688",
+    "scene": "07-visible-assumptions",
+    "text": "missing",
+    "start": 299.14,
+    "end": 299.34
+  },
+  {
+    "id": "w689",
+    "scene": "07-visible-assumptions",
+    "text": "context",
+    "start": 299.34,
+    "end": 299.88
+  },
+  {
+    "id": "w690",
+    "scene": "07-visible-assumptions",
+    "text": "Dr",
+    "start": 300.6,
+    "end": 301
+  },
+  {
+    "id": "w691",
+    "scene": "07-visible-assumptions",
+    "text": "Brooks",
+    "start": 301,
+    "end": 301.26
+  },
+  {
+    "id": "w692",
+    "scene": "07-visible-assumptions",
+    "text": "nodded",
+    "start": 301.26,
+    "end": 301.78
+  },
+  {
+    "id": "w693",
+    "scene": "07-visible-assumptions",
+    "text": "at",
+    "start": 301.78,
+    "end": 302.08
+  },
+  {
+    "id": "w694",
+    "scene": "07-visible-assumptions",
+    "text": "both",
+    "start": 302.08,
+    "end": 302.22
+  },
+  {
+    "id": "w695",
+    "scene": "07-visible-assumptions",
+    "text": "of",
+    "start": 302.22,
+    "end": 302.48
+  },
+  {
+    "id": "w696",
+    "scene": "07-visible-assumptions",
+    "text": "them",
+    "start": 302.48,
+    "end": 302.58
+  },
+  {
+    "id": "w697",
+    "scene": "07-visible-assumptions",
+    "text": "A",
+    "start": 303.02,
+    "end": 303.35
+  },
+  {
+    "id": "w698",
+    "scene": "07-visible-assumptions",
+    "text": "clean",
+    "start": 303.35,
+    "end": 303.68
+  },
+  {
+    "id": "w699",
+    "scene": "07-visible-assumptions",
+    "text": "calculation",
+    "start": 303.68,
+    "end": 304.42
+  },
+  {
+    "id": "w700",
+    "scene": "07-visible-assumptions",
+    "text": "built",
+    "start": 304.42,
+    "end": 305.1
+  },
+  {
+    "id": "w701",
+    "scene": "07-visible-assumptions",
+    "text": "on",
+    "start": 305.1,
+    "end": 305.28
+  },
+  {
+    "id": "w702",
+    "scene": "07-visible-assumptions",
+    "text": "an",
+    "start": 305.28,
+    "end": 305.54
+  },
+  {
+    "id": "w703",
+    "scene": "07-visible-assumptions",
+    "text": "invisible",
+    "start": 305.54,
+    "end": 305.9
+  },
+  {
+    "id": "w704",
+    "scene": "07-visible-assumptions",
+    "text": "assumption",
+    "start": 305.9,
+    "end": 306.34
+  },
+  {
+    "id": "w705",
+    "scene": "07-visible-assumptions",
+    "text": "is",
+    "start": 306.34,
+    "end": 307.06
+  },
+  {
+    "id": "w706",
+    "scene": "07-visible-assumptions",
+    "text": "still",
+    "start": 307.06,
+    "end": 307.38
+  },
+  {
+    "id": "w707",
+    "scene": "07-visible-assumptions",
+    "text": "an",
+    "start": 307.38,
+    "end": 307.74
+  },
+  {
+    "id": "w708",
+    "scene": "07-visible-assumptions",
+    "text": "unstable",
+    "start": 307.74,
+    "end": 308.2
+  },
+  {
+    "id": "w709",
+    "scene": "07-visible-assumptions",
+    "text": "model",
+    "start": 308.2,
+    "end": 308.62
+  },
+  {
+    "id": "w710",
+    "scene": "07-visible-assumptions",
+    "text": "she",
+    "start": 309.3,
+    "end": 309.48
+  },
+  {
+    "id": "w711",
+    "scene": "07-visible-assumptions",
+    "text": "said",
+    "start": 309.48,
+    "end": 310.12
+  },
+  {
+    "id": "w712",
+    "scene": "07-visible-assumptions",
+    "text": "Make",
+    "start": 310.68,
+    "end": 310.8
+  },
+  {
+    "id": "w713",
+    "scene": "07-visible-assumptions",
+    "text": "your",
+    "start": 310.8,
+    "end": 311.46
+  },
+  {
+    "id": "w714",
+    "scene": "07-visible-assumptions",
+    "text": "assumptions",
+    "start": 311.46,
+    "end": 311.94
+  },
+  {
+    "id": "w715",
+    "scene": "07-visible-assumptions",
+    "text": "visible",
+    "start": 311.94,
+    "end": 312.68
+  },
+  {
+    "id": "w716",
+    "scene": "07-visible-assumptions",
+    "text": "Malik",
+    "start": 313.34,
+    "end": 313.6
+  },
+  {
+    "id": "w717",
+    "scene": "07-visible-assumptions",
+    "text": "underlined",
+    "start": 313.6,
+    "end": 314.3
+  },
+  {
+    "id": "w718",
+    "scene": "07-visible-assumptions",
+    "text": "that",
+    "start": 314.3,
+    "end": 314.64
+  },
+  {
+    "id": "w719",
+    "scene": "07-visible-assumptions",
+    "text": "sentence",
+    "start": 314.64,
+    "end": 314.92
+  },
+  {
+    "id": "w720",
+    "scene": "07-visible-assumptions",
+    "text": "too",
+    "start": 314.92,
+    "end": 315.34
+  },
+  {
+    "id": "w721",
+    "scene": "08-corporate-yelling",
+    "text": "At",
+    "start": 315.75,
+    "end": 316.07
+  },
+  {
+    "id": "w722",
+    "scene": "08-corporate-yelling",
+    "text": "lunch",
+    "start": 316.07,
+    "end": 316.39
+  },
+  {
+    "id": "w723",
+    "scene": "08-corporate-yelling",
+    "text": "Nia",
+    "start": 317.11,
+    "end": 317.26
+  },
+  {
+    "id": "w724",
+    "scene": "08-corporate-yelling",
+    "text": "found",
+    "start": 317.26,
+    "end": 317.41
+  },
+  {
+    "id": "w725",
+    "scene": "08-corporate-yelling",
+    "text": "him",
+    "start": 317.41,
+    "end": 317.63
+  },
+  {
+    "id": "w726",
+    "scene": "08-corporate-yelling",
+    "text": "correcting",
+    "start": 317.63,
+    "end": 317.99
+  },
+  {
+    "id": "w727",
+    "scene": "08-corporate-yelling",
+    "text": "the",
+    "start": 317.99,
+    "end": 318.25
+  },
+  {
+    "id": "w728",
+    "scene": "08-corporate-yelling",
+    "text": "family",
+    "start": 318.25,
+    "end": 318.53
+  },
+  {
+    "id": "w729",
+    "scene": "08-corporate-yelling",
+    "text": "budget",
+    "start": 318.53,
+    "end": 319.11
+  },
+  {
+    "id": "w730",
+    "scene": "08-corporate-yelling",
+    "text": "You",
+    "start": 319.65,
+    "end": 319.96
+  },
+  {
+    "id": "w731",
+    "scene": "08-corporate-yelling",
+    "text": "fixed",
+    "start": 319.96,
+    "end": 320.27
+  },
+  {
+    "id": "w732",
+    "scene": "08-corporate-yelling",
+    "text": "the",
+    "start": 320.27,
+    "end": 320.71
+  },
+  {
+    "id": "w733",
+    "scene": "08-corporate-yelling",
+    "text": "accusation",
+    "start": 320.71,
+    "end": 321.77
+  },
+  {
+    "id": "w734",
+    "scene": "08-corporate-yelling",
+    "text": "I",
+    "start": 322.97,
+    "end": 323.19
+  },
+  {
+    "id": "w735",
+    "scene": "08-corporate-yelling",
+    "text": "moved",
+    "start": 323.19,
+    "end": 323.69
+  },
+  {
+    "id": "w736",
+    "scene": "08-corporate-yelling",
+    "text": "the",
+    "start": 323.69,
+    "end": 324.03
+  },
+  {
+    "id": "w737",
+    "scene": "08-corporate-yelling",
+    "text": "expense",
+    "start": 324.03,
+    "end": 324.51
+  },
+  {
+    "id": "w738",
+    "scene": "08-corporate-yelling",
+    "text": "reduced",
+    "start": 325.31,
+    "end": 325.58
+  },
+  {
+    "id": "w739",
+    "scene": "08-corporate-yelling",
+    "text": "two",
+    "start": 325.58,
+    "end": 325.85
+  },
+  {
+    "id": "w740",
+    "scene": "08-corporate-yelling",
+    "text": "categories",
+    "start": 325.85,
+    "end": 326.31
+  },
+  {
+    "id": "w741",
+    "scene": "08-corporate-yelling",
+    "text": "and",
+    "start": 326.81,
+    "end": 327.11
+  },
+  {
+    "id": "w742",
+    "scene": "08-corporate-yelling",
+    "text": "added",
+    "start": 327.11,
+    "end": 327.37
+  },
+  {
+    "id": "w743",
+    "scene": "08-corporate-yelling",
+    "text": "a",
+    "start": 327.37,
+    "end": 328.05
+  },
+  {
+    "id": "w744",
+    "scene": "08-corporate-yelling",
+    "text": "warning",
+    "start": 328.05,
+    "end": 328.24
+  },
+  {
+    "id": "w745",
+    "scene": "08-corporate-yelling",
+    "text": "rule",
+    "start": 328.24,
+    "end": 328.43
+  },
+  {
+    "id": "w746",
+    "scene": "08-corporate-yelling",
+    "text": "So",
+    "start": 329.53,
+    "end": 329.75
+  },
+  {
+    "id": "w747",
+    "scene": "08-corporate-yelling",
+    "text": "your",
+    "start": 329.75,
+    "end": 330.29
+  },
+  {
+    "id": "w748",
+    "scene": "08-corporate-yelling",
+    "text": "spreadsheet",
+    "start": 330.29,
+    "end": 330.77
+  },
+  {
+    "id": "w749",
+    "scene": "08-corporate-yelling",
+    "text": "can",
+    "start": 330.77,
+    "end": 331.57
+  },
+  {
+    "id": "w750",
+    "scene": "08-corporate-yelling",
+    "text": "yell",
+    "start": 331.57,
+    "end": 331.71
+  },
+  {
+    "id": "w751",
+    "scene": "08-corporate-yelling",
+    "text": "before",
+    "start": 331.71,
+    "end": 331.85
+  },
+  {
+    "id": "w752",
+    "scene": "08-corporate-yelling",
+    "text": "the",
+    "start": 331.85,
+    "end": 332.15
+  },
+  {
+    "id": "w753",
+    "scene": "08-corporate-yelling",
+    "text": "problem",
+    "start": 332.15,
+    "end": 332.55
+  },
+  {
+    "id": "w754",
+    "scene": "08-corporate-yelling",
+    "text": "gets",
+    "start": 332.55,
+    "end": 332.91
+  },
+  {
+    "id": "w755",
+    "scene": "08-corporate-yelling",
+    "text": "bad",
+    "start": 332.91,
+    "end": 333.33
+  },
+  {
+    "id": "w756",
+    "scene": "08-corporate-yelling",
+    "text": "It",
+    "start": 333.55,
+    "end": 334.23
+  },
+  {
+    "id": "w757",
+    "scene": "08-corporate-yelling",
+    "text": "does",
+    "start": 334.23,
+    "end": 334.61
+  },
+  {
+    "id": "w758",
+    "scene": "08-corporate-yelling",
+    "text": "not",
+    "start": 334.61,
+    "end": 334.95
+  },
+  {
+    "id": "w759",
+    "scene": "08-corporate-yelling",
+    "text": "yell",
+    "start": 334.95,
+    "end": 335.19
+  },
+  {
+    "id": "w760",
+    "scene": "08-corporate-yelling",
+    "text": "It",
+    "start": 335.75,
+    "end": 336.09
+  },
+  {
+    "id": "w761",
+    "scene": "08-corporate-yelling",
+    "text": "changes",
+    "start": 336.09,
+    "end": 336.53
+  },
+  {
+    "id": "w762",
+    "scene": "08-corporate-yelling",
+    "text": "color",
+    "start": 336.53,
+    "end": 337.17
+  },
+  {
+    "id": "w763",
+    "scene": "08-corporate-yelling",
+    "text": "Corporate",
+    "start": 337.69,
+    "end": 338.45
+  },
+  {
+    "id": "w764",
+    "scene": "08-corporate-yelling",
+    "text": "yelling",
+    "start": 338.45,
+    "end": 338.93
+  },
+  {
+    "id": "w765",
+    "scene": "08-corporate-yelling",
+    "text": "He",
+    "start": 339.23,
+    "end": 339.67
+  },
+  {
+    "id": "w766",
+    "scene": "08-corporate-yelling",
+    "text": "showed",
+    "start": 339.67,
+    "end": 340.05
+  },
+  {
+    "id": "w767",
+    "scene": "08-corporate-yelling",
+    "text": "her",
+    "start": 340.05,
+    "end": 340.29
+  },
+  {
+    "id": "w768",
+    "scene": "08-corporate-yelling",
+    "text": "the",
+    "start": 340.29,
+    "end": 340.75
+  },
+  {
+    "id": "w769",
+    "scene": "08-corporate-yelling",
+    "text": "repaired",
+    "start": 340.75,
+    "end": 341.09
+  },
+  {
+    "id": "w770",
+    "scene": "08-corporate-yelling",
+    "text": "balance",
+    "start": 341.09,
+    "end": 341.55
+  },
+  {
+    "id": "w771",
+    "scene": "08-corporate-yelling",
+    "text": "He",
+    "start": 342.39,
+    "end": 342.59
+  },
+  {
+    "id": "w772",
+    "scene": "08-corporate-yelling",
+    "text": "did",
+    "start": 342.59,
+    "end": 342.75
+  },
+  {
+    "id": "w773",
+    "scene": "08-corporate-yelling",
+    "text": "not",
+    "start": 342.75,
+    "end": 342.99
+  },
+  {
+    "id": "w774",
+    "scene": "08-corporate-yelling",
+    "text": "show",
+    "start": 342.99,
+    "end": 343.19
+  },
+  {
+    "id": "w775",
+    "scene": "08-corporate-yelling",
+    "text": "her",
+    "start": 343.19,
+    "end": 343.35
+  },
+  {
+    "id": "w776",
+    "scene": "08-corporate-yelling",
+    "text": "the",
+    "start": 343.35,
+    "end": 343.69
+  },
+  {
+    "id": "w777",
+    "scene": "08-corporate-yelling",
+    "text": "text",
+    "start": 343.69,
+    "end": 343.77
+  },
+  {
+    "id": "w778",
+    "scene": "08-corporate-yelling",
+    "text": "from",
+    "start": 343.77,
+    "end": 343.97
+  },
+  {
+    "id": "w779",
+    "scene": "08-corporate-yelling",
+    "text": "his",
+    "start": 343.97,
+    "end": 344.27
+  },
+  {
+    "id": "w780",
+    "scene": "08-corporate-yelling",
+    "text": "mother",
+    "start": 344.27,
+    "end": 344.35
+  },
+  {
+    "id": "w781",
+    "scene": "08-corporate-yelling",
+    "text": "asking",
+    "start": 344.35,
+    "end": 345.25
+  },
+  {
+    "id": "w782",
+    "scene": "08-corporate-yelling",
+    "text": "whether",
+    "start": 345.25,
+    "end": 345.49
+  },
+  {
+    "id": "w783",
+    "scene": "08-corporate-yelling",
+    "text": "everything",
+    "start": 345.49,
+    "end": 345.87
+  },
+  {
+    "id": "w784",
+    "scene": "08-corporate-yelling",
+    "text": "still",
+    "start": 345.87,
+    "end": 346.21
+  },
+  {
+    "id": "w785",
+    "scene": "08-corporate-yelling",
+    "text": "worked",
+    "start": 346.21,
+    "end": 346.51
+  },
+  {
+    "id": "w786",
+    "scene": "08-corporate-yelling",
+    "text": "Some",
+    "start": 347.67,
+    "end": 347.85
+  },
+  {
+    "id": "w787",
+    "scene": "08-corporate-yelling",
+    "text": "truths",
+    "start": 347.85,
+    "end": 348.13
+  },
+  {
+    "id": "w788",
+    "scene": "08-corporate-yelling",
+    "text": "felt",
+    "start": 348.13,
+    "end": 348.45
+  },
+  {
+    "id": "w789",
+    "scene": "08-corporate-yelling",
+    "text": "easier",
+    "start": 348.45,
+    "end": 348.81
+  },
+  {
+    "id": "w790",
+    "scene": "08-corporate-yelling",
+    "text": "in",
+    "start": 348.81,
+    "end": 349.47
+  },
+  {
+    "id": "w791",
+    "scene": "08-corporate-yelling",
+    "text": "formulas",
+    "start": 349.47,
+    "end": 349.79
+  },
+  {
+    "id": "w792",
+    "scene": "08-corporate-yelling",
+    "text": "than",
+    "start": 349.79,
+    "end": 350.11
+  },
+  {
+    "id": "w793",
+    "scene": "08-corporate-yelling",
+    "text": "in",
+    "start": 350.11,
+    "end": 350.31
+  },
+  {
+    "id": "w794",
+    "scene": "08-corporate-yelling",
+    "text": "conversation",
+    "start": 350.31,
+    "end": 350.75
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "project": "The Formula of Becoming - Week XX Day YY - Full Cast",
+  "model": "gpt-4o-mini-tts",
+  "response_format": "mp3",
+  "default_pause_after": 0.18,
+  "speakers": {
+    "narrator": {
+      "voice": "cedar",
+      "instructions": "Speak only the supplied narration in the approved narrator style. Do not perform character dialogue or add words."
+    },
+    "malik": {
+      "voice": "ash",
+      "instructions": "Speak only Malik's supplied words using his approved casting direction. Do not add words."
+    },
+    "nia": {
+      "voice": "coral",
+      "instructions": "Speak only Nia's supplied words using her approved casting direction. Do not add words."
+    }
+  },
+  "scenes": [
+    {
+      "id": "01-opening-scene",
+      "panel": "page-01-panel-01",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "Replace this with the exact opening narration."
+        },
+        {
+          "speaker": "nia",
+          "text": "Replace this with Nia's exact quoted line."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Replace this with the exact dialogue tag or following narration.",
+          "pause_after": 0
+        }
+      ]
+    }
+  ]
+}
