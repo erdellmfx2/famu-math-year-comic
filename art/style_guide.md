@@ -43,6 +43,11 @@ This guide defines future direction only. Do not generate art while `story/appro
 
 Julian, Simone, DJ, Keisha, and Imani require stable silhouettes, hair, wardrobe logic, and personal props before episode production begins. Do not design them as anonymous romantic rivals, confidantes, or athletes.
 
+- Julian: Taller than Malik, broader and visibly muscular, slightly lighter
+  brown skin, high twist fade, no glasses.
+- DJ: Shorter than Malik, compact athletic build, short cropped locs with a
+  temple fade, no glasses.
+
 ## Recurring Locations
 
 - Eliza Moss Hall: Mathematics, computing, and research
@@ -69,5 +74,15 @@ Julian, Simone, DJ, Keisha, and Imani require stable silhouettes, hair, wardrobe
 
 - Add final text in a second pass.
 - Preserve script wording unless dialogue revision is approved.
-- Use clear balloon order, crisp black type, and restrained caption boxes.
+- Lock dialogue and narration to Comic Sans MS Regular, matching the approved
+  Week 1 hand-lettered appearance.
+- Use organic white speech balloons with visible tails directed to the correct
+  speaker's mouth. Never replace them with rounded rectangles.
+- Use pale cream/yellow `#FFF4D6` narration boxes with thin dark outlines and
+  no tails.
+- Never cover a character's face with a balloon, caption, or message box.
+  Reserve a dedicated lettering band and proportionally fit the art below it
+  whenever face-safe negative space is not proven.
+- Do not print speaker names or `Caption:` labels inside the comic.
+- Use clear balloon order and crisp near-black type.
 - Never cover faces, hands, equations, or decisive props.

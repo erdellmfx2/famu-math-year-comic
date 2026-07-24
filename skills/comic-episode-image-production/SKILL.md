@@ -40,6 +40,11 @@ Default to one image containing the full four-panel episode page unless the user
 6. Edit the same page in a second pass to add exact dialogue and captions.
 7. Inspect lettering for spelling, balloon order, face clearance, and mobile legibility.
 
+Apply `skills/comic-lettering-continuity/SKILL.md` for all title cards,
+lettering, character-separation checks, page marks, and release packaging.
+Treat any balloon or caption overlapping a face as a failed page that must be
+re-lettered before packaging.
+
 ## Continuity Rules
 
 - Setting: Fictional McCall-Hart University in Bellwether, Alabama
@@ -64,10 +69,7 @@ Read `references/prompt-template.md` when constructing the two image prompts.
 
 ## Lettering Rules
 
-- Add text only in pass two unless the user explicitly requests one-pass lettering.
-- Use white balloons, clean outlines, crisp black lettering, and restrained caption boxes.
-- Preserve storyboard wording exactly unless the user asks for a dialogue revision.
-- Keep reading order unambiguous and do not cover faces, hands, equations, or essential props.
+Follow `skills/comic-lettering-continuity/SKILL.md` without substitutions.
 
 ## Package the Three-Section Release
 

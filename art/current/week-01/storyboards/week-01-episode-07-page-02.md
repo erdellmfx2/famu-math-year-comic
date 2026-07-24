@@ -1,0 +1,1 @@
+../../../../art/storyboards/week-01/week-01-episode-07-page-02.md

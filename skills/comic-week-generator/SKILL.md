@@ -29,6 +29,8 @@ Read these active v2 sources before outlining the week:
 5. `art/style_guide.md` for visual and lettering rules.
 6. `art/final/foundational-assets/coordinate-registry.md` for stable visual references.
 7. Existing active v2 pages under `art/final/` when they establish immediate visual continuity.
+8. `skills/comic-lettering-continuity/SKILL.md` for title, part, font,
+   balloon, caption, character-separation, and page-mark locks.
 
 Never use paths under `archive/` as visual or story sources. Do not use real university names, logos, buildings, green-and-orange identity, or snake imagery.
 
@@ -103,12 +105,10 @@ Use only fictional McCall-Hart visual language: indigo, copper, cream, cypress g
 
 ### Pass Two: Lettering
 
-1. Use the accepted unlettered image as the edit target.
-2. Preserve all artwork, panel borders, character designs, composition, props, and lighting.
-3. Add only the storyboard's exact dialogue and captions.
-4. Use clean white balloons with crisp black lettering and restrained cream caption boxes.
-5. Keep reading order clear and never cover faces, hands, key props, equations, or decisive visual action.
-6. Inspect every lettered image at a readable size.
+Apply `skills/comic-lettering-continuity/SKILL.md` without substitutions.
+Use the accepted unlettered image as the base and preserve its panel order,
+character designs, composition, props, and lighting.
+Reject any page where a balloon, narration box, or message box overlaps a face.
 
 ### Apply the Series Mark and Package Each Release
 

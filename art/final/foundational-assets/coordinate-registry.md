@@ -5,6 +5,16 @@
 All character boards use a 4 by 4 grid. `A1-A4` are turnarounds, `B1-B4` are
 expressions, `C1-C4` are recurring poses, and `D1-D4` are wardrobe anchors.
 
+Current visual files:
+
+- `CHAR-MALIK`: `characters/char-malik-board-v1.png`
+- `CHAR-JULIAN`: `characters/char-julian-board-v2.png`
+- `CHAR-DJ`: `characters/char-dj-board-v2.png`
+
+The Julian and DJ v2 boards supersede their v1 boards. Julian is taller,
+broader, slightly lighter, and wears a high twist fade. DJ is shorter, compact,
+and wears cropped locs with a temple fade.
+
 | Board | Character | A1-A4 | B1-B4 | C1-C4 | D1-D4 |
 |---|---|---|---|---|---|
 | `CHAR-MALIK` | Malik Baptiste | front; three-quarter; profile; rear | focused; dry amusement; guarded fear; open grief | graph-notebook study; laptop analysis; walking; relaxed affection | everyday; academic; analytics event; rain layer |

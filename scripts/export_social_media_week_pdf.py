@@ -74,7 +74,11 @@ def approved_pages(repo_root: Path, week: int) -> list[tuple[Path, bool]]:
 
 
 def export_pdf(
-    pages: list[tuple[Path, bool]], output_path: Path, page_mark_path: Path, week: int
+    pages: list[tuple[Path, bool]],
+    output_path: Path,
+    page_mark_path: Path,
+    week: int,
+    add_page_mark: bool,
 ) -> None:
     output_path.parent.mkdir(parents=True, exist_ok=True)
     pdf = None
@@ -93,7 +97,7 @@ def export_pdf(
 
         # One PDF page matches one source image at its original pixel dimensions.
         pdf.drawImage(image, 0, 0, width=width, height=height, mask="auto")
-        if is_comic_page:
+        if is_comic_page and add_page_mark:
             mark_size = width * 0.09
             margin = width * 0.015
             pdf.drawImage(
@@ -116,6 +120,11 @@ def main() -> None:
     )
     parser.add_argument("--week", type=int, required=True)
     parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument(
+        "--add-page-mark",
+        action="store_true",
+        help="Overlay the approved page mark on comic pages that do not already include it.",
+    )
     args = parser.parse_args()
 
     repo_root = Path(__file__).resolve().parents[1]
@@ -128,11 +137,11 @@ def main() -> None:
         / "approved"
         / "formula-of-becoming-famu-math-page-mark-v1.png"
     )
-    export_pdf(pages, args.output, page_mark_path, args.week)
+    export_pdf(pages, args.output, page_mark_path, args.week, args.add_page_mark)
 
     print(f"Created {args.output} with {len(pages)} social-media pages:")
     for index, (page, is_comic_page) in enumerate(pages, start=1):
-        suffix = " + page mark" if is_comic_page else ""
+        suffix = " + page mark" if is_comic_page and args.add_page_mark else ""
         print(f"{index:02d}. {page.relative_to(repo_root)}{suffix}")
 
 

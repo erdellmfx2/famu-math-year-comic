@@ -93,6 +93,8 @@ In fall, Nia dates Julian and experiences a sincere first love and first heartbr
 - Age/year: 19, second-year
 - Major: Media Arts
 - Activities: Alto saxophone in the Marching Herons, campus radio, documentary production
+- Visual lock: Taller and more muscular than Malik, slightly lighter brown
+  skin, high twist fade, no glasses, small earring, broad relaxed shoulders
 - Strengths: Public ease, attentive interviewing, artistic discipline
 - Fault line: Can mistake visible celebration for private connection
 - Fall role: Nia's first serious relationship
@@ -114,6 +116,8 @@ In fall, Nia dates Julian and experiences a sincere first love and first heartbr
 
 - Age/year: 18, first-year
 - Major: Sport Management with a statistics minor under consideration
+- Visual lock: Shorter than Malik, compact athletic build, dark brown skin,
+  short cropped locs with a temple fade, no glasses
 - Role: Malik's roommate and a developing wide receiver
 - Arc: Special teams debut, increased playing time, River Classic catch, conference title, scholarship increase
 - Rule: Show film study, assignments, recovery, and family pressure alongside game success

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Comic Lettering Continuity"
+  short_description: "Lock comic lettering, titles, and character continuity"
+  default_prompt: "Use $comic-lettering-continuity to letter and package this comic release with the approved Week 1 visual rules."
