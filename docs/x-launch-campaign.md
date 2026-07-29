@@ -52,14 +52,14 @@ Default times are **12:15 p.m. EDT** for daily posts and **7:30 p.m. EDT** for t
 
 | Date / time | Post | Copy (ready to paste) | Media / interaction goal |
 | --- | --- | --- | --- |
-| Wed Jul 29, 7:30 p.m. | Series announcement | A new daily comic is coming. **The Formula of Becoming** follows two first-year math students learning that plans, people, and futures do not always solve cleanly. #TheFormulaOfBecoming #CollegeComics | Approved series announcement image. |
+| Wed Jul 29, 7:30 p.m. | Series announcement | A new daily comic is coming. **The Formula of Becoming** follows two first-year math students learning that plans, people, and futures do not always solve cleanly. #TheFormulaOfBecoming #CollegeComics | `campaigns/launch-2026-07-31/ads/feed/00-series-announcement-feed.png` or `campaigns/launch-2026-07-31/ads/story/00-series-announcement-story.png`. |
 | Thu Jul 30, 9:00 a.m. | Meet Malik | Meet Malik Baptiste: actuarial science student, careful planner, and the person most likely to trust a spreadsheet before he trusts a room. #TheFormulaOfBecoming | `01-meet-malik-story.png` |
 | Thu Jul 30, 12:15 p.m. | Meet Nia | Meet Nia Reynolds: mathematical sciences student, curious explainer, and the person most likely to see the human detail a tidy model left out. #TheFormulaOfBecoming | `02-meet-nia-story.png` |
 | Thu Jul 30, 7:30 p.m. | Two perspectives | One problem. Two perspectives. A friendship built on telling the truth about both the numbers and the people inside them. #TheFormulaOfBecoming #MathStories | `03-two-ways-of-seeing-feed.png` |
-| Fri Jul 31, 9:00 a.m. | Trailer A | Plans change. Models change. People do too. **The Formula of Becoming** begins today. #TheFormulaOfBecoming | Trailer A; organic test variant A. |
+| Fri Jul 31, 9:00 a.m. | Trailer A | Plans change. Models change. People do too. **The Formula of Becoming** begins today. #TheFormulaOfBecoming | `campaigns/launch-2026-07-31/exports/trailer-a-you-cannot-plan-for-everything.mp4`; organic test variant A. |
 | Fri Jul 31, 12:15 p.m. | Episode 001 — *Two Kinds of Plans* | **Episode 1: Two Kinds of Plans.** Malik arrives early for Summer Bridge and finds a mistake in the budget he promised his family was finished. #TheFormulaOfBecoming | Episode 001; pin after posting. |
 | Fri Jul 31, 7:30 p.m. | Launch reminder | Budgets. Friendships. Storms. Futures. Mathematics is already part of the story. #TheFormulaOfBecoming | `04-launch-story.png` |
-| Sat Aug 1, 9:00 a.m. | Trailer B | Plans change. Models change. People do too. **The Formula of Becoming** has begun. #TheFormulaOfBecoming | Trailer B; organic test variant B. |
+| Sat Aug 1, 9:00 a.m. | Trailer B | Plans change. Models change. People do too. **The Formula of Becoming** has begun. #TheFormulaOfBecoming | `campaigns/launch-2026-07-31/exports/trailer-b-more-than-one-way-to-see-it.mp4`; organic test variant B. |
 | Sat Aug 1, 12:15 p.m. | Episode 002 | **Episode 2.** Nia asks to share Malik's table. She notices the spreadsheet — and the fear underneath his precision. #TheFormulaOfBecoming | Episode 002. |
 | Sun Aug 2, 12:15 p.m. | Episode 003 | **Episode 3.** One modeling task. Two methods. Malik wants clean columns; Nia wants to draw the situation before calculating. #TheFormulaOfBecoming #MathStories | Episode 003. |
 | Mon Aug 3, 12:15 p.m. | Episode 004 | **Episode 4: Why Math Matters.** The answer changes when family, future, and community are part of the equation. #TheFormulaOfBecoming | Episode 004. |

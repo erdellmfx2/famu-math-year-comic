@@ -1,5 +1,15 @@
 # Launch Posting Copy
 
+## Series Announcement
+
+A new daily comic is coming. *The Formula of Becoming* follows two first-year
+math students learning that plans, people, and futures do not always solve
+cleanly.
+
+Begins July 31. Presented by the Mathematics Department.
+
+#TheFormulaOfBecoming #CollegeComics
+
 ## Shared Trailer Copy
 
 Plans change. Models change. People do too.

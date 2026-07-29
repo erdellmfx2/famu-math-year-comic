@@ -15,6 +15,7 @@ Publishing owner: **Hermes**
 
 | Date / time EDT | Asset | Purpose | Status |
 | --- | --- | --- | --- |
+| Wed Jul 29, 7:30 p.m. | Series announcement | Launch awareness | Ready |
 | Thu Jul 30, 9:00 a.m. | Meet Malik Story | Character introduction | Ready |
 | Thu Jul 30, 12:15 p.m. | Meet Nia Story | Character introduction | Ready |
 | Thu Jul 30, 7:30 p.m. | Two Ways feed + Story | Premise teaser | Ready |
@@ -25,6 +26,8 @@ Publishing owner: **Hermes**
 
 ## Final Asset Paths
 
+- Series announcement feed: `ads/feed/00-series-announcement-feed.png`
+- Series announcement story: `ads/story/00-series-announcement-story.png`
 - Trailer A: `exports/trailer-a-you-cannot-plan-for-everything.mp4`
 - Trailer B: `exports/trailer-b-more-than-one-way-to-see-it.mp4`
 - Feed advertisements: `ads/feed/`
@@ -50,3 +53,6 @@ Record results after equal 24-hour windows. Treat the comparison as directional.
 - Keep the shared opening and closing unchanged so the central character story
   remains the primary A/B variable.
 - Do not upload raw voice files, API credentials, or large working renders.
+- Do not publish static comic end cards with filenames containing
+  `famu-mathematics-attribution` unless they have first been replaced with a
+  neutral card that says `Presented by the Mathematics Department`.
