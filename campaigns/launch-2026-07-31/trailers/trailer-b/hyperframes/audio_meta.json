@@ -1,0 +1,90 @@
+{
+  "duration": 50,
+  "score": "assets/audio/original-cinematic-score.wav",
+  "score_provenance": "Original deterministic procedural instrumental generated for this campaign.",
+  "voice_model": "gpt-4o-mini-tts",
+  "word_timing_model": "whisper-1",
+  "lines": [
+    {
+      "scene": "10-launch-close",
+      "speaker": "narrator",
+      "text": "The Formula of Becoming. Begins July thirty-first.",
+      "file": "assets/audio/voice/10-launch-close-narrator.wav",
+      "duration": 3.281,
+      "start": 0.2
+    },
+    {
+      "scene": "01-the-missing-person",
+      "speaker": "nia",
+      "text": "What if the model missed the person?",
+      "file": "assets/audio/voice/01-the-missing-person-nia.wav",
+      "duration": 2.783,
+      "start": 4.25
+    },
+    {
+      "scene": "02-the-story-inside-the-numbers",
+      "speaker": "narrator",
+      "text": "Nia Reynolds sees the story hiding inside the numbers.",
+      "file": "assets/audio/voice/02-the-story-inside-the-numbers-narrator.wav",
+      "duration": 3.53,
+      "start": 7.133
+    },
+    {
+      "scene": "03-campus-opens",
+      "speaker": "nia",
+      "text": "Sometimes the picture comes before the calculation.",
+      "file": "assets/audio/voice/03-campus-opens-nia.wav",
+      "duration": 4.03,
+      "start": 10.763
+    },
+    {
+      "scene": "04-a-crowded-future",
+      "speaker": "narrator",
+      "text": "Campus brings friendship, first love, and more invitations than one life can hold.",
+      "file": "assets/audio/voice/04-a-crowded-future-narrator.wav",
+      "duration": 4.41,
+      "start": 14.893
+    },
+    {
+      "scene": "05-a-boundary",
+      "speaker": "nia",
+      "text": "I like showing up for people. I cannot disappear from my own schedule.",
+      "file": "assets/audio/voice/05-a-boundary-nia.wav",
+      "duration": 5.742,
+      "start": 19.403
+    },
+    {
+      "scene": "06-the-human-detail",
+      "speaker": "narrator",
+      "text": "In classrooms and community rooms, mathematics becomes a way to notice what has been left out.",
+      "file": "assets/audio/voice/06-the-human-detail-narrator.wav",
+      "duration": 5.405,
+      "start": 25.245
+    },
+    {
+      "scene": "07-work-that-serves-people",
+      "speaker": "nia",
+      "text": "It is about reporting which pieces we observed, which we inferred, and how those choices change the answer.",
+      "file": "assets/audio/voice/07-work-that-serves-people-nia.wav",
+      "duration": 6.681,
+      "start": 30.75
+    },
+    {
+      "scene": "08-two-perspectives",
+      "speaker": "malik",
+      "text": "Then we test it again.",
+      "file": "assets/audio/voice/08-two-perspectives-malik.wav",
+      "duration": 2.084,
+      "start": 37.531
+    },
+    {
+      "scene": "11-invitation-close",
+      "speaker": "narrator",
+      "text": "Where college life, friendship, and mathematics meet.",
+      "file": "assets/audio/voice/11-invitation-close-narrator.wav",
+      "duration": 3.691,
+      "start": 44.35
+    }
+  ],
+  "captions": "assets/audio/word-timings.json"
+}

@@ -1,0 +1,133 @@
+{
+  "project": "The Formula of Becoming Launch - More Than One Way to See It",
+  "approval_status": "approved_for_production",
+  "model": "gpt-4o-mini-tts",
+  "response_format": "mp3",
+  "default_pause_after": 0.18,
+  "speakers": {
+    "narrator": {
+      "voice": "cedar",
+      "instructions": "Speak only the supplied narration. Warm, grounded, observant, quietly lyrical, and cinematic without a booming trailer voice. Do not add words or imitate a real person."
+    },
+    "malik": {
+      "voice": "ash",
+      "instructions": "Speak only Malik's supplied words. Thoughtful, precise, guarded, and economical, with controlled feeling beneath the polish. Do not add words or imitate a real person."
+    },
+    "nia": {
+      "voice": "coral",
+      "instructions": "Speak only Nia's supplied words. Bright, expressive, curious, and emotionally available, slowing for human consequences. Do not add words or imitate a real person."
+    }
+  },
+  "scenes": [
+    {
+      "id": "10-launch-close",
+      "panel": "campaign-close-card.png",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "The Formula of Becoming. Begins July thirty-first.",
+          "pause_after": 0
+        }
+      ]
+    },
+    {
+      "id": "01-the-missing-person",
+      "panel": "art/final/week-01/episode-02/week-01-episode-02-art-v1.png",
+      "utterances": [
+        {
+          "speaker": "nia",
+          "text": "What if the model missed the person?",
+          "pause_after": 0
+        }
+      ]
+    },
+    {
+      "id": "02-the-story-inside-the-numbers",
+      "panel": "art/final/week-01/episode-03/week-01-episode-03-art-v1.png",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "Nia Reynolds sees the story hiding inside the numbers.",
+          "pause_after": 0
+        }
+      ]
+    },
+    {
+      "id": "03-campus-opens",
+      "panel": "art/final/week-01/episode-06/week-01-episode-06-art-v1.png",
+      "utterances": [
+        {
+          "speaker": "nia",
+          "text": "Sometimes the picture comes before the calculation.",
+          "pause_after": 0
+        }
+      ]
+    },
+    {
+      "id": "04-a-crowded-future",
+      "panel": "art/final/week-01/episode-07/week-01-episode-07-art-v1.png",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "Campus brings friendship, first love, and more invitations than one life can hold.",
+          "pause_after": 0
+        }
+      ]
+    },
+    {
+      "id": "05-a-boundary",
+      "panel": "art/final/week-07/episode-45/unlettered/week-07-episode-45-page-01-art-v1.png",
+      "utterances": [
+        {
+          "speaker": "nia",
+          "text": "I like showing up for people. I cannot disappear from my own schedule.",
+          "pause_after": 0
+        }
+      ]
+    },
+    {
+      "id": "06-the-human-detail",
+      "panel": "art/final/week-14/episode-92/unlettered/week-14-episode-92-page-01-art-v1.png",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "In classrooms and community rooms, mathematics becomes a way to notice what has been left out.",
+          "pause_after": 0
+        }
+      ]
+    },
+    {
+      "id": "07-work-that-serves-people",
+      "panel": "art/final/week-13/episode-88/unlettered/week-13-episode-88-page-01-art-v1.png",
+      "utterances": [
+        {
+          "speaker": "nia",
+          "text": "It is about reporting which pieces we observed, which we inferred, and how those choices change the answer.",
+          "pause_after": 0
+        }
+      ]
+    },
+    {
+      "id": "08-two-perspectives",
+      "panel": "art/final/week-13/episode-87/unlettered/week-13-episode-87-page-01-art-v1.png",
+      "utterances": [
+        {
+          "speaker": "malik",
+          "text": "Then we test it again.",
+          "pause_after": 0
+        }
+      ]
+    },
+    {
+      "id": "11-invitation-close",
+      "panel": "campaign-invitation-card.png",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "Where college life, friendship, and mathematics meet.",
+          "pause_after": 0
+        }
+      ]
+    }
+  ]
+}

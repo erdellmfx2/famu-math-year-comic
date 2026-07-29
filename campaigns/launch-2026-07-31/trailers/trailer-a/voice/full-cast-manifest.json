@@ -1,0 +1,133 @@
+{
+  "project": "The Formula of Becoming Launch - You Cannot Plan for Everything",
+  "approval_status": "approved_for_production",
+  "model": "gpt-4o-mini-tts",
+  "response_format": "mp3",
+  "default_pause_after": 0.18,
+  "speakers": {
+    "narrator": {
+      "voice": "cedar",
+      "instructions": "Speak only the supplied narration. Warm, grounded, observant, quietly lyrical, and cinematic without a booming trailer voice. Do not add words or imitate a real person."
+    },
+    "malik": {
+      "voice": "ash",
+      "instructions": "Speak only Malik's supplied words. Thoughtful, precise, guarded, and economical, with controlled feeling beneath the polish. Do not add words or imitate a real person."
+    },
+    "nia": {
+      "voice": "coral",
+      "instructions": "Speak only Nia's supplied words. Bright, expressive, curious, and emotionally available, slowing for human consequences. Do not add words or imitate a real person."
+    }
+  },
+  "scenes": [
+    {
+      "id": "10-launch-close",
+      "panel": "campaign-close-card.png",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "The Formula of Becoming. Begins July thirty-first.",
+          "pause_after": 0
+        }
+      ]
+    },
+    {
+      "id": "01-the-promise-of-control",
+      "panel": "art/final/week-01/episode-01/week-01-episode-01-art-v1.png",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "Malik Baptiste believes the right plan can keep the future from surprising him.",
+          "pause_after": 0
+        }
+      ]
+    },
+    {
+      "id": "02-the-first-changed-variable",
+      "panel": "art/final/week-01/episode-02/week-01-episode-02-art-v1.png",
+      "utterances": [
+        {
+          "speaker": "malik",
+          "text": "My family budget was balanced when I left. Now it isn't.",
+          "pause_after": 0
+        }
+      ]
+    },
+    {
+      "id": "03-a-different-way-to-see-it",
+      "panel": "art/final/week-01/episode-03/week-01-episode-03-art-v1.png",
+      "utterances": [
+        {
+          "speaker": "nia",
+          "text": "Then it was a model with new information.",
+          "pause_after": 0
+        }
+      ]
+    },
+    {
+      "id": "04-public-progress",
+      "panel": "art/final/week-07/episode-47/unlettered/week-07-episode-47-page-01-art-v1.png",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "At McCall-Hart, every answer opens another choice.",
+          "pause_after": 0
+        }
+      ]
+    },
+    {
+      "id": "05-the-storm",
+      "panel": "art/final/week-08/episode-50/unlettered/week-08-episode-50-page-01-art-v1.png",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "Then the storm turns uncertainty into something he can no longer keep off the page.",
+          "pause_after": 0
+        }
+      ]
+    },
+    {
+      "id": "06-what-water-takes",
+      "panel": "art/final/week-09/episode-57/unlettered/week-09-episode-57-page-01-art-v1.png",
+      "utterances": [
+        {
+          "speaker": "malik",
+          "text": "I keep looking at flood estimates. But I do not know how high the water got inside.",
+          "pause_after": 0
+        }
+      ]
+    },
+    {
+      "id": "07-the-honest-question",
+      "panel": "art/final/week-07/episode-49/unlettered/week-07-episode-49-page-01-art-v1.png",
+      "utterances": [
+        {
+          "speaker": "nia",
+          "text": "You trust me with goals. Why do you not trust me with bad news?",
+          "pause_after": 0
+        }
+      ]
+    },
+    {
+      "id": "08-a-horizon-not-an-answer",
+      "panel": "art/final/week-13/episode-87/unlettered/week-13-episode-87-page-01-art-v1.png",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "Mathematics cannot promise certainty. It can teach us what honesty asks next.",
+          "pause_after": 0
+        }
+      ]
+    },
+    {
+      "id": "11-invitation-close",
+      "panel": "campaign-invitation-card.png",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "Where college life, friendship, and mathematics meet.",
+          "pause_after": 0
+        }
+      ]
+    }
+  ]
+}

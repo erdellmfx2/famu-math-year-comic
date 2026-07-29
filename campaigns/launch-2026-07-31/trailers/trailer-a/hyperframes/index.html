@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1080, height=1920">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      * { box-sizing: border-box; }
+      html, body { margin: 0; width: 1080px; height: 1920px; overflow: hidden; background: #071a36; }
+      body { color: #f5e7cd; font-family: "Montserrat", sans-serif; }
+      #root { position: relative; width: 1080px; height: 1920px; overflow: hidden; }
+      .scene { position: absolute; inset: 0; overflow: hidden; background: #071a36; }
+      .scene-body { position: absolute; inset: 0; overflow: hidden; background: #071a36; opacity: 0; }
+      .image-stage { position: absolute; inset: 0 0 330px; overflow: hidden; background: #071a36; }
+      .image-stage img { width: 100%; height: 100%; object-fit: cover; object-position: center; display: block; transform-origin: center; }
+      .scene-card .image-stage { inset: 0; display: grid; place-items: center; }
+      .scene-card .image-stage img { width: auto; height: 100%; max-width: 100%; object-fit: contain; }
+      .scene-card .image-vignette { display: none; }
+      .scene-open .image-stage, .scene-invitation .image-stage { inset: 0 0 360px; }
+      .image-vignette { position: absolute; inset: 0; background:
+        linear-gradient(180deg, rgba(7,26,54,.62) 0%, transparent 22%, transparent 66%, rgba(7,26,54,.94) 100%),
+        linear-gradient(90deg, rgba(7,26,54,.28), transparent 30%, transparent 70%, rgba(7,26,54,.28)); }
+      .scene-copy { position: absolute; left: 58px; right: 58px; top: 72px; z-index: 3; }
+      .scene-number { color: #f0a05b; font-size: 22px; font-weight: 800; letter-spacing: .18em; }
+      .scene-headline { margin-top: 18px; max-width: 820px; white-space: pre-line; font-size: 72px; line-height: .94;
+        font-weight: 900; letter-spacing: -.035em; text-transform: uppercase; text-shadow: 0 3px 24px rgba(7,26,54,.9); }
+      .scene-card .scene-copy { display: none; }
+      .registration-mark { position: absolute; right: 38px; top: 40px; width: 28px; height: 28px;
+        border-top: 3px solid #c9793d; border-right: 3px solid #c9793d; z-index: 4; }
+      #caption-rail { position: absolute; left: 0; right: 0; bottom: 0; height: 360px; z-index: 20;
+        display: flex; align-items: center; justify-content: center; padding: 38px 58px 64px;
+        background: linear-gradient(180deg, rgba(7,26,54,.72), #071a36 24%); border-top: 3px solid rgba(201,121,61,.78); }
+      .caption-group { position: absolute; left: 58px; right: 58px; top: 54px; min-height: 210px;
+        display: flex; flex-direction: column; align-items: center; justify-content: center;
+        visibility: hidden; opacity: 0; text-align: center; }
+      .speaker-label { margin-bottom: 12px; color: #f0a05b; font-size: 21px; line-height: 1; font-weight: 900; letter-spacing: .18em; }
+      .caption-words { max-width: 940px; color: white; font-size: 61px; line-height: 1.08; font-weight: 850;
+        letter-spacing: -.025em; text-wrap: balance; text-shadow: 0 3px 18px rgba(0,0,0,.7); }
+      .caption-words span { display: inline-block; padding: .02em .08em; border-radius: .14em;
+        background: transparent; transform-origin: center bottom; }
+      #close-disclosure { position: absolute; left: 58px; right: 58px; bottom: 24px; z-index: 26;
+        visibility: hidden; opacity: 0; color: #c9d1dc; font-size: 19px; line-height: 1.1;
+        font-weight: 750; letter-spacing: .065em; text-align: center; text-transform: uppercase;
+        text-shadow: 0 3px 18px rgba(0,0,0,.7); }
+      #final-cta { position: absolute; left: 58px; right: 58px; top: 68px; z-index: 26;
+        visibility: hidden; opacity: 0; text-align: center; text-transform: uppercase; }
+      #final-cta strong { display: block; color: #fff8ea; font-size: 54px; line-height: 1;
+        font-weight: 900; letter-spacing: .035em; text-shadow: 0 3px 18px rgba(0,0,0,.7); }
+      #final-cta span { display: block; margin-top: 24px; color: #f0a05b; font-size: 21px;
+        line-height: 1.15; font-weight: 850; letter-spacing: .09em; }
+      .series-tag { position: absolute; left: 58px; right: 58px; bottom: 28px; z-index: 25;
+        color: #c9d1dc; font-size: 18px; font-weight: 700; letter-spacing: .08em; text-align: center; text-transform: uppercase; }
+      .grain { position: absolute; inset: 0; z-index: 30; opacity: .055;
+        background-image: repeating-linear-gradient(0deg, transparent 0, transparent 3px, rgba(255,255,255,.18) 4px); }
+    </style>
+  </head>
+  <body>
+    <main data-hf-id="hf-3v6g" id="root" data-composition-id="formula-launch-trailer-a" data-start="0" data-duration="50" data-width="1080" data-height="1920">
+
+      <section data-hf-id="hf-efbl" id="scene-01" class="clip scene scene-card scene-open" data-start="0" data-duration="4" data-track-index="1">
+        <div data-hf-id="hf-4tv0" id="scene-01-body" class="scene-body">
+          <div data-hf-id="hf-3dpj" class="image-stage" data-layout-allow-overflow="true">
+            <img data-hf-id="hf-ahbi" id="scene-01-image" src="assets/images/campaign-close-card.png" alt="">
+            <div data-hf-id="hf-5i1a" class="image-vignette"></div>
+          </div>
+          <div data-hf-id="hf-bney" class="scene-copy">
+            <div data-hf-id="hf-7sjq" class="scene-number">01 / 11</div>
+            <div data-hf-id="hf-350x" class="scene-headline">BEGINS JULY 31</div>
+          </div>
+          <div data-hf-id="hf-czss" class="registration-mark" aria-hidden="true"></div>
+        </div>
+      </section>
+      <section data-hf-id="hf-wleq" id="scene-02" class="clip scene" data-start="4" data-duration="4" data-track-index="1">
+        <div data-hf-id="hf-czgp" id="scene-02-body" class="scene-body">
+          <div data-hf-id="hf-bbgn" class="image-stage" data-layout-allow-overflow="true">
+            <img data-hf-id="hf-8pf7" id="scene-02-image" src="assets/images/week-01-episode-01-art-v1.png" alt="">
+            <div data-hf-id="hf-f8gi" class="image-vignette"></div>
+          </div>
+          <div data-hf-id="hf-ai32" class="scene-copy">
+            <div data-hf-id="hf-vfgl" class="scene-number">02 / 11</div>
+            <div data-hf-id="hf-0r3g" class="scene-headline">YOU CANNOT PLAN
+FOR EVERYTHING</div>
+          </div>
+          <div data-hf-id="hf-pz90" class="registration-mark" aria-hidden="true"></div>
+        </div>
+      </section>
+      <section data-hf-id="hf-g507" id="scene-03" class="clip scene" data-start="8" data-duration="4" data-track-index="1">
+        <div data-hf-id="hf-pgrq" id="scene-03-body" class="scene-body">
+          <div data-hf-id="hf-ax5m" class="image-stage" data-layout-allow-overflow="true">
+            <img data-hf-id="hf-1orz" id="scene-03-image" src="assets/images/week-01-episode-02-art-v1.png" alt="">
+            <div data-hf-id="hf-fmrj" class="image-vignette"></div>
+          </div>
+          <div data-hf-id="hf-awe3" class="scene-copy">
+            <div data-hf-id="hf-b2zc" class="scene-number">03 / 11</div>
+            <div data-hf-id="hf-mouk" class="scene-headline">A MODEL CHANGES</div>
+          </div>
+          <div data-hf-id="hf-osbx" class="registration-mark" aria-hidden="true"></div>
+        </div>
+      </section>
+      <section data-hf-id="hf-874f" id="scene-04" class="clip scene" data-start="12" data-duration="4" data-track-index="1">
+        <div data-hf-id="hf-2ur7" id="scene-04-body" class="scene-body">
+          <div data-hf-id="hf-aiul" class="image-stage" data-layout-allow-overflow="true">
+            <img data-hf-id="hf-ojnr" id="scene-04-image" src="assets/images/week-01-episode-03-art-v1.png" alt="">
+            <div data-hf-id="hf-g12k" class="image-vignette"></div>
+          </div>
+          <div data-hf-id="hf-bap4" class="scene-copy">
+            <div data-hf-id="hf-rw9j" class="scene-number">04 / 11</div>
+            <div data-hf-id="hf-x1re" class="scene-headline">SO CAN THE NEXT CHOICE</div>
+          </div>
+          <div data-hf-id="hf-p6my" class="registration-mark" aria-hidden="true"></div>
+        </div>
+      </section>
+      <section data-hf-id="hf-mjop" id="scene-05" class="clip scene" data-start="16" data-duration="5" data-track-index="1">
+        <div data-hf-id="hf-udgo" id="scene-05-body" class="scene-body">
+          <div data-hf-id="hf-dazs" class="image-stage" data-layout-allow-overflow="true">
+            <img data-hf-id="hf-p3zk" id="scene-05-image" src="assets/images/week-07-episode-47-page-01-art-v1.png" alt="">
+            <div data-hf-id="hf-gfdl" class="image-vignette"></div>
+          </div>
+          <div data-hf-id="hf-8ijx" class="scene-copy">
+            <div data-hf-id="hf-ujvu" class="scene-number">05 / 11</div>
+            <div data-hf-id="hf-nwis" class="scene-headline">PROGRESS CAN STILL HIDE FEAR</div>
+          </div>
+          <div data-hf-id="hf-r663" class="registration-mark" aria-hidden="true"></div>
+        </div>
+      </section>
+      <section data-hf-id="hf-ubt5" id="scene-06" class="clip scene" data-start="21" data-duration="6" data-track-index="1">
+        <div data-hf-id="hf-2oth" id="scene-06-body" class="scene-body">
+          <div data-hf-id="hf-cwor" class="image-stage" data-layout-allow-overflow="true">
+            <img data-hf-id="hf-hxe0" id="scene-06-image" src="assets/images/week-08-episode-50-page-01-art-v1.png" alt="">
+            <div data-hf-id="hf-gtom" class="image-vignette"></div>
+          </div>
+          <div data-hf-id="hf-8wuy" class="scene-copy">
+            <div data-hf-id="hf-iudl" class="scene-number">06 / 11</div>
+            <div data-hf-id="hf-334r" class="scene-headline">UNCERTAINTY BECOMES REAL</div>
+          </div>
+          <div data-hf-id="hf-rkh4" class="registration-mark" aria-hidden="true"></div>
+        </div>
+      </section>
+      <section data-hf-id="hf-hapf" id="scene-07" class="clip scene" data-start="27" data-duration="5" data-track-index="1">
+        <div data-hf-id="hf-huiq" id="scene-07-body" class="scene-body">
+          <div data-hf-id="hf-cidq" class="image-stage" data-layout-allow-overflow="true">
+            <img data-hf-id="hf-938p" id="scene-07-image" src="assets/images/week-09-episode-57-page-01-art-v1.png" alt="">
+            <div data-hf-id="hf-h7zn" class="image-vignette"></div>
+          </div>
+          <div data-hf-id="hf-9b5z" class="scene-copy">
+            <div data-hf-id="hf-1wv0" class="scene-number">07 / 11</div>
+            <div data-hf-id="hf-7ys3" class="scene-headline">WHAT THE WATER TAKES</div>
+          </div>
+          <div data-hf-id="hf-qdk1" class="registration-mark" aria-hidden="true"></div>
+        </div>
+      </section>
+      <section data-hf-id="hf-p2gh" id="scene-08" class="clip scene" data-start="32" data-duration="4" data-track-index="1">
+        <div data-hf-id="hf-ly0v" id="scene-08-body" class="scene-body">
+          <div data-hf-id="hf-c42p" class="image-stage" data-layout-allow-overflow="true">
+            <img data-hf-id="hf-om1v" id="scene-08-image" src="assets/images/week-07-episode-49-page-01-art-v1.png" alt="">
+            <div data-hf-id="hf-hmao" class="image-vignette"></div>
+          </div>
+          <div data-hf-id="hf-9ph0" class="scene-copy">
+            <div data-hf-id="hf-skwb" class="scene-number">08 / 11</div>
+            <div data-hf-id="hf-7h3f" class="scene-headline">HONESTY IS PART OF THE WORK</div>
+          </div>
+          <div data-hf-id="hf-qrv2" class="registration-mark" aria-hidden="true"></div>
+        </div>
+      </section>
+      <section data-hf-id="hf-7quk" id="scene-09" class="clip scene" data-start="36" data-duration="4" data-track-index="1">
+        <div data-hf-id="hf-kvtw" id="scene-09-body" class="scene-body">
+          <div data-hf-id="hf-ew7w" class="image-stage" data-layout-allow-overflow="true">
+            <img data-hf-id="hf-ytlz" id="scene-09-image" src="assets/images/week-13-episode-87-page-01-art-v1.png" alt="">
+            <div data-hf-id="hf-bnp9" class="image-vignette"></div>
+          </div>
+          <div data-hf-id="hf-da89" class="scene-copy">
+            <div data-hf-id="hf-skce" class="scene-number">09 / 11</div>
+            <div data-hf-id="hf-yupt" class="scene-headline">NO PERFECT ANSWERS.
+REAL NEXT CHOICES.</div>
+          </div>
+          <div data-hf-id="hf-sre7" class="registration-mark" aria-hidden="true"></div>
+        </div>
+      </section>
+      <section data-hf-id="hf-2xl8" id="scene-10" class="clip scene scene-card scene-logo" data-start="40" data-duration="4" data-track-index="1">
+        <div data-hf-id="hf-tk2a" id="scene-10-body" class="scene-body">
+          <div data-hf-id="hf-ehwv" class="image-stage" data-layout-allow-overflow="true">
+            <img data-hf-id="hf-gdon" id="scene-10-image" src="assets/images/formula-of-becoming-series-logo-v1.png" alt="">
+            <div data-hf-id="hf-c20a" class="image-vignette"></div>
+          </div>
+          <div data-hf-id="hf-doja" class="scene-copy">
+            <div data-hf-id="hf-ej9g" class="scene-number">10 / 11</div>
+            <div data-hf-id="hf-chqf" class="scene-headline">THE FORMULA OF BECOMING</div>
+          </div>
+          <div data-hf-id="hf-t5p8" class="registration-mark" aria-hidden="true"></div>
+        </div>
+      </section>
+      <section data-hf-id="hf-dtkv" id="scene-11" class="clip scene scene-card scene-invitation" data-start="44" data-duration="6" data-track-index="1">
+        <div data-hf-id="hf-4eyd" id="scene-11-body" class="scene-body">
+          <div data-hf-id="hf-v6c5" class="image-stage" data-layout-allow-overflow="true">
+            <img data-hf-id="hf-hoxw" id="scene-11-image" src="assets/images/campaign-invitation-card.png" alt="">
+            <div data-hf-id="hf-zy86" class="image-vignette"></div>
+          </div>
+          <div data-hf-id="hf-y9i2" class="scene-copy">
+            <div data-hf-id="hf-umj5" class="scene-number">11 / 11</div>
+            <div data-hf-id="hf-8aih" class="scene-headline">WHERE COLLEGE LIFE, FRIENDSHIP, AND MATHEMATICS MEET.</div>
+          </div>
+          <div data-hf-id="hf-kato" class="registration-mark" aria-hidden="true"></div>
+        </div>
+      </section>
+      <section data-hf-id="hf-x8t0" id="caption-rail" class="clip" data-start="0" data-duration="50" data-track-index="20" data-layout-allow-caption-zone="true">
+
+          <div data-hf-id="hf-4xxn" id="caption-group-00" class="caption-group">
+            <div data-hf-id="hf-llr7" class="speaker-label">NARRATOR</div>
+            <div data-hf-id="hf-fss6" class="caption-words"><span data-hf-id="hf-cdwk" id="caption-group-00-word-00">The</span> <span data-hf-id="hf-bbgu" id="caption-group-00-word-01">Formula</span> <span data-hf-id="hf-pi5u" id="caption-group-00-word-02">of</span> <span data-hf-id="hf-py2q" id="caption-group-00-word-03">Becoming.</span></div>
+          </div>
+          <div data-hf-id="hf-0ztm" id="caption-group-01" class="caption-group">
+            <div data-hf-id="hf-aaub" class="speaker-label">NARRATOR</div>
+            <div data-hf-id="hf-vil6" class="caption-words"><span data-hf-id="hf-voi2" id="caption-group-01-word-00">Begins</span> <span data-hf-id="hf-n8kr" id="caption-group-01-word-01">July</span> <span data-hf-id="hf-30yh" id="caption-group-01-word-02">thirty-first.</span></div>
+          </div>
+          <div data-hf-id="hf-uu3t" id="caption-group-02" class="caption-group">
+            <div data-hf-id="hf-9wja" class="speaker-label">NARRATOR</div>
+            <div data-hf-id="hf-vww7" class="caption-words"><span data-hf-id="hf-8btr" id="caption-group-02-word-00">Malik</span> <span data-hf-id="hf-rj0k" id="caption-group-02-word-01">Baptiste</span> <span data-hf-id="hf-oh8k" id="caption-group-02-word-02">believes</span> <span data-hf-id="hf-fr0v" id="caption-group-02-word-03">the</span></div>
+          </div>
+          <div data-hf-id="hf-u2g0" id="caption-group-03" class="caption-group">
+            <div data-hf-id="hf-9i89" class="speaker-label">NARRATOR</div>
+            <div data-hf-id="hf-wb78" class="caption-words"><span data-hf-id="hf-nmso" id="caption-group-03-word-00">right</span> <span data-hf-id="hf-ydb8" id="caption-group-03-word-01">plan</span> <span data-hf-id="hf-5hw2" id="caption-group-03-word-02">can</span> <span data-hf-id="hf-vjqk" id="caption-group-03-word-03">keep</span></div>
+          </div>
+          <div data-hf-id="hf-q4bz" id="caption-group-04" class="caption-group">
+            <div data-hf-id="hf-93x8" class="speaker-label">NARRATOR</div>
+            <div data-hf-id="hf-wpi9" class="caption-words"><span data-hf-id="hf-vnjk" id="caption-group-04-word-00">the</span> <span data-hf-id="hf-6div" id="caption-group-04-word-01">future</span> <span data-hf-id="hf-e3nz" id="caption-group-04-word-02">from</span> <span data-hf-id="hf-lnc6" id="caption-group-04-word-03">surprising</span></div>
+          </div>
+          <div data-hf-id="hf-m67y" id="caption-group-05" class="caption-group">
+            <div data-hf-id="hf-8pm7" class="speaker-label">NARRATOR</div>
+            <div data-hf-id="hf-x3ta" class="caption-words"><span data-hf-id="hf-3hfs" id="caption-group-05-word-00">him.</span></div>
+          </div>
+          <div data-hf-id="hf-i83x" id="caption-group-06" class="caption-group">
+            <div data-hf-id="hf-ej04" class="speaker-label">MALIK</div>
+            <div data-hf-id="hf-xi4b" class="caption-words"><span data-hf-id="hf-ovht" id="caption-group-06-word-00">My</span> <span data-hf-id="hf-v5f2" id="caption-group-06-word-01">family</span> <span data-hf-id="hf-zns4" id="caption-group-06-word-02">budget</span> <span data-hf-id="hf-8z7h" id="caption-group-06-word-03">was</span></div>
+          </div>
+          <div data-hf-id="hf-hgg4" id="caption-group-07" class="caption-group">
+            <div data-hf-id="hf-j2ks" class="speaker-label">MALIK</div>
+            <div data-hf-id="hf-xwfc" class="caption-words"><span data-hf-id="hf-helu" id="caption-group-07-word-00">balanced</span> <span data-hf-id="hf-vuhf" id="caption-group-07-word-01">when</span> <span data-hf-id="hf-b9bb" id="caption-group-07-word-02">I</span> <span data-hf-id="hf-zbeq" id="caption-group-07-word-03">left.</span></div>
+          </div>
+          <div data-hf-id="hf-wdj7" id="caption-group-08" class="caption-group">
+            <div data-hf-id="hf-hvnp" class="speaker-label">MALIK</div>
+            <div data-hf-id="hf-yaqd" class="caption-words"><span data-hf-id="hf-ov1j" id="caption-group-08-word-00">Now</span> <span data-hf-id="hf-wp5d" id="caption-group-08-word-01">it</span> <span data-hf-id="hf-au32" id="caption-group-08-word-02">isn't.</span></div>
+          </div>
+          <div data-hf-id="hf-sff6" id="caption-group-09" class="caption-group">
+            <div data-hf-id="hf-n2d2" class="speaker-label">NIA</div>
+            <div data-hf-id="hf-yp1e" class="caption-words"><span data-hf-id="hf-h2yn" id="caption-group-09-word-00">Then</span> <span data-hf-id="hf-wgb0" id="caption-group-09-word-01">it</span> <span data-hf-id="hf-gekz" id="caption-group-09-word-02">was</span> <span data-hf-id="hf-zt1q" id="caption-group-09-word-03">a</span></div>
+          </div>
+          <div data-hf-id="hf-3ihc" id="caption-group-10" class="caption-group">
+            <div data-hf-id="hf-1a8q" class="speaker-label">NIA</div>
+            <div data-hf-id="hf-ppb2" class="caption-words"><span data-hf-id="hf-vgnb" id="caption-group-10-word-00">model</span> <span data-hf-id="hf-u2o3" id="caption-group-10-word-01">with</span> <span data-hf-id="hf-xz1q" id="caption-group-10-word-02">new</span> <span data-hf-id="hf-uxcl" id="caption-group-10-word-03">information.</span></div>
+          </div>
+          <div data-hf-id="hf-4a55" id="caption-group-11" class="caption-group">
+            <div data-hf-id="hf-8bb6" class="speaker-label">NARRATOR</div>
+            <div data-hf-id="hf-pb01" class="caption-words"><span data-hf-id="hf-50qq" id="caption-group-11-word-00">At</span> <span data-hf-id="hf-t8y8" id="caption-group-11-word-01">McCall-Hart,</span> <span data-hf-id="hf-pitw" id="caption-group-11-word-02">every</span> <span data-hf-id="hf-ij0u" id="caption-group-11-word-03">answer</span></div>
+          </div>
+          <div data-hf-id="hf-8896" id="caption-group-12" class="caption-group">
+            <div data-hf-id="hf-7x05" class="speaker-label">NARRATOR</div>
+            <div data-hf-id="hf-qhx4" class="caption-words"><span data-hf-id="hf-x70p" id="caption-group-12-word-00">opens</span> <span data-hf-id="hf-bv94" id="caption-group-12-word-01">another</span> <span data-hf-id="hf-pwt9" id="caption-group-12-word-02">choice.</span></div>
+          </div>
+          <div data-hf-id="hf-c6d7" id="caption-group-13" class="caption-group">
+            <div data-hf-id="hf-7ip4" class="speaker-label">NARRATOR</div>
+            <div data-hf-id="hf-q3m3" class="caption-words"><span data-hf-id="hf-vdji" id="caption-group-13-word-00">Then</span> <span data-hf-id="hf-cg3r" id="caption-group-13-word-01">the</span> <span data-hf-id="hf-y5xc" id="caption-group-13-word-02">storm</span> <span data-hf-id="hf-27wi" id="caption-group-13-word-03">turns</span></div>
+          </div>
+          <div data-hf-id="hf-oovo" id="caption-group-14" class="caption-group">
+            <div data-hf-id="hf-74e3" class="speaker-label">NARRATOR</div>
+            <div data-hf-id="hf-o42y" class="caption-words"><span data-hf-id="hf-8poi" id="caption-group-14-word-00">uncertainty</span> <span data-hf-id="hf-ardp" id="caption-group-14-word-01">into</span> <span data-hf-id="hf-gjio" id="caption-group-14-word-02">something</span> <span data-hf-id="hf-y3zi" id="caption-group-14-word-03">he</span></div>
+          </div>
+          <div data-hf-id="hf-pgjh" id="caption-group-15" class="caption-group">
+            <div data-hf-id="hf-ffe1" class="speaker-label">NARRATOR</div>
+            <div data-hf-id="hf-nprx" class="caption-words"><span data-hf-id="hf-gi8v" id="caption-group-15-word-00">can</span> <span data-hf-id="hf-oxi1" id="caption-group-15-word-01">no</span> <span data-hf-id="hf-7bm4" id="caption-group-15-word-02">longer</span> <span data-hf-id="hf-s6o1" id="caption-group-15-word-03">keep</span></div>
+          </div>
+          <div data-hf-id="hf-teni" id="caption-group-16" class="caption-group">
+            <div data-hf-id="hf-ftp2" class="speaker-label">NARRATOR</div>
+            <div data-hf-id="hf-owp0" class="caption-words"><span data-hf-id="hf-9ns1" id="caption-group-16-word-00">off</span> <span data-hf-id="hf-vd98" id="caption-group-16-word-01">the</span> <span data-hf-id="hf-zd61" id="caption-group-16-word-02">page.</span></div>
+          </div>
+          <div data-hf-id="hf-xcrj" id="caption-group-17" class="caption-group">
+            <div data-hf-id="hf-i9yq" class="speaker-label">MALIK</div>
+            <div data-hf-id="hf-oidz" class="caption-words"><span data-hf-id="hf-2di0" id="caption-group-17-word-00">I</span> <span data-hf-id="hf-51zt" id="caption-group-17-word-01">keep</span> <span data-hf-id="hf-c9mg" id="caption-group-17-word-02">looking</span> <span data-hf-id="hf-3xk7" id="caption-group-17-word-03">at</span></div>
+          </div>
+          <div data-hf-id="hf-uy2w" id="caption-group-18" class="caption-group">
+            <div data-hf-id="hf-k9hv" class="speaker-label">MALIK</div>
+            <div data-hf-id="hf-svra" class="caption-words"><span data-hf-id="hf-9r9i" id="caption-group-18-word-00">flood</span> <span data-hf-id="hf-6jpk" id="caption-group-18-word-01">estimates.</span></div>
+          </div>
+          <div data-hf-id="hf-vpqp" id="caption-group-19" class="caption-group">
+            <div data-hf-id="hf-knsw" class="speaker-label">MALIK</div>
+            <div data-hf-id="hf-shg9" class="caption-words"><span data-hf-id="hf-dj1i" id="caption-group-19-word-00">But</span> <span data-hf-id="hf-7sxx" id="caption-group-19-word-01">I</span> <span data-hf-id="hf-uum4" id="caption-group-19-word-02">do</span> <span data-hf-id="hf-n03p" id="caption-group-19-word-03">not</span></div>
+          </div>
+          <div data-hf-id="hf-cm2p" id="caption-group-20" class="caption-group">
+            <div data-hf-id="hf-jgvt" class="speaker-label">MALIK</div>
+            <div data-hf-id="hf-oxn9" class="caption-words"><span data-hf-id="hf-zfg4" id="caption-group-20-word-00">know</span> <span data-hf-id="hf-43pc" id="caption-group-20-word-01">how</span> <span data-hf-id="hf-f0id" id="caption-group-20-word-02">high</span> <span data-hf-id="hf-s2if" id="caption-group-20-word-03">the</span></div>
+          </div>
+          <div data-hf-id="hf-buew" id="caption-group-21" class="caption-group">
+            <div data-hf-id="hf-jv6u" class="speaker-label">MALIK</div>
+            <div data-hf-id="hf-pbya" class="caption-words"><span data-hf-id="hf-26r1" id="caption-group-21-word-00">water</span> <span data-hf-id="hf-wznr" id="caption-group-21-word-01">got</span> <span data-hf-id="hf-2iye" id="caption-group-21-word-02">inside.</span></div>
+          </div>
+          <div data-hf-id="hf-kiar" id="caption-group-22" class="caption-group">
+            <div data-hf-id="hf-1ojr" class="speaker-label">NIA</div>
+            <div data-hf-id="hf-pq9b" class="caption-words"><span data-hf-id="hf-otzg" id="caption-group-22-word-00">You</span> <span data-hf-id="hf-hxom" id="caption-group-22-word-01">trust</span> <span data-hf-id="hf-6bjl" id="caption-group-22-word-02">me</span> <span data-hf-id="hf-wn2a" id="caption-group-22-word-03">with</span></div>
+          </div>
+          <div data-hf-id="hf-gk6q" id="caption-group-23" class="caption-group">
+            <div data-hf-id="hf-22us" class="speaker-label">NIA</div>
+            <div data-hf-id="hf-q4kc" class="caption-words"><span data-hf-id="hf-6wey" id="caption-group-23-word-00">goals.</span></div>
+          </div>
+          <div data-hf-id="hf-xsh1" id="caption-group-24" class="caption-group">
+            <div data-hf-id="hf-2h5t" class="speaker-label">NIA</div>
+            <div data-hf-id="hf-qivd" class="caption-words"><span data-hf-id="hf-orcf" id="caption-group-24-word-00">Why</span> <span data-hf-id="hf-ct1j" id="caption-group-24-word-01">do</span> <span data-hf-id="hf-xow0" id="caption-group-24-word-02">you</span> <span data-hf-id="hf-ork9" id="caption-group-24-word-03">not</span></div>
+          </div>
+          <div data-hf-id="hf-x0t8" id="caption-group-25" class="caption-group">
+            <div data-hf-id="hf-2vgu" class="speaker-label">NIA</div>
+            <div data-hf-id="hf-qx6e" class="caption-words"><span data-hf-id="hf-dm50" id="caption-group-25-word-00">trust</span> <span data-hf-id="hf-qaw1" id="caption-group-25-word-01">me</span> <span data-hf-id="hf-kn2s" id="caption-group-25-word-02">with</span> <span data-hf-id="hf-8rko" id="caption-group-25-word-03">bad</span></div>
+          </div>
+          <div data-hf-id="hf-7wav" id="caption-group-26" class="caption-group">
+            <div data-hf-id="hf-39rv" class="speaker-label">NIA</div>
+            <div data-hf-id="hf-rbhf" class="caption-words"><span data-hf-id="hf-krif" id="caption-group-26-word-00">news?</span></div>
+          </div>
+          <div data-hf-id="hf-1ql2" id="caption-group-27" class="caption-group">
+            <div data-hf-id="hf-g803" class="speaker-label">NARRATOR</div>
+            <div data-hf-id="hf-rpsg" class="caption-words"><span data-hf-id="hf-gj8q" id="caption-group-27-word-00">Mathematics</span> <span data-hf-id="hf-nbiq" id="caption-group-27-word-01">cannot</span> <span data-hf-id="hf-bb9b" id="caption-group-27-word-02">promise</span> <span data-hf-id="hf-ndu6" id="caption-group-27-word-03">certainty.</span></div>
+          </div>
+          <div data-hf-id="hf-l6h5" id="caption-group-28" class="caption-group">
+            <div data-hf-id="hf-gmb4" class="speaker-label">NARRATOR</div>
+            <div data-hf-id="hf-lr71" class="caption-words"><span data-hf-id="hf-7rzu" id="caption-group-28-word-00">It</span> <span data-hf-id="hf-cqfg" id="caption-group-28-word-01">can</span> <span data-hf-id="hf-mu1u" id="caption-group-28-word-02">teach</span> <span data-hf-id="hf-fb2g" id="caption-group-28-word-03">us</span></div>
+          </div>
+          <div data-hf-id="hf-i77k" id="caption-group-29" class="caption-group">
+            <div data-hf-id="hf-du5x" class="speaker-label">NARRATOR</div>
+            <div data-hf-id="hf-m5i2" class="caption-words"><span data-hf-id="hf-lwi8" id="caption-group-29-word-00">what</span> <span data-hf-id="hf-r0wv" id="caption-group-29-word-01">honesty</span> <span data-hf-id="hf-01eu" id="caption-group-29-word-02">asks</span> <span data-hf-id="hf-uatq" id="caption-group-29-word-03">next.</span></div>
+          </div>
+          <div data-hf-id="hf-or0m" id="caption-group-30" class="caption-group">
+            <div data-hf-id="hf-e8gy" class="speaker-label">NARRATOR</div>
+            <div data-hf-id="hf-3170" class="caption-words"><span data-hf-id="hf-4w7b" id="caption-group-30-word-00">Where</span> <span data-hf-id="hf-hsma" id="caption-group-30-word-01">college</span> <span data-hf-id="hf-np2g" id="caption-group-30-word-02">life,</span> <span data-hf-id="hf-vr07" id="caption-group-30-word-03">friendship,</span></div>
+          </div>
+          <div data-hf-id="hf-sp4n" id="caption-group-31" class="caption-group">
+            <div data-hf-id="hf-emrz" class="speaker-label">NARRATOR</div>
+            <div data-hf-id="hf-2mvz" class="caption-words"><span data-hf-id="hf-6u16" id="caption-group-31-word-00">and</span> <span data-hf-id="hf-saby" id="caption-group-31-word-01">mathematics</span> <span data-hf-id="hf-nslq" id="caption-group-31-word-02">meet.</span></div>
+          </div>
+        <div data-hf-id="hf-buva" id="final-cta"><strong data-hf-id="hf-ivva">Begins July 31</strong><span data-hf-id="hf-47ef">Presented by the Mathematics Department</span></div>
+        <div data-hf-id="hf-kqid" id="close-disclosure">Video voiceovers use AI-generated voices.</div>
+        <div data-hf-id="hf-57xo" class="series-tag">The Formula of Becoming | Presented by the Mathematics Department</div>
+      </section>
+      <div data-hf-id="hf-a8xr" id="grain" class="clip grain" data-start="0" data-duration="50" data-track-index="30" data-layout-allow-overflow="true"></div>
+      <audio data-hf-id="hf-gx4c" id="score" src="assets/audio/original-cinematic-score.wav" data-start="0" data-duration="50" data-track-index="10" data-volume="0.24"></audio>
+
+      <audio data-hf-id="hf-618m" id="voice-00" src="assets/audio/voice/10-launch-close-narrator.wav" data-start="0.2" data-duration="3.523" data-track-index="11" data-volume="1"></audio>
+      <audio data-hf-id="hf-wfr6" id="voice-01" src="assets/audio/voice/01-the-promise-of-control-narrator.wav" data-start="4.25" data-duration="4.136" data-track-index="11" data-volume="1"></audio>
+      <audio data-hf-id="hf-yp4w" id="voice-02" src="assets/audio/voice/02-the-first-changed-variable-malik.wav" data-start="8.486" data-duration="4.324" data-track-index="11" data-volume="1"></audio>
+      <audio data-hf-id="hf-y2zm" id="voice-03" src="assets/audio/voice/03-a-different-way-to-see-it-nia.wav" data-start="12.91" data-duration="3.75" data-track-index="11" data-volume="1"></audio>
+      <audio data-hf-id="hf-1ft7" id="voice-04" src="assets/audio/voice/04-public-progress-narrator.wav" data-start="16.76" data-duration="3.241" data-track-index="11" data-volume="1"></audio>
+      <audio data-hf-id="hf-yctn" id="voice-05" src="assets/audio/voice/05-the-storm-narrator.wav" data-start="20.101" data-duration="5.106" data-track-index="11" data-volume="1"></audio>
+      <audio data-hf-id="hf-nizs" id="voice-06" src="assets/audio/voice/06-what-water-takes-malik.wav" data-start="25.307" data-duration="5.66" data-track-index="11" data-volume="1"></audio>
+      <audio data-hf-id="hf-6inq" id="voice-07" src="assets/audio/voice/07-the-honest-question-nia.wav" data-start="31.067" data-duration="4.158" data-track-index="11" data-volume="1"></audio>
+      <audio data-hf-id="hf-jj1y" id="voice-08" src="assets/audio/voice/08-a-horizon-not-an-answer-narrator.wav" data-start="35.325" data-duration="4.136" data-track-index="11" data-volume="1"></audio>
+      <audio data-hf-id="hf-lc2g" id="voice-09" src="assets/audio/voice/11-invitation-close-narrator.wav" data-start="44.35" data-duration="3.691" data-track-index="11" data-volume="1"></audio>
+      <audio data-hf-id="hf-j6xe" id="impact-open" src="assets/audio/sfx/impact-bass-1.mp3" data-start="0" data-duration="1.5" data-track-index="12" data-volume="0.22"></audio>
+      <audio data-hf-id="hf-3e0j" id="story-whoosh" src="assets/audio/sfx/whoosh-cinematic.mp3" data-start="3.8" data-duration="1.2" data-track-index="13" data-volume="0.14"></audio>
+      <audio data-hf-id="hf-o6hi" id="reveal-riser" src="assets/audio/sfx/riser.mp3" data-start="38.2" data-duration="1.6" data-track-index="14" data-volume="0.18"></audio>
+      <audio data-hf-id="hf-xl26" id="logo-whoosh" src="assets/audio/sfx/whoosh-cinematic.mp3" data-start="39.8" data-duration="1.2" data-track-index="15" data-volume="0.16"></audio>
+      <audio data-hf-id="hf-1qev" id="close-chime" src="assets/audio/sfx/chime.mp3" data-start="44" data-duration="1.5" data-track-index="16" data-volume="0.16"></audio>
+    </main>
+    <script>
+      window.__timelines = window.__timelines || {};
+      var tl = gsap.timeline({ paused: true });
+
+      tl.fromTo("#scene-01-body", { opacity: 0 }, { opacity: 1, duration: 0.22, ease: "power2.out" }, 0);
+      tl.fromTo("#scene-01-image", { scale: 0.98, x: 0, y: 0 },
+        { scale: 0.94, x: 0, y: 0, duration: 4, ease: "none" }, 0);
+      tl.to("#scene-01-body", { opacity: 0, duration: 0.18, ease: "power2.in" }, 3.82);
+      tl.set("#scene-01-body", { opacity: 0 }, 4);
+      tl.fromTo("#scene-02-body", { opacity: 0 }, { opacity: 1, duration: 0.22, ease: "power2.out" }, 4);
+      tl.fromTo("#scene-02-image", { scale: 1.13, x: -22, y: -8 },
+        { scale: 1.025, x: 22, y: 8, duration: 4, ease: "none" }, 4);
+      tl.to("#scene-02-body", { opacity: 0, duration: 0.18, ease: "power2.in" }, 7.82);
+      tl.set("#scene-02-body", { opacity: 0 }, 8);
+      tl.fromTo("#scene-03-body", { opacity: 0 }, { opacity: 1, duration: 0.22, ease: "power2.out" }, 8);
+      tl.fromTo("#scene-03-image", { scale: 1.13, x: 22, y: 12 },
+        { scale: 1.025, x: -22, y: -12, duration: 4, ease: "none" }, 8);
+      tl.to("#scene-03-body", { opacity: 0, duration: 0.18, ease: "power2.in" }, 11.82);
+      tl.set("#scene-03-body", { opacity: 0 }, 12);
+      tl.fromTo("#scene-04-body", { opacity: 0 }, { opacity: 1, duration: 0.22, ease: "power2.out" }, 12);
+      tl.fromTo("#scene-04-image", { scale: 1.13, x: -22, y: -8 },
+        { scale: 1.025, x: 22, y: 8, duration: 4, ease: "none" }, 12);
+      tl.to("#scene-04-body", { opacity: 0, duration: 0.18, ease: "power2.in" }, 15.82);
+      tl.set("#scene-04-body", { opacity: 0 }, 16);
+      tl.fromTo("#scene-05-body", { opacity: 0 }, { opacity: 1, duration: 0.22, ease: "power2.out" }, 16);
+      tl.fromTo("#scene-05-image", { scale: 1.13, x: 22, y: -8 },
+        { scale: 1.025, x: -22, y: 8, duration: 5, ease: "none" }, 16);
+      tl.to("#scene-05-body", { opacity: 0, duration: 0.18, ease: "power2.in" }, 20.82);
+      tl.set("#scene-05-body", { opacity: 0 }, 21);
+      tl.fromTo("#scene-06-body", { opacity: 0 }, { opacity: 1, duration: 0.22, ease: "power2.out" }, 21);
+      tl.fromTo("#scene-06-image", { scale: 1.13, x: -22, y: 12 },
+        { scale: 1.025, x: 22, y: -12, duration: 6, ease: "none" }, 21);
+      tl.to("#scene-06-body", { opacity: 0, duration: 0.18, ease: "power2.in" }, 26.82);
+      tl.set("#scene-06-body", { opacity: 0 }, 27);
+      tl.fromTo("#scene-07-body", { opacity: 0 }, { opacity: 1, duration: 0.22, ease: "power2.out" }, 27);
+      tl.fromTo("#scene-07-image", { scale: 1.13, x: 22, y: -8 },
+        { scale: 1.025, x: -22, y: 8, duration: 5, ease: "none" }, 27);
+      tl.to("#scene-07-body", { opacity: 0, duration: 0.18, ease: "power2.in" }, 31.82);
+      tl.set("#scene-07-body", { opacity: 0 }, 32);
+      tl.fromTo("#scene-08-body", { opacity: 0 }, { opacity: 1, duration: 0.22, ease: "power2.out" }, 32);
+      tl.fromTo("#scene-08-image", { scale: 1.13, x: -22, y: -8 },
+        { scale: 1.025, x: 22, y: 8, duration: 4, ease: "none" }, 32);
+      tl.to("#scene-08-body", { opacity: 0, duration: 0.18, ease: "power2.in" }, 35.82);
+      tl.set("#scene-08-body", { opacity: 0 }, 36);
+      tl.fromTo("#scene-09-body", { opacity: 0 }, { opacity: 1, duration: 0.22, ease: "power2.out" }, 36);
+      tl.fromTo("#scene-09-image", { scale: 1.13, x: 22, y: 12 },
+        { scale: 1.025, x: -22, y: -12, duration: 4, ease: "none" }, 36);
+      tl.to("#scene-09-body", { opacity: 0, duration: 0.18, ease: "power2.in" }, 39.82);
+      tl.set("#scene-09-body", { opacity: 0 }, 40);
+      tl.fromTo("#scene-10-body", { opacity: 0 }, { opacity: 1, duration: 0.22, ease: "power2.out" }, 40);
+      tl.fromTo("#scene-10-image", { scale: 0.94, x: 0, y: 0 },
+        { scale: 0.9, x: 0, y: 0, duration: 4, ease: "none" }, 40);
+      tl.to("#scene-10-body", { opacity: 0, duration: 0.18, ease: "power2.in" }, 43.82);
+      tl.set("#scene-10-body", { opacity: 0 }, 44);
+      tl.fromTo("#scene-11-body", { opacity: 0 }, { opacity: 1, duration: 0.22, ease: "power2.out" }, 44);
+      tl.fromTo("#scene-11-image", { scale: 0.98, x: 0, y: 0 },
+        { scale: 0.94, x: 0, y: 0, duration: 6, ease: "none" }, 44);
+      tl.to("#scene-11-body", { opacity: 0, duration: 0.18, ease: "power2.in" }, 49.82);
+      tl.set("#scene-11-body", { opacity: 0 }, 50);
+      tl.to("#caption-rail", { opacity: 0, duration: 0.2, ease: "power2.in" }, 39.8);
+      tl.set("#caption-rail", { opacity: 0 }, 40);
+      tl.set("#caption-rail", { opacity: 0 }, 44);
+      tl.to("#caption-rail", { opacity: 1, duration: 0.2, ease: "power2.out" }, 44);
+
+      tl.set("#caption-group-00-word-00", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 0.2);
+      tl.set("#caption-group-00-word-00", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 0.5);
+      tl.set("#caption-group-00-word-01", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 0.5);
+      tl.set("#caption-group-00-word-01", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 0.86);
+      tl.set("#caption-group-00-word-02", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 0.86);
+      tl.set("#caption-group-00-word-02", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 1.28);
+      tl.set("#caption-group-00-word-03", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 1.28);
+      tl.set("#caption-group-00-word-03", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 1.72);
+      tl.set("#caption-group-00", { visibility: "visible", opacity: 0, y: 16 }, 0.2);
+      tl.to("#caption-group-00", { opacity: 1, y: 0, duration: 0.16, ease: "power2.out" }, 0.2);
+      tl.to("#caption-group-00", { opacity: 0, y: -8, duration: 0.12, ease: "power2.in" }, 1.6);
+      tl.set("#caption-group-00", { opacity: 0, visibility: "hidden" }, 1.72);
+      tl.set("#caption-group-01-word-00", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 1.72);
+      tl.set("#caption-group-01-word-00", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 2.66);
+      tl.set("#caption-group-01-word-01", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 2.66);
+      tl.set("#caption-group-01-word-01", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 3.08);
+      tl.set("#caption-group-01-word-02", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 3.08);
+      tl.set("#caption-group-01-word-02", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 3.86);
+      tl.set("#caption-group-01", { visibility: "visible", opacity: 0, y: 16 }, 1.72);
+      tl.to("#caption-group-01", { opacity: 1, y: 0, duration: 0.16, ease: "power2.out" }, 1.72);
+      tl.to("#caption-group-01", { opacity: 0, y: -8, duration: 0.12, ease: "power2.in" }, 3.7399999999999998);
+      tl.set("#caption-group-01", { opacity: 0, visibility: "hidden" }, 3.86);
+      tl.set("#caption-group-02-word-00", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 4.25);
+      tl.set("#caption-group-02-word-00", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 5.07);
+      tl.set("#caption-group-02-word-01", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 5.07);
+      tl.set("#caption-group-02-word-01", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 5.57);
+      tl.set("#caption-group-02-word-02", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 5.57);
+      tl.set("#caption-group-02-word-02", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 5.93);
+      tl.set("#caption-group-02-word-03", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 5.93);
+      tl.set("#caption-group-02-word-03", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 6.13);
+      tl.set("#caption-group-02", { visibility: "visible", opacity: 0, y: 16 }, 4.25);
+      tl.to("#caption-group-02", { opacity: 1, y: 0, duration: 0.16, ease: "power2.out" }, 4.25);
+      tl.to("#caption-group-02", { opacity: 0, y: -8, duration: 0.12, ease: "power2.in" }, 6.01);
+      tl.set("#caption-group-02", { opacity: 0, visibility: "hidden" }, 6.13);
+      tl.set("#caption-group-03-word-00", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 6.13);
+      tl.set("#caption-group-03-word-00", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 6.35);
+      tl.set("#caption-group-03-word-01", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 6.35);
+      tl.set("#caption-group-03-word-01", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 6.61);
+      tl.set("#caption-group-03-word-02", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 6.61);
+      tl.set("#caption-group-03-word-02", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 6.81);
+      tl.set("#caption-group-03-word-03", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 6.81);
+      tl.set("#caption-group-03-word-03", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 6.95);
+      tl.set("#caption-group-03", { visibility: "visible", opacity: 0, y: 16 }, 6.13);
+      tl.to("#caption-group-03", { opacity: 1, y: 0, duration: 0.16, ease: "power2.out" }, 6.13);
+      tl.to("#caption-group-03", { opacity: 0, y: -8, duration: 0.12, ease: "power2.in" }, 6.83);
+      tl.set("#caption-group-03", { opacity: 0, visibility: "hidden" }, 6.95);
+      tl.set("#caption-group-04-word-00", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 6.95);
+      tl.set("#caption-group-04-word-00", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 7.09);
+      tl.set("#caption-group-04-word-01", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 7.09);
+      tl.set("#caption-group-04-word-01", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 7.33);
+      tl.set("#caption-group-04-word-02", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 7.33);
+      tl.set("#caption-group-04-word-02", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 7.55);
+      tl.set("#caption-group-04-word-03", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 7.55);
+      tl.set("#caption-group-04-word-03", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 7.87);
+      tl.set("#caption-group-04", { visibility: "visible", opacity: 0, y: 16 }, 6.95);
+      tl.to("#caption-group-04", { opacity: 1, y: 0, duration: 0.16, ease: "power2.out" }, 6.95);
+      tl.to("#caption-group-04", { opacity: 0, y: -8, duration: 0.12, ease: "power2.in" }, 7.75);
+      tl.set("#caption-group-04", { opacity: 0, visibility: "hidden" }, 7.87);
+      tl.set("#caption-group-05-word-00", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 7.87);
+      tl.set("#caption-group-05-word-00", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 8.07);
+      tl.set("#caption-group-05", { visibility: "visible", opacity: 0, y: 16 }, 7.87);
+      tl.to("#caption-group-05", { opacity: 1, y: 0, duration: 0.16, ease: "power2.out" }, 7.87);
+      tl.to("#caption-group-05", { opacity: 0, y: -8, duration: 0.12, ease: "power2.in" }, 8.05);
+      tl.set("#caption-group-05", { opacity: 0, visibility: "hidden" }, 8.07);
+      tl.set("#caption-group-06-word-00", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 8.486);
+      tl.set("#caption-group-06-word-00", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 8.926);
+      tl.set("#caption-group-06-word-01", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 8.926);
+      tl.set("#caption-group-06-word-01", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 9.326);
+      tl.set("#caption-group-06-word-02", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 9.326);
+      tl.set("#caption-group-06-word-02", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 9.666);
+      tl.set("#caption-group-06-word-03", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 9.666);
+      tl.set("#caption-group-06-word-03", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 10.126);
+      tl.set("#caption-group-06", { visibility: "visible", opacity: 0, y: 16 }, 8.486);
+      tl.to("#caption-group-06", { opacity: 1, y: 0, duration: 0.16, ease: "power2.out" }, 8.486);
+      tl.to("#caption-group-06", { opacity: 0, y: -8, duration: 0.12, ease: "power2.in" }, 10.006);
+      tl.set("#caption-group-06", { opacity: 0, visibility: "hidden" }, 10.126);
+      tl.set("#caption-group-07-word-00", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 10.126);
+      tl.set("#caption-group-07-word-00", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 10.466);
+      tl.set("#caption-group-07-word-01", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 10.466);
+      tl.set("#caption-group-07-word-01", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 10.726);
+      tl.set("#caption-group-07-word-02", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 10.726);
+      tl.set("#caption-group-07-word-02", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 11.046);
+      tl.set("#caption-group-07-word-03", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 11.046);
+      tl.set("#caption-group-07-word-03", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 11.146);
+      tl.set("#caption-group-07", { visibility: "visible", opacity: 0, y: 16 }, 10.126);
+      tl.to("#caption-group-07", { opacity: 1, y: 0, duration: 0.16, ease: "power2.out" }, 10.126);
+      tl.to("#caption-group-07", { opacity: 0, y: -8, duration: 0.12, ease: "power2.in" }, 11.026000000000002);
+      tl.set("#caption-group-07", { opacity: 0, visibility: "hidden" }, 11.146);
+      tl.set("#caption-group-08-word-00", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 11.806);
+      tl.set("#caption-group-08-word-00", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 12.046);
+      tl.set("#caption-group-08-word-01", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 12.046);
+      tl.set("#caption-group-08-word-01", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 12.326);
+      tl.set("#caption-group-08-word-02", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 12.326);
+      tl.set("#caption-group-08-word-02", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 12.566);
+      tl.set("#caption-group-08", { visibility: "visible", opacity: 0, y: 16 }, 11.806);
+      tl.to("#caption-group-08", { opacity: 1, y: 0, duration: 0.16, ease: "power2.out" }, 11.806);
+      tl.to("#caption-group-08", { opacity: 0, y: -8, duration: 0.12, ease: "power2.in" }, 12.446000000000002);
+      tl.set("#caption-group-08", { opacity: 0, visibility: "hidden" }, 12.566);
+      tl.set("#caption-group-09-word-00", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 12.91);
+      tl.set("#caption-group-09-word-00", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 13.27);
+      tl.set("#caption-group-09-word-01", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 13.27);
+      tl.set("#caption-group-09-word-01", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 13.43);
+      tl.set("#caption-group-09-word-02", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 13.43);
+      tl.set("#caption-group-09-word-02", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 13.63);
+      tl.set("#caption-group-09-word-03", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 13.63);
+      tl.set("#caption-group-09-word-03", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 13.87);
+      tl.set("#caption-group-09", { visibility: "visible", opacity: 0, y: 16 }, 12.91);
+      tl.to("#caption-group-09", { opacity: 1, y: 0, duration: 0.16, ease: "power2.out" }, 12.91);
+      tl.to("#caption-group-09", { opacity: 0, y: -8, duration: 0.12, ease: "power2.in" }, 13.75);
+      tl.set("#caption-group-09", { opacity: 0, visibility: "hidden" }, 13.87);
+      tl.set("#caption-group-10-word-00", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 13.87);
+      tl.set("#caption-group-10-word-00", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 13.99);
+      tl.set("#caption-group-10-word-01", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 13.99);
+      tl.set("#caption-group-10-word-01", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 14.37);
+      tl.set("#caption-group-10-word-02", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 14.37);
+      tl.set("#caption-group-10-word-02", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 14.65);
+      tl.set("#caption-group-10-word-03", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 14.65);
+      tl.set("#caption-group-10-word-03", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 15.17);
+      tl.set("#caption-group-10", { visibility: "visible", opacity: 0, y: 16 }, 13.87);
+      tl.to("#caption-group-10", { opacity: 1, y: 0, duration: 0.16, ease: "power2.out" }, 13.87);
+      tl.to("#caption-group-10", { opacity: 0, y: -8, duration: 0.12, ease: "power2.in" }, 15.05);
+      tl.set("#caption-group-10", { opacity: 0, visibility: "hidden" }, 15.17);
+      tl.set("#caption-group-11-word-00", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 16.76);
+      tl.set("#caption-group-11-word-00", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 16.9);
+      tl.set("#caption-group-11-word-01", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 16.9);
+      tl.set("#caption-group-11-word-01", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 17.603);
+      tl.set("#caption-group-11-word-02", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 17.603);
+      tl.set("#caption-group-11-word-02", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 17.954);
+      tl.set("#caption-group-11-word-03", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 17.954);
+      tl.set("#caption-group-11-word-03", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 18.376);
+      tl.set("#caption-group-11", { visibility: "visible", opacity: 0, y: 16 }, 16.76);
+      tl.to("#caption-group-11", { opacity: 1, y: 0, duration: 0.16, ease: "power2.out" }, 16.76);
+      tl.to("#caption-group-11", { opacity: 0, y: -8, duration: 0.12, ease: "power2.in" }, 18.256);
+      tl.set("#caption-group-11", { opacity: 0, visibility: "hidden" }, 18.376);
+      tl.set("#caption-group-12-word-00", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 18.376);
+      tl.set("#caption-group-12-word-00", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 18.727);
+      tl.set("#caption-group-12-word-01", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 18.727);
+      tl.set("#caption-group-12-word-01", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 19.219);
+      tl.set("#caption-group-12-word-02", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 19.219);
+      tl.set("#caption-group-12-word-02", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 19.64);
+      tl.set("#caption-group-12", { visibility: "visible", opacity: 0, y: 16 }, 18.376);
+      tl.to("#caption-group-12", { opacity: 1, y: 0, duration: 0.16, ease: "power2.out" }, 18.376);
+      tl.to("#caption-group-12", { opacity: 0, y: -8, duration: 0.12, ease: "power2.in" }, 19.52);
+      tl.set("#caption-group-12", { opacity: 0, visibility: "hidden" }, 19.64);
+      tl.set("#caption-group-13-word-00", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 20.101);
+      tl.set("#caption-group-13-word-00", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 20.521);
+      tl.set("#caption-group-13-word-01", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 20.781);
+      tl.set("#caption-group-13-word-01", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 21.021);
+      tl.set("#caption-group-13-word-02", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 21.021);
+      tl.set("#caption-group-13-word-02", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 21.281);
+      tl.set("#caption-group-13-word-03", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 21.281);
+      tl.set("#caption-group-13-word-03", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 21.621);
+      tl.set("#caption-group-13", { visibility: "visible", opacity: 0, y: 16 }, 20.101);
+      tl.to("#caption-group-13", { opacity: 1, y: 0, duration: 0.16, ease: "power2.out" }, 20.101);
+      tl.to("#caption-group-13", { opacity: 0, y: -8, duration: 0.12, ease: "power2.in" }, 21.500999999999998);
+      tl.set("#caption-group-13", { opacity: 0, visibility: "hidden" }, 21.621);
+      tl.set("#caption-group-14-word-00", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 21.621);
+      tl.set("#caption-group-14-word-00", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 22.181);
+      tl.set("#caption-group-14-word-01", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 22.181);
+      tl.set("#caption-group-14-word-01", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 22.741);
+      tl.set("#caption-group-14-word-02", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 22.741);
+      tl.set("#caption-group-14-word-02", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 23.061);
+      tl.set("#caption-group-14-word-03", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 23.061);
+      tl.set("#caption-group-14-word-03", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 23.201);
+      tl.set("#caption-group-14", { visibility: "visible", opacity: 0, y: 16 }, 21.621);
+      tl.to("#caption-group-14", { opacity: 1, y: 0, duration: 0.16, ease: "power2.out" }, 21.621);
+      tl.to("#caption-group-14", { opacity: 0, y: -8, duration: 0.12, ease: "power2.in" }, 23.081);
+      tl.set("#caption-group-14", { opacity: 0, visibility: "hidden" }, 23.201);
+      tl.set("#caption-group-15-word-00", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 23.201);
+      tl.set("#caption-group-15-word-00", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 23.361);
+      tl.set("#caption-group-15-word-01", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 23.361);
+      tl.set("#caption-group-15-word-01", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 23.541);
+      tl.set("#caption-group-15-word-02", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 23.541);
+      tl.set("#caption-group-15-word-02", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 23.841);
+      tl.set("#caption-group-15-word-03", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 23.841);
+      tl.set("#caption-group-15-word-03", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 24.101);
+      tl.set("#caption-group-15", { visibility: "visible", opacity: 0, y: 16 }, 23.201);
+      tl.to("#caption-group-15", { opacity: 1, y: 0, duration: 0.16, ease: "power2.out" }, 23.201);
+      tl.to("#caption-group-15", { opacity: 0, y: -8, duration: 0.12, ease: "power2.in" }, 23.980999999999998);
+      tl.set("#caption-group-15", { opacity: 0, visibility: "hidden" }, 24.101);
+      tl.set("#caption-group-16-word-00", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 24.101);
+      tl.set("#caption-group-16-word-00", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 24.281);
+      tl.set("#caption-group-16-word-01", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 24.281);
+      tl.set("#caption-group-16-word-01", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 24.401);
+      tl.set("#caption-group-16-word-02", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 24.401);
+      tl.set("#caption-group-16-word-02", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 24.701);
+      tl.set("#caption-group-16", { visibility: "visible", opacity: 0, y: 16 }, 24.101);
+      tl.to("#caption-group-16", { opacity: 1, y: 0, duration: 0.16, ease: "power2.out" }, 24.101);
+      tl.to("#caption-group-16", { opacity: 0, y: -8, duration: 0.12, ease: "power2.in" }, 24.581);
+      tl.set("#caption-group-16", { opacity: 0, visibility: "hidden" }, 24.701);
+      tl.set("#caption-group-17-word-00", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 25.307);
+      tl.set("#caption-group-17-word-00", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 25.867);
+      tl.set("#caption-group-17-word-01", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 25.867);
+      tl.set("#caption-group-17-word-01", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 26.067);
+      tl.set("#caption-group-17-word-02", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 26.067);
+      tl.set("#caption-group-17-word-02", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 26.407);
+      tl.set("#caption-group-17-word-03", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 26.407);
+      tl.set("#caption-group-17-word-03", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 26.787);
+      tl.set("#caption-group-17", { visibility: "visible", opacity: 0, y: 16 }, 25.307);
+      tl.to("#caption-group-17", { opacity: 1, y: 0, duration: 0.16, ease: "power2.out" }, 25.307);
+      tl.to("#caption-group-17", { opacity: 0, y: -8, duration: 0.12, ease: "power2.in" }, 26.666999999999998);
+      tl.set("#caption-group-17", { opacity: 0, visibility: "hidden" }, 26.787);
+      tl.set("#caption-group-18-word-00", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 26.787);
+      tl.set("#caption-group-18-word-00", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 26.927);
+      tl.set("#caption-group-18-word-01", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 26.927);
+      tl.set("#caption-group-18-word-01", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 27.347);
+      tl.set("#caption-group-18", { visibility: "visible", opacity: 0, y: 16 }, 26.787);
+      tl.to("#caption-group-18", { opacity: 1, y: 0, duration: 0.16, ease: "power2.out" }, 26.787);
+      tl.to("#caption-group-18", { opacity: 0, y: -8, duration: 0.12, ease: "power2.in" }, 27.227);
+      tl.set("#caption-group-18", { opacity: 0, visibility: "hidden" }, 27.347);
+      tl.set("#caption-group-19-word-00", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 28.047);
+      tl.set("#caption-group-19-word-00", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 28.087);
+      tl.set("#caption-group-19-word-01", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 28.087);
+      tl.set("#caption-group-19-word-01", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 28.287);
+      tl.set("#caption-group-19-word-02", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 28.287);
+      tl.set("#caption-group-19-word-02", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 28.407);
+      tl.set("#caption-group-19-word-03", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 28.407);
+      tl.set("#caption-group-19-word-03", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 28.607);
+      tl.set("#caption-group-19", { visibility: "visible", opacity: 0, y: 16 }, 28.047);
+      tl.to("#caption-group-19", { opacity: 1, y: 0, duration: 0.16, ease: "power2.out" }, 28.047);
+      tl.to("#caption-group-19", { opacity: 0, y: -8, duration: 0.12, ease: "power2.in" }, 28.487);
+      tl.set("#caption-group-19", { opacity: 0, visibility: "hidden" }, 28.607);
+      tl.set("#caption-group-20-word-00", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 28.607);
+      tl.set("#caption-group-20-word-00", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 28.907);
+      tl.set("#caption-group-20-word-01", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 28.907);
+      tl.set("#caption-group-20-word-01", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 29.167);
+      tl.set("#caption-group-20-word-02", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 29.167);
+      tl.set("#caption-group-20-word-02", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 29.427);
+      tl.set("#caption-group-20-word-03", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 29.427);
+      tl.set("#caption-group-20-word-03", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 29.687);
+      tl.set("#caption-group-20", { visibility: "visible", opacity: 0, y: 16 }, 28.607);
+      tl.to("#caption-group-20", { opacity: 1, y: 0, duration: 0.16, ease: "power2.out" }, 28.607);
+      tl.to("#caption-group-20", { opacity: 0, y: -8, duration: 0.12, ease: "power2.in" }, 29.567);
+      tl.set("#caption-group-20", { opacity: 0, visibility: "hidden" }, 29.687);
+      tl.set("#caption-group-21-word-00", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 29.687);
+      tl.set("#caption-group-21-word-00", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 29.867);
+      tl.set("#caption-group-21-word-01", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 29.867);
+      tl.set("#caption-group-21-word-01", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 30.147);
+      tl.set("#caption-group-21-word-02", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 30.147);
+      tl.set("#caption-group-21-word-02", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 30.567);
+      tl.set("#caption-group-21", { visibility: "visible", opacity: 0, y: 16 }, 29.687);
+      tl.to("#caption-group-21", { opacity: 1, y: 0, duration: 0.16, ease: "power2.out" }, 29.687);
+      tl.to("#caption-group-21", { opacity: 0, y: -8, duration: 0.12, ease: "power2.in" }, 30.447);
+      tl.set("#caption-group-21", { opacity: 0, visibility: "hidden" }, 30.567);
+      tl.set("#caption-group-22-word-00", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 31.067);
+      tl.set("#caption-group-22-word-00", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 31.607);
+      tl.set("#caption-group-22-word-01", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 31.607);
+      tl.set("#caption-group-22-word-01", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 31.907);
+      tl.set("#caption-group-22-word-02", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 31.907);
+      tl.set("#caption-group-22-word-02", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 32.067);
+      tl.set("#caption-group-22-word-03", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 32.067);
+      tl.set("#caption-group-22-word-03", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 32.267);
+      tl.set("#caption-group-22", { visibility: "visible", opacity: 0, y: 16 }, 31.067);
+      tl.to("#caption-group-22", { opacity: 1, y: 0, duration: 0.16, ease: "power2.out" }, 31.067);
+      tl.to("#caption-group-22", { opacity: 0, y: -8, duration: 0.12, ease: "power2.in" }, 32.147000000000006);
+      tl.set("#caption-group-22", { opacity: 0, visibility: "hidden" }, 32.267);
+      tl.set("#caption-group-23-word-00", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 32.267);
+      tl.set("#caption-group-23-word-00", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 32.587);
+      tl.set("#caption-group-23", { visibility: "visible", opacity: 0, y: 16 }, 32.267);
+      tl.to("#caption-group-23", { opacity: 1, y: 0, duration: 0.16, ease: "power2.out" }, 32.267);
+      tl.to("#caption-group-23", { opacity: 0, y: -8, duration: 0.12, ease: "power2.in" }, 32.467000000000006);
+      tl.set("#caption-group-23", { opacity: 0, visibility: "hidden" }, 32.587);
+      tl.set("#caption-group-24-word-00", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 32.887);
+      tl.set("#caption-group-24-word-00", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 33.307);
+      tl.set("#caption-group-24-word-01", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 33.307);
+      tl.set("#caption-group-24-word-01", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 33.387);
+      tl.set("#caption-group-24-word-02", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 33.387);
+      tl.set("#caption-group-24-word-02", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 33.507);
+      tl.set("#caption-group-24-word-03", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 33.507);
+      tl.set("#caption-group-24-word-03", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 33.707);
+      tl.set("#caption-group-24", { visibility: "visible", opacity: 0, y: 16 }, 32.887);
+      tl.to("#caption-group-24", { opacity: 1, y: 0, duration: 0.16, ease: "power2.out" }, 32.887);
+      tl.to("#caption-group-24", { opacity: 0, y: -8, duration: 0.12, ease: "power2.in" }, 33.587);
+      tl.set("#caption-group-24", { opacity: 0, visibility: "hidden" }, 33.707);
+      tl.set("#caption-group-25-word-00", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 33.707);
+      tl.set("#caption-group-25-word-00", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 33.927);
+      tl.set("#caption-group-25-word-01", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 33.927);
+      tl.set("#caption-group-25-word-01", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 34.067);
+      tl.set("#caption-group-25-word-02", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 34.067);
+      tl.set("#caption-group-25-word-02", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 34.287);
+      tl.set("#caption-group-25-word-03", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 34.287);
+      tl.set("#caption-group-25-word-03", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 34.507);
+      tl.set("#caption-group-25", { visibility: "visible", opacity: 0, y: 16 }, 33.707);
+      tl.to("#caption-group-25", { opacity: 1, y: 0, duration: 0.16, ease: "power2.out" }, 33.707);
+      tl.to("#caption-group-25", { opacity: 0, y: -8, duration: 0.12, ease: "power2.in" }, 34.387);
+      tl.set("#caption-group-25", { opacity: 0, visibility: "hidden" }, 34.507);
+      tl.set("#caption-group-26-word-00", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 34.507);
+      tl.set("#caption-group-26-word-00", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 34.807);
+      tl.set("#caption-group-26", { visibility: "visible", opacity: 0, y: 16 }, 34.507);
+      tl.to("#caption-group-26", { opacity: 1, y: 0, duration: 0.16, ease: "power2.out" }, 34.507);
+      tl.to("#caption-group-26", { opacity: 0, y: -8, duration: 0.12, ease: "power2.in" }, 34.687000000000005);
+      tl.set("#caption-group-26", { opacity: 0, visibility: "hidden" }, 34.807);
+      tl.set("#caption-group-27-word-00", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 35.325);
+      tl.set("#caption-group-27-word-00", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 35.925);
+      tl.set("#caption-group-27-word-01", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 35.925);
+      tl.set("#caption-group-27-word-01", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 36.245);
+      tl.set("#caption-group-27-word-02", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 36.245);
+      tl.set("#caption-group-27-word-02", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 36.565);
+      tl.set("#caption-group-27-word-03", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 36.565);
+      tl.set("#caption-group-27-word-03", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 36.945);
+      tl.set("#caption-group-27", { visibility: "visible", opacity: 0, y: 16 }, 35.325);
+      tl.to("#caption-group-27", { opacity: 1, y: 0, duration: 0.16, ease: "power2.out" }, 35.325);
+      tl.to("#caption-group-27", { opacity: 0, y: -8, duration: 0.12, ease: "power2.in" }, 36.825);
+      tl.set("#caption-group-27", { opacity: 0, visibility: "hidden" }, 36.945);
+      tl.set("#caption-group-28-word-00", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 37.705);
+      tl.set("#caption-group-28-word-00", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 37.705);
+      tl.set("#caption-group-28-word-01", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 37.705);
+      tl.set("#caption-group-28-word-01", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 37.865);
+      tl.set("#caption-group-28-word-02", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 37.865);
+      tl.set("#caption-group-28-word-02", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 38.045);
+      tl.set("#caption-group-28-word-03", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 38.045);
+      tl.set("#caption-group-28-word-03", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 38.205);
+      tl.set("#caption-group-28", { visibility: "visible", opacity: 0, y: 16 }, 37.705);
+      tl.to("#caption-group-28", { opacity: 1, y: 0, duration: 0.16, ease: "power2.out" }, 37.705);
+      tl.to("#caption-group-28", { opacity: 0, y: -8, duration: 0.12, ease: "power2.in" }, 38.085);
+      tl.set("#caption-group-28", { opacity: 0, visibility: "hidden" }, 38.205);
+      tl.set("#caption-group-29-word-00", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 38.205);
+      tl.set("#caption-group-29-word-00", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 38.345);
+      tl.set("#caption-group-29-word-01", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 38.345);
+      tl.set("#caption-group-29-word-01", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 38.685);
+      tl.set("#caption-group-29-word-02", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 38.685);
+      tl.set("#caption-group-29-word-02", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 39.005);
+      tl.set("#caption-group-29-word-03", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 39.005);
+      tl.set("#caption-group-29-word-03", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 39.305);
+      tl.set("#caption-group-29", { visibility: "visible", opacity: 0, y: 16 }, 38.205);
+      tl.to("#caption-group-29", { opacity: 1, y: 0, duration: 0.16, ease: "power2.out" }, 38.205);
+      tl.to("#caption-group-29", { opacity: 0, y: -8, duration: 0.12, ease: "power2.in" }, 39.185);
+      tl.set("#caption-group-29", { opacity: 0, visibility: "hidden" }, 39.305);
+      tl.set("#caption-group-30-word-00", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 44.35);
+      tl.set("#caption-group-30-word-00", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 44.83);
+      tl.set("#caption-group-30-word-01", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 44.83);
+      tl.set("#caption-group-30-word-01", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 45.29);
+      tl.set("#caption-group-30-word-02", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 45.29);
+      tl.set("#caption-group-30-word-02", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 45.71);
+      tl.set("#caption-group-30-word-03", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 46.43);
+      tl.set("#caption-group-30-word-03", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 46.43);
+      tl.set("#caption-group-30", { visibility: "visible", opacity: 0, y: 16 }, 44.35);
+      tl.to("#caption-group-30", { opacity: 1, y: 0, duration: 0.16, ease: "power2.out" }, 44.35);
+      tl.to("#caption-group-30", { opacity: 0, y: -8, duration: 0.12, ease: "power2.in" }, 46.31);
+      tl.set("#caption-group-30", { opacity: 0, visibility: "hidden" }, 46.43);
+      tl.set("#caption-group-31-word-00", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 46.51);
+      tl.set("#caption-group-31-word-00", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 47.41);
+      tl.set("#caption-group-31-word-01", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 47.41);
+      tl.set("#caption-group-31-word-01", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 47.41);
+      tl.set("#caption-group-31-word-02", { color: "#ffffff", backgroundColor: "#215732", scale: 1 }, 47.41);
+      tl.set("#caption-group-31-word-02", { color: "#ffffff", backgroundColor: "transparent", scale: 1 }, 47.69);
+      tl.set("#caption-group-31", { visibility: "visible", opacity: 0, y: 16 }, 46.51);
+      tl.to("#caption-group-31", { opacity: 1, y: 0, duration: 0.16, ease: "power2.out" }, 46.51);
+      tl.to("#caption-group-31", { opacity: 0, y: -8, duration: 0.12, ease: "power2.in" }, 47.57);
+      tl.set("#caption-group-31", { opacity: 0, visibility: "hidden" }, 47.69);
+      tl.to(".series-tag", { opacity: 0, duration: 0.15, ease: "power2.in" }, 44);
+      tl.set("#close-disclosure", { visibility: "visible", opacity: 0, y: 6 }, 44.12);
+      tl.to("#close-disclosure", { opacity: 1, y: 0, duration: 0.18, ease: "power2.out" }, 44.12);
+      tl.set("#final-cta", { visibility: "visible", opacity: 0, y: 8 }, 48.12);
+      tl.to("#final-cta", { opacity: 1, y: 0, duration: 0.22, ease: "power2.out" }, 48.12);
+      window.__timelines["formula-launch-trailer-a"] = tl;
+    </script>
+  </body>
+</html>

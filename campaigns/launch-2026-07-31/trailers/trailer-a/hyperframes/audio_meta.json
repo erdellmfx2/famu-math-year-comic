@@ -1,0 +1,90 @@
+{
+  "duration": 50,
+  "score": "assets/audio/original-cinematic-score.wav",
+  "score_provenance": "Original deterministic procedural instrumental generated for this campaign.",
+  "voice_model": "gpt-4o-mini-tts",
+  "word_timing_model": "whisper-1",
+  "lines": [
+    {
+      "scene": "10-launch-close",
+      "speaker": "narrator",
+      "text": "The Formula of Becoming. Begins July thirty-first.",
+      "file": "assets/audio/voice/10-launch-close-narrator.wav",
+      "duration": 3.523,
+      "start": 0.2
+    },
+    {
+      "scene": "01-the-promise-of-control",
+      "speaker": "narrator",
+      "text": "Malik Baptiste believes the right plan can keep the future from surprising him.",
+      "file": "assets/audio/voice/01-the-promise-of-control-narrator.wav",
+      "duration": 4.136,
+      "start": 4.25
+    },
+    {
+      "scene": "02-the-first-changed-variable",
+      "speaker": "malik",
+      "text": "My family budget was balanced when I left. Now it isn't.",
+      "file": "assets/audio/voice/02-the-first-changed-variable-malik.wav",
+      "duration": 4.324,
+      "start": 8.486
+    },
+    {
+      "scene": "03-a-different-way-to-see-it",
+      "speaker": "nia",
+      "text": "Then it was a model with new information.",
+      "file": "assets/audio/voice/03-a-different-way-to-see-it-nia.wav",
+      "duration": 3.75,
+      "start": 12.91
+    },
+    {
+      "scene": "04-public-progress",
+      "speaker": "narrator",
+      "text": "At McCall-Hart, every answer opens another choice.",
+      "file": "assets/audio/voice/04-public-progress-narrator.wav",
+      "duration": 3.241,
+      "start": 16.76
+    },
+    {
+      "scene": "05-the-storm",
+      "speaker": "narrator",
+      "text": "Then the storm turns uncertainty into something he can no longer keep off the page.",
+      "file": "assets/audio/voice/05-the-storm-narrator.wav",
+      "duration": 5.106,
+      "start": 20.101
+    },
+    {
+      "scene": "06-what-water-takes",
+      "speaker": "malik",
+      "text": "I keep looking at flood estimates. But I do not know how high the water got inside.",
+      "file": "assets/audio/voice/06-what-water-takes-malik.wav",
+      "duration": 5.66,
+      "start": 25.307
+    },
+    {
+      "scene": "07-the-honest-question",
+      "speaker": "nia",
+      "text": "You trust me with goals. Why do you not trust me with bad news?",
+      "file": "assets/audio/voice/07-the-honest-question-nia.wav",
+      "duration": 4.158,
+      "start": 31.067
+    },
+    {
+      "scene": "08-a-horizon-not-an-answer",
+      "speaker": "narrator",
+      "text": "Mathematics cannot promise certainty. It can teach us what honesty asks next.",
+      "file": "assets/audio/voice/08-a-horizon-not-an-answer-narrator.wav",
+      "duration": 4.136,
+      "start": 35.325
+    },
+    {
+      "scene": "11-invitation-close",
+      "speaker": "narrator",
+      "text": "Where college life, friendship, and mathematics meet.",
+      "file": "assets/audio/voice/11-invitation-close-narrator.wav",
+      "duration": 3.691,
+      "start": 44.35
+    }
+  ],
+  "captions": "assets/audio/word-timings.json"
+}
