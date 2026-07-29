@@ -1,0 +1,57 @@
+{
+  "project": "The Formula of Becoming - Week 1 Day 3 - Full Cast",
+  "model": "gpt-4o-mini-tts",
+  "response_format": "mp3",
+  "default_pause_after": 0.18,
+  "speakers": {
+    "narrator": { "voice": "cedar", "instructions": "Speak only supplied narration in a warm, grounded, observant, quietly lyrical documentary delivery. Be clear, restrained, and unhurried. Do not perform character dialogue or add words." },
+    "malik": { "voice": "ash", "instructions": "Speak only Malik's supplied words. He is precise, guarded, economical, and quietly warm when trust appears. Use a measured medium-low delivery and dry humor without adding words." },
+    "nia": { "voice": "coral", "instructions": "Speak only Nia's supplied words. She is bright, expressive, curious, and playful, with a lively conversational pace. Slow slightly for human consequences. Do not add words." },
+    "dr-brooks": { "voice": "marin", "instructions": "Speak only Dr. Camille Brooks's supplied words with calm, warm, intellectually demanding classroom authority. Do not add words." }
+  },
+  "scenes": [
+    { "id": "01-task", "panel": "page-01-panels-01-02", "utterances": [
+      { "speaker": "narrator", "text": "Their diagnostic modeling task arrived Sunday afternoon. A neighborhood food cooperative wanted to offer produce boxes at several prices. Students had to create a model showing how the number of subscribers could affect weekly revenue. The prompt included a tiny data table and just enough ambiguity to start an argument." },
+      { "speaker": "narrator", "text": "Malik built formulas immediately." },
+      { "speaker": "narrator", "text": "Nia turned the page sideways and drew three families standing near a bus stop." },
+      { "speaker": "malik", "text": "We have forty minutes," },
+      { "speaker": "narrator", "text": "he said." },
+      { "speaker": "nia", "text": "I know." },
+      { "speaker": "malik", "text": "Then why are there people?" },
+      { "speaker": "nia", "text": "Because people buy the boxes." }
+    ]},
+    { "id": "02-meaning", "panel": "page-01-panels-02-03", "utterances": [
+      { "speaker": "malik", "text": "The model needs variables." },
+      { "speaker": "nia", "text": "And the variables need meaning." },
+      { "speaker": "narrator", "text": "He pointed to his screen." },
+      { "speaker": "malik", "text": "Subscribers, price, revenue." },
+      { "speaker": "narrator", "text": "She pointed to her drawing." },
+      { "speaker": "nia", "text": "Distance, pickup time, household size. If the pickup site is hard to reach, lowering the price might not increase subscribers the way we expect." },
+      { "speaker": "malik", "text": "None of that is in the data." },
+      { "speaker": "nia", "text": "Then we write that it is not in the data." }
+    ]},
+    { "id": "03-standoff", "panel": "page-01-panel-04", "utterances": [
+      { "speaker": "narrator", "text": "For five stubborn minutes, they worked beside each other instead of together. Malik's table became neat and uselessly confident. Nia's sketch became thoughtful and mathematically unfinished." },
+      { "speaker": "narrator", "text": "Finally, Malik rotated his laptop toward her." },
+      { "speaker": "malik", "text": "Suppose we label my formula a first model and list your factors as limitations." },
+      { "speaker": "narrator", "text": "Nia rotated her notebook toward him." },
+      { "speaker": "nia", "text": "Suppose we also explain what information we would collect next." },
+      { "speaker": "malik", "text": "That is outside the prompt." },
+      { "speaker": "nia", "text": "It is also a good idea." },
+      { "speaker": "narrator", "text": "He sighed." },
+      { "speaker": "malik", "text": "Fine." }
+    ]},
+    { "id": "04-revision", "panel": "page-02-panels-01-03", "utterances": [
+      { "speaker": "narrator", "text": "Their final answer was the strongest in the room." },
+      { "speaker": "narrator", "text": "Dr. Brooks praised the explicit function, then tapped the limitations section." },
+      { "speaker": "dr-brooks", "text": "This is where calculation becomes judgment." },
+      { "speaker": "narrator", "text": "Nia nudged Malik with her elbow." },
+      { "speaker": "malik", "text": "Do not celebrate," },
+      { "speaker": "narrator", "text": "he whispered." }
+    ]},
+    { "id": "05-us", "panel": "page-02-panel-04", "utterances": [
+      { "speaker": "nia", "text": "I am celebrating us. Different thing." },
+      { "speaker": "narrator", "text": "He pretended to review the equation so she would not see how much he liked the word us." }
+    ]}
+  ]
+}

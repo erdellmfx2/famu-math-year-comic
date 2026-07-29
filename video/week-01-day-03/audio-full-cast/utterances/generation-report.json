@@ -1,0 +1,321 @@
+{
+  "project": "The Formula of Becoming - Week 1 Day 3 - Full Cast",
+  "model": "gpt-4o-mini-tts",
+  "pronunciation_lexicon": "audio/voice-casting/pronunciation-lexicon.json",
+  "match_text": null,
+  "items": [
+    {
+      "scene": "01-task",
+      "order": 1,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Their diagnostic modeling task arrived Sunday afternoon. A neighborhood food cooperative wanted to offer produce boxes at several prices. Students had to create a model showing how the number of subscribers could affect weekly revenue. The prompt included a tiny data table and just enough ambiguity to start an argument.",
+      "file": "01-task-001-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "01-task",
+      "order": 2,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Malik built formulas immediately.",
+      "file": "01-task-002-narrator.mp3",
+      "pronunciations": [
+        "malik-baptiste"
+      ]
+    },
+    {
+      "scene": "01-task",
+      "order": 3,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Nia turned the page sideways and drew three families standing near a bus stop.",
+      "file": "01-task-003-narrator.mp3",
+      "pronunciations": [
+        "nia-reynolds"
+      ]
+    },
+    {
+      "scene": "01-task",
+      "order": 4,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "We have forty minutes,",
+      "file": "01-task-004-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "01-task",
+      "order": 5,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "he said.",
+      "file": "01-task-005-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "01-task",
+      "order": 6,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "I know.",
+      "file": "01-task-006-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "01-task",
+      "order": 7,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "Then why are there people?",
+      "file": "01-task-007-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "01-task",
+      "order": 8,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "Because people buy the boxes.",
+      "file": "01-task-008-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "02-meaning",
+      "order": 1,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "The model needs variables.",
+      "file": "02-meaning-001-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "02-meaning",
+      "order": 2,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "And the variables need meaning.",
+      "file": "02-meaning-002-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "02-meaning",
+      "order": 3,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "He pointed to his screen.",
+      "file": "02-meaning-003-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "02-meaning",
+      "order": 4,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "Subscribers, price, revenue.",
+      "file": "02-meaning-004-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "02-meaning",
+      "order": 5,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "She pointed to her drawing.",
+      "file": "02-meaning-005-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "02-meaning",
+      "order": 6,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "Distance, pickup time, household size. If the pickup site is hard to reach, lowering the price might not increase subscribers the way we expect.",
+      "file": "02-meaning-006-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "02-meaning",
+      "order": 7,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "None of that is in the data.",
+      "file": "02-meaning-007-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "02-meaning",
+      "order": 8,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "Then we write that it is not in the data.",
+      "file": "02-meaning-008-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "03-standoff",
+      "order": 1,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "For five stubborn minutes, they worked beside each other instead of together. Malik's table became neat and uselessly confident. Nia's sketch became thoughtful and mathematically unfinished.",
+      "file": "03-standoff-001-narrator.mp3",
+      "pronunciations": [
+        "malik-baptiste",
+        "nia-reynolds"
+      ]
+    },
+    {
+      "scene": "03-standoff",
+      "order": 2,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Finally, Malik rotated his laptop toward her.",
+      "file": "03-standoff-002-narrator.mp3",
+      "pronunciations": [
+        "malik-baptiste"
+      ]
+    },
+    {
+      "scene": "03-standoff",
+      "order": 3,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "Suppose we label my formula a first model and list your factors as limitations.",
+      "file": "03-standoff-003-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "03-standoff",
+      "order": 4,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Nia rotated her notebook toward him.",
+      "file": "03-standoff-004-narrator.mp3",
+      "pronunciations": [
+        "nia-reynolds"
+      ]
+    },
+    {
+      "scene": "03-standoff",
+      "order": 5,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "Suppose we also explain what information we would collect next.",
+      "file": "03-standoff-005-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "03-standoff",
+      "order": 6,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "That is outside the prompt.",
+      "file": "03-standoff-006-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "03-standoff",
+      "order": 7,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "It is also a good idea.",
+      "file": "03-standoff-007-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "03-standoff",
+      "order": 8,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "He sighed.",
+      "file": "03-standoff-008-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "03-standoff",
+      "order": 9,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "Fine.",
+      "file": "03-standoff-009-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-revision",
+      "order": 1,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Their final answer was the strongest in the room.",
+      "file": "04-revision-001-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-revision",
+      "order": 2,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Dr. Brooks praised the explicit function, then tapped the limitations section.",
+      "file": "04-revision-002-narrator.mp3",
+      "pronunciations": [
+        "dr-camille-brooks"
+      ]
+    },
+    {
+      "scene": "04-revision",
+      "order": 3,
+      "speaker": "dr-brooks",
+      "voice": "marin",
+      "text": "This is where calculation becomes judgment.",
+      "file": "04-revision-003-dr-brooks.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-revision",
+      "order": 4,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Nia nudged Malik with her elbow.",
+      "file": "04-revision-004-narrator.mp3",
+      "pronunciations": [
+        "malik-baptiste",
+        "nia-reynolds"
+      ]
+    },
+    {
+      "scene": "04-revision",
+      "order": 5,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "Do not celebrate,",
+      "file": "04-revision-005-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-revision",
+      "order": 6,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "he whispered.",
+      "file": "04-revision-006-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "05-us",
+      "order": 1,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "I am celebrating us. Different thing.",
+      "file": "05-us-001-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "05-us",
+      "order": 2,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "He pretended to review the equation so she would not see how much he liked the word us.",
+      "file": "05-us-002-narrator.mp3",
+      "pronunciations": []
+    }
+  ]
+}

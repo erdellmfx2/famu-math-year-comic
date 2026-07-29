@@ -1,0 +1,9 @@
+{
+  "name": "week-01-day-02-hyperframes",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "npx --yes hyperframes@0.7.69 check",
+    "render": "npx --yes hyperframes@0.7.69 render"
+  }
+}

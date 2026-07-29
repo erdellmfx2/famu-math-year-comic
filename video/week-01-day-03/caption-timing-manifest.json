@@ -1,0 +1,9 @@
+{
+  "scenes": [
+    { "id": "01-task", "audio_start": 5.0 },
+    { "id": "02-meaning", "audio_start": 43.256 },
+    { "id": "03-standoff", "audio_start": 77.0 },
+    { "id": "04-revision", "audio_start": 117.74 },
+    { "id": "05-us", "audio_start": 137.324 }
+  ]
+}

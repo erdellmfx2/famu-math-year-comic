@@ -1,0 +1,48 @@
+{
+  "model": "whisper-1",
+  "words": 287,
+  "scenes": [
+    {
+      "scene": "01-task",
+      "expected_words": 86,
+      "transcribed_words": 86,
+      "similarity": 1,
+      "repaired_word_spans": 13,
+      "needs_review": false
+    },
+    {
+      "scene": "02-meaning",
+      "expected_words": 63,
+      "transcribed_words": 63,
+      "similarity": 1,
+      "repaired_word_spans": 8,
+      "needs_review": false
+    },
+    {
+      "scene": "03-standoff",
+      "expected_words": 77,
+      "transcribed_words": 77,
+      "similarity": 1,
+      "repaired_word_spans": 6,
+      "needs_review": false
+    },
+    {
+      "scene": "04-revision",
+      "expected_words": 37,
+      "transcribed_words": 37,
+      "similarity": 1,
+      "repaired_word_spans": 3,
+      "needs_review": false
+    },
+    {
+      "scene": "05-us",
+      "expected_words": 24,
+      "transcribed_words": 24,
+      "similarity": 1,
+      "repaired_word_spans": 2,
+      "needs_review": false
+    }
+  ],
+  "minimum_similarity": 1,
+  "review_required": false
+}
