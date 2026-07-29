@@ -1,0 +1,247 @@
+{
+  "project": "The Formula of Becoming - Week 1 Day 6 - Full Cast",
+  "model": "gpt-4o-mini-tts",
+  "pronunciation_lexicon": "audio/voice-casting/pronunciation-lexicon.json",
+  "match_text": null,
+  "items": [
+    {
+      "scene": "01-festival",
+      "order": 1,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Indigo Night transformed Hart Student Union into a festival of music, food, club tables, and first-year students trying out possible versions of themselves.",
+      "file": "01-festival-001-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "01-festival",
+      "order": 2,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Nia moved through it like a spark in dry grass. She signed an interest card for the Association for Women in Mathematics, took a flyer from Math Circle, promised to visit campus radio, and nearly volunteered for a service event before Malik removed the pen from her hand.",
+      "file": "01-festival-002-narrator.mp3",
+      "pronunciations": [
+        "malik-baptiste",
+        "nia-reynolds"
+      ]
+    },
+    {
+      "scene": "01-festival",
+      "order": 3,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "You cannot join the whole university tonight.",
+      "file": "01-festival-003-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "01-festival",
+      "order": 4,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "Watch me.",
+      "file": "01-festival-004-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "01-festival",
+      "order": 5,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "I am watching. It is concerning.",
+      "file": "01-festival-005-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "02-saxophone",
+      "order": 1,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Across the terrace, an alto saxophone climbed above the crowd. A small group from the Marching Herons was performing beside the radio booth. The saxophonist played with his eyes half closed, then opened them at the exact moment Nia stepped closer.",
+      "file": "02-saxophone-001-narrator.mp3",
+      "pronunciations": [
+        "nia-reynolds"
+      ]
+    },
+    {
+      "scene": "02-saxophone",
+      "order": 2,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "After the set, he introduced himself as Julian Cross, second-year media arts student, campus radio host, and, according to him,",
+      "file": "02-saxophone-002-narrator.mp3",
+      "pronunciations": [
+        "julian-cross"
+      ]
+    },
+    {
+      "scene": "02-saxophone",
+      "order": 3,
+      "speaker": "julian",
+      "voice": "verse",
+      "text": "occasional rescuer of boring events.",
+      "file": "02-saxophone-003-julian.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "02-saxophone",
+      "order": 4,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "This event was not boring,",
+      "file": "02-saxophone-004-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "02-saxophone",
+      "order": 5,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Nia said.",
+      "file": "02-saxophone-005-narrator.mp3",
+      "pronunciations": [
+        "nia-reynolds"
+      ]
+    },
+    {
+      "scene": "02-saxophone",
+      "order": 6,
+      "speaker": "julian",
+      "voice": "verse",
+      "text": "Then I can take the night off.",
+      "file": "02-saxophone-006-julian.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "02-saxophone",
+      "order": 7,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "His confidence should have been irritating. Somehow, it was not.",
+      "file": "02-saxophone-007-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "03-invitation",
+      "order": 1,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Julian told her about a radio showcase on Friday and invited her to stop by. Nia said yes with the speed she used for nearly every interesting opportunity.",
+      "file": "03-invitation-001-narrator.mp3",
+      "pronunciations": [
+        "nia-reynolds",
+        "julian-cross"
+      ]
+    },
+    {
+      "scene": "04-analytics",
+      "order": 1,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "At another table, Malik found a sign for the Heron Analytics Challenge. Fourth-down decisions. Player performance. Ticket demand. Real datasets, competitive teams, regional presentations.",
+      "file": "04-analytics-001-narrator.mp3",
+      "pronunciations": [
+        "malik-baptiste"
+      ]
+    },
+    {
+      "scene": "04-analytics",
+      "order": 2,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "He read every line twice before writing his name.",
+      "file": "04-analytics-002-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-analytics",
+      "order": 3,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "When he and Nia met again near the Copper Cup Cafe, they both had news.",
+      "file": "04-analytics-003-narrator.mp3",
+      "pronunciations": [
+        "nia-reynolds"
+      ]
+    },
+    {
+      "scene": "04-analytics",
+      "order": 4,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "I got invited to the radio showcase,",
+      "file": "04-analytics-004-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-analytics",
+      "order": 5,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Nia said.",
+      "file": "04-analytics-005-narrator.mp3",
+      "pronunciations": [
+        "nia-reynolds"
+      ]
+    },
+    {
+      "scene": "04-analytics",
+      "order": 6,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "I signed up for an analytics information session.",
+      "file": "04-analytics-006-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-analytics",
+      "order": 7,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "Look at us choosing things.",
+      "file": "04-analytics-007-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-analytics",
+      "order": 8,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "You chose six things.",
+      "file": "04-analytics-008-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-analytics",
+      "order": 9,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "Seven, technically.",
+      "file": "04-analytics-009-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "05-unnamed",
+      "order": 1,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "He shook his head, but his attention drifted to Julian across the room. Julian saw Nia and lifted two fingers in a casual salute. She smiled back.",
+      "file": "05-unnamed-001-narrator.mp3",
+      "pronunciations": [
+        "nia-reynolds",
+        "julian-cross"
+      ]
+    },
+    {
+      "scene": "05-unnamed",
+      "order": 2,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Malik did not yet have a name for the small drop inside his chest. He treated it like a number too minor to enter.",
+      "file": "05-unnamed-002-narrator.mp3",
+      "pronunciations": [
+        "malik-baptiste"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "scenes": [
+    {
+      "id": "01-festival",
+      "audio_start": 5.0
+    },
+    {
+      "id": "02-saxophone",
+      "audio_start": 40.436
+    },
+    {
+      "id": "03-invitation",
+      "audio_start": 82.088
+    },
+    {
+      "id": "04-analytics",
+      "audio_start": 91.58
+    },
+    {
+      "id": "05-unnamed",
+      "audio_start": 130.904
+    }
+  ]
+}

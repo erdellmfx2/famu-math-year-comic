@@ -1,0 +1,152 @@
+{
+  "project": "The Formula of Becoming - Week 1 Day 6 - Full Cast",
+  "model": "gpt-4o-mini-tts",
+  "response_format": "mp3",
+  "default_pause_after": 0.18,
+  "speakers": {
+    "julian": {
+      "voice": "verse",
+      "instructions": "Speak only Julian's supplied words. He is warm, smooth, and publicly confident, with a musician's sense of timing. Keep him welcoming rather than smug or seductive. Do not add words."
+    },
+    "malik": {
+      "voice": "ash",
+      "instructions": "Speak only Malik's supplied words. He is precise, guarded, economical, and quietly warm when trust appears. Use a measured medium-low delivery and dry humor without adding words."
+    },
+    "narrator": {
+      "voice": "cedar",
+      "instructions": "Speak only supplied narration in a warm, grounded, observant, quietly lyrical documentary delivery. Be clear, restrained, and unhurried. Quicken slightly for campus montage. Do not perform character dialogue or add words."
+    },
+    "nia": {
+      "voice": "coral",
+      "instructions": "Speak only Nia's supplied words. She is bright, expressive, curious, and playful, with a lively conversational pace. Slow slightly for human consequences. Do not add words."
+    }
+  },
+  "scenes": [
+    {
+      "id": "01-festival",
+      "panel": "page-01-panels-01-02",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "Indigo Night transformed Hart Student Union into a festival of music, food, club tables, and first-year students trying out possible versions of themselves."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Nia moved through it like a spark in dry grass. She signed an interest card for the Association for Women in Mathematics, took a flyer from Math Circle, promised to visit campus radio, and nearly volunteered for a service event before Malik removed the pen from her hand."
+        },
+        {
+          "speaker": "malik",
+          "text": "You cannot join the whole university tonight."
+        },
+        {
+          "speaker": "nia",
+          "text": "Watch me."
+        },
+        {
+          "speaker": "malik",
+          "text": "I am watching. It is concerning."
+        }
+      ]
+    },
+    {
+      "id": "02-saxophone",
+      "panel": "page-01-panels-03-04",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "Across the terrace, an alto saxophone climbed above the crowd. A small group from the Marching Herons was performing beside the radio booth. The saxophonist played with his eyes half closed, then opened them at the exact moment Nia stepped closer."
+        },
+        {
+          "speaker": "narrator",
+          "text": "After the set, he introduced himself as Julian Cross, second-year media arts student, campus radio host, and, according to him,"
+        },
+        {
+          "speaker": "julian",
+          "text": "occasional rescuer of boring events."
+        },
+        {
+          "speaker": "nia",
+          "text": "This event was not boring,"
+        },
+        {
+          "speaker": "narrator",
+          "text": "Nia said."
+        },
+        {
+          "speaker": "julian",
+          "text": "Then I can take the night off."
+        },
+        {
+          "speaker": "narrator",
+          "text": "His confidence should have been irritating. Somehow, it was not."
+        }
+      ]
+    },
+    {
+      "id": "03-invitation",
+      "panel": "page-02-panel-01",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "Julian told her about a radio showcase on Friday and invited her to stop by. Nia said yes with the speed she used for nearly every interesting opportunity."
+        }
+      ]
+    },
+    {
+      "id": "04-analytics",
+      "panel": "page-02-panels-02-03",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "At another table, Malik found a sign for the Heron Analytics Challenge. Fourth-down decisions. Player performance. Ticket demand. Real datasets, competitive teams, regional presentations."
+        },
+        {
+          "speaker": "narrator",
+          "text": "He read every line twice before writing his name."
+        },
+        {
+          "speaker": "narrator",
+          "text": "When he and Nia met again near the Copper Cup Cafe, they both had news."
+        },
+        {
+          "speaker": "nia",
+          "text": "I got invited to the radio showcase,"
+        },
+        {
+          "speaker": "narrator",
+          "text": "Nia said."
+        },
+        {
+          "speaker": "malik",
+          "text": "I signed up for an analytics information session."
+        },
+        {
+          "speaker": "nia",
+          "text": "Look at us choosing things."
+        },
+        {
+          "speaker": "malik",
+          "text": "You chose six things."
+        },
+        {
+          "speaker": "nia",
+          "text": "Seven, technically."
+        }
+      ]
+    },
+    {
+      "id": "05-unnamed",
+      "panel": "page-02-panel-04",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "He shook his head, but his attention drifted to Julian across the room. Julian saw Nia and lifted two fingers in a casual salute. She smiled back."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Malik did not yet have a name for the small drop inside his chest. He treated it like a number too minor to enter."
+        }
+      ]
+    }
+  ]
+}

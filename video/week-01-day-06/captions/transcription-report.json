@@ -1,0 +1,48 @@
+{
+  "model": "whisper-1",
+  "words": 334,
+  "scenes": [
+    {
+      "scene": "01-festival",
+      "expected_words": 86,
+      "transcribed_words": 87,
+      "similarity": 0.977,
+      "repaired_word_spans": 8,
+      "needs_review": false
+    },
+    {
+      "scene": "02-saxophone",
+      "expected_words": 90,
+      "transcribed_words": 91,
+      "similarity": 0.978,
+      "repaired_word_spans": 3,
+      "needs_review": false
+    },
+    {
+      "scene": "03-invitation",
+      "expected_words": 28,
+      "transcribed_words": 28,
+      "similarity": 1,
+      "repaired_word_spans": 2,
+      "needs_review": false
+    },
+    {
+      "scene": "04-analytics",
+      "expected_words": 76,
+      "transcribed_words": 77,
+      "similarity": 0.974,
+      "repaired_word_spans": 11,
+      "needs_review": false
+    },
+    {
+      "scene": "05-unnamed",
+      "expected_words": 51,
+      "transcribed_words": 51,
+      "similarity": 1,
+      "repaired_word_spans": 4,
+      "needs_review": false
+    }
+  ],
+  "minimum_similarity": 0.974,
+  "review_required": false
+}
