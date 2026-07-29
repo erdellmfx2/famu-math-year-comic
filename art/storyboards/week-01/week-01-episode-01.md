@@ -1,7 +1,7 @@
 # Week 01, Episode 01: The Red Number
 
-**Date:** Friday, August 1, 2025  
-**Story sources:** `story/timeline-weeks/1.md`; `story/timeline-weeks-prose-v2/prose_1.md`  
+**Date:** Friday, August 1, 2025
+**Story sources:** `story/timeline-weeks/1.md`; `story/timeline-weeks-prose-v2/prose_1.md`
 **Purpose:** Malik arrives at McCall-Hart already carrying a private financial problem, then meets Nia and encounters the story's first question about visible assumptions.
 
 ## Continuity References

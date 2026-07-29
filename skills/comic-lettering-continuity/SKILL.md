@@ -16,7 +16,8 @@ Before rendering, read:
 2. `art/style_guide.md`
 3. `story/character_bible_v2.md`
 4. `art/final/foundational-assets/coordinate-registry.md`
-5. The target storyboard and accepted unlettered art
+5. The target storyboard, including its completed balloon map, and accepted
+   unlettered art
 
 Use only active files outside `archive/`.
 
@@ -36,6 +37,13 @@ area. Restart parts at `PART 1` every week. Compute:
 Verify that a seven-day week contains `PART 1` through `PART 7`.
 
 ## Lock the Lettering
+
+Before lettering, validate the storyboard's balloon map against the accepted
+unlettered page. Each entry must identify the panel, exact text, speaker,
+estimated footprint, protected in-panel zone, and mouth-directed tail target.
+If the planned balloon cannot fit at phone-readable size without obscuring a
+story principle, re-compose the unlettered page before lettering. Do not put
+balloons outside the comic page or outside their panels to avoid the problem.
 
 - Dialogue font: `Comic Sans MS Regular`, never Arial, Georgia, or a bold UI
   sans-serif.
@@ -61,6 +69,8 @@ Verify that a seven-day week contains `PART 1` through `PART 7`.
 - Only a narrow speech tail may enter the art area, ending near the correct
   speaker's mouth. Keep the balloon body entirely inside the lettering band.
 - Keep all text clear of faces, hands, equations, and decisive props.
+- Keep every balloon body inside its mapped panel. Do not use exterior white
+  margins, gutters, or page edges as a dialogue transcript.
 
 Do not place visible speaker labels such as `Malik:` or `Caption:` inside the
 comic. The tail and panel context identify dialogue; the box style identifies
@@ -98,6 +108,19 @@ Package each daily release in `sequence-v2`:
 3. `03-comic-page-02-vN.png`
 4. `04-<approved-message>-end-card-vN.png`
 
+Run the balloon check after each accepted unlettered image and again after each
+lettered-image edit. Do not wait for the end-of-week review. For every image
+version, confirm:
+
+- the mapped text fits at phone-readable size in its reserved in-panel zone;
+- the placement leaves faces, hands, equations, decisive props, action, and
+  setting clues unobscured;
+- every speech tail clearly identifies one visible speaker; and
+- balloons remain inside their panels and reading order is obvious.
+
+If any check fails, re-compose or re-letter that one page and repeat the check
+before continuing.
+
 Before acceptance, visually inspect the title card, every comic page, and the
 closing card. Check:
 
@@ -109,6 +132,7 @@ closing card. Check:
 - no balloon, narration box, or message box intersects character artwork;
 - dedicated lettering bands are used whenever face-safe negative space is not
   proven;
+- each balloon body remains within its panel rather than outside the comic art;
 - no speaker or caption labels printed in the art;
 - Malik, Julian, and DJ visibly distinct;
 - one page mark per comic page;

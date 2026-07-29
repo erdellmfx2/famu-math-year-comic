@@ -25,6 +25,12 @@ def sequence_key(path: Path) -> tuple[int, int, str]:
     return (section, version, name)
 
 
+def episode_key(path: Path) -> tuple[int, str]:
+    """Keep episode directories in numerical release order."""
+    match = re.search(r"episode-(\d+)$", path.name)
+    return (int(match.group(1)) if match else -1, path.name)
+
+
 def newest_per_section(paths: list[Path]) -> list[Path]:
     """Keep one latest asset for each numbered release section."""
     latest: dict[int, Path] = {}
@@ -39,7 +45,7 @@ def approved_pages(repo_root: Path, week: int) -> list[tuple[Path, bool]]:
     week_dir = repo_root / "art" / "final" / f"week-{week:02d}"
     pages: list[tuple[Path, bool]] = []
 
-    for episode_dir in sorted(week_dir.glob("episode-*")):
+    for episode_dir in sorted(week_dir.glob("episode-*"), key=episode_key):
         expanded_sequence_dir = episode_dir / "sequence-v2"
         sequence_dir = (
             expanded_sequence_dir

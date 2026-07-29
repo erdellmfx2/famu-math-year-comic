@@ -1,7 +1,7 @@
 # Week 01, Episode 04: Why Math Matters
 
-**Date:** Monday, August 4, 2025  
-**Story sources:** `story/timeline-weeks/1.md`; `story/timeline-weeks-prose-v2/prose_1.md`  
+**Date:** Monday, August 4, 2025
+**Story sources:** `story/timeline-weeks/1.md`; `story/timeline-weeks-prose-v2/prose_1.md`
 **Purpose:** Malik and Nia name the personal purpose behind their technical ambitions and recognize each other more clearly.
 
 ## Continuity References

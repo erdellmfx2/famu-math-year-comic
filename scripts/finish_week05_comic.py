@@ -1,0 +1,62 @@
+#!/usr/bin/env python3
+"""Package Week 5 with the approved title, lettering, and release system."""
+
+from __future__ import annotations
+
+import shutil
+from pathlib import Path
+
+import finish_week04_comic as lettering_package
+
+
+ROOT = Path(__file__).resolve().parents[1]
+WEEK_DIR = ROOT / "art" / "final" / "week-05"
+BOARD_DIR = ROOT / "art" / "storyboards" / "week-05"
+APPROVED = ROOT / "art" / "final" / "series-endcards" / "approved"
+
+
+def main() -> None:
+    lettering = lettering_package.lettering
+    lettering.WEEK_DIR = WEEK_DIR
+    lettering.BOARD_DIR = BOARD_DIR
+    lettering.ARC_TITLE = "KICKOFF"
+    lettering.END_CARDS = [
+        "thank-you-end-card-v1.png",
+        "mathematics-invitation-end-card-v1.png",
+        "famu-mathematics-attribution-end-card-v1.png",
+        "thank-you-end-card-v1.png",
+        "mathematics-invitation-end-card-v1.png",
+        "famu-mathematics-attribution-end-card-v1.png",
+        "thank-you-end-card-v1.png",
+    ]
+    # These panels reverse the default left/right stage positions.
+    lettering.SPEAKER_ANCHORS.update(
+        {
+            (35, 2, 2, "Nia"): "left",
+            (35, 2, 4, "Nia"): "left",
+            (35, 2, 4, "Malik"): "right",
+        }
+    )
+
+    for part, episode in enumerate(range(29, 36), start=1):
+        episode_dir = WEEK_DIR / f"episode-{episode:02d}"
+        sequence = episode_dir / "sequence-v2"
+        sequence.mkdir(parents=True, exist_ok=True)
+        lettering.make_title(part, sequence / "01-title-card-v1.png")
+        for page in (1, 2):
+            source = lettering_package.newest(
+                list((episode_dir / "unlettered").glob(
+                    f"week-05-episode-{episode:02d}-page-{page:02d}-art-v*.png"
+                ))
+            )
+            board = BOARD_DIR / f"week-05-episode-{episode:02d}-page-{page:02d}.md"
+            output = episode_dir / f"week-05-episode-{episode:02d}-page-{page:02d}-lettered-v1.png"
+            lettering_package.letter_page(source, board, output, episode, page)
+            shutil.copy2(output, sequence / f"0{page + 1}-comic-page-{page:02d}-v1.png")
+        end_card = lettering.END_CARDS[part - 1]
+        shutil.copy2(APPROVED / end_card, sequence / f"04-{end_card}")
+    print("Finished Week 5 title, lettering, page-mark, and end-card packages.")
+
+
+if __name__ == "__main__":
+    main()

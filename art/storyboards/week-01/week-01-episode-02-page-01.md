@@ -1,7 +1,7 @@
 # Week 01, Episode 02: Room at the Table
 
-**Date:** Saturday, August 2, 2025  
-**Story sources:** `story/timeline-weeks/1.md`; `story/timeline-weeks-prose-v2/prose_1.md`  
+**Date:** Saturday, August 2, 2025
+**Story sources:** `story/timeline-weeks/1.md`; `story/timeline-weeks-prose-v2/prose_1.md`
 **Purpose:** Nia recognizes the fear under Malik's precision, earns his trust, and helps him move from panic to options.
 
 ## Continuity References

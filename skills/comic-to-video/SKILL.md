@@ -32,6 +32,11 @@ Read the sources listed in `references/famu-comic-conventions.md`. Use:
 
 Identify a requested day or episode by its dated heading and story event, not only by ordinal position. Preserve every selected prose word unless the user requests an adaptation or abridgment.
 
+Create and verify only one video at a time. Finish the selected day's voiceover,
+captions, render, QA frames, resource ledger, and final path report before starting
+another day, because multi-video batches create large media files and have caused
+reliability issues.
+
 Do not narrate Markdown headings, dates, source notes, or production metadata by default. Narrate the prose section body only.
 
 Never use archive assets, obsolete continuity, lettered pages, review images, or real-university imagery as silent substitutes. If required unlettered art is missing, report the exact missing scene or request permission for another visual treatment.

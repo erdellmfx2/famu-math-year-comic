@@ -17,6 +17,9 @@
 - Cite character, environment, prop, and composition coordinates.
 - Keep one dominant beat per panel.
 - Quote dialogue and captions exactly for the later lettering pass.
+- Create a balloon map before art: panel, exact text, speaker/narrator,
+  short/medium/long word-count class, estimated footprint, reserved in-panel
+  zone, and tail target. Split or repage turns longer than 32 words.
 - Use Page 1 for setup and action, then Page 2 for longer banter, reactions,
   explanations, or emotional aftermath from the prose. Do not compress those
   beats merely to keep one four-panel page.
@@ -27,9 +30,16 @@
 - Use reference boards for all recurring people, places, and props.
 - Keep McCall-Hart fictional: indigo, copper, cream, honey brick, pale limestone, wrought iron, live oak, magnolia, cypress, and river-city light.
 - Keep pass one entirely unlettered.
-- Inspect the art before choosing it for lettering.
+- Before pass one, compose panels around the balloon map; protect the mapped
+  in-panel zones and keep faces and story action outside them.
+- Inspect the art before choosing it for lettering. For each image iteration,
+  confirm the mapped balloons can fit inside their panels at phone-readable
+  size without covering a story principle.
 - Letter by editing the chosen art, not by generating a different page.
 - Preserve art in the lettering pass and add only the approved text.
+- Immediately after each lettering edit, check every balloon's size, reading
+  order, face clearance, tail target, and speaker attribution. Repair that
+  page before moving to the next one.
 
 ## Final Review Checklist
 
@@ -39,5 +49,7 @@
   not already used on Page 1.
 - Check panel order, setting clarity, and continuity across the week.
 - Check every balloon's wording, attribution, tail direction, and face clearance.
+- Confirm no balloon is outside the comic page or used as an external dialogue
+  transcript; bodies belong in their mapped panels.
 - Check for unwanted readable signs, logos, watermarks, legacy green-and-orange identity, snake imagery, or real-university references.
 - Check the weekly emotional turn and final handoff against the timeline.

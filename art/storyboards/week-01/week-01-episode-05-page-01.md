@@ -1,7 +1,7 @@
 # Week 01, Episode 05: The Campus Has a Memory
 
-**Date:** Tuesday, August 5, 2025  
-**Story sources:** `story/timeline-weeks/1.md`; `story/timeline-weeks-prose-v2/prose_1.md`  
+**Date:** Tuesday, August 5, 2025
+**Story sources:** `story/timeline-weeks/1.md`; `story/timeline-weeks-prose-v2/prose_1.md`
 **Purpose:** The tour turns McCall-Hart from a map into a lived place and exposes Malik and Nia's different instincts about preparation and possibility.
 
 ## Continuity References

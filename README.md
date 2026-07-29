@@ -9,7 +9,8 @@ The GitHub repository slug is a legacy project name. The active story is not set
 - The v1 FAMU-based manuscript and visual experiments are preserved under `archive/famu-v1/`, `story/archive/famu-v1/`, `art/archive/famu-v1/`, and `assets/archive/famu-v1/`.
 - The v2 fictional setting and season arc are active.
 - All 54 weekly approval scripts and 374 daily episode beats have been drafted.
-- Comic art production is paused pending explicit approval of the v2 script.
+- The v2 script is approved and comic production is open.
+- The production and posting loop is documented in `docs/production-and-posting-loop.md`.
 
 ## Review First
 
@@ -43,6 +44,10 @@ Supporting authorities:
 6. Review and explicitly approve the script before creating new storyboards or images.
 
 The scripts validate and format authored plot. They do not generate story by rotating generic activity lists.
+
+## Production Workflow
+
+Use `docs/production-and-posting-loop.md` for the weekly comic and video process. The active constraint is to keep each production week under 50% of the OpenAI weekly compute allocation, do most creation on Saturdays, and hand approved posting packages to Hermes for scheduled social publishing.
 
 ## Research Boundary
 

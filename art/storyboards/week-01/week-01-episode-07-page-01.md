@@ -1,7 +1,7 @@
 # Week 01, Episode 07: Accountability
 
-**Date:** Thursday, August 7, 2025  
-**Story sources:** `story/timeline-weeks/1.md`; `story/timeline-weeks-prose-v2/prose_1.md`  
+**Date:** Thursday, August 7, 2025
+**Story sources:** `story/timeline-weeks/1.md`; `story/timeline-weeks-prose-v2/prose_1.md`
 **Purpose:** Malik and Nia present their repaired model as a partnership, choose accountability, and close the week with an unspoken complication.
 
 ## Continuity References

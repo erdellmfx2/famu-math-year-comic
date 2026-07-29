@@ -12,4 +12,3 @@
 ## Next Permitted Action
 
 Review `story/script-v2-output/the-formula-of-becoming-script-v2.md` and record explicit approval before selecting any episode for visual production.
-

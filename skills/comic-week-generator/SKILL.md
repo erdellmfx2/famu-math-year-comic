@@ -66,6 +66,16 @@ Each storyboard must include:
 5. Exact listed dialogue and captions for the lettering pass.
 6. A clear initial setting introduction and clear location transitions.
 7. Pass-one restrictions: no dialogue, captions, readable equations, incidental signs, or logos.
+8. A balloon map before art generation. For every speech balloon or narration
+   box, list its panel, exact text, speaker, word-count class, estimated
+   footprint, reserved in-panel zone, and mouth-directed tail target.
+
+The balloon map is a composition requirement. Use it to give dialogue-heavy
+beats a larger or less crowded panel, split long exchanges across pages, and
+keep faces and story action out of planned lettering space. Keep balloon bodies
+inside the comic page and their own panels; do not solve crowding by placing
+balloons outside the artwork. A line over 32 words must be split into source-
+faithful turns or moved to a new panel/page before art begins.
 
 Use four panels as a default phone-readable page. Every daily release normally
 uses at least two comic pages: Page 1 for setup and forward action; Page 2 for
@@ -93,13 +103,27 @@ exactly unless a dialogue revision is explicitly approved.
 
 Use the built-in image generation workflow and generate each distinct page separately.
 
+### Preflight: Balloon Map
+
+Before each page's pass-one prompt, compare the selected source text with the
+page's balloon map. Confirm that every line has a visible speaker, a natural
+reading order, and enough reserved area at phone-readable type size. Rework
+the storyboard's panel sizes, framing, or page count before calling the image
+tool if it does not. Never use smaller lettering, covered faces, or off-page
+balloons to preserve an overfull layout.
+
 ### Pass One: Unlettered Art
 
 1. Supply the relevant character, environment, and prop boards as reference images.
-2. Prompt for one finished, phone-readable multi-panel comic page with clean gutters and intentional negative space for later text.
+2. Prompt for one finished, phone-readable multi-panel comic page with clean
+   gutters and the balloon map's protected in-panel lettering zones. Place all
+   faces, hands, equations, decisive props, and important action outside those
+   zones; do not render placeholder balloons or guides.
 3. Name the panels, locations, shot scale, character actions, emotional subtext, color language, and required visual transitions.
 4. Prohibit all text, captions, signs, logos, and watermarks.
-5. Inspect the output before accepting it.
+5. Immediately run the per-page balloon check before accepting it. Re-compose
+   this page alone if the planned text cannot fit without compromising the
+   visual story.
 
 Use only fictional McCall-Hart visual language: indigo, copper, cream, cypress gray, warm limestone, dark walnut, honey brick, pale limestone trim, wrought iron, live oaks, magnolias, cypress, and appropriate humid Southern light.
 
@@ -109,6 +133,27 @@ Apply `skills/comic-lettering-continuity/SKILL.md` without substitutions.
 Use the accepted unlettered image as the base and preserve its panel order,
 character designs, composition, props, and lighting.
 Reject any page where a balloon, narration box, or message box overlaps a face.
+Immediately run the per-page balloon check after this lettering edit. Correct
+that same page before generating, lettering, or packaging another page.
+
+### Per-Page Balloon Check
+
+Perform this check after every unlettered generation, lettering edit, and
+replacement image, not only during final weekly review:
+
+- Every mapped balloon/caption fits in its assigned in-panel zone at
+  phone-readable size, with no text collision or overcrowding.
+- No balloon body covers a face, hand, equation, decisive prop, emotional
+  action, or meaningful setting detail.
+- Every spoken line has one clear visible speaker and a tail that points toward
+  that speaker's mouth without crossing another character confusingly.
+- Balloon bodies stay in their own panel and never sit outside the comic page
+  as an external transcript.
+- Reading order is obvious at a phone-thumbnail glance.
+- The page-mark area remains clear.
+
+If a check fails, re-compose or re-letter only that page, then repeat this
+check. Do not let a failed page advance to the next image or batch stage.
 
 ### Apply the Series Mark and Package Each Release
 
@@ -175,6 +220,8 @@ Before presenting the week as complete, verify:
 - Character faces, hair, body language, wardrobe logic, and recurring props match the cited asset boards.
 - All identity is fictional McCall-Hart and all archive material is excluded.
 - Lettering is legible, correctly ordered, source-faithful, and clear of important art.
+- Every storyboard contains a completed balloon map, and every image revision
+  passed its recorded per-page balloon check before packaging.
 - Page 2 carries distinct prose banter, reaction, or explanation rather than
   repeating Page 1's dialogue.
 - The approved FAMU Mathematics Department page mark is visible in the

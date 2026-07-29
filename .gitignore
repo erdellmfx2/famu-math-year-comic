@@ -8,9 +8,19 @@
 __pycache__/
 *.py[cod]
 
-# Rendered videos are retained locally; publish their source packages instead.
+# Rendered videos are retained locally or uploaded to the Hermes VPS.
 video/**/*.mp4
+campaigns/launch-2026-07-31/exports/
+
+# Oversized rendered PDF exports are retained locally or uploaded with the Hermes/VPS package.
+output/**/*.pdf
+output/*.pdf
 
 # Renderer dependencies and transient render workspaces are reproducible.
 **/node_modules/
 video/**/work-*/
+
+# Campaign voice output, mixed audio, and preview snapshots remain local.
+campaigns/launch-2026-07-31/trailers/*/voice/generated/
+campaigns/launch-2026-07-31/trailers/*/hyperframes/assets/audio/
+campaigns/launch-2026-07-31/trailers/*/hyperframes/snapshots/

@@ -1,7 +1,7 @@
 # Week 01, Episode 03: Draw It First
 
-**Date:** Sunday, August 3, 2025  
-**Story sources:** `story/timeline-weeks/1.md`; `story/timeline-weeks-prose-v2/prose_1.md`  
+**Date:** Sunday, August 3, 2025
+**Story sources:** `story/timeline-weeks/1.md`; `story/timeline-weeks-prose-v2/prose_1.md`
 **Purpose:** Malik and Nia clash over the food-cooperative model, then discover that calculation and context make a stronger answer together.
 
 ## Continuity References

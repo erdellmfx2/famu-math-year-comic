@@ -1,7 +1,7 @@
 # Week 01, Episode 06: Indigo Night
 
-**Date:** Wednesday, August 6, 2025  
-**Story sources:** `story/timeline-weeks/1.md`; `story/timeline-weeks-prose-v2/prose_1.md`  
+**Date:** Wednesday, August 6, 2025
+**Story sources:** `story/timeline-weeks/1.md`; `story/timeline-weeks-prose-v2/prose_1.md`
 **Purpose:** Nia meets Julian through campus music while Malik chooses Heron Analytics, ending on the first private hint of his disappointment.
 
 ## Continuity References
