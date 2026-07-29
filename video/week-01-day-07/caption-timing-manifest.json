@@ -1,0 +1,20 @@
+{
+  "scenes": [
+    {
+      "id": "01-presentation",
+      "audio_start": 5.0
+    },
+    {
+      "id": "02-bell",
+      "audio_start": 57.344
+    },
+    {
+      "id": "03-pact",
+      "audio_start": 91.508
+    },
+    {
+      "id": "04-two-plans",
+      "audio_start": 121.136
+    }
+  ]
+}

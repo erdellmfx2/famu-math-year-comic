@@ -1,0 +1,323 @@
+{
+  "project": "The Formula of Becoming - Week 1 Day 7 - Full Cast",
+  "model": "gpt-4o-mini-tts",
+  "pronunciation_lexicon": "audio/voice-casting/pronunciation-lexicon.json",
+  "match_text": null,
+  "items": [
+    {
+      "scene": "01-presentation",
+      "order": 1,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Their final Bridge presentation returned to the budget model Malik had repaired, expanded into a scenario for a first-year student managing books, meals, transportation, and emergencies.",
+      "file": "01-presentation-001-narrator.mp3",
+      "pronunciations": [
+        "malik-baptiste"
+      ]
+    },
+    {
+      "scene": "01-presentation",
+      "order": 2,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Malik explained the spreadsheet logic. Nia told the story of what happened when one assumption changed. They showed the original error, the revised categories, and a sensitivity table that made visible how quickly a small surprise could become a larger problem.",
+      "file": "01-presentation-002-narrator.mp3",
+      "pronunciations": [
+        "malik-baptiste",
+        "nia-reynolds"
+      ]
+    },
+    {
+      "scene": "01-presentation",
+      "order": 3,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "A budget is not a promise that nothing will go wrong,",
+      "file": "01-presentation-003-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "01-presentation",
+      "order": 4,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Nia told the room.",
+      "file": "01-presentation-004-narrator.mp3",
+      "pronunciations": [
+        "nia-reynolds"
+      ]
+    },
+    {
+      "scene": "01-presentation",
+      "order": 5,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "It is a way to notice change early enough to make choices.",
+      "file": "01-presentation-005-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "01-presentation",
+      "order": 6,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Malik advanced the slide.",
+      "file": "01-presentation-006-narrator.mp3",
+      "pronunciations": [
+        "malik-baptiste"
+      ]
+    },
+    {
+      "scene": "01-presentation",
+      "order": 7,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "And a model should show what it assumes, so the person using it knows when the answer no longer applies.",
+      "file": "01-presentation-007-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "01-presentation",
+      "order": 8,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Dr. Brooks smiled from the back row.",
+      "file": "01-presentation-008-narrator.mp3",
+      "pronunciations": [
+        "dr-camille-brooks"
+      ]
+    },
+    {
+      "scene": "02-bell",
+      "order": 1,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Afterward, Malik and Nia carried their laptops to the Founders' Bell. The campus was copper in the late sun, and somewhere near the union a drumline practiced the same eight measures until they became part of the air.",
+      "file": "02-bell-001-narrator.mp3",
+      "pronunciations": [
+        "malik-baptiste",
+        "nia-reynolds"
+      ]
+    },
+    {
+      "scene": "02-bell",
+      "order": 2,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "We work well together,",
+      "file": "02-bell-002-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "02-bell",
+      "order": 3,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Nia said.",
+      "file": "02-bell-003-narrator.mp3",
+      "pronunciations": [
+        "nia-reynolds"
+      ]
+    },
+    {
+      "scene": "02-bell",
+      "order": 4,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "After arguing.",
+      "file": "02-bell-004-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "02-bell",
+      "order": 5,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "During arguing. The arguing is part of the system.",
+      "file": "02-bell-005-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "02-bell",
+      "order": 6,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "That sounds unhealthy.",
+      "file": "02-bell-006-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "02-bell",
+      "order": 7,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "Only because you hate being challenged by someone delightful.",
+      "file": "02-bell-007-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "03-pact",
+      "order": 1,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Malik leaned against the limestone arch.",
+      "file": "03-pact-001-narrator.mp3",
+      "pronunciations": [
+        "malik-baptiste"
+      ]
+    },
+    {
+      "scene": "03-pact",
+      "order": 2,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "We should keep each other on schedule when classes start. Weekly check-in. Assignments, deadlines, major commitments.",
+      "file": "03-pact-002-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "03-pact",
+      "order": 3,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Nia held out her hand.",
+      "file": "03-pact-003-narrator.mp3",
+      "pronunciations": [
+        "nia-reynolds"
+      ]
+    },
+    {
+      "scene": "03-pact",
+      "order": 4,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "Accountability partners. Academic honesty, honest schedules, and emergency snack intervention.",
+      "file": "03-pact-004-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "03-pact",
+      "order": 5,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "Define emergency.",
+      "file": "03-pact-005-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "03-pact",
+      "order": 6,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "If you have to ask, you are already in one.",
+      "file": "03-pact-006-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "03-pact",
+      "order": 7,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "He shook her hand.",
+      "file": "03-pact-007-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-two-plans",
+      "order": 1,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Then Nia mentioned that Julian had sent her the details for Friday's showcase.",
+      "file": "04-two-plans-001-narrator.mp3",
+      "pronunciations": [
+        "nia-reynolds",
+        "julian-cross"
+      ]
+    },
+    {
+      "scene": "04-two-plans",
+      "order": 2,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "I think he might actually be asking me out,",
+      "file": "04-two-plans-002-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-two-plans",
+      "order": 3,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "she said, trying and failing to sound casual.",
+      "file": "04-two-plans-003-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-two-plans",
+      "order": 4,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Malik released her hand and adjusted the strap of his laptop bag.",
+      "file": "04-two-plans-004-narrator.mp3",
+      "pronunciations": [
+        "malik-baptiste"
+      ]
+    },
+    {
+      "scene": "04-two-plans",
+      "order": 5,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "You should go,",
+      "file": "04-two-plans-005-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-two-plans",
+      "order": 6,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "he said. His voice was kind, steady, and almost completely convincing.",
+      "file": "04-two-plans-006-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-two-plans",
+      "order": 7,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "You wanted to see the radio station.",
+      "file": "04-two-plans-007-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-two-plans",
+      "order": 8,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Nia studied him for half a second, then smiled.",
+      "file": "04-two-plans-008-narrator.mp3",
+      "pronunciations": [
+        "nia-reynolds"
+      ]
+    },
+    {
+      "scene": "04-two-plans",
+      "order": 9,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "I did.",
+      "file": "04-two-plans-009-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-two-plans",
+      "order": 10,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "They walked away from the bell together, carrying two kinds of plans into the next week: the ones they had said aloud and the ones they had not yet admitted, even to themselves.",
+      "file": "04-two-plans-010-narrator.mp3",
+      "pronunciations": []
+    }
+  ]
+}

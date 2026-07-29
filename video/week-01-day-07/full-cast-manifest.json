@@ -1,0 +1,174 @@
+{
+  "project": "The Formula of Becoming - Week 1 Day 7 - Full Cast",
+  "model": "gpt-4o-mini-tts",
+  "response_format": "mp3",
+  "default_pause_after": 0.18,
+  "speakers": {
+    "malik": {
+      "voice": "ash",
+      "instructions": "Speak only Malik's supplied words. He is precise, guarded, economical, and quietly warm when trust appears. Use a measured medium-low delivery and dry humor without adding words."
+    },
+    "narrator": {
+      "voice": "cedar",
+      "instructions": "Speak only supplied narration in a warm, grounded, observant, quietly lyrical documentary delivery. Be clear, restrained, and unhurried. Quicken slightly for campus montage. Do not perform character dialogue or add words."
+    },
+    "nia": {
+      "voice": "coral",
+      "instructions": "Speak only Nia's supplied words. She is bright, expressive, curious, and playful, with a lively conversational pace. Slow slightly for human consequences. Do not add words."
+    }
+  },
+  "scenes": [
+    {
+      "id": "01-presentation",
+      "panel": "page-01-panels-01-04",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "Their final Bridge presentation returned to the budget model Malik had repaired, expanded into a scenario for a first-year student managing books, meals, transportation, and emergencies."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Malik explained the spreadsheet logic. Nia told the story of what happened when one assumption changed. They showed the original error, the revised categories, and a sensitivity table that made visible how quickly a small surprise could become a larger problem."
+        },
+        {
+          "speaker": "nia",
+          "text": "A budget is not a promise that nothing will go wrong,"
+        },
+        {
+          "speaker": "narrator",
+          "text": "Nia told the room."
+        },
+        {
+          "speaker": "nia",
+          "text": "It is a way to notice change early enough to make choices."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Malik advanced the slide."
+        },
+        {
+          "speaker": "malik",
+          "text": "And a model should show what it assumes, so the person using it knows when the answer no longer applies."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Dr. Brooks smiled from the back row."
+        }
+      ]
+    },
+    {
+      "id": "02-bell",
+      "panel": "page-02-panels-01-02",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "Afterward, Malik and Nia carried their laptops to the Founders' Bell. The campus was copper in the late sun, and somewhere near the union a drumline practiced the same eight measures until they became part of the air."
+        },
+        {
+          "speaker": "nia",
+          "text": "We work well together,"
+        },
+        {
+          "speaker": "narrator",
+          "text": "Nia said."
+        },
+        {
+          "speaker": "malik",
+          "text": "After arguing."
+        },
+        {
+          "speaker": "nia",
+          "text": "During arguing. The arguing is part of the system."
+        },
+        {
+          "speaker": "malik",
+          "text": "That sounds unhealthy."
+        },
+        {
+          "speaker": "nia",
+          "text": "Only because you hate being challenged by someone delightful."
+        }
+      ]
+    },
+    {
+      "id": "03-pact",
+      "panel": "page-02-panel-03",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "Malik leaned against the limestone arch."
+        },
+        {
+          "speaker": "malik",
+          "text": "We should keep each other on schedule when classes start. Weekly check-in. Assignments, deadlines, major commitments."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Nia held out her hand."
+        },
+        {
+          "speaker": "nia",
+          "text": "Accountability partners. Academic honesty, honest schedules, and emergency snack intervention."
+        },
+        {
+          "speaker": "malik",
+          "text": "Define emergency."
+        },
+        {
+          "speaker": "nia",
+          "text": "If you have to ask, you are already in one."
+        },
+        {
+          "speaker": "narrator",
+          "text": "He shook her hand."
+        }
+      ]
+    },
+    {
+      "id": "04-two-plans",
+      "panel": "page-02-panel-04",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "Then Nia mentioned that Julian had sent her the details for Friday's showcase."
+        },
+        {
+          "speaker": "nia",
+          "text": "I think he might actually be asking me out,"
+        },
+        {
+          "speaker": "narrator",
+          "text": "she said, trying and failing to sound casual."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Malik released her hand and adjusted the strap of his laptop bag."
+        },
+        {
+          "speaker": "malik",
+          "text": "You should go,"
+        },
+        {
+          "speaker": "narrator",
+          "text": "he said. His voice was kind, steady, and almost completely convincing."
+        },
+        {
+          "speaker": "malik",
+          "text": "You wanted to see the radio station."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Nia studied him for half a second, then smiled."
+        },
+        {
+          "speaker": "nia",
+          "text": "I did."
+        },
+        {
+          "speaker": "narrator",
+          "text": "They walked away from the bell together, carrying two kinds of plans into the next week: the ones they had said aloud and the ones they had not yet admitted, even to themselves."
+        }
+      ]
+    }
+  ]
+}
