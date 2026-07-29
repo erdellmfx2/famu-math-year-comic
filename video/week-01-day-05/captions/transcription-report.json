@@ -1,0 +1,40 @@
+{
+  "model": "whisper-1",
+  "words": 223,
+  "scenes": [
+    {
+      "scene": "01-tour",
+      "expected_words": 60,
+      "transcribed_words": 62,
+      "similarity": 0.9355,
+      "repaired_word_spans": 6,
+      "needs_review": true
+    },
+    {
+      "scene": "02-map",
+      "expected_words": 38,
+      "transcribed_words": 38,
+      "similarity": 1,
+      "repaired_word_spans": 6,
+      "needs_review": false
+    },
+    {
+      "scene": "03-bell",
+      "expected_words": 76,
+      "transcribed_words": 77,
+      "similarity": 0.974,
+      "repaired_word_spans": 7,
+      "needs_review": false
+    },
+    {
+      "scene": "04-steps",
+      "expected_words": 46,
+      "transcribed_words": 46,
+      "similarity": 1,
+      "repaired_word_spans": 9,
+      "needs_review": false
+    }
+  ],
+  "minimum_similarity": 0.9355,
+  "review_required": true
+}

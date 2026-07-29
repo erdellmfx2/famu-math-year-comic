@@ -1,0 +1,227 @@
+{
+  "project": "The Formula of Becoming - Week 1 Day 5 - Full Cast",
+  "model": "gpt-4o-mini-tts",
+  "pronunciation_lexicon": "audio/voice-casting/pronunciation-lexicon.json",
+  "match_text": null,
+  "items": [
+    {
+      "scene": "01-tour",
+      "order": 1,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "The campus tour began at Jubilee Library, moved through the glass-walled North Star Learning Commons, and ended beneath the live oaks along Cypress Walk.",
+      "file": "01-tour-001-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "01-tour",
+      "order": 2,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Nia photographed everything: the copper-framed windows of Eliza Moss Hall, the old reading room inside Jubilee, the wall of whiteboards at North Star, even a campus cat sleeping under a bench as though it had tenure.",
+      "file": "01-tour-002-narrator.mp3",
+      "pronunciations": [
+        "nia-reynolds"
+      ]
+    },
+    {
+      "scene": "02-map",
+      "order": 1,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Malik photographed the map.",
+      "file": "02-map-001-narrator.mp3",
+      "pronunciations": [
+        "malik-baptiste"
+      ]
+    },
+    {
+      "scene": "02-map",
+      "order": 2,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "You know they give us that online,",
+      "file": "02-map-002-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "02-map",
+      "order": 3,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Nia said.",
+      "file": "02-map-003-narrator.mp3",
+      "pronunciations": [
+        "nia-reynolds"
+      ]
+    },
+    {
+      "scene": "02-map",
+      "order": 4,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "Phones lose signal.",
+      "file": "02-map-004-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "02-map",
+      "order": 5,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "Paper maps exist.",
+      "file": "02-map-005-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "02-map",
+      "order": 6,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "Paper gets wet.",
+      "file": "02-map-006-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "02-map",
+      "order": 7,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "Do you prepare for joy like this too?",
+      "file": "02-map-007-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "02-map",
+      "order": 8,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "He considered it.",
+      "file": "02-map-008-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "02-map",
+      "order": 9,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "I have not had to.",
+      "file": "02-map-009-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "03-bell",
+      "order": 1,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Their guide led them to Founders' Bell, greened with age and suspended beneath a limestone arch. It had once called students to assembly, she explained. Now it rang at Opening Convocation and commencement, marking the entrance and exit of a McCall-Hart education.",
+      "file": "03-bell-001-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "03-bell",
+      "order": 2,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Nia looked up at it.",
+      "file": "03-bell-002-narrator.mp3",
+      "pronunciations": [
+        "nia-reynolds"
+      ]
+    },
+    {
+      "scene": "03-bell",
+      "order": 3,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "Imagine hearing that on your last day here.",
+      "file": "03-bell-003-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "03-bell",
+      "order": 4,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Malik looked down Cypress Walk, where indigo banners shifted in the humid breeze. Four years seemed both enormous and dangerously brief.",
+      "file": "03-bell-004-narrator.mp3",
+      "pronunciations": [
+        "malik-baptiste"
+      ]
+    },
+    {
+      "scene": "04-steps",
+      "order": 1,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "We have to make it to the first day first,",
+      "file": "04-steps-001-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-steps",
+      "order": 2,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "he said.",
+      "file": "04-steps-002-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-steps",
+      "order": 3,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "You really refuse to skip steps.",
+      "file": "04-steps-003-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-steps",
+      "order": 4,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "Steps exist for a reason.",
+      "file": "04-steps-004-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-steps",
+      "order": 5,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "So do leaps.",
+      "file": "04-steps-005-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-steps",
+      "order": 6,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "He glanced at her.",
+      "file": "04-steps-006-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-steps",
+      "order": 7,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "Leaps are just steps with poor documentation.",
+      "file": "04-steps-007-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-steps",
+      "order": 8,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Nia laughed so hard the tour guide turned around.",
+      "file": "04-steps-008-narrator.mp3",
+      "pronunciations": [
+        "nia-reynolds"
+      ]
+    }
+  ]
+}

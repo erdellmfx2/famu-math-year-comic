@@ -1,0 +1,20 @@
+{
+  "scenes": [
+    {
+      "id": "01-tour",
+      "audio_start": 5.0
+    },
+    {
+      "id": "02-map",
+      "audio_start": 28.976
+    },
+    {
+      "id": "03-bell",
+      "audio_start": 51.86
+    },
+    {
+      "id": "04-steps",
+      "audio_start": 83.756
+    }
+  ]
+}

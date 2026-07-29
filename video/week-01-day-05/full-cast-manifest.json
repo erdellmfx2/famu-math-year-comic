@@ -1,0 +1,138 @@
+{
+  "project": "The Formula of Becoming - Week 1 Day 5 - Full Cast",
+  "model": "gpt-4o-mini-tts",
+  "response_format": "mp3",
+  "default_pause_after": 0.18,
+  "speakers": {
+    "malik": {
+      "voice": "ash",
+      "instructions": "Speak only Malik's supplied words. He is precise, guarded, economical, and quietly warm when trust appears. Use a measured medium-low delivery and dry humor without adding words."
+    },
+    "narrator": {
+      "voice": "cedar",
+      "instructions": "Speak only supplied narration in a warm, grounded, observant, quietly lyrical documentary delivery. Be clear, restrained, and unhurried. Quicken slightly for campus montage. Do not perform character dialogue or add words."
+    },
+    "nia": {
+      "voice": "coral",
+      "instructions": "Speak only Nia's supplied words. She is bright, expressive, curious, and playful, with a lively conversational pace. Slow slightly for human consequences. Do not add words."
+    }
+  },
+  "scenes": [
+    {
+      "id": "01-tour",
+      "panel": "page-01-panels-01-02",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "The campus tour began at Jubilee Library, moved through the glass-walled North Star Learning Commons, and ended beneath the live oaks along Cypress Walk."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Nia photographed everything: the copper-framed windows of Eliza Moss Hall, the old reading room inside Jubilee, the wall of whiteboards at North Star, even a campus cat sleeping under a bench as though it had tenure."
+        }
+      ]
+    },
+    {
+      "id": "02-map",
+      "panel": "page-01-panels-03-04",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "Malik photographed the map."
+        },
+        {
+          "speaker": "nia",
+          "text": "You know they give us that online,"
+        },
+        {
+          "speaker": "narrator",
+          "text": "Nia said."
+        },
+        {
+          "speaker": "malik",
+          "text": "Phones lose signal."
+        },
+        {
+          "speaker": "nia",
+          "text": "Paper maps exist."
+        },
+        {
+          "speaker": "malik",
+          "text": "Paper gets wet."
+        },
+        {
+          "speaker": "nia",
+          "text": "Do you prepare for joy like this too?"
+        },
+        {
+          "speaker": "narrator",
+          "text": "He considered it."
+        },
+        {
+          "speaker": "malik",
+          "text": "I have not had to."
+        }
+      ]
+    },
+    {
+      "id": "03-bell",
+      "panel": "page-02-panels-01-02",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "Their guide led them to Founders' Bell, greened with age and suspended beneath a limestone arch. It had once called students to assembly, she explained. Now it rang at Opening Convocation and commencement, marking the entrance and exit of a McCall-Hart education."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Nia looked up at it."
+        },
+        {
+          "speaker": "nia",
+          "text": "Imagine hearing that on your last day here."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Malik looked down Cypress Walk, where indigo banners shifted in the humid breeze. Four years seemed both enormous and dangerously brief."
+        }
+      ]
+    },
+    {
+      "id": "04-steps",
+      "panel": "page-02-panels-03-04",
+      "utterances": [
+        {
+          "speaker": "malik",
+          "text": "We have to make it to the first day first,"
+        },
+        {
+          "speaker": "narrator",
+          "text": "he said."
+        },
+        {
+          "speaker": "nia",
+          "text": "You really refuse to skip steps."
+        },
+        {
+          "speaker": "malik",
+          "text": "Steps exist for a reason."
+        },
+        {
+          "speaker": "nia",
+          "text": "So do leaps."
+        },
+        {
+          "speaker": "narrator",
+          "text": "He glanced at her."
+        },
+        {
+          "speaker": "malik",
+          "text": "Leaps are just steps with poor documentation."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Nia laughed so hard the tour guide turned around."
+        }
+      ]
+    }
+  ]
+}
