@@ -1,0 +1,134 @@
+{
+  "project": "The Formula of Becoming - Week 1 Day 4 - Full Cast",
+  "model": "gpt-4o-mini-tts",
+  "response_format": "mp3",
+  "default_pause_after": 0.18,
+  "speakers": {
+    "narrator": {
+      "voice": "cedar",
+      "instructions": "Speak only supplied narration in a warm, grounded, observant, quietly lyrical documentary delivery. Be clear, restrained, and unhurried. Do not perform character dialogue or add words."
+    },
+    "dr-brooks": {
+      "voice": "marin",
+      "instructions": "Speak only Dr. Camille Brooks's supplied words with calm, warm, intellectually demanding classroom authority. Let questions invite reflection rather than demand a correct answer. Do not add words."
+    },
+    "malik": {
+      "voice": "ash",
+      "instructions": "Speak only Malik's supplied words. He is precise, guarded, economical, and quietly warm when trust appears. Use a measured medium-low delivery and dry humor without adding words."
+    },
+    "nia": {
+      "voice": "coral",
+      "instructions": "Speak only Nia's supplied words. She is bright, expressive, curious, and playful, with a lively conversational pace. Slow slightly for human consequences. Do not add words."
+    }
+  },
+  "scenes": [
+    {
+      "id": "01-question",
+      "panel": "page-01-panel-01",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "On Monday, Dr. Brooks closed the classroom door and asked everyone to put away their calculators."
+        },
+        {
+          "speaker": "dr-brooks",
+          "text": "Today,"
+        },
+        {
+          "speaker": "narrator",
+          "text": "she said,"
+        },
+        {
+          "speaker": "dr-brooks",
+          "text": "I want the answer nobody can compute for you. Why does mathematics matter?"
+        },
+        {
+          "speaker": "narrator",
+          "text": "The room went quiet in the special way classrooms do when a question becomes personal."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Students spoke about engineering, medicine, money, teaching, technology, and being the first in their families to pursue a technical degree."
+        }
+      ]
+    },
+    {
+      "id": "02-malik",
+      "panel": "page-01-panel-02",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "When Malik's turn came, he folded his hands on the desk."
+        },
+        {
+          "speaker": "malik",
+          "text": "My father can repair almost anything,"
+        },
+        {
+          "speaker": "narrator",
+          "text": "he said."
+        },
+        {
+          "speaker": "malik",
+          "text": "Engines, roofs, appliances. But one unexpected bill can undo months of planning. I want to understand risk well enough to help families and businesses prepare without pretending every loss can be prevented."
+        },
+        {
+          "speaker": "narrator",
+          "text": "The answer came out more honest than he intended. He looked down after finishing."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Nia did not make a joke."
+        }
+      ]
+    },
+    {
+      "id": "03-nia",
+      "panel": "page-01-panel-03",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "When her turn came, she said,"
+        },
+        {
+          "speaker": "nia",
+          "text": "My aunt runs a neighborhood tutoring program. Every year she has to prove the same thing to different people: that kids are learning, that the program matters, that the money should continue. I want to use math to make important things harder to ignore."
+        }
+      ]
+    },
+    {
+      "id": "04-stairs",
+      "panel": "page-02-panels-01-04",
+      "utterances": [
+        {
+          "speaker": "narrator",
+          "text": "After class, they walked down Eliza Moss Hall's broad staircase."
+        },
+        {
+          "speaker": "nia",
+          "text": "You want to make risk visible,"
+        },
+        {
+          "speaker": "narrator",
+          "text": "Nia said."
+        },
+        {
+          "speaker": "malik",
+          "text": "You want to make people visible."
+        },
+        {
+          "speaker": "nia",
+          "text": "That sounded like the end of a movie trailer."
+        },
+        {
+          "speaker": "malik",
+          "text": "I regret saying it."
+        },
+        {
+          "speaker": "nia",
+          "text": "Too late. I heard the music."
+        }
+      ]
+    }
+  ]
+}

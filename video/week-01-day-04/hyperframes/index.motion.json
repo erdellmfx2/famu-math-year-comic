@@ -1,0 +1,21 @@
+{
+  "duration": 115.764,
+  "maxStaticSec": 2,
+  "assertions": [
+    {
+      "kind": "appearsBy",
+      "selector": "#title-card",
+      "bySec": 1.5
+    },
+    {
+      "kind": "before",
+      "a": "#title-card",
+      "b": "#scene-question"
+    },
+    {
+      "kind": "before",
+      "a": "#scene-nia",
+      "b": "#scene-stairs-p1"
+    }
+  ]
+}

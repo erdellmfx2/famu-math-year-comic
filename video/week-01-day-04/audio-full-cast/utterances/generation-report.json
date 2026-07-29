@@ -1,0 +1,205 @@
+{
+  "project": "The Formula of Becoming - Week 1 Day 4 - Full Cast",
+  "model": "gpt-4o-mini-tts",
+  "pronunciation_lexicon": "audio/voice-casting/pronunciation-lexicon.json",
+  "match_text": null,
+  "items": [
+    {
+      "scene": "01-question",
+      "order": 1,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "On Monday, Dr. Brooks closed the classroom door and asked everyone to put away their calculators.",
+      "file": "01-question-001-narrator.mp3",
+      "pronunciations": [
+        "dr-camille-brooks"
+      ]
+    },
+    {
+      "scene": "01-question",
+      "order": 2,
+      "speaker": "dr-brooks",
+      "voice": "marin",
+      "text": "Today,",
+      "file": "01-question-002-dr-brooks.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "01-question",
+      "order": 3,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "she said,",
+      "file": "01-question-003-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "01-question",
+      "order": 4,
+      "speaker": "dr-brooks",
+      "voice": "marin",
+      "text": "I want the answer nobody can compute for you. Why does mathematics matter?",
+      "file": "01-question-004-dr-brooks.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "01-question",
+      "order": 5,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "The room went quiet in the special way classrooms do when a question becomes personal.",
+      "file": "01-question-005-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "01-question",
+      "order": 6,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Students spoke about engineering, medicine, money, teaching, technology, and being the first in their families to pursue a technical degree.",
+      "file": "01-question-006-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "02-malik",
+      "order": 1,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "When Malik's turn came, he folded his hands on the desk.",
+      "file": "02-malik-001-narrator.mp3",
+      "pronunciations": [
+        "malik-baptiste"
+      ]
+    },
+    {
+      "scene": "02-malik",
+      "order": 2,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "My father can repair almost anything,",
+      "file": "02-malik-002-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "02-malik",
+      "order": 3,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "he said.",
+      "file": "02-malik-003-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "02-malik",
+      "order": 4,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "Engines, roofs, appliances. But one unexpected bill can undo months of planning. I want to understand risk well enough to help families and businesses prepare without pretending every loss can be prevented.",
+      "file": "02-malik-004-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "02-malik",
+      "order": 5,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "The answer came out more honest than he intended. He looked down after finishing.",
+      "file": "02-malik-005-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "02-malik",
+      "order": 6,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Nia did not make a joke.",
+      "file": "02-malik-006-narrator.mp3",
+      "pronunciations": [
+        "nia-reynolds"
+      ]
+    },
+    {
+      "scene": "03-nia",
+      "order": 1,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "When her turn came, she said,",
+      "file": "03-nia-001-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "03-nia",
+      "order": 2,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "My aunt runs a neighborhood tutoring program. Every year she has to prove the same thing to different people: that kids are learning, that the program matters, that the money should continue. I want to use math to make important things harder to ignore.",
+      "file": "03-nia-002-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-stairs",
+      "order": 1,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "After class, they walked down Eliza Moss Hall's broad staircase.",
+      "file": "04-stairs-001-narrator.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-stairs",
+      "order": 2,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "You want to make risk visible,",
+      "file": "04-stairs-002-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-stairs",
+      "order": 3,
+      "speaker": "narrator",
+      "voice": "cedar",
+      "text": "Nia said.",
+      "file": "04-stairs-003-narrator.mp3",
+      "pronunciations": [
+        "nia-reynolds"
+      ]
+    },
+    {
+      "scene": "04-stairs",
+      "order": 4,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "You want to make people visible.",
+      "file": "04-stairs-004-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-stairs",
+      "order": 5,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "That sounded like the end of a movie trailer.",
+      "file": "04-stairs-005-nia.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-stairs",
+      "order": 6,
+      "speaker": "malik",
+      "voice": "ash",
+      "text": "I regret saying it.",
+      "file": "04-stairs-006-malik.mp3",
+      "pronunciations": []
+    },
+    {
+      "scene": "04-stairs",
+      "order": 7,
+      "speaker": "nia",
+      "voice": "coral",
+      "text": "Too late. I heard the music.",
+      "file": "04-stairs-007-nia.mp3",
+      "pronunciations": []
+    }
+  ]
+}
